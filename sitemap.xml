@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/reviews/razer-blackwidow-v4-x/</loc>
+    
+    <lastmod>2025-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/reviews/razer-ornata-v3-tenkeyless/</loc>
+    
+    <lastmod>2025-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/reviews/love-your-enemy/</loc>
     
     <lastmod>2025-01-05</lastmod>
@@ -23,15 +41,6 @@
     <loc>http://jute.im/linux/installing-pop_os-20-04-lts-on-asus-m32cd/</loc>
     
     <lastmod>2025-01-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/reviews/razer-ornata-v3-tenkeyless/</loc>
-    
-    <lastmod>2025-01-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2902,6 +2911,13 @@
   
   <url>
     <loc>http://jute.im/tags/zsh/</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/macrokey/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
