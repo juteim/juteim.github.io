@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
+    
+    <lastmod>2025-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/reviews/razer-blackwidow-v4-x/</loc>
     
     <lastmod>2025-01-06</lastmod>
@@ -212,15 +221,6 @@
     <loc>http://jute.im/windows/windows-restarts-unexpectedly/</loc>
     
     <lastmod>2025-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
-    
-    <lastmod>2025-01-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
