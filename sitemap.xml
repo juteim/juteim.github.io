@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/android/abattery-and-shizuku/</loc>
+    
+    <lastmod>2025-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/bsd/freebsd-14-0-and-l10n/</loc>
     
     <lastmod>2025-01-08</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/</loc>
-    
-    <lastmod>2025-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/android/abattery-and-shizuku/</loc>
     
     <lastmod>2025-01-03</lastmod>
     
