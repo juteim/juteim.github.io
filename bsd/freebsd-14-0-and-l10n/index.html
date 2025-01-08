@@ -29,22 +29,22 @@
 <meta property="og:site_name" content="jute">
 <meta property="og:description" content="前言FreeBSD 14.0 的正式版似乎還沒有經過官方正式公佈，我是直接去 Index of &#x2F;releases&#x2F;amd64&#x2F;amd64&#x2F;ISO-IMAGES&#x2F;14.0&#x2F; 找到檔案命名為 FreeBSD-14.0-RELEASE-amd64-dvd1.iso 的 ISO 檔載回來使用的。">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53333845638_3147063da0_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53332737767_90ea368f1e_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53333971939_f3f2f23ae9_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53332749862_93244ce031_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53333628431_62f0bb4d49_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53333857773_c47028503b_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53333971924_88d1f340fd_c.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53334084905_1b5389d5ea_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53333845638_3147063da0_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53332737767_90ea368f1e_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53333971939_f3f2f23ae9_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53332749862_93244ce031_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53333628431_62f0bb4d49_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53333857773_c47028503b_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53333971924_88d1f340fd_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53334084905_1b5389d5ea_b.jpg">
 <meta property="article:published_time" content="2023-11-15T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-14T02:34:18.915Z">
+<meta property="article:modified_time" content="2025-01-08T07:14:07.052Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="boshiamy">
 <meta property="article:tag" content="fcitx5">
 <meta property="article:tag" content="freebsd">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/53333845638_3147063da0_c.jpg">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/53333845638_3147063da0_b.jpg">
 
 <link rel="canonical" href="http://jute.im/bsd/freebsd-14-0-and-l10n/">
 
@@ -292,30 +292,35 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>FreeBSD 14.0 的正式版似乎還沒有經過官方正式公佈，我是直接去 <a target="_blank" rel="noopener" href="https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.0/">Index of &#x2F;releases&#x2F;amd64&#x2F;amd64&#x2F;ISO-IMAGES&#x2F;14.0&#x2F;</a> 找到檔案命名為 FreeBSD-14.0-RELEASE-amd64-dvd1.iso 的 ISO 檔載回來使用的。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53333845638/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp2"><img src="https://live.staticflickr.com/65535/53333845638_3147063da0_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp2"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-<hr>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>FreeBSD 14.0 的正式版似乎還沒有經過官方正式公佈，我是直接去 <a target="_blank" rel="noopener" href="https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.0/">Index of &#x2F;releases&#x2F;amd64&#x2F;amd64&#x2F;ISO-IMAGES&#x2F;14.0&#x2F;</a> 找到檔案命名為 FreeBSD-14.0-RELEASE-amd64-dvd1.iso 的 ISO 檔載回來使用的。<img src="https://live.staticflickr.com/65535/53333845638_3147063da0_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp2"/></p>
 <h3 id="安裝系統的心得與流程"><a href="#安裝系統的心得與流程" class="headerlink" title="安裝系統的心得與流程"></a>安裝系統的心得與流程</h3><ol>
-<li>本次安裝是在 VirtualBox 上進行，而且，我基本上就是參考之前自己寫下的紀錄，…結果也因此發現自己有一些筆誤，與不夠周全的部分。</li>
-<li>處理 X Window System 之前，我一樣事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure></li>
+<li><p>本次安裝是在 VirtualBox 上進行，而且，我基本上就是參考之前自己寫下的紀錄，…結果也因此發現自己有一些筆誤，與不夠周全的部分。</p>
+</li>
+<li><p>處理 X Window System 之前，我一樣事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure></li>
 </ol>
-<hr>
 <h3 id="設定-X-Window-System-feat-XFCE"><a href="#設定-X-Window-System-feat-XFCE" class="headerlink" title="設定 X Window System(feat. XFCE)"></a>設定 X Window System(feat. XFCE)</h3><ol>
-<li>切換到 root 權限。</li>
-<li>安裝 xorg 等套件，下 <code>pkg install xorg xfce xf86-video-vmware</code> 這道指令。</li>
-<li>下 <code>exit</code> 這道指令，回到使用者後，再下 <code>ee ~/.xinitrc</code>，將 <code>exec xfce4-session</code> 寫入、存檔與離開 .xinitrc 的文字編輯。</li>
-<li>這次，索性不重開機，直接下 <code>startx</code> 進入 X Window。</li>
+<li><p>切換到 root 權限。</p>
+</li>
+<li><p>安裝 xorg 等套件，下 <code>pkg install xorg xfce xf86-video-vmware</code> 這道指令。</p>
+</li>
+<li><p>下 <code>exit</code> 這道指令，回到使用者後，再下 <code>ee ~/.xinitrc</code>，將 <code>exec xfce4-session</code> 寫入、存檔與離開 .xinitrc 的文字編輯。</p>
+</li>
+<li><p>這次，索性不重開機，直接下 <code>startx</code> 進入 X Window。</p>
+</li>
 </ol>
-<hr>
 <h3 id="設定音效卡"><a href="#設定音效卡" class="headerlink" title="設定音效卡"></a>設定音效卡</h3><ol>
-<li>先在 root 權限下，執行 <code>kldload snd_driver</code> 後，音效就順利出現。</li>
-<li>接著將以下內容寫入 <code>/boot/loader.conf</code>。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure></li>
+<li><p>先在 root 權限下，執行 <code>kldload snd_driver</code> 後，音效就順利出現。</p>
+</li>
+<li><p>接著將以下內容寫入 <code>/boot/loader.conf</code>。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<hr>
 <h3 id="中文化-含中文輸入法-的安裝與處理過程"><a href="#中文化-含中文輸入法-的安裝與處理過程" class="headerlink" title="中文化(含中文輸入法)的安裝與處理過程"></a>中文化(含中文輸入法)的安裝與處理過程</h3><ol>
 <li><p>安裝中文字體。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install zh-CJKUnifonts zh-kcfonts zh-taipeisanstc-b</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>安裝中文輸入法框架。<br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53332737767/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp1"><img src="https://live.staticflickr.com/65535/53332737767_90ea368f1e_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp1"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>安裝中文輸入法框架。</p>
+<img src="https://live.staticflickr.com/65535/53332737767_90ea368f1e_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp1"/>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pkg install fcitx5 fcitx5-configtool zh-fcitx5-chinese-addons zh-fcitx5-table-extra zh-fcitx5-table-other zh-fcitx5-chewing</span><br><span class="line">mkdir ~/.config/autostart</span><br><span class="line">cp /usr/local/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>設定語系與中文輸入法框架：先處理 <code>~/.cshrc</code>。</p>
@@ -330,25 +335,35 @@
 </li>
 <li><p>重新啟動系統，讓中文語系與中文輸入法框架(即 Fcitx5)生效。</p>
 </li>
-<li><p>新酷音輸入法在預設的輸入法裡面。<br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53333971939/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp3"><img src="https://live.staticflickr.com/65535/53333971939_f3f2f23ae9_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp3"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>新酷音輸入法在預設的輸入法裡面。</p>
+<img src="https://live.staticflickr.com/65535/53333971939_f3f2f23ae9_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp3"/>
 </li>
-<li><p>嘸蝦米輸入法則是要另外手動添加。<br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53332749862/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp4"><img src="https://live.staticflickr.com/65535/53332749862_93244ce031_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp4"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>嘸蝦米輸入法則是要另外手動添加。</p>
+<img src="https://live.staticflickr.com/65535/53332749862_93244ce031_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp4"/>
 </li>
-<li><p>先試試嘸蝦米輸入法，再來一波新酷音輸入法。<br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53333628431/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp5"><img src="https://live.staticflickr.com/65535/53333628431_62f0bb4d49_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp5"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53333857773/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp6"><img src="https://live.staticflickr.com/65535/53333857773_c47028503b_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp6"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53333971924/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp7"><img src="https://live.staticflickr.com/65535/53333971924_88d1f340fd_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp7"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53334084905/in/dateposted-public/" title="FreeBSD14.0RELEASEonVirtualBoxEp8"><img src="https://live.staticflickr.com/65535/53334084905_1b5389d5ea_c.jpg" width="800" height="500" alt="FreeBSD14.0RELEASEonVirtualBoxEp8"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-</li>
+<li><p>先試試嘸蝦米輸入法，再來一波新酷音輸入法。</p>
+<img src="https://live.staticflickr.com/65535/53333628431_62f0bb4d49_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp5"/>
+<img src="https://live.staticflickr.com/65535/53333857773_c47028503b_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp6"/>
+<img src="https://live.staticflickr.com/65535/53333971924_88d1f340fd_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp7"/>
+<img src="https://live.staticflickr.com/65535/53334084905_1b5389d5ea_b.jpg" alt="FreeBSD14.0RELEASEonVirtualBoxEp8"/></li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 FreeBSD-14.0-RELEASE-amd64-dvd1.iso。</li>
-<li><a target="_blank" rel="noopener" href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></li>
-<li><a target="_blank" rel="noopener" href="http://chewing.im/">新酷音輸入法</a></li>
+<li><p>本次安裝使用的 ISO 檔版本是 FreeBSD-14.0-RELEASE-amd64-dvd1.iso。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://chewing.im/">新酷音輸入法</a></p>
+</li>
 </ol>
-<hr>
 <h3 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h3><ol>
-<li><a target="_blank" rel="noopener" href="https://docs.freebsd.org/en/books/handbook/x11/">Chapter 5. The X Window System | FreeBSD Documentation Portal</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.freebsd.org/zh-tw/books/handbook/basics/">章 3. FreeBSD 基礎 | FreeBSD Documentation Portal</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.freebsd.org/zh-tw/books/handbook/l10n/">章 22. 在地化 - i18n&#x2F;L10n 使用與安裝 | FreeBSD Documentation Portal</a></li>
-<li><a href="/bsd/freebsd-13-2-and-l10n/">安裝 FreeBSD 13.2(含中文化與安裝中文輸入法 feat. Fcitx5)</a></li>
+<li><p><a target="_blank" rel="noopener" href="https://docs.freebsd.org/en/books/handbook/x11/">Chapter 5. The X Window System | FreeBSD Documentation Portal</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://docs.freebsd.org/zh-tw/books/handbook/basics/">章 3. FreeBSD 基礎 | FreeBSD Documentation Portal</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://docs.freebsd.org/zh-tw/books/handbook/l10n/">章 22. 在地化 - i18n&#x2F;L10n 使用與安裝 | FreeBSD Documentation Portal</a></p>
+</li>
+<li><p><a href="/bsd/freebsd-13-2-and-l10n/">安裝 FreeBSD 13.2(含中文化與安裝中文輸入法 feat. Fcitx5)</a></p>
+</li>
 </ol>
 
     </div>
