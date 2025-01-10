@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/opensuse-leap-15-5-and-boshiamy/</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/elementary-os-6-0/</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
     
     <lastmod>2025-01-10</lastmod>
@@ -372,15 +399,6 @@
   
   <url>
     <loc>http://jute.im/linux/elementary-os-7-1/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/elementary-os-6-0/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
@@ -1443,24 +1461,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/installing-ubuntu-budgie-21-10-desktop-and-boshiamy/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/opensuse-leap-15-5-and-boshiamy/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/</loc>
     
     <lastmod>2024-03-17</lastmod>
     
