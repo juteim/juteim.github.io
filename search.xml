@@ -910,31 +910,6 @@
       </tags>
   </entry>
   <entry>
-    <title>把我的 iMac 從 macOS Mojave 降刷到 macOS High Sierra</title>
-    <url>/apple/downgraded-from-macos-mojave-to-macos-high-sierra/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>約末 3 個月前，我把 iMac 上的系統升級到 Mojave。</p>
-<p>今天，我又決定把系統降回 High Sierra，原因是舊版的 Line 不影響到我的使用經驗，而且，我還是喜歡電腦快一點，降版是一個相當經濟的選擇。</p>
-<p>原本在 iMac 上，我還有裝上 Bootcamp，通常我會先把 Bootcamp 移除，再用可開機的 USB 重新進入，這一次想嘗試點不一樣的，想說要保留 Bootcamp，直接把 macOS 所在的磁區清除，再重新安裝。</p>
-<p>結果…，又是一個一波三折的過程。</p>
-<h3 id="降刷過程"><a href="#降刷過程" class="headerlink" title="降刷過程"></a>降刷過程</h3><p>首先，要保留 Bootcamp，直接把 macOS 所在的磁區清除，磁碟工具程式會當住不動。</p>
-<p>再來，我試著直接從磁碟工具程式把所有的磁區刪除，重新整合時，原本的 Fusion Drive 的融合硬碟，會變成兩顆，直接就想說再融回來就好。</p>
-<p>但…，自行設定 Fusion Drive 後，安裝程式會在跑完第一趟安裝，重新開機時卡住。</p>
-<p>最後，我在網路上查找了一下，發現有一位伙伴也有類似的分享 <a href="https://mschausprojects.blogspot.com/2019/10/mac-high-sierra-fresh-install-errors-fusion-drive.html">Mac High Sierra fresh install errors on DIY Fusion Drive</a>。</p>
-<p>我參考那位伙伴的分享，先把 Fusion Drive 再拆開，把 macOS 安裝到 HDD，安裝完成之後，考量到我的機器是 iMac 2017，因此我沒再照伙伴分享的步驟按表操課，而是直接重新開機(按住 Command+R)，進入後把 Fusion Drive 設定回來，進行重新安裝。</p>
-<p>呼～，搞定！</p>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>在寫這一篇的同時，我有設想過，或許把電腦接上網路線(我個人認為會比無線上網更穩定些)，直接開機(或重新開機)時按住 Command+R，搞不好就不用先安裝一次，再重新安裝一次。</p>
-]]></content>
-      <categories>
-        <category>apple</category>
-      </categories>
-      <tags>
-        <tag>macos</tag>
-        <tag>highsierra</tag>
-        <tag>imac</tag>
-        <tag>mojave</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>來玩 elementary OS 6.0</title>
     <url>/linux/elementary-os-6-0/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>elementary OS 6.0 (以下稱 Odin) 釋出後幾天，我決定也來安裝看看。<img src="https://live.staticflickr.com/65535/51384335145_fdf888ec0b_o.png"></p>
@@ -1918,7 +1893,7 @@
       </tags>
   </entry>
   <entry>
-    <title>解決重新安裝 macOS High Sierra 時，卡關在「無法聯絡復原伺服器。」(2024 年 7 月 17 日更新)</title>
+    <title>解決重新安裝 macOS High Sierra 時，卡關在「無法聯絡復原伺服器。」(2025 年 1 月 11 日更新)</title>
     <url>/apple/fix-the-recovery-server-could-not-be-contacted-error-when-installing-macos-high-sierra/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://live.staticflickr.com/65535/53591854237_de346e9a28_c.jpg"></p>
 <p>今天，我想把 macOS High Sierra 砍掉重練，所以，重開機之後，就按住 Command + R，準備來一場重灌之旅。</p>
@@ -1947,7 +1922,7 @@
 <h3 id="解法-四-：組合技解決法"><a href="#解法-四-：組合技解決法" class="headerlink" title="解法(四)：組合技解決法"></a>解法(四)：組合技解決法</h3><ol>
 <li><p>說明：先走「網路復原安裝法」，如果系統運行實在太慢，就在新系統裡製作可開機安裝磁碟，走「『可開機安裝磁碟』安裝法」，回到 macOS High Sierra。</p>
 </li>
-<li><p>有一點可能要注意：macOS Monterey 通常會是在 <code>Apple 檔案系統</code>（Apple File System，簡稱 APFS）上運行，然而，我記得 macOS High Sierra 雖然也支援 APFS，但是它的系統安裝程式似乎無法直接將 macOS High Sierra 安裝在 APFS 上頭。印象中，我的經驗是安裝到一半時就會卡住不動，如果您也遇到這樣的狀況，或是想要避免這樣的狀況，建議可以在重新安裝 macOS High Sierra 時，將硬碟格式化為 <code>Mac OS 擴充格式（日誌式）</code>，應該就可順利服用。抑或是堅持想讓 macOS High Sierra 在 APFS 上頭運行的話，我會建議從更早之前的版本，安裝後再升級到 macOS High Sierra，若我沒有記錯，升級的過程就會詢問使用者要不要改用 APFS。</p>
+<li><p>有一點可能要注意：如果自己的機器上是 Fusion Drive，並且曾經自行改動過 Fusion Drive，例如：拆開又再融合回來等。那麼，在安裝 macOS High Sierra 時，可能會卡關。…我自己就曾遇到過，也找到解法並紀錄下來，詳可參考：<a href="/apple/fix-macos-high-sierra-fresh-install-errors-on-diy-fusion-drive">解決安裝 macOS High Sierra 至自行融合的 Fusion Drive 時的卡關錯誤</a>。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -1964,6 +1939,8 @@
 <li><p><a href="https://support.apple.com/zh-tw/111931">Mac mini（2014 年末）- 技術規格 - Apple 支援 (台灣)</a></p>
 </li>
 <li><p><a href="https://mrmacintosh.com/how-to-fix-the-recovery-server-could-not-be-contacted-error-high-sierra-recovery-is-still-online-but-broken/">[FIXED] High Sierra “The Recovery Server Could Not Be Contacted” Error. High Sierra Internet Recovery is Still Online, but Broken!</a></p>
+</li>
+<li><p><a href="/apple/fix-macos-high-sierra-fresh-install-errors-on-diy-fusion-drive">解決安裝 macOS High Sierra 至自行融合的 Fusion Drive 時的卡關錯誤</a></p>
 </li>
 </ol>
 ]]></content>
@@ -8196,6 +8173,51 @@ gdb -v
         <tag>keyboard</tag>
         <tag>razer</tag>
         <tag>macrokey</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解決安裝 macOS High Sierra 至自行融合的 Fusion Drive 時的卡關錯誤</title>
+    <url>/apple/fix-macos-high-sierra-fresh-install-errors-on-diy-fusion-drive/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我的 iMac 上面是 Fusion Drive，種種原因，三個月前系統被我升級到 Mojave。今天，我又決定把系統降回 High Sierra。</p>
+<p>然而，降刷之前，因為磁碟區與 Bootcamp 安裝上的考量。</p>
+<p>我便自行把 Fusion Drive 分開，再重新融合回來後，進行系統安裝，沒想到會卡關。</p>
+<h3 id="故障排除過程"><a href="#故障排除過程" class="headerlink" title="故障排除過程"></a>故障排除過程</h3><ol>
+<li><p>使用 macOS High Sierra 開機隨身碟開機。</p>
+</li>
+<li><p>先拆開 Fusion Drive：這個步驟要在「終端機」裡執行幾道指令，詳可參考：<a href="https://www.macworld.com/article/219800/how-to-split-up-a-fusion-drive.html">How to split up a Fusion Drive | Macworld</a>。</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">diskutil coreStorage list</span><br><span class="line">diskutil coreStorage delete lvgUUID</span><br><span class="line">//說明：lvgUUID 就是上面的指令下完後，有一顆標示 Logical Volume Group 後面一長串 12345678-1234-1234-1234-123456789ABC</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>下完上述指令，順利的話，就會順利拆開，並且會自動將 HDD 格式化為 Mac OS 擴充格式（日誌式）格式（日誌式 HFS Plus）[Mac OS Extended (Journaled) volumes (JHFS+)]。</p>
+</li>
+<li><p>先走一次 macOS High Sierra 全新安裝。</p>
+</li>
+<li><p>重新開機(按住 Command+R)，進行復元模式。</p>
+</li>
+<li><p>重新製作 Fusion Drive：一樣在「終端機」裡執行幾道指令，細節可以參考：<a href="https://support.apple.com/zh-tw/102226">如何修正分割狀態的融合硬碟 - Apple 支援 (台灣)</a>。</p>
+</li>
+<li><p>再一次，全新安裝 macOS High Sierra。</p>
+</li>
+<li><p>成功把 macOS High Sierra 刷回 Fusion Drive。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p><a href="https://mschausprojects.blogspot.com/2019/10/mac-high-sierra-fresh-install-errors-fusion-drive.html">Mac High Sierra fresh install errors on DIY Fusion Drive</a>：</p>
+</li>
+<li><p><a href="https://www.macworld.com/article/219800/how-to-split-up-a-fusion-drive.html">How to split up a Fusion Drive | Macworld</a></p>
+</li>
+<li><p><a href="https://support.apple.com/zh-tw/102226">如何修正分割狀態的融合硬碟 - Apple 支援 (台灣)</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>apple</category>
+      </categories>
+      <tags>
+        <tag>macos</tag>
+        <tag>highsierra</tag>
+        <tag>imac</tag>
+        <tag>mojave</tag>
+        <tag>fusiondrive</tag>
       </tags>
   </entry>
 </search>
