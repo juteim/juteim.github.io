@@ -8224,13 +8224,13 @@ gdb -v
   <entry>
     <title>使用 Hexo 約莫 3 年的心得</title>
     <url>/review/my-review-of-using-hexo-about-three-years/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>用 Hexo 寫部落格，大概走過 3 年的時間，今天就來分享一下使用心得。<img src="https://live.staticflickr.com/65535/54260112558_4e60c6897c_b.jpg" alt="usingHexoAboutThreesYears"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>用 Hexo 寫部落格，大概走過 3 年的時間，今天就來分享一下使用心得。<img src="https://live.staticflickr.com/65535/54260112558_4e60c6897c_b.jpg" alt="usingHexoAboutThreesYearsEp1"/></p>
 <h3 id="經驗與心得"><a href="#經驗與心得" class="headerlink" title="經驗與心得"></a>經驗與心得</h3><h4 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h4><ol>
-<li><p>省錢：同時，這也是我轉用 Hexo 的起因，Hexo 要在 <a href="https://pages.github.com/">GitHub Pages</a> 上部署，而 GitHub Pages 正是一項免費的資源。</p>
+<li><p>省錢：同時，這也是我轉用 Hexo 的起因，Hexo 要在 GitHub Pages 上部署，而 GitHub Pages 正是一項免費的資源。</p>
 </li>
-<li><p>簡單：<a href="https://pages.github.com/">GitHub Pages</a> 本身就可以架設網站，但，就我自己摸索的經驗是不太能夠得其門而入，反而，Hexo 這支程式讓我很快地就能夠把網站架設好。</p>
+<li><p>簡單：GitHub Pages 本身就可以架設網站，但，就我自己摸索的經驗是不太能夠得其門而入，反而，Hexo 這支程式讓我很快地就能夠把網站架設好。</p>
 </li>
-<li><p>轉檔資源<br> (1)使用 Hexo 之前，我使用過 MovableType、TatterTools、Textpattern 與 WordPress 等程式，這些程式都滿好安裝，也滿好上手。<br> (2)況且，租用 Hosting 服務的話，還可以一鍵完成安裝。<br> (3)重點是如果要延續我之前所撰寫的文章到新的部落格程式上，那麼，我就得先找到轉檔的資源。<br> (4)當年使用過 TatterTools 的人，隨著 TatterTools 的後續更新，國內越來越少有人幫這支來自韓國的程式維護，不少人開始轉向其他程式，遇到的問題就是沒有轉檔程式或資源。<br> (5)我相信會寫程式的人，做一支轉檔的程式並不難，但是，如果是一般 End-User 就會覺得不容易。<br> (6)講那麼多，我必須說，進入 Hexo 之前，我使用的 WordPress 的資源很多，轉檔資源也不少，因此，我便經易地將 WordPress 上的文章轉到 Hexo。</p>
+<li><p>轉檔資源<br> (1)使用 Hexo 之前，我使用過 MovableType、TatterTools、Textpattern 與 WordPress 等程式，這些程式都滿好安裝，也滿好上手。<br> (2)況且，租用 Hosting 服務的話，還可以一鍵完成安裝。<br> (3)重點是如果要延續我之前所撰寫的文章到新的部落格程式上，那麼，我就得先找到轉檔的資源。<br> (4)當年使用過 TatterTools 的人，隨著 TatterTools 的後續更新，國內越來越少有人幫這支來自韓國的程式維護，不少人開始轉向其他程式，遇到的問題就是沒有轉檔程式或資源。<br> (5)我相信會寫程式的人，做一支轉檔的程式並不難，但是，如果是一般 End-User 就會覺得不容易。<br> (6)講那麼多，我必須說，進入 Hexo 之前，我使用的 WordPress 資源很多，轉檔資源也不少，因此，我便經易地將 WordPress 上的文章轉到 Hexo。</p>
 </li>
 <li><p>佈景主題<br> (1)我認為，Hexo 上面能夠使用的佈景主題資源算是滿夠用的。<br> (2)可能是使用者不少，所以，網路上要找到佈景主題自訂、修改的分享文章也不少。</p>
 </li>
@@ -8240,7 +8240,7 @@ gdb -v
 <h4 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h4><ol>
 <li><p>文章更新<br> (1)雖然可以透過指令的方式新增文章，再做修改之類的，但，這樣的方式，我至今仍不熟悉。<br> (2)坦白說，我也沒有打算花時間去瞭解如何用 CLI 去撰寫、修改或更新文章。<br> (3)使用至今，我撰寫文章所使用的系統，99% 是在 Windows 上，使用檔案總管做文章管理，用 VSCode 撰寫文章。<br> (4)相較於 WordPress 或 Blogger 的 GUI 介面，我認為 Hexo 就稍弱一點。<br> (5)所幸，我使用的 VSCode，可以預覽文章。<img src="https://live.staticflickr.com/65535/54260201627_dcff6f5fb3_b.jpg" alt="usingHexoAboutThreesYearsEp2"/></p>
 </li>
-<li><p>轉出可能不容易<br> (1)最近，我注意到 EasyWP 這玩意兒。<br> (2)再者，我租用域名的廠商，提供 EasyWP 的折價優惠。<br> (3)我一度想要轉到 EasyWP 上，但，我發現 MarkDown 文章，要轉成其他格式，似乎比較麻煩。<br> (4)曾設想用 ShellScript 來處理，只是，那又得耗費不少時間。<br> (5)加上，3 年下來，我也已經滿習慣 Hexo 佈署文章的方式，就暫時做罷。<br> (6)世事難料，未來如果 <a href="https://pages.github.com/">GitHub Pages</a> 更改服務供應策略，或是任何可能會逼使用者做出改變，而必須處理這些文章時，就真的得花功夫處理。</p>
+<li><p>轉出可能不容易<br> (1)最近，我注意到 EasyWP 這玩意兒。<br> (2)再者，我租用域名的廠商，提供 EasyWP 的折價優惠。<br> (3)我一度想要轉到 EasyWP 上，但，我發現 MarkDown 文章，要轉成其他格式，似乎比較麻煩。<br> (4)曾設想用 ShellScript 來處理，只是，那又得耗費不少時間。<br> (5)加上，3 年下來，我也已經滿習慣 Hexo 佈署文章的方式，就暫時做罷。<br> (6)世事難料，未來如果 GitHub Pages 更改服務供應策略，或是任何可能會逼使用者做出改變，而必須處理這些文章時，就真的得花功夫處理。</p>
 </li>
 <li><p>版本差異<br> (1)就我個人而言，版本差異是在幫自己的部落格加上 Google Adsense 所遇到的問題。<br> (2)我確實沒有想到佈景主題版本，在設定上有很大的不同，導致的結果就是按表操課，不一定能夠順利達到設想的目標。<br> (3)印象中，TatterTools、WordPress 等不少程式都遭遇過這樣的問題，從 WordPress 轉用 Hexo 之前，我注意到 WordPress 這樣的狀況，已經少很多，即使有一些大變動，也可以用插件 (Plug-ins) 做處理。</p>
 </li>
