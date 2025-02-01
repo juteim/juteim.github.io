@@ -1514,34 +1514,6 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ArchLabs Linux 2023.01.20 上用 Fcitx5 搭配嘸蝦米</title>
-    <url>/boshiamy/fcitx5-with-boshiamy-on-archlabs-linux-2023-01-20/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近 Arch Linux 的衍生發行版好不熱鬧，今天再來一篇，紀錄新酷音與嘸蝦米中文輸入法在另外一支衍生發行版：ArchLabs 上的設定過程。 <a href="https://www.flickr.com/photos/194265827@N08/52648106184/in/dateposted-public/" title="archlabs2023.01.20onVirtualBoxEp34"><img src="https://live.staticflickr.com/65535/52648106184_6755041dda_c.jpg" alt="archlabs2023.01.20onVirtualBoxEp34"></a></p>
-<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><ol>
-<li><p>第一道指令，安裝 Fcitx5 相關套件：<code>sudo pacman -S fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-chewing fcitx5-table-extra</code>。</p>
-</li>
-<li><p>第二道指令：<code>sudo vim /etc/enviroment</code>，並將以下資料寫入檔案裡(可以複製貼上XD)。</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GTK_IM_MODULE=fcitx</span><br><span class="line">QT_IM_MODULE=fcitx</span><br><span class="line">XMODIFIERS=@im=fcitx</span><br><span class="line">SDL_IM_MODULE=fcitx</span><br><span class="line">GLFW_IM_MODULE=fcitx</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>第三道指令：<code>sudo vim ~/.xprofile</code>，在檔案最後寫入 <code>fcitx5 -d</code>，然後重新開機，原則上，Fcitx5 就會隨著系統啟動而自動執行。 <a href="https://www.flickr.com/photos/194265827@N08/52648279740/in/dateposted-public/" title="archlabs2023.01.20onVirtualBoxEp33"><img src="https://live.staticflickr.com/65535/52648279740_176b21d0d5_c.jpg" alt="archlabs2023.01.20onVirtualBoxEp33"></a></p>
-</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>※參考資料：<a href="https://wiki.archlinuxcn.org/zh-tw/Fcitx5">Fcitx5 - Arch Linux 中文维基</a></p>
-]]></content>
-      <categories>
-        <category>boshiamy</category>
-      </categories>
-      <tags>
-        <tag>archlinux</tag>
-        <tag>linux</tag>
-        <tag>boshiamy</tag>
-        <tag>archlabs</tag>
-        <tag>fcitx5</tag>
-        <tag>fcitx5-table-extra</tag>
-        <tag>fcitx5-chewing</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在 Archcraft 2023.01.01 上用 Fcitx5 搭配嘸蝦米</title>
     <url>/boshiamy/fcitx5-with-boshiamy-on-archcraft-2023-01-01/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>同樣身為 Arch Linux 的衍生發行版，Archcraft 夾帶 Openbox 與 bspwm 的特性，也可以使用 Fcitx5 讓新酷音與嘸蝦米活起來，在設定上略有不同，這一篇文章，就是紀錄我在設定上的過程。 <a href="https://www.flickr.com/photos/jutedev/52647135917/in/photostream/" title="archcraft2023.01.01onVirtualBoxEp (14)"><img src="https://live.staticflickr.com/65535/52647135917_c9bf52cabe_c.jpg" alt="archcraft2023.01.01onVirtualBoxEp (14)"></a></p>
