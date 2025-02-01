@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/boshiamy/fedora-38-and-boshiamy/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.jute.im/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/apple/imac-powered-by-an-m1-chip/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1010,15 +1028,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
-    
-    <lastmod>2025-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/bsd/freebsd-14-0-and-l10n/</loc>
     
     <lastmod>2025-01-08</lastmod>
@@ -1442,15 +1451,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/boshiamy/feren-os-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/apple/using-clang-in-visual-studio-code-on-macos-mojave/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -1497,15 +1497,6 @@
   
   <url>
     <loc>http://blog.jute.im/boshiamy/ibus-with-boshiamy-on-mx-linux-mx-21/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/apple/openvanilla-1-6-2-and-boshiamy-unix-table/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
@@ -1884,15 +1875,6 @@
   
   <url>
     <loc>http://blog.jute.im/apple/installing-arch-linux-on-my-mac-mini/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/linux/fedora-38-and-boshiamy/</loc>
     
     <lastmod>2024-12-27</lastmod>
     
@@ -2664,13 +2646,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/tags/arcolinux/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/tags/fcitx5/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2861,13 +2836,6 @@
   
   <url>
     <loc>http://blog.jute.im/tags/fitnesstracker/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/tags/ferenos/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

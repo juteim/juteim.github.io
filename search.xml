@@ -724,62 +724,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ArcoLinuxL 與嘸蝦米</title>
-    <url>/boshiamy/arcolinuxl-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>喜歡 Arch Linux，或是說想要嘗試 Arch Linux，卻被一開始的暗黑安裝畫面給擊退的伙伴，其實有很多不同的選擇。<img src="https://live.staticflickr.com/65535/52058260898_4da09a1312_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp22"/></p>
-<p>今天，來紀錄一下另外一支，比較接近原生 Arch Linux 的衍生發行版的安裝與使用的快速回顧。</p>
-<p>這支 Distro 名為 ArcoLinux，截至本文完稿前，它在 DistroWatch.com 上的排名在第 21 名。</p>
-<h3 id="安裝過程截圖"><a href="#安裝過程截圖" class="headerlink" title="安裝過程截圖"></a>安裝過程截圖</h3><p>一樣，我是用 VirtualBox 來體驗 ArcoLinux，從虛擬光礙讀到的光碟 ISO 檔進入系統後，畫面會直接跳出 ArcoLinux Welcome App。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466189/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp1"><img src="https://live.staticflickr.com/65535/52058466189_a963036ab7_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp1"></a></p>
-<p>我第一件事，就是按下「Update Arch Linux Mirrors」這個按鈕。但，我忘了去看 Mirrors 是不是真的有被 Update。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466154/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp2"><img src="https://live.staticflickr.com/65535/52058466154_51b5f415fd_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp2"></a></p>
-<p>再來，我選擇 Easy Installation 啟動 ArcoLinux Installer。( 下圖) <a href="https://www.flickr.com/photos/194265827@N08/52057189462/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp3"><img src="https://live.staticflickr.com/65535/52057189462_99e7999456_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp3"></a></p>
-<p>切換到繁體中文。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058716140/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp4"><img src="https://live.staticflickr.com/65535/52058716140_58df2ec8d1_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp4"></a></p>
-<p>設定位置。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466134/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp5"><img src="https://live.staticflickr.com/65535/52058466134_27d84ae333_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp5"></a></p>
-<p>設定鍵盤。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058261178/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp6"><img src="https://live.staticflickr.com/65535/52058261178_912023ce0c_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp6"></a></p>
-<p>設定硬碟分割，預設並不是 btrfs，但我現在想用這個格式。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52057189397/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp7"><img src="https://live.staticflickr.com/65535/52057189397_9ebddff0fe_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp7"></a></p>
-<p>設定使用者，我發現…，不用密碼也可過得去，這樣好像不太好，建議還是設定一下比較妥。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466084/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp8"><img src="https://live.staticflickr.com/65535/52058466084_f7280a82c8_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp8"></a></p>
-<p>安裝前，做最後的確認。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466089/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp9"><img src="https://live.staticflickr.com/65535/52058466089_4ee892584a_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp9"></a></p>
-<p> <a href="https://www.flickr.com/photos/194265827@N08/52058228711/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp10"><img src="https://live.staticflickr.com/65535/52058228711_0754b513de_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp10"></a></p>
-<p>因為最近安裝任何一支 Distro 的 Linux，大約都花費 15 分鐘，索性就將機器放著，去做點別的事，所以，我沒有注意，也沒有再去查究竟花多少時間完成安裝。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058261098/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp11"><img src="https://live.staticflickr.com/65535/52058261098_1109b762b2_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp11"></a></p>
-<p> <a href="https://www.flickr.com/photos/194265827@N08/52057189302/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp12"><img src="https://live.staticflickr.com/65535/52057189302_8581a3d879_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp12"></a></p>
-<p>安裝完重新啟動後，來到 GRUB 畫面。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058261048/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp13"><img src="https://live.staticflickr.com/65535/52058261048_25957efc4a_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp13"></a></p>
-<p>登入畫面，滿有現代感的。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058715975/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52058715975_7285b0cc7b_c.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp14"></a></p>
-<p>系統剛安裝完之後，剛進入系統，就會有更新通知，強烈建議，在一開始就先將這些補丁通通打上去。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058715920/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp15"><img src="https://live.staticflickr.com/65535/52058715920_b22df39ecc_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp15"></a></p>
-<p>從 Terminal 來看看 VirtualBox 虛擬出來的機器規格。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52057189247/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp16"><img src="https://live.staticflickr.com/65535/52057189247_c73243484a_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp16"></a></p>
-<h3 id="快速回顧"><a href="#快速回顧" class="headerlink" title="快速回顧"></a>快速回顧</h3><p>圖形介面安裝：其實，試著記下圖形介面的安裝過程，就不難發現，在 Terminal 進行安裝，要做的事也差不就是那些。所以，我相信 ArcoLinux 想要做的不只是好安裝而已。</p>
-<p>ArcoLinux Tweak Tool：現在滿多 Distro 都會做專屬自己的輔助 App，例如：Garuda Linux 的 Setup Assistant，在 ArcoLinux 上，則是一支名為 ArcoLinux Tweak Tool 的 App。這支 App 可以說是能夠 Tweak 山 Tweak 海的，比較更惜的是沒有 Tweak 亞洲語系的文字顯示與輸入法。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058465864/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp18"><img src="https://live.staticflickr.com/65535/52058465864_0b5ff41d92_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp18"></a></p>
-<h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><p>既然是 Arch Linux 衍生發行版，基本上就用一樣的方式服用即可，大致的步驟如下。</p>
-<ol>
-<li><p>啟動 Terminal，並輸入以下的指令：</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo pacman -S vim fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-table-extra</span><br><span class="line">sudo vim /etc/environment</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>啟動 vim 編輯，寫入以下內容 (直接從這裡複製貼上服用也行) </p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GTK_IM_MODULE=fcitx</span><br><span class="line">QT_IM_MODULE=fcitx</span><br><span class="line">XMODIFIERS=@im=fcitx</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重開機。  </p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重開機之後，右下角會出現一個鍵盤圖示，點右鍵進入「設定」。 <a href="https://www.flickr.com/photos/194265827@N08/52058228526/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/52058228526_a7af812190_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp20"></a></p>
-</li>
-<li><p>在設定視窗裡，找到「可用輸入法：」下的搜尋框，我是打關鍵字「bosh」把嘸蝦米找出來並新增。 <a href="https://www.flickr.com/photos/194265827@N08/52058260898/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp22"><img src="https://live.staticflickr.com/65535/52058260898_4da09a1312_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp22"></a></p>
-</li>
-<li><p>Ctrl+Space，看到右下角的鍵盤圖示轉成紅色的「嘸」，就表示可以切換並使用嘸蝦米輸入法。</p>
-</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>下載 ArcoLinux 時，會發現有 L、S、D 與 B 總共 4 個版本(透過 Torrent 的話，還有一個 Lts 版)，可供使用者選用，如果不是很清楚的話，記得先到 <a href="https://www.arcolinux.info/what-to-choose/">What to choose | ArcoLinux</a> 這裡，這張頁面最底下有圖解這幾個版本的不一樣之處在哪裡。</p>
-]]></content>
-      <categories>
-        <category>boshiamy</category>
-      </categories>
-      <tags>
-        <tag>archlinux</tag>
-        <tag>linux</tag>
-        <tag>boshiamy</tag>
-        <tag>arcolinux</tag>
-        <tag>fcitx5</tag>
-        <tag>fcitx5-table-extra</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>嘸蝦米 6.0</title>
     <url>/boshiamy/boshiamy-6-0/</url>
     <content><![CDATA[<p>嘸蝦米 6.0 問世，應該是在 Windows Vista 正式發行不久後的事兒，我記得自己在使用 Windows Vista RC1 的時候，還有嘸蝦米不相容的問題存在，那個時候的行易公司並沒有釋出相容的嘸蝦米版本。之後，即使我已經使用 Windows Vista 一段時間，仍舊以版本編號 5.7a 的嘸蝦米搭配網路上流傳的方式來解決中文輸入的問題。  </p>
@@ -2031,7 +1975,7 @@
   </entry>
   <entry>
     <title>Fedora 38 與嘸蝦米</title>
-    <url>/linux/fedora-38-and-boshiamy/</url>
+    <url>/boshiamy/fedora-38-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Fedora 38 目前在 DistroWatch 上的「網頁參觀排名」是第 5 名，上次開箱的 Fedora 37 在 DistroWatch 上的「網頁參觀排名」是第 6 名，又再爬了 1 個名次。 <a href="https://www.flickr.com/photos/boxplay/52879295409/in/dateposted-public/" title="playingFedora38onVirtualBoxEp (5)"><img src="https://live.staticflickr.com/65535/52879295409_f5a5bf46de_c.jpg" alt="playingFedora38onVirtualBoxEp (5)"></a></p>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
 <li><p>安裝與初始設定：我認為，對於拿 Fedora 來當桌面系統使用的人來說，安裝的過程應該是沒有難度可言的。整個 UI 設計上，目前所呈現的，要說 Fedora 比肩 macOS 或 Windows，應該不過份。但是，這是不是每 Linux End User 所想要的，就不一定，畢竟，還是有人會希望在安裝過程多做一些設定。可以想見 Fedora Project 就是要把 Fedora Workstation 定位在 Desktop 或 Workstation 這樣的角色上，不然，做個 Advanced(進階選項)，應該不是一件困難的事。</p>
@@ -2076,7 +2020,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>linux</category>
+        <category>boshiamy</category>
       </categories>
       <tags>
         <tag>linux</tag>
@@ -2314,56 +2258,6 @@
         <tag>applewatch</tag>
         <tag>fitbit</tag>
         <tag>fitnesstracker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Feren OS 與嘸蝦米</title>
-    <url>/boshiamy/feren-os-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51828934757_390dddce19_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp5"/>
-
-<p>Feren OS 也是 ubuntu 的衍生發行版，雖然文發在 Nitrux 後面，實際上，我是先安裝與測試這支發行版的。</p>
-<p>必須說，可能也是因為先安裝使用 Feren OS，相較之下，Nitrux 就…</p>
-<p>不管怎樣，先進入主題吧！</p>
-<h3 id="安裝-Feren-OS"><a href="#安裝-Feren-OS" class="headerlink" title="安裝 Feren OS"></a>安裝 Feren OS</h3><p>以下是安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296062147" title="ferenOS"><img src="https://live.staticflickr.com/65535/51830230119_bd75964e26_c.jpg" alt="ferenOS"></a></p>
-<h3 id="安裝嘸蝦米"><a href="#安裝嘸蝦米" class="headerlink" title="安裝嘸蝦米"></a>安裝嘸蝦米</h3><ol>
-<li><p>跟 KDE neon 一樣，要快速使用的話，我認為選 fcitx(4) 最快。</p>
-</li>
-<li><p>先用 APT 找尋一下，是不是能夠吃得到「fcitx(4)+嘸蝦米」這道菜，確定沒有問題，就不客氣地下指令「點餐」。(下圖)</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx-table-boshiamy</span><br></pre></td></tr></table></figure>
-<p> <a href="https://www.flickr.com/photos/jutedev/51829888966/in/album-72177720296062147/" title="installingfcitx4andBoshiamyonFerenOSEp1"><img src="https://live.staticflickr.com/65535/51829888966_10f5dc09b3_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp1"></a><br> <a href="https://www.flickr.com/photos/jutedev/51828934842/in/album-72177720296062147/" title="installingfcitx4andBoshiamyonFerenOSEp2"><img src="https://live.staticflickr.com/65535/51828934842_b314f460d0_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp2"></a></p>
-</li>
-<li><p>安裝完，我沒有動什麼設定，直接重開機，fcitx(4) 就成為預設的輸入法平台，按 Ctrl+Space 就可以切換到嘸蝦米。(下圖) <a href="https://www.flickr.com/photos/jutedev/51828934812/in/album-72177720296062147/" title="installingfcitx4andBoshiamyonFerenOSEp3"><img src="https://live.staticflickr.com/65535/51828934812_3d510a4805_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp3"></a> <a href="https://www.flickr.com/photos/jutedev/51828934777/in/album-72177720296062147/" title="installingfcitx4andBoshiamyonFerenOSEp4"><img src="https://live.staticflickr.com/65535/51828934777_32dc0b2e79_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp4"></a></p>
-</li>
-<li><p>我在 LibreOffice Writer 裡，切換輸入法並試打幾個字。(下圖) <a href="https://www.flickr.com/photos/jutedev/51828934757/in/album-72177720296062147/" title="installingfcitx4andBoshiamyonFerenOSEp5"><img src="https://live.staticflickr.com/65535/51828934757_390dddce19_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp5"></a></p>
-</li>
-</ol>
-<h3 id="使用心得速記"><a href="#使用心得速記" class="headerlink" title="使用心得速記"></a>使用心得速記</h3><ol>
-<li><p>流暢：介面跟 Windows 11 有那麼點像，不難上手。</p>
-</li>
-<li><p>ubuntu 加持：以 ubuntu LTS 做為「基底」來發展的衍生版本，而且沒有大動作地進行基因改造，如：砍掉 Terminal 等，仍保有良好體質。</p>
-</li>
-<li><p>桌面環境容易上手：尤其對正在使用 Windows 11 與 macOS 的人而言，想要轉換到 Linux，又想要順順用的話，我認為除了 Zorin OS，也可以考慮使用 Feren OS。</p>
-</li>
-<li><p>可以考慮要不要喝 Latte：之前沒有注意到的一支 App，啟動後，感覺有像點是 macOS 的 Dock，不過，直接啟動的話，並不會取代原有類 Windows 11 的工作列，我沒有花太多時間去做調整，最後是讓兩者併行使用。(下圖，Latte 在桌面截圖的左邊) <a href="https://www.flickr.com/photos/jutedev/51828932912/in/album-72177720296062147/" title="installingFerenOS2021.10Ep48"><img src="https://live.staticflickr.com/65535/51828932912_43a55566f2_b.jpg" alt="installingFerenOS2021.10Ep48"></a></p>
-</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>本次安裝使用的 ISO 檔版本是 Feren-OS-standarddt.iso。</p>
-</li>
-<li><p>官網：<a href="https://ferenos.weebly.com/">Feren OS, made for today’s and tomorrow’s generation</a>，儘管 Feren OS 的官網是用 <a href="https://www.weebly.com/">免費網站建置工具：免費建立網站或線上商店 | Weebly</a> 所架設，域名也直接用該服務下的子網域名稱，但我認為不減這支發行版的「威力」。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>boshiamy</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>boshiamy</tag>
-        <tag>ubuntu</tag>
-        <tag>fcitx</tag>
-        <tag>fcitx-table-boshiamy</tag>
-        <tag>ferenos</tag>
       </tags>
   </entry>
   <entry>
@@ -8524,7 +8418,7 @@ gdb -v
   </entry>
   <entry>
     <title>香草輸入法 1.6.2 與嘸蝦米表格檔</title>
-    <url>/apple/openvanilla-1-6-2-and-boshiamy-unix-table/</url>
+    <url>/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51863522059_535ac2eb39_b.jpg" alt="transferOfficalBoshiamyUnixTableforOpenVanlliaEp7"/>
 
 <p>Apple 回到自研處理器晶片，截至目前為止，應該只剩 Mac Pro 與 2020 Mac mini 還保有 Intel 處理器。</p>
@@ -8559,7 +8453,7 @@ gdb -v
 </ol>
 ]]></content>
       <categories>
-        <category>apple</category>
+        <category>boshiamy</category>
       </categories>
       <tags>
         <tag>apple</tag>
