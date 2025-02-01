@@ -2841,7 +2841,7 @@
   </entry>
   <entry>
     <title>使用「存取認證管理員」進行 GitHub 認證帳號切換</title>
-    <url>/windows/github-account-and-accessing-credential-manager/</url>
+    <url>/github/github-account-and-accessing-credential-manager/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假設，遇到一種狀況，就是同一部機器，想使用不同的帳號去更新、推送 GitHub 上面的內容，Windows 系統處理上算是比較方便的。 <img src="https://live.staticflickr.com/65535/53095713392_a09a940383_c.jpg" alt="changingTheGithubAccountByAccessingCredentialManagerInWindows11Ep (11)"/></p>
 <p>本篇貼文，就是紀錄我們在 Windows 上，可以使用 Microsoft 的「存取認證管理員」(即 Accessing Credential Manager) 來處理上述狀況。</p>
 <hr>
@@ -2874,7 +2874,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>windows</category>
+        <category>github</category>
       </categories>
       <tags>
         <tag>windows11</tag>
@@ -9224,7 +9224,7 @@ gdb -v
   </entry>
   <entry>
     <title>有關我的「蝦皮直送」體驗</title>
-    <url>/reviews/shopee-xpress/</url>
+    <url>/unpack/shopee-xpress/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51707862453_c39ab5e1d4_b.jpg" alt="shopeeXpressEp01"/>
 
 <p>終於，我也下訂 <a href="https://www.realme.com/tw/realme-gt-neo-2">realme GT Neo 2</a>，本來還在想著，已經有一堆業配與開箱，那，我到底還可以再體驗什麼？</p>
@@ -9250,7 +9250,7 @@ gdb -v
 </ol>
 ]]></content>
       <categories>
-        <category>reviews</category>
+        <category>unpack</category>
       </categories>
       <tags>
         <tag>realme</tag>

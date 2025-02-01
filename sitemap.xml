@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/unpack/shopee-xpress/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.jute.im/github/github-account-and-accessing-credential-manager/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/boshiamy/installing-boshiamy-on-lubuntu-18-04/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1397,15 +1415,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/reviews/shopee-xpress/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/apple/installing-pop_os-21-10-on-my-mac-mini/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -1758,15 +1767,6 @@
   
   <url>
     <loc>http://blog.jute.im/linux/linux-mint-21-2/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/github-account-and-accessing-credential-manager/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
