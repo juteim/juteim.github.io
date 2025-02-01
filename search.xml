@@ -7417,7 +7417,7 @@ gdb -v
 <li><a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
 <li><a href="/linux/endeavouros-apollo-22-1/">來玩 EndeavourOS Apollo 22.1</a></li>
 <li><a href="/linux/garuda-linux-kde-dr460nized-edition/">來玩 Garuda Linux (KDE Dr460nized Edition)</a></li>
-<li><a href="/boshiamy/arcolinuxl-and-boshiamy">ArcoLinuxL 與嘸蝦米</a></li>
+<li><a href="/boshiamy/installing-arcolinuxl-and-boshiamy/">安裝 ArcoLinuxL 與嘸蝦米</a></li>
 </ol>
 <h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><p>Fcitx5 是首選，在 Terminal 下 <code>sudo yum install fcitx5*</code> 或 <code>sudo dnf install fcitx5*</code> 指令來服用。</p>
 <ol>
