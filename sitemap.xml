@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/apple/imac-powered-by-an-m1-chip/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.jute.im/linux/ubuntu-23-04-tradition-chinese-locale/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/unpack/shopee-xpress/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -66,15 +84,6 @@
   
   <url>
     <loc>http://blog.jute.im/linux/linux-lite-6-2/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/boshiamy/ubuntu-23-04-tradition-chinese-locale/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
@@ -435,15 +444,6 @@
   
   <url>
     <loc>http://blog.jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/imac-powered-by-an-m1-chip/</loc>
     
     <lastmod>2025-02-01</lastmod>
     

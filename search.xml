@@ -3407,7 +3407,7 @@
   </entry>
   <entry>
     <title>搭載 M1 晶片的 iMac</title>
-    <url>/windows/imac-powered-by-an-m1-chip/</url>
+    <url>/apple/imac-powered-by-an-m1-chip/</url>
     <content><![CDATA[<p>Mac 對我來說，已經不是需要用的工具，只不過，我還是有持續在觀注蘋果動向，使用那麼多年的 Mac 下來，小小的心得是：如果你是想要在 Apple 上面去找所謂的 CP 值，通常是不太可能的事，但，蘋果的東西，就是有一種魅力，是吧？</p>
 <p>這篇，主要是簡單說我對 2021 年全新 24 吋 新款 iMac 的小小觀察。</p>
 <p>首先，有很多蝦米族，被還沒有完全支援 Big Sur 版的 macOS 小小干擾到，如果是工作用的機器，而且打字輸入量比較大的使用者，如果手邊也還有機器可以工作，我認為可以再等一波。</p>
@@ -3415,10 +3415,11 @@
 <p>最後，目前大部分都在談入門的那一部(8 核心 CPU、7 核心 GPU)，不曉得它擺在架上的意義何在？我認為那一部是教育機構大量採購，搭載可以節省成本的規格。</p>
 ]]></content>
       <categories>
-        <category>windows</category>
+        <category>apple</category>
       </categories>
       <tags>
         <tag>apple</tag>
+        <tag>macos</tag>
         <tag>mac</tag>
       </tags>
   </entry>
@@ -9884,7 +9885,7 @@ gdb -v
   </entry>
   <entry>
     <title>讓 ubuntu 23.04「講」中文</title>
-    <url>/boshiamy/ubuntu-23-04-tradition-chinese-locale/</url>
+    <url>/linux/ubuntu-23-04-tradition-chinese-locale/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>從 <a href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">Ubuntu Desktop 23.04 release roundup | Ubuntu</a> 可以得知，ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。<img src="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (01)"></p>
 <p>應該是剛起步的關係，ubuntu 23.04 的 New Installer 並沒有支援「中文（繁體）」，只能看到「中文（简体）」(如下圖)。<img src="https://live.staticflickr.com/65535/53176200069_a0e81e88bc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (02)"></p>
 <p>我相信，對於習慣「中文（繁體）」介面的人而言，這樣並不是很方便，而這一篇紀錄，就是我使用「English」介面安裝後，後續轉換「中文（繁體）」所走過的設定歷程。</p>
@@ -9908,7 +9909,7 @@ gdb -v
 </ol>
 ]]></content>
       <categories>
-        <category>boshiamy</category>
+        <category>linux</category>
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
