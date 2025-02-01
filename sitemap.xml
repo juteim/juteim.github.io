@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/boshiamy/boshiamy-and-mac/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/boshiamy/fedora-38-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -659,15 +677,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/boshiamy/boshiamy-and-mac/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/boshiamy/ubuntu-8-04-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1040,15 +1049,6 @@
     <loc>http://blog.jute.im/bsd/freebsd-13-2-and-l10n/</loc>
     
     <lastmod>2025-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
-    
-    <lastmod>2025-01-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
