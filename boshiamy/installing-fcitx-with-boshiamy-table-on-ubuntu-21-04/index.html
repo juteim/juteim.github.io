@@ -22,15 +22,24 @@
     var CONFIG = {"hostname":"blog.jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="jute">
-<meta property="og:url" content="http://blog.jute.im/tags/locale/index.html">
+  <meta name="description" content="前言來試試在 ubuntu 21.04 快速安裝 fcitx(4) 並啟用嘸蝦米。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在 ubuntu 21.04 上輕鬆安裝嘸蝦米 (2024 年 5 月 25 日更新)">
+<meta property="og:url" content="http://blog.jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04/index.html">
 <meta property="og:site_name" content="jute">
+<meta property="og:description" content="前言來試試在 ubuntu 21.04 快速安裝 fcitx(4) 並啟用嘸蝦米。">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-07-12T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-02-01T13:53:35.633Z">
 <meta property="article:author" content="jute.im">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="boshiamy">
+<meta property="article:tag" content="ubuntu">
+<meta property="article:tag" content="fcitx">
+<meta property="article:tag" content="fcitx-table-boshiamy">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://blog.jute.im/tags/locale/">
+<link rel="canonical" href="http://blog.jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04/">
 
 
 <script id="page-configurations">
@@ -38,12 +47,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>標籤: locale | jute</title>
+  <title>在 ubuntu 21.04 上輕鬆安裝嘸蝦米 (2024 年 5 月 25 日更新) | jute</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
     <script data-pjax>
@@ -209,51 +218,130 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">locale
-          <small>標籤</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://blog.jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute.im">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          在 ubuntu 21.04 上輕鬆安裝嘸蝦米 (2024 年 5 月 25 日更新)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2021-07-12 08:00:00" itemprop="dateCreated datePublished" datetime="2021-07-12T08:00:00+08:00">2021-07-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/boshiamy/" itemprop="url" rel="index"><span itemprop="name">boshiamy</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>435</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>1 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來試試在 ubuntu 21.04 快速安裝 fcitx(4) 並啟用嘸蝦米。</p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>fcitx(4) 在 ubuntu 21.04 並不是預設的中文輸入平台，不過，仍然可以在幾個步驟內就搞定。</p>
+<ol>
+<li><p>一個指令（如下），就讓相依的套件都安裝進來。<br><code>sudo apt-get install fcitx-table-boshiamy</code></p>
+</li>
+<li><p>進入系統的「地區和語言」。</p>
+</li>
+<li><p>點進「管理安裝的語言」，把「鍵盤輸入法系統」改成 fcitx(4) 。</p>
+</li>
+<li><p>「登出再登入」，或是「重開機」。</p>
+</li>
+<li><p>順利的話，重新進入系統，就會看到工作列上面，多出了一個鍵盤，而且已經把嘸蝦米安裝進來。</p>
+</li>
+<li><p>使用 Ctrl+空白鍵(Space)，切換到嘸蝦米時，畫面上會跳出被框框包圍住的藍色嘸蝦米，同時，在右上角工作列那邊，原本的「鍵盤」圖示，也變成紅色的「嘸」。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>之前的文章，我是用 fcitx 與 Fcitx5 去做版本上的區隔，也就是說，在沒有特別寫上版本號時，指的就是 fcitx(4)。</p>
+</li>
+<li><p>這次的更新，主要是把這個用詞修改與統一。</p>
+</li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-09-10T08:00:00+08:00"
-              content="2023-09-10">
-          09-10
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
+              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+              <a href="/tags/fcitx/" rel="tag"># fcitx</a>
+              <a href="/tags/fcitx-table-boshiamy/" rel="tag"># fcitx-table-boshiamy</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/linux/make-ubuntu-23-04-speak-traditional-chinese/" itemprop="url">
-            <span itemprop="name">讓 ubuntu 23.04「講」中文</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/boshiamy/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3/" rel="prev" title="在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米">
+      <i class="fa fa-chevron-left"></i> 在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/boshiamy/installing-fcitx-with-boshiamy-table-on-elementaryos-5-1/" rel="next" title="在 elementory OS 5.1 上輕鬆安裝嘸蝦米">
+      在 elementory OS 5.1 上輕鬆安裝嘸蝦米 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
   </article>
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
@@ -306,6 +394,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E9%81%8E%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">安裝過程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -319,7 +408,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">249</span>
+          <span class="site-state-item-count">248</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -332,7 +421,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">171</span>
+        <span class="site-state-item-count">168</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -386,13 +475,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">287k</span>
+    <span title="總字數">285k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">8:41</span>
+    <span title="所需總閱讀時間">8:39</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>
