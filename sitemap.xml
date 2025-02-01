@@ -1514,25 +1514,7 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/windows/kb5010386-windows-11-os-build-22000-493/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/boshiamy/manjaro-xfce-21-2-2-with-ibus-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb4023057-update-for-windows-update-service-components/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
@@ -2243,24 +2225,6 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/windows/kb5010414-windows-11-os-build-22000-527/</loc>
-    
-    <lastmod>2023-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5011493-windows-11-os-build-22000-556/</loc>
-    
-    <lastmod>2023-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.jute.im/google/import-google-takeout-by-thunderbird-with-importexporttools-ng/</loc>
     
     <lastmod>2023-11-06</lastmod>
@@ -2282,105 +2246,6 @@
     <loc>http://blog.jute.im/linux/install-chinese-input-method-on-linux-lite-6-6-feat-fcitx-5/</loc>
     
     <lastmod>2023-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/download-and-complete-windows-update-on-microsoft-update-catalog-feat-kb5012643/</loc>
-    
-    <lastmod>2023-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5011563-windows-11-os-build-22000-593/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5012592-windows-11-os-build-22000-613/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5012643-windows-11-os-build-22000-652/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5015882-windows-11-os-build-22000-832/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5018418-windows-11-os-build-22000-1098/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5015814-windows-11-os-build-22000-795/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5014668-windows-11-os-build-22000-778/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5014697-windows-11-os-build-22000-739/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5014019-windows-11-os-build-22000-708/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/windows/kb5013943-windows-11-os-build-22000-675/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2699,20 +2564,6 @@
   
   <url>
     <loc>http://blog.jute.im/tags/havefun/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/tags/microsoftupdatecatalog/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/tags/windowsupdate/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3273,13 +3124,6 @@
   
   <url>
     <loc>http://blog.jute.im/tags/iphonese3rdgen/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/tags/quickrecap/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
