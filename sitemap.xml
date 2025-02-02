@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/github/blogging-on-github-and-eazywp/</loc>
+    
+    <lastmod>2025-02-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/android/abattery-and-shizuku/</loc>
     
     <lastmod>2025-02-02</lastmod>
@@ -984,15 +993,6 @@
   
   <url>
     <loc>http://blog.jute.im/apple/apple-released-ios-18-3-and-should-i-upgrade-my-iphone/</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/github/migrated-my-blog-from-github-to-easywp/</loc>
     
     <lastmod>2025-01-31</lastmod>
     
