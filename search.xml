@@ -238,7 +238,7 @@
   </entry>
   <entry>
     <title>在 Android 上透過 aBattery 與 Shizuku 來查一下電池健康度</title>
-    <url>/google/abattery-and-shizuku/</url>
+    <url>/android/abattery-and-shizuku/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>以前都是用 AccuBattery Pro 來測手上運行 Android 系統的手機電池健康度，但後來的版本要求使用者要「放電到 15% 以下以開始一次充飽測量」。入手 Pixel 7 至今，我還沒有讓電量低到 15% 以下，所以，一直不是很確定電池的健康狀況。今天發現一個還不錯的 App，可以得知多一點的電池相關訊息，設定上不算是困難，但，我姑且還是做一點筆記，或許未來還會再派上用場。<br><img src="https://live.staticflickr.com/65535/53245031367_41c9a245e0_h.jpg" alt="aBatteryAndShizukuEp (14)"/></p>
 <h3 id="設定流程"><a href="#設定流程" class="headerlink" title="設定流程"></a>設定流程</h3><ol>
 <li><p>先開啟「開發人員選項」(如果不清楚開啟的方法，可以 Google 一下)，在「開發人員選項」，確認把「USB 偵錯」與「無線偵錯」都開啟。<img src="https://live.staticflickr.com/65535/53246202783_10fb66deee_h.jpg" alt="aBatteryAndShizukuEp (1)"/></p>
@@ -276,12 +276,12 @@
 </ol>
 ]]></content>
       <categories>
-        <category>google</category>
+        <category>android</category>
       </categories>
       <tags>
-        <tag>android</tag>
         <tag>abattery</tag>
         <tag>shizuku</tag>
+        <tag>google</tag>
       </tags>
   </entry>
   <entry>
@@ -7221,7 +7221,7 @@ gdb -v
   </entry>
   <entry>
     <title>Gemini 初體驗</title>
-    <url>/google/my-first-experience-of-using-gemini/</url>
+    <url>/android/my-first-experience-of-using-gemini/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 Youtube 上，觀看到一部影片（如下），才讓我開始對最近吹起的一陣手機上的 AI 風產一興趣。<iframe width="560" height="315" src="https://www.youtube.com/embed/MqiWL0niQNQ?si=AJcE3LoDkYNzrfna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 <h3 id="體驗過程"><a href="#體驗過程" class="headerlink" title="體驗過程"></a>體驗過程</h3><ol>
 <li><p>對於 YTR 所做出演示，我產生一些好奇，便拿出手上的 Pixel 7 來試試。</p>
@@ -7245,11 +7245,12 @@ gdb -v
 </ol>
 ]]></content>
       <categories>
-        <category>google</category>
+        <category>android</category>
       </categories>
       <tags>
-        <tag>android</tag>
+        <tag>google</tag>
         <tag>gemini</tag>
+        <tag>pixel</tag>
       </tags>
   </entry>
   <entry>
@@ -7535,7 +7536,7 @@ gdb -v
   </entry>
   <entry>
     <title>使用 Pixel 7 約莫 2 年的心得</title>
-    <url>/google/my-review-of-using-pixel-7-about-two-years/</url>
+    <url>/android/my-review-of-using-pixel-7-about-two-years/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Pixel 7 這支手機是我在 2022 年跨到 2023 年所入手的，在使用超過 2 年後的今天，我想留下一篇相關的紀錄。 <img src="https://live.staticflickr.com/65535/54288882880_9c5c56f4ba_b.jpg" alt="IMG_0573"></p>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
 <li><p>入手考量：我是從市場上，所謂的「超班相機」開始注意到 Google Pixel 這一款手機的。因此，當年會想要入手 Pixel 7，9 成以上是衝著 Pixel 7 的相機而來。</p>
@@ -7560,10 +7561,11 @@ gdb -v
 </ol>
 ]]></content>
       <categories>
-        <category>google</category>
+        <category>android</category>
       </categories>
       <tags>
-        <tag>android</tag>
+        <tag>google</tag>
+        <tag>pixel</tag>
       </tags>
   </entry>
   <entry>
