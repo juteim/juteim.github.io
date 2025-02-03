@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/android/my-first-experience-of-using-gemini/</loc>
+    
+    <lastmod>2025-02-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/404.html</loc>
     
     <lastmod>2025-02-03</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://blog.jute.im/android/abattery-and-shizuku/</loc>
-    
-    <lastmod>2025-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/android/my-first-experience-of-using-gemini/</loc>
     
     <lastmod>2025-02-02</lastmod>
     
