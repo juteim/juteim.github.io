@@ -7174,13 +7174,11 @@ gdb -v
   <entry>
     <title>Gemini 初體驗</title>
     <url>/android/my-first-experience-of-using-gemini/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 Youtube 上，觀看到一部影片（如下），才讓我開始對最近吹起的一陣手機上的 AI 風產一興趣。<iframe width="560" height="315" src="https://www.youtube.com/embed/MqiWL0niQNQ?si=AJcE3LoDkYNzrfna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 Youtube 上，觀看到一部影片（如下），讓我想到，或許可以拿手上的 Pixel 7 來試試。<iframe width="560" height="315" src="https://www.youtube.com/embed/MqiWL0niQNQ?si=AJcE3LoDkYNzrfna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 <h3 id="體驗過程"><a href="#體驗過程" class="headerlink" title="體驗過程"></a>體驗過程</h3><ol>
-<li><p>對於 YTR 所做出演示，我產生一些好奇，便拿出手上的 Pixel 7 來試試。</p>
+<li><p>從下列畫面所顯示的結果，與 YTR 所演示的 SAMSUNG 手機上執行的結果相比較之後，我認為真正的關鍵是 Gemini。 <img src="https://live.staticflickr.com/65535/54297150982_745e8ce713_c.jpg" alt="myFirstExperienceOfUsingGeminiEp1"></p>
 </li>
-<li><p>從下列畫面所顯示的結果，與 YTR 所演示的 SAMSUNG 手機上執行的結果相比較之後，我認為真正的關鍵是 Gemini。讓我感到有點意外的是 Pixel 7 就能夠運行，並且能夠再戰下去。 <img src="https://live.staticflickr.com/65535/54297150982_745e8ce713_c.jpg" alt="myFirstExperienceOfUsingGeminiEp1"></p>
-</li>
-<li><p>隨後，我便異想天開地拿出 iPhone 13，安裝好 Gemini 測試一下。</p>
+<li><p>讓我感到有點意外的是 Pixel 7 就能夠運行，並且能夠再戰下去。隨後，我便異想天開地拿出 iPhone 13，安裝好 Gemini 測試一下。</p>
 </li>
 <li><p>得到的結果，說意外也沒有那麼意外。推估這樣的結果，應該是蘋果不願開放太多權限給軟體開發商。 <img src="https://live.staticflickr.com/65535/54298026236_b9813becc5_c.jpg" alt="myFirstExperienceOfUsingGeminiEp2"></p>
 </li>
@@ -7188,7 +7186,7 @@ gdb -v
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a href="https://deepmind.google/technologies/gemini/">Gemini - Google DeepMind</a></p>
 </li>
-<li><p><a href="https://gemini.google.com/faq?hl=zh-TW">‎Gemini 應用程式的功能與其他常見問題</a></p>
+<li><p><a href="https://gemini.google.com/faq?hl=zh-TW">Gemini 應用程式的功能與其他常見問題</a></p>
 </li>
 <li><p><a href="https://zh.wikipedia.org/zh-tw/Gemini_(%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA)">Gemini (聊天機器人) - 維基百科，自由的百科全書</a></p>
 </li>
