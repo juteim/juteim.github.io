@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/android/my-first-experience-about-gemini-on-iphone-13-vs-pixel-7/</loc>
     
     <lastmod>2025-02-04</lastmod>
@@ -50,15 +59,6 @@
     <loc>http://jute.im/android/my-review-of-using-pixel-7-about-two-years/</loc>
     
     <lastmod>2025-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
