@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/android/my-first-experience-about-gemini-on-iphone-13-vs-pixel-7/</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/github/blogging-on-github-and-eazywp/</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/installing-ubuntu-budgie-21-10-desktop-and-boshiamy/</loc>
     
     <lastmod>2025-02-04</lastmod>
@@ -11,27 +29,9 @@
   </url>
   
   <url>
-    <loc>http://jute.im/android/my-first-experience-about-gemini-on-iphone-13-vs-pixel-7/</loc>
-    
-    <lastmod>2025-02-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/404.html</loc>
     
     <lastmod>2025-02-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/github/blogging-on-github-and-eazywp/</loc>
-    
-    <lastmod>2025-02-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
