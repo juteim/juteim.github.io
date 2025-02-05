@@ -10206,7 +10206,7 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>安裝 ArcoLinuxL 與嘸蝦米</title>
+    <title>ArcoLinuxL 與嘸蝦米</title>
     <url>/boshiamy/arcolinuxl-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>喜歡 Arch Linux，或是說想要嘗試 Arch Linux，卻被一開始的暗黑安裝畫面給擊退的伙伴，其實有很多不同的選擇。<img src="https://live.staticflickr.com/65535/52058260898_4da09a1312_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp22"></p>
 <p>今天，來紀錄一下另外一支，比較接近原生 Arch Linux 的衍生發行版的安裝與使用的快速回顧。</p>
