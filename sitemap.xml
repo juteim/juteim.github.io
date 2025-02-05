@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
+    
+    <lastmod>2025-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jute.im/github/blogging-on-github-and-eazywp/</loc>
     
     <lastmod>2025-02-05</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>http://blog.jute.im/404.html</loc>
-    
-    <lastmod>2025-02-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
     
     <lastmod>2025-02-04</lastmod>
     
@@ -371,7 +371,7 @@
   </url>
   
   <url>
-    <loc>http://blog.jute.im/boshiamy/installing-arcolinuxl-and-boshiamy/</loc>
+    <loc>http://blog.jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
