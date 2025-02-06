@@ -10270,7 +10270,7 @@ gdb -v
   </entry>
   <entry>
     <title>從 iOS 18.3 轉移至 Android 15</title>
-    <url>/android/my-review-of-transfering-from-ios-18-3-to-android-15/</url>
+    <url>/android/switching-from-ios-18-3-to-android-15/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本篇貼文，主要是簡單地紀錄一下，透過轉移程式，從 iOS 18.3 轉移至 Android 15 的歷程、看法以及我個人的建議。 <img src="https://live.staticflickr.com/65535/54310154428_cde3448c72_b.jpg" alt="IMG_0588"></p>
 <h3 id="轉移過程紀錄"><a href="#轉移過程紀錄" class="headerlink" title="轉移過程紀錄"></a>轉移過程紀錄</h3><h4 id="轉移前準備"><a href="#轉移前準備" class="headerlink" title="轉移前準備"></a>轉移前準備</h4><ol>
 <li><p>線材：我的 iOS 與 Android 所對應的硬體是 iPhone 13 與 Pixel 7，因此，我得準備一條 USB-C to Lighting 的線材，我認為使用官方的線材是最穩妥的做法。</p>
@@ -10301,6 +10301,8 @@ gdb -v
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p><a href="https://www.android.com/intl/zh-TW_tw/switch-to-android/" target="_blank">從 iPhone 順暢轉移到 Android - Android</a></p>
+</li>
 <li><p>App 在畫面上的位置：我沒有把過程錄影下來，但，本次轉移後，我觀察到 iPhone 13 的排序方式，基本上是原封不動地轉到在 Pixel 7 上的。關於這一點，以前是不是也一樣，我還真的是記不住，只能說，能夠這麼做，真的滿不錯的。</p>
 </li>
 <li><p>相應的 App：承上，有些 iOS 上獨有的程式，轉移到 Android 時，Android 上的轉移程式，會自動去找到相應的 App，例如：Android 上的 Meet 對應 iOS 上的 FaceTime，還有 YT Music 對應到 Apple Music。</p>
