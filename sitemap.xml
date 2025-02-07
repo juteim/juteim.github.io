@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ghpages.jute.im/github/blogging-on-github-and-eazywp/</loc>
+    
+    <lastmod>2025-02-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ghpages.jute.im/android/switching-from-ios-18-3-to-android-15/</loc>
     
     <lastmod>2025-02-07</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>http://ghpages.jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
-    
-    <lastmod>2025-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ghpages.jute.im/github/blogging-on-github-and-eazywp/</loc>
     
     <lastmod>2025-02-05</lastmod>
     
