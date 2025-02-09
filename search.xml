@@ -7065,94 +7065,6 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>有關我在 Android 15 上的「私人空間」使用體驗（feat. Pixel 7）</title>
-    <url>/android/my-experience-of-private-space-on-android-15/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>私人空間（Private Space）是 Android 15 上的新功能，今天，來分享一下我的使用心得。（相關截圖，可以點擊下圖去瀏覽我整理到 Flickr 的相簿） <a href="https://www.flickr.com/photos/jutepw/albums/72177720323677333" title="privateSpaceOnAndroid15"><img src="https://live.staticflickr.com/65535/54312135050_a80ce09e7c_h.jpg" alt="privateSpaceOnAndroid15"></a></p>
-<h3 id="事前準備"><a href="#事前準備" class="headerlink" title="事前準備"></a>事前準備</h3><h4 id="閱讀官網說明"><a href="#閱讀官網說明" class="headerlink" title="閱讀官網說明"></a>閱讀官網說明</h4><p>就我自己的認知裡，安全與便利性之間存在著一定的拉扯。換句話說，想要方便，可能就會犧牲安全性；想要更加安全，就可以會增加一些關卡與步驟，使用起來就會比較不方便。 無論如何，私人空間是 Android 15 才有的功能，使用前，我認為有必要參考 Google 官方的 Android 說明文件。 以下，大概是我閱讀後，整理出來我所瞭解的私人空間。</p>
-<h4 id="目前，我對私人空間的認識"><a href="#目前，我對私人空間的認識" class="headerlink" title="目前，我對私人空間的認識"></a>目前，我對私人空間的認識</h4><ol>
-<li><p>最低系統要求是 Android 15。</p>
-</li>
-<li><p>無法使用私人空間的因素。 (1)受管理的裝置：我讀了一下，認為這些受管理的裝置，通常就不會是私人用的裝置。 (2)主空間有受監護的帳戶。 (3)裝置製造商或企業管理員已停用私人空間。 (4)私人空間位於次要使用者帳戶中。 (5)裝置有超過 4 個使用者或設定檔。</p>
-</li>
-<li><p>獨立的鎖定方式。 (1)目的是增加一道關卡。 (2)除了「使用裝置螢幕鎖定」（也就是目前使用者鎖定螢幕的方法），還可以「選擇新的鎖定方式」。 (3)「選擇新的鎖定方式」的話，可以決定「不使用指紋」，而改用圖案、PIN 碼或密碼進行鎖定的動作。</p>
-</li>
-<li><p>刪除私人空間。 (1)我認為，刪除私人空間是要特別注意的點。 (2)從官方的說明來看，刪除的過程，系統並不會進行備份。使用者若要對私人空間做備份，似乎只能是應用程式 App 會將資料同步至雲端，那麼，備份才可能有效。 (3)也就是說，今天就算解鎖私人空間，應該也無法備份到本地端？但，依據官方的說法是「建立私人空間後，你可以透過電腦存取 (包括 Android Debug Bridge (ADB) 指令、裝置記錄) 或應用程式，查看私人空間內容。」關於這一點，我自己嘗試將私人空間解鎖，連上電腦，發現電腦是讀不到私人空間內的資料，因此，比較不好意思的是我目前還不得其門而入。 (4)私人空間上安裝的 App，假設有雲端硬碟、相簿這一類的 App 的話，確實是可以備份至雲端。只不過，備份到雲端之後，如果沒有再另外上鎖而相對容易曝光的話，似乎就失去運用私人空間的意義。</p>
-</li>
-<li><p>使用不同的 Google 帳戶登入私人空間：承上述「刪除私人空間」裡，我提到的第(4)點，Google 建議使用者，為了避免私人且私密的資料意外外洩至主要空間，所以，建議使用私人空間專屬的 Google 帳戶，並且不要在其他地方登入該帳戶。</p>
-</li>
-<li><p>鎖定時的私人空間：那麼，空間內的 App，原則上是不會執行任何活動。所以，即使設定 App 通知，鎖起來也不會跳通知，若一段時間沒有使用，解鎖的當下，很可能會跳出一堆通知。</p>
-</li>
-<li><p>隱藏私人空間：進一步隱藏的話，私人空間就真的名符其實地更私密。目前，我猜一般使用者，可能一下子也不一定想得到私人空間這樣的設置。未來，若私人空間普遍地運用，那麼，即使隱藏也會比較容易被「挖」出來。</p>
-</li>
-<li><p>如果同時也是 Wear OS 的使用者，也要注意相關的問題。由於，我沒有相關裝置，因此，這個部分就先跳過。</p>
-</li>
-</ol>
-<h4 id="「Pixel-使用提示」上的說明"><a href="#「Pixel-使用提示」上的說明" class="headerlink" title="「Pixel 使用提示」上的說明"></a>「Pixel 使用提示」上的說明</h4><p>讀完官方的說明後，Pixel 跳出「Pixel 使用提示」期間，我透過下列 3 張圖，就讓我大致上對設定好私人空間後的使用，有點印象與概念。</p>
-<ol>
-<li><p>Scroll down：向下捲動，也就是先往下滑動。 <img src="https://live.staticflickr.com/65535/54312135050_788ac00001.jpg" alt="introPrivateSpaceEp (1)"></p>
-</li>
-<li><p>Verify it’s you：意思是要通過「生物辨識技令」（Biometrics），才能夠進到私人空間。 <img src="https://live.staticflickr.com/65535/54310833542_ff32d18854.jpg" alt="introPrivateSpaceEp (2)"></p>
-</li>
-<li><p>最後是進入私人空間後的介面。 <img src="https://live.staticflickr.com/65535/54310833532_a01c58cb4c.jpg" alt="introPrivateSpaceEp (3)"></p>
-</li>
-</ol>
-<h3 id="實際設定與使用過程"><a href="#實際設定與使用過程" class="headerlink" title="實際設定與使用過程"></a>實際設定與使用過程</h3><h4 id="設定過程"><a href="#設定過程" class="headerlink" title="設定過程"></a>設定過程</h4><ol>
-<li><p>設定時，我的想法是在私人空間擺放與金融相關的 App。 <img src="https://live.staticflickr.com/65535/54312135010_a1e8c48816.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (1)"></p>
-</li>
-<li><p>著手開始設定後，我先是進入「設定」的介面。 <img src="https://live.staticflickr.com/65535/54312134975_0be57a9473.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (2)"></p>
-</li>
-<li><p>在設定的介面裡，找到「安全性與隱私權」。 <img src="https://live.staticflickr.com/65535/54311957028_c6ffa43019.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (3)"></p>
-</li>
-<li><p>點一下【安全性與隱私權】之後，往下找出「私人空間」。 <img src="https://live.staticflickr.com/65535/54311957008_3a93bdfff4.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (4)"></p>
-</li>
-<li><p>點一下【私人空間】，會出現下列畫面。接著是點右下角的【設定】。 <img src="https://live.staticflickr.com/65535/54311716346_5076a073ef.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (5)"></p>
-</li>
-<li><p>承上，點完【設定】後，會跑下列畫面。 <img src="https://live.staticflickr.com/65535/54310833472_474028a03d.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (6)"></p>
-</li>
-<li><p>出現下列畫面時，點一下【我知道了】。 <img src="https://live.staticflickr.com/65535/54312134960_bcc3aac1af.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (7)"></p>
-</li>
-<li><p>這裡要使用者進行「登入」的動作，這裡，「私人空間的帳號」可以設定與「主空間上的帳號」，不同一個。 <img src="https://live.staticflickr.com/65535/54311944234_9bdd9a3d78.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (8)"></p>
-</li>
-<li><p>我的話，決定先將「私人空間的帳號」，「主空間上的帳號」設定成同一個。（這個決定，跟官方的建議不同，原因是我目前是以測試、體驗為主） <img src="https://live.staticflickr.com/65535/54311944209_44270ace79.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (9)"></p>
-</li>
-<li><p>「透過這個電話號碼確認您的帳戶符合現況」，後按下【我同意】。 <img src="https://live.staticflickr.com/65535/54311716276_f8801db535.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (10)"> <img src="https://live.staticflickr.com/65535/54311956928_fa5046d030.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (11)"></p>
-</li>
-<li><p>私人空間鎖定方式，可以沿用「使用螢幕鎖定功能」，或「選擇新的鎖定方式」。 <img src="https://live.staticflickr.com/65535/54310833402_942fd149e6.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (12)"></p>
-</li>
-<li><p>我選擇沿用「使用螢幕鎖定功能」後，就等待設定完成。 <img src="https://live.staticflickr.com/65535/54311716251_ee2634979b.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (13)"></p>
-</li>
-<li><p>看到「大功告成」，就表示走完設定的流程。 <img src="https://live.staticflickr.com/65535/54311944149_aa6733ebbf.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (14)"></p>
-</li>
-</ol>
-<h4 id="使用情形"><a href="#使用情形" class="headerlink" title="使用情形"></a>使用情形</h4><ol>
-<li><p>照「Pixel 使用提示」上的說明操課，我往下滑到畫面出現「私人」的小橫幅。 <img src="https://live.staticflickr.com/65535/54311944174_33f400d143.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (15)"></p>
-</li>
-<li><p>承上，點一下小橫幅右邊的「鎖」按鈕，再用指紋辨識，就可以解鎖進入私人空間。把我想要擺進來的金融相關的 App，安裝進入私人空間。 <img src="https://live.staticflickr.com/65535/54311944169_4119afd014.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (16)"></p>
-</li>
-<li><p>再承上，點一下「鎖定」左邊的【小齒輪】，可以進入下列畫面，再點【隱藏私人空間】。 <img src="https://live.staticflickr.com/65535/54316524675_851b139837.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (17)"></p>
-</li>
-<li><p>進一步，進行「隱藏私人空間」的設定。 <img src="https://live.staticflickr.com/65535/54316105061_b773639486.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (18)"> <img src="https://live.staticflickr.com/65535/54316105056_d5092d4aeb.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (19)"> <img src="https://live.staticflickr.com/65535/54316341678_df40e92387.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (20)"></p>
-</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>雙開？：以前，我曾經使用過其他的 Android 手機，進行所謂的雙開，Android 15 開始具備的功能：私人空間，感覺有點像雙開，只是，Android 15 上的私人空間更注重安全性。</p>
-</li>
-<li><p><a href="https://support.google.com/android/answer/15341885">使用私人空間隱藏敏感應用程式 - Android說明</a></p>
-</li>
-<li><p><a href="https://support.google.com/wearos/answer/15597337">Wear OS by Google 私人空間的已知問題 - Wear OS by Google說明</a></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>android</category>
-      </categories>
-      <tags>
-        <tag>google</tag>
-        <tag>pixel</tag>
-        <tag>privateSpace</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Gemini 初體驗（iPhone 13 vs. Pixel 7）</title>
     <url>/android/my-first-experience-about-gemini-on-iphone-13-vs-pixel-7/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 Youtube 上，觀看到一部影片（如下），讓我想到，或許可以拿手上的 iPhone 13 與 Pixel 7 來試試。<iframe width="560" height="315" src="https://www.youtube.com/embed/MqiWL0niQNQ?si=AJcE3LoDkYNzrfna" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
@@ -10414,6 +10326,94 @@ gdb -v
         <tag>fcitx-table-boshiamy</tag>
         <tag>ibus</tag>
         <tag>zorinos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「私人空間」初體驗（feat. Pixel 7）</title>
+    <url>/android/my-first-experience-of-private-space/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>私人空間（Private Space）是 Android 15 上的新功能，今天，來分享一下我的使用心得。（相關截圖，可以點擊下圖去瀏覽我整理到 Flickr 的相簿） <a href="https://www.flickr.com/photos/jutepw/albums/72177720323677333" title="privateSpaceOnAndroid15"><img src="https://live.staticflickr.com/65535/54312135050_a80ce09e7c_h.jpg" alt="privateSpaceOnAndroid15"></a></p>
+<h3 id="事前準備"><a href="#事前準備" class="headerlink" title="事前準備"></a>事前準備</h3><h4 id="閱讀官網說明"><a href="#閱讀官網說明" class="headerlink" title="閱讀官網說明"></a>閱讀官網說明</h4><p>就我自己的認知裡，安全與便利性之間存在著一定的拉扯。換句話說，想要方便，可能就會犧牲安全性；想要更加安全，就可以會增加一些關卡與步驟，使用起來就會比較不方便。 無論如何，私人空間是 Android 15 才有的功能，使用前，我認為有必要參考 Google 官方的 Android 說明文件。 以下，大概是我閱讀後，整理出來我所瞭解的私人空間。</p>
+<h4 id="目前，我對私人空間的認識"><a href="#目前，我對私人空間的認識" class="headerlink" title="目前，我對私人空間的認識"></a>目前，我對私人空間的認識</h4><ol>
+<li><p>最低系統要求是 Android 15。</p>
+</li>
+<li><p>無法使用私人空間的因素。 (1)受管理的裝置：我讀了一下，認為這些受管理的裝置，通常就不會是私人用的裝置。 (2)主空間有受監護的帳戶。 (3)裝置製造商或企業管理員已停用私人空間。 (4)私人空間位於次要使用者帳戶中。 (5)裝置有超過 4 個使用者或設定檔。</p>
+</li>
+<li><p>獨立的鎖定方式。 (1)目的是增加一道關卡。 (2)除了「使用裝置螢幕鎖定」（也就是目前使用者鎖定螢幕的方法），還可以「選擇新的鎖定方式」。 (3)「選擇新的鎖定方式」的話，可以決定「不使用指紋」，而改用圖案、PIN 碼或密碼進行鎖定的動作。</p>
+</li>
+<li><p>刪除私人空間。 (1)我認為，刪除私人空間是要特別注意的點。 (2)從官方的說明來看，刪除的過程，系統並不會進行備份。使用者若要對私人空間做備份，似乎只能是應用程式 App 會將資料同步至雲端，那麼，備份才可能有效。 (3)也就是說，今天就算解鎖私人空間，應該也無法備份到本地端？但，依據官方的說法是「建立私人空間後，你可以透過電腦存取 (包括 Android Debug Bridge (ADB) 指令、裝置記錄) 或應用程式，查看私人空間內容。」關於這一點，我自己嘗試將私人空間解鎖，連上電腦，發現電腦是讀不到私人空間內的資料，因此，比較不好意思的是我目前還不得其門而入。 (4)私人空間上安裝的 App，假設有雲端硬碟、相簿這一類的 App 的話，確實是可以備份至雲端。只不過，備份到雲端之後，如果沒有再另外上鎖而相對容易曝光的話，似乎就失去運用私人空間的意義。</p>
+</li>
+<li><p>使用不同的 Google 帳戶登入私人空間：承上述「刪除私人空間」裡，我提到的第(4)點，Google 建議使用者，為了避免私人且私密的資料意外外洩至主要空間，所以，建議使用私人空間專屬的 Google 帳戶，並且不要在其他地方登入該帳戶。</p>
+</li>
+<li><p>鎖定時的私人空間：那麼，空間內的 App，原則上是不會執行任何活動。所以，即使設定 App 通知，鎖起來也不會跳通知，若一段時間沒有使用，解鎖的當下，很可能會跳出一堆通知。</p>
+</li>
+<li><p>隱藏私人空間：進一步隱藏的話，私人空間就真的名符其實地更私密。目前，我猜一般使用者，可能一下子也不一定想得到私人空間這樣的設置。未來，若私人空間普遍地運用，那麼，即使隱藏也會比較容易被「挖」出來。</p>
+</li>
+<li><p>如果同時也是 Wear OS 的使用者，也要注意相關的問題。由於，我沒有相關裝置，因此，這個部分就先跳過。</p>
+</li>
+</ol>
+<h4 id="「Pixel-使用提示」上的說明"><a href="#「Pixel-使用提示」上的說明" class="headerlink" title="「Pixel 使用提示」上的說明"></a>「Pixel 使用提示」上的說明</h4><p>讀完官方的說明後，Pixel 跳出「Pixel 使用提示」期間，我透過下列 3 張圖，就讓我大致上對設定好私人空間後的使用，有點印象與概念。</p>
+<ol>
+<li><p>Scroll down：向下捲動，也就是先往下滑動。 <img src="https://live.staticflickr.com/65535/54312135050_788ac00001.jpg" alt="introPrivateSpaceEp (1)"></p>
+</li>
+<li><p>Verify it’s you：意思是要通過「生物辨識技令」（Biometrics），才能夠進到私人空間。 <img src="https://live.staticflickr.com/65535/54310833542_ff32d18854.jpg" alt="introPrivateSpaceEp (2)"></p>
+</li>
+<li><p>最後是進入私人空間後的介面。 <img src="https://live.staticflickr.com/65535/54310833532_a01c58cb4c.jpg" alt="introPrivateSpaceEp (3)"></p>
+</li>
+</ol>
+<h3 id="實際設定與使用過程"><a href="#實際設定與使用過程" class="headerlink" title="實際設定與使用過程"></a>實際設定與使用過程</h3><h4 id="設定過程"><a href="#設定過程" class="headerlink" title="設定過程"></a>設定過程</h4><ol>
+<li><p>設定時，我的想法是在私人空間擺放與金融相關的 App。 <img src="https://live.staticflickr.com/65535/54312135010_a1e8c48816.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (1)"></p>
+</li>
+<li><p>著手開始設定後，我先是進入「設定」的介面。 <img src="https://live.staticflickr.com/65535/54312134975_0be57a9473.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (2)"></p>
+</li>
+<li><p>在設定的介面裡，找到「安全性與隱私權」。 <img src="https://live.staticflickr.com/65535/54311957028_c6ffa43019.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (3)"></p>
+</li>
+<li><p>點一下【安全性與隱私權】之後，往下找出「私人空間」。 <img src="https://live.staticflickr.com/65535/54311957008_3a93bdfff4.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (4)"></p>
+</li>
+<li><p>點一下【私人空間】，會出現下列畫面。接著是點右下角的【設定】。 <img src="https://live.staticflickr.com/65535/54311716346_5076a073ef.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (5)"></p>
+</li>
+<li><p>承上，點完【設定】後，會跑下列畫面。 <img src="https://live.staticflickr.com/65535/54310833472_474028a03d.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (6)"></p>
+</li>
+<li><p>出現下列畫面時，點一下【我知道了】。 <img src="https://live.staticflickr.com/65535/54312134960_bcc3aac1af.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (7)"></p>
+</li>
+<li><p>這裡要使用者進行「登入」的動作，這裡，「私人空間的帳號」可以設定與「主空間上的帳號」，不同一個。 <img src="https://live.staticflickr.com/65535/54311944234_9bdd9a3d78.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (8)"></p>
+</li>
+<li><p>我的話，決定先將「私人空間的帳號」，「主空間上的帳號」設定成同一個。（這個決定，跟官方的建議不同，原因是我目前是以測試、體驗為主） <img src="https://live.staticflickr.com/65535/54311944209_44270ace79.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (9)"></p>
+</li>
+<li><p>「透過這個電話號碼確認您的帳戶符合現況」，後按下【我同意】。 <img src="https://live.staticflickr.com/65535/54311716276_f8801db535.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (10)"> <img src="https://live.staticflickr.com/65535/54311956928_fa5046d030.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (11)"></p>
+</li>
+<li><p>私人空間鎖定方式，可以沿用「使用螢幕鎖定功能」，或「選擇新的鎖定方式」。 <img src="https://live.staticflickr.com/65535/54310833402_942fd149e6.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (12)"></p>
+</li>
+<li><p>我選擇沿用「使用螢幕鎖定功能」後，就等待設定完成。 <img src="https://live.staticflickr.com/65535/54311716251_ee2634979b.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (13)"></p>
+</li>
+<li><p>看到「大功告成」，就表示走完設定的流程。 <img src="https://live.staticflickr.com/65535/54311944149_aa6733ebbf.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (14)"></p>
+</li>
+</ol>
+<h4 id="使用情形"><a href="#使用情形" class="headerlink" title="使用情形"></a>使用情形</h4><ol>
+<li><p>照「Pixel 使用提示」上的說明操課，我往下滑到畫面出現「私人」的小橫幅。 <img src="https://live.staticflickr.com/65535/54311944174_33f400d143.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (15)"></p>
+</li>
+<li><p>承上，點一下小橫幅右邊的「鎖」按鈕，再用指紋辨識，就可以解鎖進入私人空間。把我想要擺進來的金融相關的 App，安裝進入私人空間。 <img src="https://live.staticflickr.com/65535/54311944169_4119afd014.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (16)"></p>
+</li>
+<li><p>再承上，點一下「鎖定」左邊的【小齒輪】，可以進入下列畫面，再點【隱藏私人空間】。 <img src="https://live.staticflickr.com/65535/54316524675_851b139837.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (17)"></p>
+</li>
+<li><p>進一步，進行「隱藏私人空間」的設定。 <img src="https://live.staticflickr.com/65535/54316105061_b773639486.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (18)"> <img src="https://live.staticflickr.com/65535/54316105056_d5092d4aeb.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (19)"> <img src="https://live.staticflickr.com/65535/54316341678_df40e92387.jpg" alt="privateSpaceOnAndroid15FeatPixel7Ep (20)"></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>雙開？：以前，我曾經使用過其他的 Android 手機，進行所謂的雙開，Android 15 開始具備的功能：私人空間，感覺有點像雙開，只是，Android 15 上的私人空間更注重安全性。</p>
+</li>
+<li><p><a href="https://support.google.com/android/answer/15341885">使用私人空間隱藏敏感應用程式 - Android說明</a></p>
+</li>
+<li><p><a href="https://support.google.com/wearos/answer/15597337">Wear OS by Google 私人空間的已知問題 - Wear OS by Google說明</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>android</category>
+      </categories>
+      <tags>
+        <tag>google</tag>
+        <tag>pixel</tag>
+        <tag>privateSpace</tag>
       </tags>
   </entry>
 </search>
