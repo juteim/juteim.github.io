@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ghpages.jute.im/featured/my-experience-of-private-space-on-android-15/</loc>
+    <loc>http://ghpages.jute.im/android/my-experience-of-private-space-on-android-15/</loc>
     
     <lastmod>2025-02-09</lastmod>
     
@@ -3467,6 +3467,13 @@
   
   <url>
     <loc>http://ghpages.jute.im/tags/zsh/</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://ghpages.jute.im/tags/privateSpace/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
