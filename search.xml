@@ -734,60 +734,6 @@
       </tags>
   </entry>
   <entry>
-    <title>在 GitHub 與 EasyWP 上寫部落格</title>
-    <url>/github/blogging-on-github-and-eazywp/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 <a href="/reviews/my-review-of-using-hexo-about-three-years/">使用 Hexo 約莫 3 年的心得</a> 這一篇文章裡，我大致分析使用 Hexo 約 3 年下來的心得：主要是談一談，以我的角度而言，Hexo 有什麼樣的優缺點。<img src="https://live.staticflickr.com/65535/54284781766_b7526571a8_b.jpg" alt="migratedMyBlogFromGithubToEasyWPEp1"></p>
-<p>然而，發文不到半個月，我就把部落格遷到 EasyWP 上，原因、遷移過程與心得，我大致分享如後文。</p>
-<h3 id="遷移原因"><a href="#遷移原因" class="headerlink" title="遷移原因"></a>遷移原因</h3><ol>
-<li><p>費用：我注意到目前使用的主機域名服務商：Spaceship，提供第一年的 EasyWP 使用優惠，經過一段時間的評估，我認為即使是未來調回原價，數算起來，對我來說還在合理的價格帶裡。</p>
-</li>
-<li><p>效能：以前，我使用過的主機服務商，使用最經濟的價格租用 Hosting 服務。儘管我的部落格，只能算是小站，還是會有點不進網站的狀況發生。而 EasyWP 的選項裡面，有 Starter、Turbo 與 Supersonic 三種方案，速度當然是越快越好，但，評估我自己，比較能夠負擔的是 Turbo 方案，使用起來的順暢度能夠滿足我目前對部落格效能的要求。</p>
-</li>
-<li><p>插件：Hexo 要新增一些功能，實在不像 WordPress 可以輕易地透過插件完成。回想起要把 Google Adsense 的功能加入，就讓我走了一段路才達到。所以，既然，WordPress 能夠比較輕鬆做到我期待的效果，我又何必為難自己？</p>
-</li>
-</ol>
-<h3 id="遷移過程與心得"><a href="#遷移過程與心得" class="headerlink" title="遷移過程與心得"></a>遷移過程與心得</h3><ol>
-<li><p>未來要用的部落格工具：承上述有關「遷移原因」的說明，我決定後續將以 WordPress 為部落格經營的主要工具。而且，長年以來，我租用 Hosting 服務，也多半是使用 WordPress，現在既然有便宜又實惠的 EasyWP 就可能可以滿足我的需求，我自然就先從這支工具著手。</p>
-</li>
-<li><p>選定檔案轉換的工具：我在 <a href="/reviews/my-review-of-using-hexo-about-three-years/">使用 Hexo 約莫 3 年的心得</a> 就提到，我認為要從 MarkDown 轉出並不容易，網路上的資源多半是一篇又一篇把 MarkDown 轉到 HTML 格式為主，從 MarkDown 轉到 WordPress 裡的，我找到：<a href="https://wordpress.org/plugins/import-markdown/">Import Markdown – Versatile Markdown Importer – WordPress plugin | WordPress.org</a>，從作者製作的影片來看，也是一篇一篇慢慢轉，雖然無法批次自動轉換我目前所有的文章，但，總比什麼都沒有好太多。只是，EasyWP 似乎並不是全面支援所有的插件，因此，我才會想運用 Hosting 服務商提供的試用功能，去測試我會用到的插件確實能夠順利安裝與服用後，才正式開始進行遷移。</p>
-</li>
-<li><p>選定檔案轉換過程所使用的主機空間：找到插件後，我必須找到可以安裝插件的資源，能夠免費當然更好。以 WordPress.com 上面的資源來說，要安裝插件，就必須要使用「電子商務版」以上的付費方案，而且，我發現似乎沒有免費試用。由於，我就是想要轉到 EasyWP 上，所以，姑且就再搜尋一下關於 EasyWP 的相關資源，意外地找到 Namecheap 提供的 30 天試用方案，我便運用這個機會，嘗試安裝插件，確認 EasyWP 能夠符合我的需求。</p>
-</li>
-<li><p>轉換到 Hexo 時所保留下來的檔案派上用場：之前，我轉換部落格經營的程式過程，都會把原本部落格程式匯出的資料檔留下來。同樣地，2023 年 4、5 月間，我試著把部落格遷移到 Hexo 前所匯出的資料檔，我也有留下來。這讓我在本次遷移的過程，省下不少時間。</p>
-</li>
-<li><p>耐心進行手動修改：<a href="https://wordpress.org/plugins/import-markdown/">Import Markdown – Versatile Markdown Importer – WordPress plugin | WordPress.org</a> 只能讓我單篇匯入，而且匯入後的文章長像如下圖（點擊下圖，將新開網頁至 Flickr 看大圖）。 <a href="https://www.flickr.com/photos/unboxcp/54284781776/in/album-72177720323370166" title="migratedMyBlogFromGithubToEasyWPEp2"><img src="https://live.staticflickr.com/65535/54284781776_cb92387d70_b.jpg" alt="migratedMyBlogFromGithubToEasyWPEp2"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p>  可以看得出來，MarkDown 最前面的「格式」也一併被完整保留下來，「文章分類」與「文章標籤」都沒有進到 WordPress 所對應的欄位，我在轉換過程，產生一種想法，就是「頭既然都洗一伴，乾脆就洗到完。」抱著這樣的心態，一步一步處理到需要被修改的文章歸零為止。</p>
-</li>
-<li><p>來回幾趟的匯入與匯出：我把以往的匯出資料與單篇 MarkDown 匯入至 EasyWP 上頭，整個手動修改文章至 9 成以上的完成度後，將文章匯出。接著，再匯入到我付費使用的 EasyWP 主機服務上。</p>
-</li>
-<li><p>九成五（95%）的完成度：文章匯入到付費使用的 EasyWP 主機服務之後，我再試著整理文章，讓完成度達到 9 成 5 左右，對我來說，這樣的完成度還算可以接受，便在此打住自己往下走的主意。</p>
-</li>
-</ol>
-<h3 id="從遷移轉成同時發佈"><a href="#從遷移轉成同時發佈" class="headerlink" title="從遷移轉成同時發佈"></a>從遷移轉成同時發佈</h3><ol>
-<li><p>現階段，同時在 GitHub 與 EasyWP 上發佈沒有耗費我太多的時間。</p>
-</li>
-<li><p>2025 年起，我計畫以域名：<a href="http://ghpages.jute.im" target="_blank">ghpages.jute.im</a> 做為另外一個發佈文章的地方。</p>
-</li>
-<li><p>或許，這會是為期一年的實驗與觀察的過程。</p>
-</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>耗費的時間：我大致計算了一下這次遷移所花費的時間，加加總總約 8 小時就搞定，比我預定的時程：24 小時（約 3 天工作天）快上不少。</p>
-</li>
-<li><p>尋求協助：決定遷移過程中，我一度想找 <a href="https://mtmatt.page/">mtmatt</a> 幫忙寫一支程式，方便我完成批次自動修改。但，<a href="https://mtmatt.page/">mtmatt</a> 看著我在轉換時，認為如果就只做這麼一次轉換的話，與開發所耗費的時間之間相比，可能不夠划算，也就因此勸退了我。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>easywp</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>嘸蝦米與 Mac</title>
     <url>/boshiamy/boshiamy-and-mac/</url>
     <content><![CDATA[<p><img src="https://live.staticflickr.com/65535/51077689412_a99558a58b_n.jpg" alt="boshiamy4macOS9andBelow"> 隨著嘸蝦米 Mac 版的演進，我已經不打算再寫一次安裝的方式。  </p>
@@ -10672,6 +10618,60 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
         <tag>koreandrama</tag>
         <tag>soapopera</tag>
         <tag>fridayVideo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 GitHub 與 EasyWP 上寫部落格</title>
+    <url>/github/blogging-on-github-and-easywp/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 <a href="/reviews/my-review-of-using-hexo-about-three-years/">使用 Hexo 約莫 3 年的心得</a> 這一篇文章裡，我大致分析使用 Hexo 約 3 年下來的心得：主要是談一談，以我的角度而言，Hexo 有什麼樣的優缺點。<img src="https://live.staticflickr.com/65535/54284781766_b7526571a8_b.jpg" alt="migratedMyBlogFromGithubToEasyWPEp1"></p>
+<p>然而，發文不到半個月，我就把部落格遷到 EasyWP 上，原因、遷移過程與心得，我大致分享如後文。</p>
+<h3 id="遷移原因"><a href="#遷移原因" class="headerlink" title="遷移原因"></a>遷移原因</h3><ol>
+<li><p>費用：我注意到目前使用的主機域名服務商：Spaceship，提供第一年的 EasyWP 使用優惠，經過一段時間的評估，我認為即使是未來調回原價，數算起來，對我來說還在合理的價格帶裡。</p>
+</li>
+<li><p>效能：以前，我使用過的主機服務商，使用最經濟的價格租用 Hosting 服務。儘管我的部落格，只能算是小站，還是會有點不進網站的狀況發生。而 EasyWP 的選項裡面，有 Starter、Turbo 與 Supersonic 三種方案，速度當然是越快越好，但，評估我自己，比較能夠負擔的是 Turbo 方案，使用起來的順暢度能夠滿足我目前對部落格效能的要求。</p>
+</li>
+<li><p>插件：Hexo 要新增一些功能，實在不像 WordPress 可以輕易地透過插件完成。回想起要把 Google Adsense 的功能加入，就讓我走了一段路才達到。所以，既然，WordPress 能夠比較輕鬆做到我期待的效果，我又何必為難自己？</p>
+</li>
+</ol>
+<h3 id="遷移過程與心得"><a href="#遷移過程與心得" class="headerlink" title="遷移過程與心得"></a>遷移過程與心得</h3><ol>
+<li><p>未來要用的部落格工具：承上述有關「遷移原因」的說明，我決定後續將以 WordPress 為部落格經營的主要工具。而且，長年以來，我租用 Hosting 服務，也多半是使用 WordPress，現在既然有便宜又實惠的 EasyWP 就可能可以滿足我的需求，我自然就先從這支工具著手。</p>
+</li>
+<li><p>選定檔案轉換的工具：我在 <a href="/reviews/my-review-of-using-hexo-about-three-years/">使用 Hexo 約莫 3 年的心得</a> 就提到，我認為要從 MarkDown 轉出並不容易，網路上的資源多半是一篇又一篇把 MarkDown 轉到 HTML 格式為主，從 MarkDown 轉到 WordPress 裡的，我找到：<a href="https://wordpress.org/plugins/import-markdown/">Import Markdown – Versatile Markdown Importer – WordPress plugin | WordPress.org</a>，從作者製作的影片來看，也是一篇一篇慢慢轉，雖然無法批次自動轉換我目前所有的文章，但，總比什麼都沒有好太多。只是，EasyWP 似乎並不是全面支援所有的插件，因此，我才會想運用 Hosting 服務商提供的試用功能，去測試我會用到的插件確實能夠順利安裝與服用後，才正式開始進行遷移。</p>
+</li>
+<li><p>選定檔案轉換過程所使用的主機空間：找到插件後，我必須找到可以安裝插件的資源，能夠免費當然更好。以 WordPress.com 上面的資源來說，要安裝插件，就必須要使用「電子商務版」以上的付費方案，而且，我發現似乎沒有免費試用。由於，我就是想要轉到 EasyWP 上，所以，姑且就再搜尋一下關於 EasyWP 的相關資源，意外地找到 Namecheap 提供的 30 天試用方案，我便運用這個機會，嘗試安裝插件，確認 EasyWP 能夠符合我的需求。</p>
+</li>
+<li><p>轉換到 Hexo 時所保留下來的檔案派上用場：之前，我轉換部落格經營的程式過程，都會把原本部落格程式匯出的資料檔留下來。同樣地，2023 年 4、5 月間，我試著把部落格遷移到 Hexo 前所匯出的資料檔，我也有留下來。這讓我在本次遷移的過程，省下不少時間。</p>
+</li>
+<li><p>耐心進行手動修改：<a href="https://wordpress.org/plugins/import-markdown/">Import Markdown – Versatile Markdown Importer – WordPress plugin | WordPress.org</a> 只能讓我單篇匯入，而且匯入後的文章長像如下圖（點擊下圖，將新開網頁至 Flickr 看大圖）。 <a href="https://www.flickr.com/photos/unboxcp/54284781776/in/album-72177720323370166" title="migratedMyBlogFromGithubToEasyWPEp2"><img src="https://live.staticflickr.com/65535/54284781776_cb92387d70_b.jpg" alt="migratedMyBlogFromGithubToEasyWPEp2"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<p>  可以看得出來，MarkDown 最前面的「格式」也一併被完整保留下來，「文章分類」與「文章標籤」都沒有進到 WordPress 所對應的欄位，我在轉換過程，產生一種想法，就是「頭既然都洗一伴，乾脆就洗到完。」抱著這樣的心態，一步一步處理到需要被修改的文章歸零為止。</p>
+</li>
+<li><p>來回幾趟的匯入與匯出：我把以往的匯出資料與單篇 MarkDown 匯入至 EasyWP 上頭，整個手動修改文章至 9 成以上的完成度後，將文章匯出。接著，再匯入到我付費使用的 EasyWP 主機服務上。</p>
+</li>
+<li><p>九成五（95%）的完成度：文章匯入到付費使用的 EasyWP 主機服務之後，我再試著整理文章，讓完成度達到 9 成 5 左右，對我來說，這樣的完成度還算可以接受，便在此打住自己往下走的主意。</p>
+</li>
+</ol>
+<h3 id="從遷移轉成同時發佈"><a href="#從遷移轉成同時發佈" class="headerlink" title="從遷移轉成同時發佈"></a>從遷移轉成同時發佈</h3><ol>
+<li><p>現階段，同時在 GitHub 與 EasyWP 上發佈沒有耗費我太多的時間。</p>
+</li>
+<li><p>2025 年起，我計畫以域名：<a href="http://blog.jute.im" target="_blank">blog.jute.im</a> 做為另外一個發佈文章的地方。</p>
+</li>
+<li><p>或許，這會是為期一年的實驗與觀察的過程。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>耗費的時間：我大致計算了一下這次遷移所花費的時間，加加總總約 8 小時就搞定，比我預定的時程：24 小時（約 3 天工作天）快上不少。</p>
+</li>
+<li><p>尋求協助：決定遷移過程中，我一度想找 <a href="https://mtmatt.page/">mtmatt</a> 幫忙寫一支程式，方便我完成批次自動修改。但，<a href="https://mtmatt.page/">mtmatt</a> 看著我在轉換時，認為如果就只做這麼一次轉換的話，與開發所耗費的時間之間相比，可能不夠划算，也就因此勸退了我。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>easywp</tag>
+        <tag>github</tag>
       </tags>
   </entry>
 </search>
