@@ -10643,7 +10643,6 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <p>對我而言，LegacyOS 是一支有點特別的 Distro。</p>
 <p>其一，我很難想像會有 Distro 距離上次更新，已經是 6 年前的事。其二，對於在這個世界上還有一些比較老舊的電腦，或許還能夠透過這支系統運作起來，這樣的事，應該也多半會發生在 Linux 上面。</p>
 <p>為了能夠跟這支 Distro 相處久一點，我花費比較多一點的時間摸索它的桌面，而使用桌面，中文輸入法就是一個首當其衝的門檻，有趣的是，已經有好長一段時間，第一時間都想到 Fcitx，卻在 LegacyOS 讓我多方嘗試後，使用 iBus。 <a href="https://www.flickr.com/photos/194265827@N08/52650630748/in/album-72177720305538409/" title="LegacyOS2023onVirtualBoxEp17"><img src="https://live.staticflickr.com/65535/52650630748_ccb35d6bbd_c.jpg" alt="LegacyOS2023onVirtualBoxEp17"></a></p>
-<hr>
 <h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><ol>
 <li><p>第一道程序，先安裝 iBus 相關套件。 先下一道指令：<code>sudo apt update</code>。 <a href="https://www.flickr.com/photos/194265827@N08/52650630793/in/album-72177720305538409/" title="LegacyOS2023onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52650630793_f06f6994a7_c.jpg" alt="LegacyOS2023onVirtualBoxEp14"></a></p>
 <p> 再下一道指令：<code>sudo apt install ibus*</code>，這道指令有點偷懶，安裝的套件之多，我記得大概也佔到 400 多 MB, 我想，除非真的有老機器上的硬碟空間限制，不然，現在幾百 MB 應該也都算是小咖。</p>
@@ -10655,7 +10654,6 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p>第三道程序：<code>sudo vim ~/.icewm/startup</code>，在檔案最後寫入 <code>ibus-daemon -dx</code>，然後重新開機，原則上，iBus 就會隨著系統啟動而自動執行。 <a href="https://www.flickr.com/photos/194265827@N08/52650591565/in/album-72177720305538409/" title="LegacyOS2023onVirtualBoxEp15"><img src="https://live.staticflickr.com/65535/52650591565_c3ec550c11_c.jpg" alt="LegacyOS2023onVirtualBoxEp15"></a></p>
 </li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>原則上，走完以上的程序，就可以順利直接服用新酷音輸入法，至於，嘸蝦米輸入法，我這邊並沒有再走下去，若要安裝的話，先從行易有限公司官網下載 iBus 相關的檔案後，按照下列指令，走完之後也應能順利服用之。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp ./*.db /usr/share/ibus-table/tables &amp;&amp; sudo cp ./*.png /usr/share/ibus-table/icons</span><br><span class="line">ibus-daemon -drx</span><br></pre></td></tr></table></figure>

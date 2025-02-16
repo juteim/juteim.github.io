@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/ibus-with-boshiamy-on-legacyos-2023/</loc>
+    
+    <lastmod>2025-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/about/index.html</loc>
     
     <lastmod>2025-02-16</lastmod>
@@ -372,15 +381,6 @@
   
   <url>
     <loc>https://jute.im/linux/legacyos-2023/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/ibus-with-boshiamy-on-legacyos-2023/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
