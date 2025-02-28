@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://githubpages.jute.im/miscellaneous/stop-updating/</loc>
+    
+    <lastmod>2025-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://githubpages.jute.im/leisurely/wacookies-black-tea-ice-cream-bar/</loc>
+    
+    <lastmod>2025-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://githubpages.jute.im/apple/iphone-16e/</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -3701,6 +3719,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://githubpages.jute.im/tags/inside/</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://githubpages.jute.im/tags/foodie/</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -3782,6 +3814,13 @@
   
   <url>
     <loc>https://githubpages.jute.im/categories/esports/</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://githubpages.jute.im/categories/miscellaneous/</loc>
     <lastmod>2025-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
