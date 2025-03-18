@@ -3470,7 +3470,7 @@
 </li>
 <li><p>點按【管理碼表輸入法】。 <img src="https://live.staticflickr.com/65535/54310462893_97a02b5b52_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (13)"></p>
 </li>
-<li><p>點按右下角的【+】號。 <img src="https://live.staticflickr.com/65535/54362656541_6b7b8a7140_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (13.5)"></p>
+<li><p>點按右下角的【+】號的圓形圖示。 <img src="https://live.staticflickr.com/65535/54362656541_6b7b8a7140_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (13.5)"></p>
 </li>
 <li><p>走到這裡，有 2 種方法可以將嘸蝦米輸入法表格相關檔案掛進來，我選用的方法是跑一趟 GitHub：<a href="https://github.com/fcitx/fcitx5-table-extra/tree/master/tables">fcitx5-table-extra&#x2F;tables at master · fcitx&#x2F;fcitx5-table-extra · GitHub</a> ，把 <code>boshiamy.conf.in</code> 與 <code>boshiamy.txt</code> 載到行動裝置裡面，再分別掛載上去。 <img src="https://live.staticflickr.com/65535/54309337402_62b11f77d1_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (14)"> <img src="https://live.staticflickr.com/65535/54310462878_a47ebde787_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (15)"> <img src="https://live.staticflickr.com/65535/54310216911_b7ab17f26b_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (16)"> <img src="https://live.staticflickr.com/65535/54310462863_59b857ac16_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (17)"> <img src="https://live.staticflickr.com/65535/54310462853_62e34a70d8_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (18)"> <img src="https://live.staticflickr.com/65535/54310446764_7a26ab59a9_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (19)"></p>
 </li>
@@ -3478,7 +3478,7 @@
 </li>
 <li><p>點按左上角的【←】圖示 3 次，回到一開始的設定畫面，再從【輸入法】進去。 <img src="https://live.staticflickr.com/65535/54310638850_bd6a30628c_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (22)"> <img src="https://live.staticflickr.com/65535/54310638855_f8523ae957_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (23)"></p>
 </li>
-<li><p>點右下角的【+】號，把「Boshiamy」新增進來。 <img src="https://live.staticflickr.com/65535/54393136897_1d99375dbd_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (23.5)"> <img src="https://live.staticflickr.com/65535/54309337382_566466dbe6_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (24)"> <img src="https://live.staticflickr.com/65535/54309337387_54cf69e41a_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (25)"></p>
+<li><p>點右下角的【+】號的圓形圖示，把「Boshiamy」新增進來。 <img src="https://live.staticflickr.com/65535/54393136897_1d99375dbd_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (23.5)"> <img src="https://live.staticflickr.com/65535/54309337382_566466dbe6_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (24)"> <img src="https://live.staticflickr.com/65535/54309337387_54cf69e41a_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (25)"></p>
 </li>
 </ol>
 <h4 id="切換輸入法至「小企鵝輸入法」"><a href="#切換輸入法至「小企鵝輸入法」" class="headerlink" title="切換輸入法至「小企鵝輸入法」"></a>切換輸入法至「小企鵝輸入法」</h4><ol>
