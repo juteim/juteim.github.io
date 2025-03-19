@@ -144,13 +144,7 @@
     <title>我在 Windows 11 上面設定嘸蝦米的筆記</title>
     <url>/boshiamy/about-my-settings-of-boshiamy-on-windows-11/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本文，主要是紀錄我在 Windows 11 上面做一些與嘸蝦米輸入法相關設定的流程。 <img src="https://live.staticflickr.com/65535/51873936405_a759c1417c_b.jpg" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep11"/></p>
-<h4 id="我自己把設定分成-2-種-如下"><a href="#我自己把設定分成-2-種-如下" class="headerlink" title="我自己把設定分成 2 種(如下)"></a>我自己把設定分成 2 種(如下)</h4><ol>
-<li><p>設定嘸蝦米為「預設輸入法」，並且是 <em><strong>唯一的中文輸入法</strong></em></p>
-</li>
-<li><p>設定嘸蝦米為「預設輸入法」，並且 <em><strong>保留其他中文輸入法</strong></em></p>
-</li>
-</ol>
-<h3 id="設定嘸蝦米為預設且唯一的中文輸入法"><a href="#設定嘸蝦米為預設且唯一的中文輸入法" class="headerlink" title="設定嘸蝦米為預設且唯一的中文輸入法"></a>設定嘸蝦米為預設且唯一的中文輸入法</h3><ol>
+<h3 id="我自己把設定分成-2-種"><a href="#我自己把設定分成-2-種" class="headerlink" title="我自己把設定分成 2 種"></a>我自己把設定分成 2 種</h3><h4 id="設定嘸蝦米為-預設且唯一的中文輸入法"><a href="#設定嘸蝦米為-預設且唯一的中文輸入法" class="headerlink" title="設定嘸蝦米為 預設且唯一的中文輸入法"></a>設定嘸蝦米為 <em><strong>預設且唯一的中文輸入法</strong></em></h4><ol>
 <li><p>(↓)【開始】→【設定】，跳出以下畫面。 <a href="https://www.flickr.com/photos/194265827@N08/51873614369/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep2"><img src="https://live.staticflickr.com/65535/51873614369_079007a47b_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep2"></a></p>
 </li>
 <li><p>(↓)點左側的【時間與語言】，再點該項目下的【輸入】。 <a href="https://www.flickr.com/photos/194265827@N08/51873614359/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep3"><img src="https://live.staticflickr.com/65535/51873614359_5f30af7d6e_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep3"></a></p>
@@ -171,7 +165,7 @@
 <li><p>(↓)這一部電腦，我想要一進系統以【英數模式】為預設輸入模式，並且不要【繼承系統輸入法狀態】，也不要【使用 Shift 切換「中文&#x2F;英文」模式】。 <a href="https://www.flickr.com/photos/194265827@N08/51873296221/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep12"><img src="https://live.staticflickr.com/65535/51873296221_6ab0a4e5e9_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep12"></a></p>
 </li>
 </ol>
-<h3 id="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"><a href="#保留其他中文輸入法，設定嘸蝦米為「預設輸入法」" class="headerlink" title="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"></a>保留其他中文輸入法，設定嘸蝦米為「預設輸入法」</h3><ol>
+<h4 id="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"><a href="#保留其他中文輸入法，設定嘸蝦米為「預設輸入法」" class="headerlink" title="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"></a><em><strong>保留其他中文輸入法</strong></em>，設定嘸蝦米為「預設輸入法」</h4><ol>
 <li><p>(↓)在 Windows 11 上面，排在「第一個」的輸入法並不是所謂的「預設輸入法」，所以，下圖可見嘸蝦米輸入法好像在排序上是「第一個」，卻不會因此成為「預設輸入法」。 <a href="https://www.flickr.com/photos/194265827@N08/51874001410/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep13"><img src="https://live.staticflickr.com/65535/51874001410_2c93914604_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep13"></a></p>
 </li>
 <li><p>以微軟注音輸入法與嘸蝦米輸入法共存為例，原則上有下列 2 種做法。<br>(↓)其一，【設定】→【時間與語言】→【進階鍵盤設定】→【覆寫預設輸入法】(也可以在【設定】介面裡的【尋找設定】，直接用關鍵字把設定找出來)，調整為嘸蝦米輸入法。 <a href="https://www.flickr.com/photos/194265827@N08/51884166250/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep15"><img src="https://live.staticflickr.com/65535/51884166250_191d3a28c3_b.jpg" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep15"></a><br>(↓)其二，進入【微軟注音輸入法】的設定，把【預設輸入模式】改為【英數字元】，這樣的做法是讓登入系統時以「英數字元」為預設值，需要切換到嘸蝦米輸入法時，就用 Win+Space 做切換。 <a href="https://www.flickr.com/photos/194265827@N08/51873361821/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep14"><img src="https://live.staticflickr.com/65535/51873361821_2642f921f1_b.jpg" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows11Ep14"></a></p>
@@ -7377,13 +7371,7 @@ gdb -v
     <title>在 Windows 10 將嘸蝦米設定為預設中文輸入法</title>
     <url>/boshiamy/making-boshiamy-be-the-default-chinese-input-method-on-windows-10/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本文，主要是紀錄我在 Windows 10 上面做一些與嘸蝦米輸入法相關設定的流程。 <img src="https://live.staticflickr.com/65535/51884763786_24d3438a92_b.jpg" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows10Ep8"/></p>
-<h4 id="我自己把設定分成-2-種-如下"><a href="#我自己把設定分成-2-種-如下" class="headerlink" title="我自己把設定分成 2 種(如下)"></a>我自己把設定分成 2 種(如下)</h4><ol>
-<li><p>設定嘸蝦米為「預設輸入法」，並且是 <em><strong>唯一的中文輸入法</strong></em></p>
-</li>
-<li><p>設定嘸蝦米為「預設輸入法」，並且 <em><strong>保留其他中文輸入法</strong></em></p>
-</li>
-</ol>
-<h3 id="設定嘸蝦米為預設且唯一的中文輸入法"><a href="#設定嘸蝦米為預設且唯一的中文輸入法" class="headerlink" title="設定嘸蝦米為預設且唯一的中文輸入法"></a>設定嘸蝦米為預設且唯一的中文輸入法</h3><ol>
+<h4 id="我自己把設定分成-2-種"><a href="#我自己把設定分成-2-種" class="headerlink" title="我自己把設定分成 2 種"></a>我自己把設定分成 2 種</h4><h4 id="設定嘸蝦米為-預設且唯一的中文輸入法"><a href="#設定嘸蝦米為-預設且唯一的中文輸入法" class="headerlink" title="設定嘸蝦米為 預設且唯一的中文輸入法"></a>設定嘸蝦米為 <em><strong>預設且唯一的中文輸入法</strong></em></h4><ol>
 <li><p>(↓)【開始】→【設定】，進入以下畫面。 <a href="https://www.flickr.com/photos/194265827@N08/51873035109/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodEp0"><img src="https://live.staticflickr.com/65535/51873035109_fda2551a43_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodEp0"></a></p>
 </li>
 <li><p>(↓)【時間與語言】→【語言】後，來到以下畫面。【慣用語言】裡，只留下【中文(繁體，台灣)】，並且點擊【中文(繁體，台灣)】裡的【選項】。 <a href="https://www.flickr.com/photos/194265827@N08/51872779313/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodEp1"><img src="https://live.staticflickr.com/65535/51872779313_3af576b231_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodEp1"></a></p>
@@ -7398,7 +7386,7 @@ gdb -v
 <li><p>走完以上的設定，基本上 Windows 10 上就剩嘸蝦米輸入法，很多設定見人見智，以【使用 Shift 切換「中文&#x2F;英文」模式】為例，我在不一樣的機器，就不一定會保留，例如：<a href="/boshiamy/about-my-settings-of-boshiamy-on-windows-11/">我在 Windows 11 上面設定嘸蝦米的筆記</a>，我就做出不一樣的設定，主要原因是電腦不是我專用，而我老婆同為蝦米族，但她的使用習慣有微微的差異。</p>
 </li>
 </ol>
-<h3 id="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"><a href="#保留其他中文輸入法，設定嘸蝦米為「預設輸入法」" class="headerlink" title="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"></a>保留其他中文輸入法，設定嘸蝦米為「預設輸入法」</h3><ol>
+<h4 id="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"><a href="#保留其他中文輸入法，設定嘸蝦米為「預設輸入法」" class="headerlink" title="保留其他中文輸入法，設定嘸蝦米為「預設輸入法」"></a><em><strong>保留其他中文輸入法</strong></em>，設定嘸蝦米為「預設輸入法」</h4><ol>
 <li><p>嘸蝦米輸入法已經是我在 macOS、Linux 上唯一的輸入法，反而是在 Windows 上面，我還保留著微軟注音輸入法，主要是考量到可能會有其他的使用者，偶爾會借用我的電腦。</p>
 </li>
 <li><p>如果要跟其他中文輸入法共存，又希望嘸蝦米輸入法是預設的輸入法，關鍵在【設定】裡的【覆寫預設輸入法】，建議可以透過【設定】介面裡的【尋找設定】，直接用關鍵字把【覆寫預設輸入法】找出來，然後做進一步的設定，就可以達成。 <a href="https://www.flickr.com/photos/194265827@N08/51884837403/in/dateposted-public/" title="makingBoshiamyBetheDefaultChineseInputMethodonWindows10Ep7"><img src="https://live.staticflickr.com/65535/51884837403_a34c259ae8_o.png" alt="makingBoshiamyBetheDefaultChineseInputMethodonWindows10Ep7"></a></p>
