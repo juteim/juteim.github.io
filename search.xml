@@ -9810,14 +9810,14 @@ gdb -v
 </ol>
 <h4 id="更新系統"><a href="#更新系統" class="headerlink" title="更新系統"></a>更新系統</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
 
-<h4 id="安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法"><a href="#安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法" class="headerlink" title="安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)"></a>安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)</h4><p>參考：<a href="https://jutetw.com/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></p>
+<h4 id="安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法"><a href="#安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法" class="headerlink" title="安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)"></a>安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)</h4><p>參考：<a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx5-table-extra</span><br></pre></td></tr></table></figure>
 <img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg" width="1024" height="640" alt="ubuntu24.04LtsAndBoshiamyEp09">
 
-<h4 id="安裝-Google-Chrome"><a href="#安裝-Google-Chrome" class="headerlink" title="安裝 Google Chrome"></a>安裝 Google Chrome</h4><p>參考：<a href="https://jutetw.com/linux/install-chrome-to-ubuntu-24-04-lts/">將 Google Chrome 安裝到 ubuntu 24.04 LTS</a></p>
+<h4 id="安裝-Google-Chrome"><a href="#安裝-Google-Chrome" class="headerlink" title="安裝 Google Chrome"></a>安裝 Google Chrome</h4><p>參考：<a href="/linux/install-chrome-to-ubuntu-24-04-lts/">將 Google Chrome 安裝到 ubuntu 24.04 LTS</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub &gt; linux_signing_key.pub</span><br><span class="line">sudo install -D -o root -g root -m 644 linux_signing_key.pub /etc/apt/keyrings/linux_signing_key.pub</span><br><span class="line">sudo sh -c &#x27;echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/linux_signing_key.pub] http://dl.google.com/linux/chrome/deb/ stable main&quot; &gt; /etc/apt/sources.list.d/google-chrome.list&#x27;</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install google-chrome-stable</span><br></pre></td></tr></table></figure>
 
-<h4 id="安裝-zsh-與-zplug"><a href="#安裝-zsh-與-zplug" class="headerlink" title="安裝 zsh 與 zplug"></a>安裝 zsh 與 zplug</h4><p>參考：<a href="https://jutetw.com/apple/zplug/">zplug</a></p>
+<h4 id="安裝-zsh-與-zplug"><a href="#安裝-zsh-與-zplug" class="headerlink" title="安裝 zsh 與 zplug"></a>安裝 zsh 與 zplug</h4><p>參考：<a href="/apple/zplug/">zplug</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install zsh zplug fzy fzf</span><br><span class="line">chsh -s /usr/bin/zsh &lt;使用者名稱&gt;</span><br><span class="line">vi .zshrc</span><br></pre></td></tr></table></figure>
 <p>將下列資料寫入 <code>.zshrc</code>，再執行 <code>sudo reboot</code>。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># History config</span><br><span class="line">HISTSIZE=10000</span><br><span class="line">SAVEHIST=10000</span><br><span class="line">HISTFILE=~/.zsh_history</span><br><span class="line"></span><br><span class="line">zplug &quot;romkatv/powerlevel10k&quot;, as:theme, depth:1</span><br><span class="line">zplug &quot;zsh-users/zsh-history-substring-search&quot;</span><br><span class="line">zplug &quot;Jxck/dotfiles&quot;, as:command, use:&quot;bin/&#123;histuniq,color&#125;&quot;</span><br><span class="line">zplug &quot;tcnksm/docker-alias&quot;, use:zshrc</span><br><span class="line">zplug &quot;k4rthik/git-cal&quot;, as:command, frozen:1</span><br><span class="line">zplug &quot;plugins/git&quot;,   from:oh-my-zsh</span><br><span class="line">zplug --rollback=build</span><br><span class="line">zplug &quot;b4b4r07/enhancd&quot;, at:v1</span><br><span class="line">zplug &quot;mollifier/anyframe&quot;, at:4c23cb60</span><br><span class="line">zplug &quot;zsh-users/zsh-syntax-highlighting&quot;, defer:2</span><br><span class="line">zplug &quot;b4b4r07/79ee61f7c140c63d2786&quot;, \</span><br><span class="line">    from:gist, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:get_last_pane_path.sh</span><br><span class="line">zplug &quot;b4b4r07/hello_bitbucket&quot;, \</span><br><span class="line">    from:bitbucket, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&quot;*.sh&quot;</span><br><span class="line">zplug &quot;b4b4r07/httpstat&quot;, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&#x27;(*).sh&#x27;, \</span><br><span class="line">    rename-to:&#x27;$1&#x27;</span><br><span class="line"></span><br><span class="line"># Install plugins if there are plugins that have not been installed</span><br><span class="line">if ! zplug check --verbose; then</span><br><span class="line">    printf &quot;Install? [y/N]: &quot;</span><br><span class="line">    if read -q; then</span><br><span class="line">        echo; zplug install</span><br><span class="line">    fi</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"># Then, source plugins and add commands to $PATH</span><br><span class="line">zplug load --verbose</span><br></pre></td></tr></table></figure>
@@ -9831,7 +9831,7 @@ gdb -v
 <img src="https://live.staticflickr.com/65535/53709554114_6ac822eea0_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp02">
 <img src="https://live.staticflickr.com/65535/53708310657_2cb832c2c1_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp03">
 
-<h4 id="安裝-auto-cpufreq"><a href="#安裝-auto-cpufreq" class="headerlink" title="安裝 auto-cpufreq"></a>安裝 auto-cpufreq</h4><p>參考：<a href="https://jutetw.com/linux/auto-cpufreq/">[Linux Apps] auto-cpufreq</a></p>
+<h4 id="安裝-auto-cpufreq"><a href="#安裝-auto-cpufreq" class="headerlink" title="安裝 auto-cpufreq"></a>安裝 auto-cpufreq</h4><p>參考：<a href="/linux/auto-cpufreq/">[Linux Apps] auto-cpufreq</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/AdnanHodzic/auto-cpufreq.git</span><br><span class="line">cd auto-cpufreq &amp;&amp; sudo ./auto-cpufreq-installer</span><br></pre></td></tr></table></figure>
 <img src="https://live.staticflickr.com/65535/53709656165_267020c8c8_b.jpg"  alt="thingsToDoAfterinstallingUbuntu24.04LTSEp04">
 
@@ -9851,7 +9851,7 @@ gdb -v
 <img src="https://live.staticflickr.com/65535/53708310712_aa4a875bd3_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp08">
 
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>…坦白說，要不是當年留下一篇貼文：<a href="https://jutetw.com/boshiamy/ubuntu-8-04-and-boshiamy/">ubuntu 8.04 與嘸蝦米</a>，我還真的說不出自己是被「何年何月以及那一個版本」的 ubuntu 給驚豔到。</p>
+<li><p>…坦白說，要不是當年留下一篇貼文：<a href="/boshiamy/ubuntu-8-04-and-boshiamy/">ubuntu 8.04 與嘸蝦米</a>，我還真的說不出自己是被「何年何月以及那一個版本」的 ubuntu 給驚豔到。</p>
 </li>
 <li><p>原則上，沒有什麼問題的話，我會接著安裝 VSCode。</p>
 <img src="https://live.staticflickr.com/65535/53709554079_482c350752_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp09"></li>
