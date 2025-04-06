@@ -8049,7 +8049,7 @@ gdb -v
 <li><a href="/linux/garuda-linux-kde-dr460nized-edition/">來玩 Garuda Linux (KDE Dr460nized Edition)</a></li>
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
 </ol>
-<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="▼Fcitx5-直接從軟體庫安裝-fcitx5-table-boshiamy"><a href="#▼Fcitx5-直接從軟體庫安裝-fcitx5-table-boshiamy" class="headerlink" title="▼Fcitx5(直接從軟體庫安裝 fcitx5-table-boshiamy)"></a>▼Fcitx5(直接從軟體庫安裝 <code>fcitx5-table-boshiamy</code>)</h4><p>目前 Debian 與 ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，並收錄至軟體庫，也就是說，選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</p>
+<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="Fcitx5-直接從軟體庫安裝-fcitx5-table-boshiamy"><a href="#Fcitx5-直接從軟體庫安裝-fcitx5-table-boshiamy" class="headerlink" title="Fcitx5(直接從軟體庫安裝 fcitx5-table-boshiamy)"></a>Fcitx5(直接從軟體庫安裝 <code>fcitx5-table-boshiamy</code>)</h4><p>目前 Debian 與 ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，並收錄至軟體庫，也就是說，選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</p>
 <p>在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。其他發行版能不能達到，我還沒有進一步驗證與確認。</p>
 <p>基於上述 2 點，我先把「直接從軟體庫安裝 <code>fcitx5-table-boshiamy</code>」單獨出來。</p>
 <ul>
