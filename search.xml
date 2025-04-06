@@ -8073,7 +8073,7 @@ gdb -v
 <li><a href="/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/">在 ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米</a></li>
 <li><a href="/linux/mx-linux-mx-23/">來玩 MX Linux MX-23</a></li>
 <li><a href="/linux/elementary-os-7-1/">來玩 elementory OS 7.1</a></li>
-<li><a href="/boshiamy/zorin-os-16-3-core-and-boshiamy/">Zorin OS 16.3 Core 與嘸蝦米</a></li>
+<li><a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a></li>
 <li><a href="/linux/lmde-5/">來玩 LMDE 5</a></li>
 </ol>
 <h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><p>Fcitx5 是首選，在 Terminal 下 <code>sudo yum install fcitx5*</code> 或 <code>sudo dnf install fcitx5*</code> 指令來服用。</p>
@@ -11503,6 +11503,45 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
         <tag>windows</tag>
         <tag>windows11</tag>
         <tag>pime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zorin OS 17.3 Core 與嘸蝦米</title>
+    <url>/boshiamy/zorin-os-17-3-core-and-boshiamy/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 是一支以 ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/54433795364_9a5f5a017d_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (1)"/></p>
+<h3 id="安裝及使用嘸蝦米"><a href="#安裝及使用嘸蝦米" class="headerlink" title="安裝及使用嘸蝦米"></a>安裝及使用嘸蝦米</h3><ol>
+<li><p>一道指令：<code>sudo apt install fcitx-table-boshiamy</code>，安裝輸入法框架 fcitx(4) 與嘸蝦米表格(<code>fcitx-table-boshiamy</code>)。<img src="https://live.staticflickr.com/65535/54433605901_b993d614fa_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (4)"/> <img src="https://live.staticflickr.com/65535/54433605906_540a1f245a_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (5)"/></p>
+</li>
+<li><p>從【開始功能表】→【設定值】→【地區首語言】→【管理安裝的語言】，進入「語言支援」的設定介面。 <img src="https://live.staticflickr.com/65535/54433978655_731f4ca6f8_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (6)"/> <img src="https://live.staticflickr.com/65535/54433605876_29037aaeec_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (7)"/> <img src="https://live.staticflickr.com/65535/54433795324_ae5a13a530_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (8)"/></p>
+</li>
+<li><p>在「語言支援」設定介面的下方，點按「鍵盤輸入法系統：」右手邊的下拉式選單，並選擇【Fcitx 4】。 <img src="https://live.staticflickr.com/65535/54433795319_5f3c638698_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (9)"/> <img src="https://live.staticflickr.com/65535/54433605831_95500a7bf1_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (10)"/></p>
+</li>
+<li><p>重新啟動系統。 <img src="https://live.staticflickr.com/65535/54433854998_23993bca25_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (11)"/></p>
+</li>
+<li><p>再次進入系統後，可以看到工作列上面多出一個小鍵盤，並且點進小鍵盤的功能選單，可以看到「嘸蝦米」的字樣，也就可是說，嘸蝦米已經是預設且唯一的中文輸入法。 <img src="https://live.staticflickr.com/65535/54432752167_50d7c685cf_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (12)"/> <img src="https://live.staticflickr.com/65535/54433978525_5af7924e2e_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (13)"/></p>
+</li>
+<li><p>找個程式來測試一下。 <img src="https://live.staticflickr.com/65535/54432752147_ab12262912_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (14)"/> <img src="https://live.staticflickr.com/65535/54433978570_c6a6d368d2_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (15)"/></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次安裝使用的 ISO 檔版本是 Zorin-OS-17.3-Core-64-bit.iso。</p>
+</li>
+<li><p>Zorin OS 17.3 這一版，立基於 ubuntu 22.04 LTS，所以，還沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。 <img src="https://live.staticflickr.com/65535/54433855073_600b12dc62_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (3)"/></p>
+</li>
+<li><p>走完上述的安裝，會發現小鍵盤旁邊，仍然有「zh」字樣，雖然不影響 fcitx(4)，但多少還是會介意，那只要下一道指令：<code>sudo apt remove ibus*</code>，就可以把 iBus 移除。 <img src="https://live.staticflickr.com/65535/54433978485_a9c82f0d05_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (16)"/> <img src="https://live.staticflickr.com/65535/54433605736_2df0a9bb1b_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (17)"/> <img src="https://live.staticflickr.com/65535/54432752127_3df3e795a0_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (18)"/></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>boshiamy</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>boshiamy</tag>
+        <tag>fcitx</tag>
+        <tag>fcitx-table-boshiamy</tag>
+        <tag>ibus</tag>
+        <tag>zorinos</tag>
       </tags>
   </entry>
 </search>
