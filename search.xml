@@ -11528,7 +11528,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>Zorin OS 17.3 這一版，立基於 ubuntu 22.04 LTS，所以，還沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。 <img src="https://live.staticflickr.com/65535/54433855073_600b12dc62_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (3)"/></p>
 </li>
-<li><p>走完上述的安裝，會發現小鍵盤旁邊，仍然有「zh」字樣，雖然不影響 fcitx(4)，但多少還是會介意，那只要下一道指令：<code>sudo apt remove ibus*</code>，再重新啟動系統，原則上，應該就不會再看到「zh」字樣。 <img src="https://live.staticflickr.com/65535/54433978485_a9c82f0d05_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (16)"/> <img src="https://live.staticflickr.com/65535/54433605736_2df0a9bb1b_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (17)"/> <img src="https://live.staticflickr.com/65535/54432752127_3df3e795a0_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (18)"/></p>
+<li><p>走完上述的安裝，會發現小鍵盤旁邊，仍然有「zh」字樣，雖然不影響 fcitx(4)，但多少還是會介意，那只要下一道指令：<code>sudo apt remove ibus*</code>，再重新啟動系統，原則上，應該就不會再看到「zh」字樣。 <img src="https://live.staticflickr.com/65535/54433605736_2df0a9bb1b_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (16)"/> <img src="https://live.staticflickr.com/65535/54432752127_3df3e795a0_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (17)"/></p>
 </li>
 </ol>
 ]]></content>
