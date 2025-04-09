@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/apple/iphone-16e/</loc>
+    
+    <lastmod>2025-04-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/fedora-39-and-boshiamy/</loc>
     
     <lastmod>2025-04-09</lastmod>
@@ -147,15 +156,6 @@
   
   <url>
     <loc>https://jute.im/linux/rosa-linux-12-5/</loc>
-    
-    <lastmod>2025-03-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/apple/iphone-16e/</loc>
     
     <lastmod>2025-03-14</lastmod>
     
