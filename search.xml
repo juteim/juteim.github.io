@@ -774,7 +774,12 @@
     <title>使用 iTunes 備份 iTunes Store 上的已購音樂 feat. Windows 11</title>
     <url>/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>iPhone 上有一些音樂，想要備份到電腦上。這件事，一直以來，我都使用官方的 App 搞定。今天這一則，紀錄的是 iTunes 進行備份的過程。 <img src="https://live.staticflickr.com/65535/54507990832_e4d71dc78c_b.jpg"  alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep1"/></p>
-<h3 id="下載與備份程序"><a href="#下載與備份程序" class="headerlink" title="下載與備份程序"></a>下載與備份程序</h3><h4 id="iPhone-或-iPad-端要做的事：開啟「同步資料庫」"><a href="#iPhone-或-iPad-端要做的事：開啟「同步資料庫」" class="headerlink" title="iPhone 或 iPad 端要做的事：開啟「同步資料庫」"></a>iPhone 或 iPad 端要做的事：開啟「同步資料庫」</h4><p>這個部分，官網有說明可供參考：<a href="https://support.apple.com/zh-tw/118285">透過訂閱 Apple Music 使用「同步資料庫」 - Apple 支援 (台灣)</a><br><img src="https://live.staticflickr.com/65535/54509174368_cdc4b03365_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep9"/></p>
+<h3 id="下載與備份程序"><a href="#下載與備份程序" class="headerlink" title="下載與備份程序"></a>下載與備份程序</h3><h4 id="iPhone-或-iPad-端要做的事：開啟「同步資料庫」"><a href="#iPhone-或-iPad-端要做的事：開啟「同步資料庫」" class="headerlink" title="iPhone 或 iPad 端要做的事：開啟「同步資料庫」"></a>iPhone 或 iPad 端要做的事：開啟「同步資料庫」</h4><ol>
+<li><p>使用「同步資料庫」，有一個前提就是需要訂閱 Apple Music 或 iTunes Match。</p>
+</li>
+<li><p>開啟「同步資料庫」的方法，官網有說明可供參考：<a href="https://support.apple.com/zh-tw/118285">透過訂閱 Apple Music 使用「同步資料庫」 - Apple 支援 (台灣)</a></p>
+<img src="https://live.staticflickr.com/65535/54509174368_cdc4b03365_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep9"/></li>
+</ol>
 <h4 id="iTunes-端要做的事"><a href="#iTunes-端要做的事" class="headerlink" title="iTunes 端要做的事"></a>iTunes 端要做的事</h4><ol>
 <li><p>工欲善其事，必先有工具：iTunes，可以直接從 Microsoft Store 直接下載及安裝。 <img src="https://live.staticflickr.com/65535/54509136603_43077b7372_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep10"/></p>
 </li>
