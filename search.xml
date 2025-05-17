@@ -11660,4 +11660,48 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
         <tag>fcitx5</tag>
       </tags>
   </entry>
+  <entry>
+    <title>移除 Windows 10 上的 WSL</title>
+    <url>/windows/uninstall-wsl-on-windows-10/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇貼文，主要是紀錄我參考 Windows 11 移除 WSL 的方法，自己試著在 Windows 10 上將 WSL 移除的紀錄。 <img src="https://live.staticflickr.com/65535/54523985492_3365045b38_b.jpg" alt="uninstallWSLonWindows10Ep1"/></p>
+<h3 id="移除過程紀錄"><a href="#移除過程紀錄" class="headerlink" title="移除過程紀錄"></a>移除過程紀錄</h3><p>※整個過程，有一大部分是在 Terminal 下指令搞定。</p>
+<img src="https://live.staticflickr.com/65535/54525202655_d34697bb0c_b.jpg" alt="uninstallWSLonWindows10Ep2"/>
+
+<ol>
+<li><p>查詢目前安裝的 Linux Distro<br><code>wsl --list --all</code></p>
+</li>
+<li><p>移除上個指令列表內指定的 Linux Distro<br><code>wsl --unregister %名稱，可以從列表複製貼上即可%</code></p>
+</li>
+<li><p>移除 WSL 主要元件<br><code>wsl --uninstall</code></p>
+</li>
+<li><p>關閉 Windows 功能：關閉「Windows 子系統 Linux 版」與「虛擬機器平臺(Virtual Machine Platform)」<br><code>optionalfeatures</code></p>
+</li>
+<li><p>承上，在關閉 Windows 這個步驟，執行指令後，可能會看到「虛擬機器平台」，也可能會看到的是「Virtual Machine Platform」，其實，指的都是一樣的東西。 <img src="https://live.staticflickr.com/65535/54524024607_d56fd9f58b.jpg" alt="uninstallWSLonWindows10Ep4"/> <img src="https://live.staticflickr.com/65535/54525242530_abf0c3ec47.jpg" alt="uninstallWSLonWindows10Ep5"/></p>
+</li>
+<li><p>進一步手動刪除沒有被移除的檔案：在「檔案總管」輸入以下路徑。<br><code>%USERPROFILE%\AppData\Local\Packages</code></p>
+<img src="https://live.staticflickr.com/65535/54523985472_de63042e72_b.jpg" alt="uninstallWSLonWindows10Ep3"/>
+</li>
+<li><p>走到這裡，我認為就清理的差不多，如果還想再更徹底一下，可以在 Terminal 下 cleanmgr，再去把一些暫緩檔清掉。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>WSL，全名 Windows Subsystem for Linux，即「適用於 Linux 的 Windows 子系統。</p>
+</li>
+<li><p><a href="https://zh.wikipedia.org/zh-tw/%E9%80%82%E7%94%A8%E4%BA%8ELinux%E7%9A%84Windows%E5%AD%90%E7%B3%BB%E7%BB%9F">適用於Linux的Windows子系統 - 維基百科，自由的百科全書</a></p>
+</li>
+<li><p><a href="https://www.sysgeek.cn/uninstall-wsl-windows/">如何在 Windows 11 上彻底卸载 WSL - 系统极客</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/zh-tw/windows/wsl/install">安裝 WSL | Microsoft Learn</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>windows</tag>
+        <tag>windows10</tag>
+      </tags>
+  </entry>
 </search>
