@@ -922,7 +922,7 @@
 </ol>
 <h4 id="Windows-端要做的事"><a href="#Windows-端要做的事" class="headerlink" title="Windows 端要做的事"></a>Windows 端要做的事</h4><ol>
 <li><p>最後，下載後的音樂檔，以 Windows 而言，檔案位置預設可能會在下列 2 個部徑底下（會有這樣的差別，主要是使用者有沒有另外用 OneDrive 備份到雲端導致）。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路徑(1)</span><br><span class="line">  C:\Users\&lt;username&gt;\OneDrive\Music\iTunes\iTunes Media\Music</span><br><span class="line"></span><br><span class="line">路徑(2)</span><br><span class="line">  C:\Users\&lt;username&gt;\Music\iTunes\iTunes Media\Music</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路徑(1)</span><br><span class="line">  %USERPROFILE%\OneDrive\Music\iTunes\iTunes Media\Music</span><br><span class="line"></span><br><span class="line">路徑(2)</span><br><span class="line">  %USERPROFILE%\Music\iTunes\iTunes Media\Music</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>只要用關鍵字「.m4a」搜尋，就可以把檔案找出來。 <img src="https://live.staticflickr.com/65535/54507990807_57231923e8_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep8"/></p>
 </li>

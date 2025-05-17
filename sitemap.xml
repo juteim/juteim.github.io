@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/cachyos-desktop-linux-250422/</loc>
     
     <lastmod>2025-05-17</lastmod>
@@ -86,15 +95,6 @@
     <loc>https://jute.im/404.html</loc>
     
     <lastmod>2025-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/</loc>
-    
-    <lastmod>2025-05-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
