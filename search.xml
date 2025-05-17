@@ -8222,19 +8222,21 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2025 年 4 月 4 日更新)</title>
+    <title>在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 17 日更新)</title>
     <url>/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Fctix，中文名稱是「小企鵝輸入法」。<br><img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg"></p>
 <p>談到 Fcitx 的話，我個人會用 fcitx(4) 與 Fcitx5 來區分這 2 代的輸入法框架，從 2021 年 7 月開始，我持續追縱各個發行版收錄 fcitx(4) 或 Fcitx5 相關套件情形至今，已有 3 年餘。</p>
 <p>截至 2024 年 8 月 1 日，除了少數幾支發行版，還是以安裝與使用 fcitx(4) 較為方便之外，相信，套件收錄已經日趨完整的 Fcitx5，將會是中文輸入法框架主要的選擇。</p>
 <p>隨著每支發行版的迭代更新，在這個時間點，我還是試著把各大發行版分類，再分別整理出 Fcitx 與嘸蝦米時的安裝過程紀錄與建議，希望這樣的紀錄，對有需要的伙伴，有一定的參考度。</p>
-<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>可以優先考慮 Fcitx5。</p>
+<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><p>※2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</p>
+<h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>可以優先考慮 Fcitx5。</p>
 <ol>
 <li><a href="/boshiamy/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
 <li><a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
 <li><a href="/linux/endeavouros-apollo-22-1/">來玩 EndeavourOS Apollo 22.1</a></li>
 <li><a href="/linux/garuda-linux-kde-dr460nized-edition/">來玩 Garuda Linux (KDE Dr460nized Edition)</a></li>
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
+<li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
 <h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="Fcitx5-fcitx5-table-boshiamy"><a href="#Fcitx5-fcitx5-table-boshiamy" class="headerlink" title="Fcitx5(fcitx5-table-boshiamy)"></a>Fcitx5(<code>fcitx5-table-boshiamy</code>)</h4><p>目前，已有部分 Debian 與 ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，並收錄至軟體庫，也就是說，選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</p>
 <p>在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。其他發行版能不能達到，我還沒有進一步驗證與確認。</p>
