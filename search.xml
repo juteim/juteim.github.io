@@ -11618,8 +11618,9 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <h4 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h4><ol>
 <li><p>安裝必要的套件：<code>sudo pacman -S fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-table-extra</code>。 <img src="https://live.staticflickr.com/65535/54524401128_6281318910_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (7)"/> <img src="https://live.staticflickr.com/65535/54524151731_b06a4d6d9c_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (6)"/></p>
 </li>
-<li><p>修改一下 <code>/etc/environment</code>：<code>sudo nano /etc/environment</code>。 <img src="https://live.staticflickr.com/65535/54524342899_5a8962362d_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (8)"/> 將下列內容複製貼上到檔案最下端後，儲存離開。</p>
+<li><p>修改一下 <code>/etc/environment</code>：<code>sudo nano /etc/environment</code>，將下列內容複製貼上到檔案最下端後，儲存離開。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GTK_IM_MODULE=fcitx</span><br><span class="line">QT_IM_MODULE=fcitx</span><br><span class="line">XMODIFIERS=@im=fcitx</span><br></pre></td></tr></table></figure>
+<img src="https://live.staticflickr.com/65535/54524342899_5a8962362d_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (8)"/>
 </li>
 <li><p>重新啟動系統：<code>reboot</code>。 <img src="https://live.staticflickr.com/65535/54524342844_0172238cbc_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (9)"/></p>
 </li>
