@@ -11681,7 +11681,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p>進一步手動刪除沒有被移除的檔案：在「檔案總管」輸入以下路徑。<br><code>%USERPROFILE%\AppData\Local\Packages</code></p>
 <img src="https://live.staticflickr.com/65535/54523985472_de63042e72_b.jpg" alt="uninstallWSLonWindows10Ep3"/>
 </li>
-<li><p>走到這裡，我認為就清理的差不多，如果還想再更徹底一下，可以在 Terminal 下 cleanmgr，再去把一些暫緩檔清掉。</p>
+<li><p>走到這裡，我認為就清理的差不多，如果還想再更徹底一下，可以在 Terminal 下 cleanmgr，再去把一些暫存檔清掉。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
