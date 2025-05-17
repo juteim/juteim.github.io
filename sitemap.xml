@@ -11,6 +11,60 @@
   </url>
   
   <url>
+    <loc>https://jute.im/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/rosa-linux-12-5/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/manjaro-linux-22-0-5-plasma-edition/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-mx-linux-mx-21-and-boshiamy-feat-fcitx/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/linux-mint-22-beta/</loc>
+    
+    <lastmod>2025-05-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/20-days-after-shifting-to-garuda-linux/</loc>
     
     <lastmod>2025-05-16</lastmod>
@@ -236,15 +290,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/rosa-linux-12-5/</loc>
-    
-    <lastmod>2025-03-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/reviews/brewing-love/</loc>
     
     <lastmod>2025-03-14</lastmod>
@@ -401,15 +446,6 @@
     <loc>https://jute.im/android/my-first-experience-about-gemini-on-iphone-13-vs-pixel-7/</loc>
     
     <lastmod>2025-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
-    
-    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1523,15 +1559,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/linux-mint-22-beta/</loc>
-    
-    <lastmod>2025-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/reviews/doona/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -1748,15 +1775,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/installing-mx-linux-mx-21-and-boshiamy-feat-fcitx/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/things-to-do-after-installing-mx-linux-mx-21/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -1847,15 +1865,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/manjaro-linux-22-0-5-plasma-edition/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/linux-mint-21-1-vs-manjaro-22-1-0/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -1929,15 +1938,6 @@
   
   <url>
     <loc>https://jute.im/linux/opensuse-tumbleweed-snapshot20220905/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/</loc>
     
     <lastmod>2024-12-28</lastmod>
     

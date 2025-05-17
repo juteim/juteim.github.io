@@ -564,7 +564,7 @@
     <url>/boshiamy/arcolinuxl-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>喜歡 Arch Linux，或是說想要嘗試 Arch Linux，卻被一開始的暗黑安裝畫面給擊退的伙伴，其實有很多不同的選擇。<img src="https://live.staticflickr.com/65535/52058260898_4da09a1312_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp22"></p>
 <p>今天，來紀錄一下另外一支，比較接近原生 Arch Linux 的衍生發行版的安裝與使用的快速回顧。</p>
-<p>這支 Distro 名為 ArcoLinux，截至本文完稿前，它在 DistroWatch.com 上的排名在第 21 名。</p>
+<p>這支 Distro 名為 ArcoLinux，截至本文完稿前，它在 DistroWatch 上的排名在第 21 名。</p>
 <h3 id="安裝過程截圖"><a href="#安裝過程截圖" class="headerlink" title="安裝過程截圖"></a>安裝過程截圖</h3><p>一樣，我是用 VirtualBox 來體驗 ArcoLinux，從虛擬光礙讀到的光碟 ISO 檔進入系統後，畫面會直接跳出 ArcoLinux Welcome App。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466189/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp1"><img src="https://live.staticflickr.com/65535/52058466189_a963036ab7_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp1"></a></p>
 <p>我第一件事，就是按下「Update Arch Linux Mirrors」這個按鈕。但，我忘了去看 Mirrors 是不是真的有被 Update。(下圖) <a href="https://www.flickr.com/photos/194265827@N08/52058466154/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp2"><img src="https://live.staticflickr.com/65535/52058466154_51b5f415fd_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp2"></a></p>
 <p>再來，我選擇 Easy Installation 啟動 ArcoLinux Installer。( 下圖) <a href="https://www.flickr.com/photos/194265827@N08/52057189462/in/dateposted-public/" title="installingArcoLinuxLv22.05onVirtualBoxEp3"><img src="https://live.staticflickr.com/65535/52057189462_99e7999456_b.jpg" alt="installingArcoLinuxLv22.05onVirtualBoxEp3"></a></p>
@@ -4899,7 +4899,7 @@
     <url>/boshiamy/installing-mx-linux-mx-21-and-boshiamy-feat-fcitx/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51843098810_ab673881da_c.jpg" alt="installingFcitx(4)andBoshiamyonMXLinuxMX-21Ep16"/>
 
-<p>在 <a href="https://distrowatch.com/">DistroWatch.com</a> 可以看「網頁參觀排名」，目前排名第一的是 MX Linux，從 2014 年 3 月 24 日的初始版本至今約莫 7 個年頭，以現今的發行版 (Distro) 百家齊放的世代而言，有這樣的爬升速度肯定有它的原因。</p>
+<p>在 DistroWatch 可以看「網頁參觀排名」，目前排名第一的是 MX Linux，從 2014 年 3 月 24 日的初始版本至今約莫 7 個年頭，以現今的發行版 (Distro) 百家齊放的世代而言，有這樣的爬升速度肯定有它的原因。</p>
 <p>我尤其對 AHS (Advanced Hardware Support) 版感興趣，索性就拿一部實體機器與 VirtualBox 來安裝體驗一下。</p>
 <h3 id="安裝-MX-Linux-MX-21"><a href="#安裝-MX-Linux-MX-21" class="headerlink" title="安裝 MX Linux MX-21"></a>安裝 MX Linux MX-21</h3><p>以下是在 VirtualBox 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296209830" title="MXLinuxMX-21"><img src="https://live.staticflickr.com/65535/51842700094_a668398ba5_c.jpg" alt="MXLinuxMX-21"></a></p>
 <h3 id="安裝嘸蝦米"><a href="#安裝嘸蝦米" class="headerlink" title="安裝嘸蝦米"></a>安裝嘸蝦米</h3><p>同樣是在 Linux 上搞定嘸蝦米，MX Linux 應該是我從去年至今，所有接觸到的 Linux 中，相對複雜的一支 Distro，所以，我的因應及處理過程也比較謹慎。(更新日期：2023 年 2 月 2 日)</p>
@@ -6905,7 +6905,7 @@ gdb -v
   <entry>
     <title>Linux Mint 22 Beta</title>
     <url>/linux/linux-mint-22-beta/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 DistroWatch.com 上，我注意到 Linux Mint 爬上「網頁參觀排名」第 2 名，並且在這個名次應該維持至少 3 個月以上。我認為這支 Distro 會是不少入門，並且有使用 Linux 桌面系統需求的人，很好的選擇。 <img src="https://live.staticflickr.com/65535/53879580423_6e1a4620e9_b.jpg" alt="DistroWatch.com_20240725"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在 DistroWatch 上，我注意到 Linux Mint 爬上「網頁參觀排名」第 2 名，並且在這個名次應該維持至少 3 個月以上。我認為這支 Distro 會是不少入門，並且有使用 Linux 桌面系統需求的人，很好的選擇。 <img src="https://live.staticflickr.com/65535/53879580423_6e1a4620e9_b.jpg" alt="DistroWatch.com_20240725"/></p>
 <h3 id="從官方說明來看-Linux-Mint-22"><a href="#從官方說明來看-Linux-Mint-22" class="headerlink" title="從官方說明來看 Linux Mint 22"></a>從官方說明來看 Linux Mint 22</h3><p>本篇文章，主要是參考官方文件：<a href="https://www.linuxmint.com/rel_wilma_whatsnew.php">New Features in Linux Mint 22 ‘Wilma’ - Linux Mint</a>，從而試著窺探版本號碼 22 的 Linux Mint，有什麼樣的新功能。</p>
 <h4 id="Better-language-support"><a href="#Better-language-support" class="headerlink" title="Better language support"></a>Better language support</h4><ol>
 <li><p>先不管官方的說明，我在 Beta 版身上，安裝過程時，發現有些語言還沒有正常顯示，詳見下圖。<img src="https://live.staticflickr.com/65535/53878012284_b3352e8f43_b.jpg" alt="linuxMint22Cinnamon64bitBetaonVirtualBoxEp (1)"/></p>
@@ -7410,7 +7410,7 @@ gdb -v
 <blockquote>
 <p>Manjaro Linux（或簡稱 Manjaro）是基於 Arch Linux 的 Linux 發行版，使用 Xfce 、GNOME和 KDE Plasma 作為預設桌面環境，和 Arch 一樣，採用滾動更新。其目標是為 PC 提供易於使用的自由的作業系統。</p>
 </blockquote>
-<p>當我正在撰寫這一篇文章時，Manjaro 在 DistroWatch.com 上的排名是第 4 名。說真的，從我開始重新開始寫部落格以來，Manjaro 的排名一直都在前 5 或前 10，我相信 Manjaro 確實有自己獨有的魅力與穩定忠實的支持者。</p>
+<p>當我正在撰寫這一篇文章時，Manjaro 在 DistroWatch 上的排名是第 4 名。說真的，從我開始重新開始寫部落格以來，Manjaro 的排名一直都在前 5 或前 10，我相信 Manjaro 確實有自己獨有的魅力與穩定忠實的支持者。</p>
 <p>我相信會選擇 Manjaro 的伙伴，多半是衝著桌面環境而來，對我來說，我很喜歡 Manjaro 的桌面環境，尤其是那獨樹一格的桌面顏色配色。</p>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
 <li><p>這次，我的選擇是 Plasma Desktop：我之前的經驗都是選用 XFCE Desktop，但，這一次下載 ISO 的時候，我發現 Plasma Desktop 在下載頁的左上角，也就是排位上的…第一位(下圖)。 <a href="https://www.flickr.com/photos/194265827@N08/52825984926/in/dateposted-public/" title="downloadPageonManjaroDotOrg"><img src="https://live.staticflickr.com/65535/52825984926_34cea196e9_c.jpg" alt="downloadPageonManjaroDotOrg"></a></p>
@@ -9507,9 +9507,7 @@ gdb -v
 </blockquote>
 </li>
 </ol>
-<hr>
 <h3 id="點圖至-Flickr-瀏覽相簿"><a href="#點圖至-Flickr-瀏覽相簿" class="headerlink" title="點圖至 Flickr 瀏覽相簿"></a>點圖至 Flickr 瀏覽相簿</h3><p><a data-flickr-embed="true" href="https://www.flickr.com/photos/194265827@N08/albums/72177720315953021" title="ROSA.FRESH.PLASMA5.12.5.x86_64.uefi"><img src="https://live.staticflickr.com/65535/53630403271_6a24f05d2a_z.jpg" width="640" height="480" alt="ROSA.FRESH.PLASMA5.12.5.x86_64.uefi"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-<hr>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
 <li><p>快速：儘管是在 VirtualBox 上運行 ROSA Linux，KDE Plasma 5 仍然給我輕快的感覺。</p>
 </li>
@@ -9518,7 +9516,6 @@ gdb -v
 <li><p>美中不足(？)：一個非常容易發現的不足之處，就是一開啟 Terminal，就會看到裡頭的「文字間隔」似乎比較寬，這跟我的使用習慣有點不一樣。我翻找一下設定後，發現取消勾選「ASCII 字元」後，視覺上就比較是我所習慣的態樣。</p>
 </li>
 </ol>
-<hr>
 <h3 id="中文輸入法安裝與設定"><a href="#中文輸入法安裝與設定" class="headerlink" title="中文輸入法安裝與設定"></a>中文輸入法安裝與設定</h3><ol>
 <li><p>我先在 Terminal 下幾道指令，去確認一下軟體庫收納的狀況。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo dnf update</span><br><span class="line">sudo dnf search fcitx</span><br><span class="line">sudo dnf search ibus</span><br></pre></td></tr></table></figure>
@@ -9545,14 +9542,12 @@ gdb -v
 <li><p>開個程式，切換輸入法，測試一下。<br><img src="https://live.staticflickr.com/65535/53630403116_5b61244d4c_c.jpg"><br><img src="https://live.staticflickr.com/65535/53630849730_72f4d0cf25_c.jpg"></p>
 </li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>寫到這邊，我特別跑一趟 DistroWatch，想看看 ROSA Linux 在上面的網頁參觀排名，發現並沒有在前 100 名以內，這樣的結果，我猜，很可能與網頁語言有關。</p>
 </li>
 <li><p>儘管如此，我必須說，這是一支表現讓我感到意外的 Distro，我會想要找個機會，把它安裝到實體的機器上。</p>
 </li>
 </ol>
-<hr>
 <h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
 <li><p><a href="https://rosa.ru/">НТЦ ИТ РОСА</a></p>
 </li>
@@ -10763,7 +10758,7 @@ gdb -v
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>我在撰寫本篇貼文的時候，ubuntu 在 Distrowatch.com 上「近 6 個月」(Last 6 months)的「網頁參觀排名」是第 7 名。</p>
+<li><p>我在撰寫本篇貼文的時候，ubuntu 在 Distrowatch 上「近 6 個月」(Last 6 months)的「網頁參觀排名」是第 7 名。</p>
 </li>
 <li><p>至於 ubuntu 22.04.2 LTS 有什麼樣的更新，有興趣的人可以參考官網資料：<a href="https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668">Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub</a>。</p>
 </li>
@@ -11595,7 +11590,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
   <entry>
     <title>CachyOS</title>
     <url>/linux/cachyos-desktop-linux-250422/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>CachyOS 在 Distrowatch 近 6 個月(Last 6 months)的「網頁參觀排名」爬到第 2 名，我是因為這樣才注意到這支 Distro 的。 <img src="https://live.staticflickr.com/65535/54524472093_b798617cae_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (0)"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>CachyOS 在 Distrowatch 「近 6 個月」(Last 6 months)的「網頁參觀排名」爬到第 2 名，我是因為這樣才注意到這支 Distro 的。 <img src="https://live.staticflickr.com/65535/54524472093_b798617cae_b.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (0)"/></p>
 <h3 id="安裝心得"><a href="#安裝心得" class="headerlink" title="安裝心得"></a>安裝心得</h3><ol>
 <li><p>CachyOS 在安裝時，會讓使用者選擇不同的引導程式(Bootloader)套件，這一點相較於其他 Distro 而言，算是比較少見的。 <img src="https://live.staticflickr.com/65535/54524401193_47ba9a9c57_c.jpg" alt="cachyOsDesktopLinux250422onVirtualBoxEp (1)"/></p>
 </li>
