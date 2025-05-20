@@ -8881,7 +8881,7 @@ gdb -v
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次安裝使用的 ISO 檔版本是 Leap-16.0-offline-installer-x86_64.install.iso。</p>
 </li>
-<li><p>之前使用 openSUSE 時沒有特別注意，今次注意到搜尋關鍵字：<code>fcitx</code> 後，出現在畫面的只有 Fcitx5，fcitx(4) 已不復見。</p>
+<li><p>之前使用 openSUSE 時沒有特別注意，今次注意到搜尋關鍵字：<code>fcitx</code> 後，出現在畫面的只有 Fcitx5，fcitx(4) 已不復見。 <img src="https://live.staticflickr.com/65535/54531553092_b45b9a1c96_b.jpg" alt="openSUSELeap16.0BetaOnVirtualBoxEp (16)"/></p>
 </li>
 </ol>
 ]]></content>
