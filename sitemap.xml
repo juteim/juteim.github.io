@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/opensuse-11-1/</loc>
+    
+    <lastmod>2025-05-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/opensuse-leap-16-0-beta/</loc>
     
     <lastmod>2025-05-20</lastmod>
@@ -1011,15 +1020,6 @@
   
   <url>
     <loc>https://jute.im/windows/installing-windows-7-beta/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/opensuse-11-1/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
