@@ -8072,8 +8072,7 @@ gdb -v
 <p>談到 Fcitx 的話，我個人會用 fcitx(4) 與 Fcitx5 來區分這 2 代的輸入法框架，從 2021 年 7 月開始，我持續追縱各個發行版收錄 fcitx(4) 或 Fcitx5 相關套件情形至今，已有 3 年餘。</p>
 <p>截至 2024 年 8 月 1 日，除了少數幾支發行版，還是以安裝與使用 fcitx(4) 較為方便之外，相信，套件收錄已經日趨完整的 Fcitx5，將會是中文輸入法框架主要的選擇。</p>
 <p>隨著每支發行版的迭代更新，在這個時間點，我還是試著把各大發行版分類，再分別整理出 Fcitx 與嘸蝦米時的安裝過程紀錄與建議，希望這樣的紀錄，對有需要的伙伴，有一定的參考度。</p>
-<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><p>※2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</p>
-<h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>可以優先考慮 Fcitx5。</p>
+<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>可以優先考慮 Fcitx5。</p>
 <ol>
 <li><a href="/boshiamy/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
 <li><a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
@@ -8125,6 +8124,12 @@ gdb -v
 <h3 id="Slackware"><a href="#Slackware" class="headerlink" title="Slackware"></a>Slackware</h3><p>原則上，fcitx(4) 與 <code>fcitx-table-boshiamy</code> 都不用再另外安裝，使用者要做的是一點點設定。</p>
 <ul>
 <li><a href="/linux/slackware-15-0/">來玩 Slackware 15.0</a></li>
+</ul>
+<h2 id="2025-年內容更新列表"><a href="#2025-年內容更新列表" class="headerlink" title="2025 年內容更新列表"></a>2025 年內容更新列表</h2><ul>
+<li>2025 年 1 月 30 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a>。</li>
+<li>2025 年 4 月 4 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a></li>
+<li>2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</li>
+<li>2025 年 5 月 20 日更新內容：在「openSUSE」裡，收錄 <a href="/linux/opensuse-leap-16-0-beta/">openSUSE Leap 16.0 Beta</a>。</li>
 </ul>
 <h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><ol>
 <li><p>Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。選用 iBus 的話，拿行易有限公司官網的表格檔服用，肯定是最佳的選擇。</p>
