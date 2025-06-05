@@ -2,6 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/slackware-15-0/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/opensuse-leap-15-5-and-boshiamy/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/opensuse-leap-15-4/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/opensuse-tumbleweed-snapshot20220905/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/opensuse-leap-16-0-beta/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/fedora-39-and-boshiamy/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/linux-mint-22-and-boshiamy-feat-fcitx5-table-extra/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/</loc>
+    
+    <lastmod>2025-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/fcitx5-with-chewing-on-arch-linux/</loc>
     
     <lastmod>2025-06-05</lastmod>
@@ -14,15 +95,6 @@
     <loc>https://jute.im/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</loc>
     
     <lastmod>2025-05-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/opensuse-leap-16-0-beta/</loc>
-    
-    <lastmod>2025-05-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -201,15 +273,6 @@
   
   <url>
     <loc>https://jute.im/apple/iphone-16e/</loc>
-    
-    <lastmod>2025-04-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/fedora-39-and-boshiamy/</loc>
     
     <lastmod>2025-04-09</lastmod>
     
@@ -1451,24 +1514,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/</loc>
-    
-    <lastmod>2025-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/opensuse-leap-15-5-and-boshiamy/</loc>
-    
-    <lastmod>2025-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/bsd/freebsd-14-0-and-l10n/</loc>
     
     <lastmod>2025-01-08</lastmod>
@@ -1946,15 +1991,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/opensuse-tumbleweed-snapshot20220905/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -2037,15 +2073,6 @@
   
   <url>
     <loc>https://jute.im/unpack/acer-aspire-tc-1660-desktop-feat-cooler-master/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
@@ -2225,15 +2252,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/linux-mint-22-and-boshiamy-feat-fcitx5-table-extra/</loc>
-    
-    <lastmod>2024-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/solus-budgie-4-6/</loc>
     
     <lastmod>2024-10-19</lastmod>
@@ -2342,27 +2360,9 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/slackware-15-0/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/apple/installing-clear-linux-into-my-mac-mini-late-2014/</loc>
     
     <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/opensuse-leap-15-4/</loc>
-    
-    <lastmod>2023-12-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

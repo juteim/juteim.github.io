@@ -2095,10 +2095,16 @@
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 Fedora-Workstation-Live-x86_64-39-1.5.iso。</li>
-<li><a href="https://getfedora.org/">Fedora</a></li>
-<li><a href="https://fcitx-im.org/wiki/Fcitx_5">Fcitx 5 - Fcitx</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/Fedora_(%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)">Fedora (作業系統) - 維基百科，自由的百科全書</a>。</li>
+<li><p>本次安裝使用的 ISO 檔版本是 Fedora-Workstation-Live-x86_64-39-1.5.iso。</p>
+</li>
+<li><p><a href="https://getfedora.org/">Fedora</a></p>
+</li>
+<li><p><a href="https://fcitx-im.org/wiki/Fcitx_5">Fcitx 5 - Fcitx</a></p>
+</li>
+<li><p><a href="https://zh.wikipedia.org/wiki/Fedora_(%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)">Fedora (作業系統) - 維基百科，自由的百科全書</a></p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -4339,6 +4345,8 @@
 <li><p>之前的文章，我是用 fcitx 與 Fcitx5 去做版本上的區隔，也就是說，在沒有特別寫上版本號時，指的就是 fcitx(4)。</p>
 </li>
 <li><p><a href="https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668?_ga=2.177410981.1055729154.1653392938-2057367448.1653392938">Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub</a></p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
 </li>
 </ol>
 ]]></content>
@@ -7253,6 +7261,8 @@ gdb -v
 </li>
 <li><p><a href="https://fcitx-im.org/wiki/Fcitx_5">Fcitx 5 - Fcitx</a></p>
 </li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -8605,8 +8615,10 @@ gdb -v
 </ol>
 <hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 openSUSE-Leap-15.4-DVD-x86_64-Build243.2-Media.iso。</li>
-<li>我相信喜歡 openSUSE 的人，不怕找不到骨灰級的神人引導與幫助，這個部分，有興趣的伙伴，可以去 <a href="https://www.facebook.com/groups/opensuse.tw">openSUSE Taiwan 社團</a> 這邊逛逛，印象中，<a href="https://www.facebook.com/groups/219206124765679/user/1295404046">Chunhung Huang</a> 早在 2011 年 5 月 27 日開始擔任社團管理員之前，就開始在推廣 openSUSE。</li>
+<li><p>本次安裝使用的 ISO 檔版本是 openSUSE-Leap-15.4-DVD-x86_64-Build243.2-Media.iso。</p>
+</li>
+<li><p>我相信喜歡 openSUSE 的人，不怕找不到骨灰級的神人引導與幫助，這個部分，有興趣的伙伴，可以去 <a href="https://www.facebook.com/groups/opensuse.tw">openSUSE Taiwan 社團</a> 這邊逛逛，印象中，<a href="https://www.facebook.com/groups/219206124765679/user/1295404046">Chunhung Huang</a> 早在 2011 年 5 月 27 日開始擔任社團管理員之前，就開始在推廣 openSUSE。</p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -8664,6 +8676,8 @@ gdb -v
 </li>
 <li><p>openSUSE Tumbleweed 是經過測試的發行版，這是 Tumbleweed 與其他滾動發行版不同的地方，而且，經過測試後，也大大提高了穩定性(詳可見：<a href="https://zh.wikipedia.org/zh-tw/OpenSUSE#openSUSE_Tumbleweed">openSUSE - 維基百科，自由的百科全書</a>)。</p>
 </li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -8702,6 +8716,8 @@ gdb -v
 <li><p>本次安裝使用的 ISO 檔版本是 openSUSE-Leap-15.5-DVD-x86_64-Build491.1-Media.iso。</p>
 </li>
 <li><p>隨著 <code>fcitx5-table-extra</code> 這支套件被各個發行版的軟體倉庫收納，普及度越來越高，我自己在使用上，只有打字輸入，並沒有感受到 fcitx(4) 與 Fcitx5 兩個版本之間的顯著差異，由於新版的 Fcitx5 在使用上並有遇到太多的狀況與問題，因此，如果能夠使用較新版的 Fcitx5 時，我自然會選擇較新的版本。</p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
 </li>
 </ol>
 ]]></content>
@@ -8754,7 +8770,7 @@ gdb -v
 </li>
 <li><p>我在 YaST 單純安裝嘸蝦米 fcitx(4) 套件後，fcitx(4) 之所以沒有 On 起來，原因是 YaST 並沒有把 fcitx(4) 主程式套件安裝進來，我因此花了一點時間瞭解一下 Tumbleweed(2022 年 9 月 5 日快照版) 上頭的軟體庫內容。方法也不難，就是用關鍵字在 YaST 裡面去「搜尋」套件。也就這樣，在搜尋的過程，發現 Tumbleweed(2022 年 9 月 5 日快照版) 已經將 Fcitx5 納進來，這一點與 Leap 15.4 是不同的。</p>
 </li>
-<li><p>後來，我把 fcitx(4) 與 Fcitx5 都試著安裝及使用，全然沒有問題。下圖是 Fcitx5 安裝的大致流程，坦白說，我還是比較喜歡用 YaST 桌面環境系統介面做套件安裝、管理的動作，至於 fcitx(4) 的安裝，可以參考 <a href="https://addsalt.fr/linux/opensuse-leap-15-4/">來玩 openSUSE Leap 15.4</a>。 <a href="https://www.flickr.com/photos/194265827@N08/52340782840/in/album-72177720301905740/" title="openSUSETumbleweedSnapshot20220905onVirtualBox (30)"><img src="https://live.staticflickr.com/65535/52340782840_79bc358ab1_c.jpg" alt="openSUSETumbleweedSnapshot20220905onVirtualBox (30)"></a></p>
+<li><p>後來，我把 fcitx(4) 與 Fcitx5 都試著安裝及使用，全然沒有問題。下圖是 Fcitx5 安裝的大致流程，坦白說，我還是比較喜歡用 YaST 桌面環境系統介面做套件安裝、管理的動作，至於 fcitx(4) 的安裝，可以參考 <a href="/linux/opensuse-leap-15-4/">來玩 openSUSE Leap 15.4</a>。 <a href="https://www.flickr.com/photos/194265827@N08/52340782840/in/album-72177720301905740/" title="openSUSETumbleweedSnapshot20220905onVirtualBox (30)"><img src="https://live.staticflickr.com/65535/52340782840_79bc358ab1_c.jpg" alt="openSUSETumbleweedSnapshot20220905onVirtualBox (30)"></a></p>
 <p>  <a href="https://www.flickr.com/photos/194265827@N08/52339393802/in/album-72177720301905740/" title="openSUSETumbleweedSnapshot20220905onVirtualBox (31)"><img src="https://live.staticflickr.com/65535/52339393802_9ed5c262ec_c.jpg" alt="openSUSETumbleweedSnapshot20220905onVirtualBox (31)"></a></p>
 <p>  <a href="https://www.flickr.com/photos/194265827@N08/52340782810/in/album-72177720301905740/" title="openSUSETumbleweedSnapshot20220905onVirtualBox (32)"><img src="https://live.staticflickr.com/65535/52340782810_188b94eb9b_c.jpg" alt="openSUSETumbleweedSnapshot20220905onVirtualBox (32)"></a></p>
 <p>  <a href="https://www.flickr.com/photos/194265827@N08/52340353186/in/album-72177720301905740/" title="openSUSETumbleweedSnapshot20220905onVirtualBox (33)"><img src="https://live.staticflickr.com/65535/52340353186_81458e68df_c.jpg" alt="openSUSETumbleweedSnapshot20220905onVirtualBox (33)"></a></p>
@@ -8767,8 +8783,12 @@ gdb -v
 </ol>
 <hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 openSUSE-Tumbleweed-DVD-x86_64-Snapshot20220905-Media.iso。</li>
-<li>openSUSE Tumbleweed 可以說，是一個兼顧有趣與穩定的版本。以桌面環境使用而言，如果要我從 Leap 與 Tumbleweed 做出選擇，我應該會先選 Tumbleweed。</li>
+<li><p>本次安裝使用的 ISO 檔版本是 openSUSE-Tumbleweed-DVD-x86_64-Snapshot20220905-Media.iso。</p>
+</li>
+<li><p>openSUSE Tumbleweed 可以說，是一個兼顧有趣與穩定的版本。以桌面環境使用而言，如果要我從 Leap 與 Tumbleweed 做出選擇，我應該會先選 Tumbleweed。</p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -8823,6 +8843,8 @@ gdb -v
 <li><p><a href="https://en.opensuse.org/openSUSE:Roadmap#Schedule_for_Leap_16.0">Schedule_for_Leap_16.0 on openSUSE:Roadmap - openSUSE Wiki</a></p>
 </li>
 <li><p>之前使用 openSUSE 時沒有特別注意，今次注意到搜尋關鍵字：<code>fcitx</code> 後，出現在畫面的只有 Fcitx5，fcitx(4) 已不復見。 <img src="https://live.staticflickr.com/65535/54531553092_b45b9a1c96_b.jpg" alt="openSUSELeap16.0BetaOnVirtualBoxEp (16)"/></p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
 </li>
 </ol>
 ]]></content>
@@ -9510,9 +9532,14 @@ gdb -v
 </ol>
 <hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 slackware64-15.0-install-dvd.iso。</li>
-<li><a href="http://www.slackware.com/">The Slackware Linux Project</a></li>
-<li><a href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></li>
+<li><p>本次安裝使用的 ISO 檔版本是 slackware64-15.0-install-dvd.iso。</p>
+</li>
+<li><p><a href="http://www.slackware.com/">The Slackware Linux Project</a></p>
+</li>
+<li><p><a href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></p>
+</li>
+<li><p><a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米(2025 年 5 月 20 日更新)</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
