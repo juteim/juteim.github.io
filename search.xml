@@ -1811,7 +1811,7 @@
 <li><p>透過鍵盤圖示，點右鍵後進入 Fcitx5 的設定介面，新增嘸蝦米。</p>
 </li>
 </ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>我對系統能夠直接安裝嘸蝦米輸入法有所期待，也寫了不少篇在各個 Linux Distro(發行版)上透過「fcitx(4或5)+嘸蝦米表格檔」的方式，讓有需求的夥伴，能夠快速地使用嘸蝦米輸入法。 但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html" title="智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>我對系統能夠直接安裝嘸蝦米輸入法有所期待，也寫了不少篇在各個 Linux Distro(發行版)上透過「fcitx(4或5)+嘸蝦米表格檔」的方式，讓有需求的夥伴，能夠快速地使用嘸蝦米輸入法。 但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
 <blockquote>
 <p>經詢問專家學者結果，有認「嘸瞎米輸入法」的「字根表」、「字碼對照表」應屬著作權法所保護之語文著作或編輯著作者，因而建議 您在運用「嘸蝦米輸入法」的拆字規則撰寫其他輸入法程式時，應避免將前開字根表、字碼對照表重製於 您所撰寫的程式中，以免構成侵害他人著作之行為。</p>
 </blockquote>
@@ -3358,39 +3358,34 @@
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51854376026_b68a44cae8_z.jpg" alt="installingBoshiamyIbusTableonMXLinuxEp2"/>
 
 <p>雖然，我對於系統能夠直接安裝嘸蝦米輸入法有所期待，也寫了不少篇在各個 Linux Distro(發行版)上透過「fcitx(4或5)+嘸蝦米表格檔」的方式，讓有需求的夥伴，能夠快速地使用嘸蝦米輸入法。</p>
-<p>但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html" title="智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
+<p>但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
 <blockquote>
 <p>經詢問專家學者結果，有認「嘸瞎米輸入法」的「字根表」、「字碼對照表」應屬著作權法所保護之語文著作或編輯著作者，因而建議 您在運用「嘸蝦米輸入法」的拆字規則撰寫其他輸入法程式時，應避免將前開字根表、字碼對照表重製於 您所撰寫的程式中，以免構成侵害他人著作之行為。</p>
 </blockquote>
 <p>我目前以 MX Linux 為主力，今天也就把輸入法轉換到行易有限公司提供支援的 iBus 輸入平台上，幾個步驟與指令，我試著完成安裝與設定，同時紀錄下來。</p>
 <h3 id="從-fcitx-轉換到-iBus"><a href="#從-fcitx-轉換到-iBus" class="headerlink" title="從 fcitx 轉換到 iBus"></a>從 fcitx 轉換到 iBus</h3><ol>
-<li><p>移除 fcitx，後安裝 iBus</p>
+<li><p>移除 fcitx，後安裝 iBus。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt remove fcitx*</span><br><span class="line">sudo apt install ibus*</span><br></pre></td></tr></table></figure>
+<p><a href="https://www.flickr.com/photos/jutedev/51855380591/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp3"><img src="https://live.staticflickr.com/65535/51855380591_7368780331_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp3"></a><br><a href="https://www.flickr.com/photos/jutedev/51855459388/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp4"><img src="https://live.staticflickr.com/65535/51855459388_9e28c0b2c2_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp4"></a></p>
 </li>
 <li><p><code>sudo vim /etc/enviroment</code> 寫入以下內容：</p>
-</li>
-</ol>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GTK_IM_MODULE=ibus</span><br><span class="line">QT_IM_MODULE=ibus</span><br><span class="line">XMODIFIERS=@im=ibus</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>至行易有限公司下載官方表格檔。</li>
-</ol>
+</li>
+<li><p>至行易有限公司下載官方表格檔。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 下載/ /*←這道指令，在沒有中文輸入法的前提下，還是可以善用 Tab 鍵，再用「複製貼上」*/</span><br><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp ./boshiamy_*.db /usr/share/ibus-table/tables &amp;&amp; sudo cp ./boshiamy-*.png /usr/share/ibus-table/icons</span><br><span class="line">ibus-daemon -dx</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
+</li>
 <li><p>點出開始功能表，使用關鍵字「start」，找出「工作階段與啟動」這個設定介面。在「應用程式自動啟動」新增「ibus-daemon -dx」指令，名稱與敘述我分別隨便命名為 ibusStart 與 Start iBus。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)因為 macOS 使用比較久的一點關係，我已習慣用 Ctrl+Space 切換輸入法，來到 Linux，用一樣的設定會比較直覺一點，因此，這一個設定不是每個人都會用到。 <a href="https://www.flickr.com/photos/jutedev/51854702269/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp1"><img src="https://live.staticflickr.com/65535/51854702269_fd4d3af2e9_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp1"></a></p>
+<li><p>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)因為 macOS 使用比較久的一點關係，我已習慣用 Ctrl+Space 切換輸入法，來到 Linux，用一樣的設定會比較直覺一點，因此，這一個設定不是每個人都會用到。 <a href="https://www.flickr.com/photos/jutedev/51854702269/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp1"><img src="https://live.staticflickr.com/65535/51854702269_fd4d3af2e9_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp1"></a><br>(下圖)在系統上只留嘸蝦米輸入法，也是個人習慣問題。 <a href="https://www.flickr.com/photos/jutedev/51854376026/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp2"><img src="https://live.staticflickr.com/65535/51854376026_834f001fe1_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp2"></a></p>
 </li>
 </ol>
-<p>(下圖)在系統上只留嘸蝦米輸入法，也是個人習慣問題。 <a href="https://www.flickr.com/photos/jutedev/51854376026/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp2"><img src="https://live.staticflickr.com/65535/51854376026_834f001fe1_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp2"></a></p>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a href="https://mxlinux.org/">MX Linux – Midweight Simple Stable Desktop OS</a></p>
 </li>
 <li><p><a href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></p>
 </li>
-<li><p><a href="https://code.google.com/archive/p/ibus/">Google Code Archive - Long-term storage for Google Code Project Hosting.</a><br><a href="https://www.flickr.com/photos/jutedev/51855380591/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp3"><img src="https://live.staticflickr.com/65535/51855380591_7368780331_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp3"></a><br><a href="https://www.flickr.com/photos/jutedev/51855459388/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp4"><img src="https://live.staticflickr.com/65535/51855459388_9e28c0b2c2_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp4"></a></p>
+<li><p><a href="https://code.google.com/archive/p/ibus/">Google Code Archive - Long-term storage for Google Code Project Hosting.</a></p>
 </li>
 </ol>
 ]]></content>
@@ -3564,7 +3559,7 @@
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=org.fcitx.fcitx5.android&hl=zh_TW">Fcitx5 for Android - Google Play 應用程式</a></p>
 </li>
-<li><p><a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a></p>
+<li><p><a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a></p>
 </li>
 </ol>
 ]]></content>
@@ -4523,7 +4518,7 @@
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>Lubuntu 本是我在輕量化 Distro 的選擇，elementory OS 是在無意中發現的，安裝後，我發現我還滿喜歡的，原因是想要用什麼，基本上都要自己安裝，算是一個非常乾淨的系統，但有些人可能會說：好像 macOS，關於這一點，反正現在都像來像去，致敬來致敬去的，我個人沒有太多的價值判斷。</p>
 </li>
-<li><p>Fcitx 給了蝦米族非常大的便利，我猜想，那個嘸蝦米的 Table 檔應該不是官方推送給 fcitx(4) 的。如果是這樣，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html" title="智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
+<li><p>Fcitx 給了蝦米族非常大的便利，我猜想，那個嘸蝦米的 Table 檔應該不是官方推送給 fcitx(4) 的。如果是這樣，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
 <blockquote>
 <p>經詢問專家學者結果，有認「嘸瞎米輸入法」的「字根表」、「字碼對照表」應屬著作權法所保護之語文著作或編輯著作者，因而建議 您在運用「嘸蝦米輸入法」的拆字規則撰寫其他輸入法程式時，應避免將前開字根表、字碼對照表重製於 您所撰寫的程式中，以免構成侵害他人著作之行為。</p>
 </blockquote>
@@ -7626,7 +7621,7 @@ gdb -v
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>我對系統能夠直接安裝嘸蝦米輸入法有所期待，也寫了不少篇在各個 Linux Distro(發行版)上透過「fcitx(4或5)+嘸蝦米表格檔」的方式，讓有需求的夥伴，能夠快速地使用嘸蝦米輸入法。</p>
-<p>但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html" title="智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
+<p>但是，這樣是不是妥適，我個人仍有所存疑，究竟對行易有限公司的嘸蝦米有沒有侵權，我發現網路上有不少討論，其中有一篇是有人發函洽詢經濟部智慧財產局而得到的回應：<a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a>，說明主要分為 2 點，我將第 2 點摘要如下。</p>
 <blockquote>
 <p>經詢問專家學者結果，有認「嘸瞎米輸入法」的「字根表」、「字碼對照表」應屬著作權法所保護之語文著作或編輯著作者，因而建議 您在運用「嘸蝦米輸入法」的拆字規則撰寫其他輸入法程式時，應避免將前開字根表、字碼對照表重製於 您所撰寫的程式中，以免構成侵害他人著作之行為。</p>
 </blockquote>
@@ -8283,7 +8278,7 @@ gdb -v
 </li>
 <li><p><a href="https://zh.wikipedia.org/zh-tw/Wayland">Wayland - 維基百科，自由的百科全書</a></p>
 </li>
-<li><p><a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a></p>
+<li><p><a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a></p>
 </li>
 </ol>
 ]]></content>
@@ -9012,7 +9007,7 @@ gdb -v
 </li>
 <li><p><a href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></p>
 </li>
-<li><p><a href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a></p>
+<li><p><a href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a></p>
 </li>
 </ol>
 ]]></content>
