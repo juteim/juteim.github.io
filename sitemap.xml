@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/ubuntu-20-04-3-lts-and-boshiamy-feat-ibus/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/ubuntu-22-04-lts-and-official-boshiamy-ibus-table/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -894,15 +903,6 @@
   
   <url>
     <loc>https://jute.im/apple/upgrade-to-macos-monterey-on-my-mac-mini-late-2014/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/ubuntu-20-04-3-lts-and-boshiamy-feat-ibus/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
