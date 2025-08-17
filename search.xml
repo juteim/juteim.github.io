@@ -8206,7 +8206,7 @@ gdb -v
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
 <h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="Fcitx5-fcitx5-table-boshiamy"><a href="#Fcitx5-fcitx5-table-boshiamy" class="headerlink" title="Fcitx5(fcitx5-table-boshiamy)"></a>Fcitx5(<code>fcitx5-table-boshiamy</code>)</h4><ol>
-<li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，截至目前，我觀察到 部分 Debian 與 ubuntu 及其衍生發行版也將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可服用「嘸蝦米」。</li>
+<li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
 </ol>
 <p>基於上述 2 點，我先把 <code>fcitx5-table-boshiamy</code> 的安裝方式獨立出來。</p>
