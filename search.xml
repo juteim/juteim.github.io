@@ -2706,7 +2706,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure></li>
 <li><p>我另外安裝 <code>mixer</code> 這支套件。</p>
 </li>
-<li><p>目前聲音還有點小聲，由於我目前只是想讓它有點「動靜」而已，因此程序上就先走到這邊。</p>
+<li><p>放出的聲量似乎有點不足，由於我目前只是想讓系統在操作時，讓系統有點「動靜」而已，因此，就決定讓程序先走到這邊。</p>
 </li>
 </ol>
 <h3 id="中文化-含中文輸入法-的安裝與處理過程"><a href="#中文化-含中文輸入法-的安裝與處理過程" class="headerlink" title="中文化(含中文輸入法)的安裝與處理過程"></a>中文化(含中文輸入法)的安裝與處理過程</h3><ol>
@@ -8206,7 +8206,7 @@ gdb -v
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
 <h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="Fcitx5-fcitx5-table-boshiamy"><a href="#Fcitx5-fcitx5-table-boshiamy" class="headerlink" title="Fcitx5(fcitx5-table-boshiamy)"></a>Fcitx5(<code>fcitx5-table-boshiamy</code>)</h4><ol>
-<li>嘸蝦米的獨立套件：目前，已有部分 Debian 與 ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，並收錄至軟體庫，也就是說，選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
+<li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件 ，截至目前，我觀察到 部分 Debian 與 ubuntu 及其衍生發行版也將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可服用「嘸蝦米」。</li>
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
 </ol>
 <p>基於上述 2 點，我先把 <code>fcitx5-table-boshiamy</code> 的安裝方式獨立出來。</p>
