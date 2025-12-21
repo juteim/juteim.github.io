@@ -8066,9 +8066,10 @@ gdb -v
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
 </ol>
 <p>基於上述 2 點，我先把 <code>fcitx5-table-boshiamy</code> 的安裝方式獨立出來。</p>
-<ul>
+<ol>
 <li><a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a></li>
-</ul>
+<li><a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a></li>
+</ol>
 <h4 id="Fcitx5-fcitx5-table-extra-軟體庫版"><a href="#Fcitx5-fcitx5-table-extra-軟體庫版" class="headerlink" title="Fcitx5(fcitx5-table-extra 軟體庫版)"></a>Fcitx5(<code>fcitx5-table-extra</code> 軟體庫版)</h4><p>「ubuntu 24.04 LTS」及其衍生發行版，已經將 <code>fcitx5-table-extra</code> 收納至軟體庫，所以，先是一道指令將套件安裝進來，接著可以從圖形介面新增「嘸蝦米」就能搞定。</p>
 <ol>
 <li><a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></li>
@@ -8112,6 +8113,7 @@ gdb -v
 <li>2025 年 4 月 4 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a>。</li>
 <li>2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</li>
 <li>2025 年 5 月 20 日更新內容：在「openSUSE」裡，收錄 <a href="/linux/opensuse-leap-16-0-beta/">openSUSE Leap 16.0 Beta</a>。</li>
+<li>2025 年 12 月 21 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a>。</li>
 </ul>
 <h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><ol>
 <li><p>Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。選用 iBus 的話，拿行易有限公司官網的表格檔服用，肯定是最佳的選擇。</p>
