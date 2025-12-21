@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言">
+<meta property="og:type" content="article">
+<meta property="og:title" content="從 iOS 15.5 切換到 Android 12">
+<meta property="og:url" content="https://jute.im/android/switch-from-ios-15-5-to-android-12/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52148832602_49f4cabf4c_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52157477678_156a4d82a9_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52156454087_7e489fd7ec_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52157708434_409313e98e_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52156453992_652b1b0e7f_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52157611348_d6f00e737f_b.jpg">
+<meta property="article:published_time" content="2022-06-19T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-03-15T11:20:57.810Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="google">
+<meta property="article:tag" content="apple">
+<meta property="article:tag" content="android">
+<meta property="article:tag" content="ios">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/52148832602_49f4cabf4c_b.jpg">
+
+<link rel="canonical" href="https://jute.im/android/switch-from-ios-15-5-to-android-12/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>從 iOS 15.5 切換到 Android 12 | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/android/switch-from-ios-15-5-to-android-12/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          從 iOS 15.5 切換到 Android 12
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2022-06-19 08:00:00" itemprop="dateCreated datePublished" datetime="2022-06-19T08:00:00+08:00">2022-06-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index"><span itemprop="name">android</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>1.9k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>4 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52148832602/in/dateposted-public/" title="20220615_235236577_iOS"><img src="https://live.staticflickr.com/65535/52148832602_49f4cabf4c_b.jpg" alt="20220615_235236577_iOS"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>去年，我入手一支 realme GT NEO 2，一開始是想給自己跟孩子拿來玩遊戲用的。</p>
+<p>iPhone 6s Plus 升級到 iOS 15.5 後，本來，我還想著持續使用一段時間的，只是，3 個理由，讓我得離開 iOS 一陣子(容我寫在「後記」)。</p>
+<p>同時，我想把自己經常在 iOS 上使用的 App，經過 Switch to Android 做一個切換的動作，並且用圖文做一個簡單的紀錄。而我也得先聲明，這次，我並不是用 <a target="_blank" rel="noopener" href="https://apps.apple.com/app/switch-to-android/id1581816143">Switch To Android on the App Store</a> 這支 App 去進行「轉移到 Android」的動作。</p>
+<hr>
+<h3 id="Switch-to-Android-前的準備"><a href="#Switch-to-Android-前的準備" class="headerlink" title="Switch to Android 前的準備"></a>Switch to Android 前的準備</h3><ol>
+<li>一條 USB-C 對 Lightning 連接線：目前 iPhone 都是用 Lighting 的連接線，拜 iPhone SE 第 3 代之賜，我手上有了一條 USB-C 對 Lightning 連接線，這一條連接線，要是在蘋果官網購買的話，一公尺長要價是 590 元。</li>
+<li>一支 iPhone：我手上的是 iPhone 6s Plus。</li>
+<li>一支 Android 行動電話：我這次準備的是 realme GT NEO 2，轉換前先將系統升級到 Android 12，並且重設手機(徹底清除全部資料【還原原廠設定】)。</li>
+</ol>
+<hr>
+<h3 id="Switch-to-Android-的過程-含重點步驟圖片"><a href="#Switch-to-Android-的過程-含重點步驟圖片" class="headerlink" title="Switch to Android 的過程(含重點步驟圖片)"></a>Switch to Android 的過程(含重點步驟圖片)</h3><p>說真的，我認為 Switch to Android 的介面非常親民，而且，就算是第一次操作，也很好上手，所以，我並沒有在每一個步驟都拍照紀錄，只有在幾個關鍵的點，我認為有必要補充一些想法與注意事項，一併紀錄如下。</p>
+<ol>
+<li><p>選擇要複製的內容：這裡，我基本上是全選，原因是我想看看 Switch to Android 的功力。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52157477678/in/dateposted-public/" title="IMG_0139"><img src="https://live.staticflickr.com/65535/52157477678_156a4d82a9_b.jpg" alt="IMG_0139"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</li>
+<li><p>正在複製你的資料：這一個步驟，我才把 iPhone 上的「自動鎖定」關掉，這個部分，我會建議在準備階段就先設定好。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52156454087/in/dateposted-public/" title="IMG_0142"><img src="https://live.staticflickr.com/65535/52156454087_7e489fd7ec_b.jpg" alt="IMG_0142"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</li>
+<li><p>複製完成：可能我的東西並不多，走完整個複製程序，大概只花了 1 分多鐘，只不過，我發現有幾支 App，並沒有順利移過來，印象中有 Line Pay、Hami Pay 與 匯豐（台灣），而且，真正達成 App 移轉是在進入 Android 系統，並且連上 Wi-Fi 的狀況下完成的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52157708434/in/dateposted-public/" title="IMG_0143"><img src="https://live.staticflickr.com/65535/52157708434_409313e98e_b.jpg" alt="IMG_0143"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</li>
+<li><p>關閉 iMessage：這個步驟，應該是整個程序中，我不是一眼就懂得的，不過，我的選擇是先關閉，其他的再說。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52156453992/in/dateposted-public/" title="IMG_0145"><img src="https://live.staticflickr.com/65535/52156453992_652b1b0e7f_b.jpg" alt="IMG_0145"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>我推估自己的手持裝置中，除了 iPad Air 外，可能會有比較長的時間，沉浸在 Android 這支嵌入式作業系統裡，做出這樣的決定，「時間點」的紀錄，對我來說是有意義的。</p>
+<p>「前言」提到的 3 個理由，讓我得離開 iOS 一陣子，分別是「網速」、「遊戲」與「CP 值」。</p>
+<ol>
+<li>網速：以我而言，用慣了 5G，即便不是每個地方都能夠收到高速的訊號，5G 還是佔在我日常使用空間的一大部分，iPhone 6s Plus 沒有這樣的速度，對於習慣 5G 的我來說，還真的滿不好調適的。</li>
+<li>遊戲：或許「遊戲」這一項，也可以說是「效能表現」，當然，以一支 2015 年發表至今的產品，iPhone 6s Plus 仍然可以使用一般的 App，而且，如果對 Android 的安全性比較有一些擔心的話，也可以把銀行之類的 App 安裝在 iPhone 上。而今，我試著拿 iPhone 6s Plus 玩一下「快打旋風：對決」，想不到在最近的活動：夢魘降臨裡，打 Gouki 打到當機XD；玩一下「荒野亂鬥」，畫面會不時卡住再動，卡個幾次我就不會再燃起「這支 iPhone 可能會有神力」的念頭。</li>
+<li>CP 值：這並不是我第一次入手 Android 陣營的手機，然而，realme GT NEO 2 充電超快、螢幕夠大、滑順使用體驗、接近 Android One 的系統與類遊戲定位等等的特性，大概都有打中我的需求，儘管我可以再入手一支 iPhone，然而，只要一想到去年花費不到 9 千元的 realme GT NEO 2 幾乎已經能夠滿足我 95% 以上的需求，我也想不到有什麼理由，跟自己的荷包過不去。</li>
+</ol>
+<p>最後，補充一點非關今天 Switch to Android 這個程序，但還是滿重要的部分，那就是我仍然會使用到 iCloud 上的行事曆功能，這個功能可以透過 Play Store 上面的 App 達成，我曾經買過 2 支，其中一支：SmoothSync for Cloud Calendar 似乎已經無法使用，而目前使用的是 Sync for iCloud 這支 App，設定的過程須要登入 Apple ID 去取得「App 專用密碼」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52157611348/in/dateposted-public/" title="管理您的 Apple ID"><img src="https://live.staticflickr.com/65535/52157611348_d6f00e737f_b.jpg" alt="管理您的 Apple ID"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>我也得說，蘋果提供這類相關的軟性服務，服務的品質與細膩度一直都在水準之上。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/google/" rel="tag"># google</a>
+              <a href="/tags/apple/" rel="tag"># apple</a>
+              <a href="/tags/android/" rel="tag"># android</a>
+              <a href="/tags/ios/" rel="tag"># ios</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/windows/kb5014697-windows-11-os-build-22000-739/" rel="prev" title="[版本更新] 快速回顧 微軟發布 KB5014697 (Windows 11 作業系統組建 22000.739)">
+      <i class="fa fa-chevron-left"></i> [版本更新] 快速回顧 微軟發布 KB5014697 (Windows 11 作業系統組建 22000.739)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/" rel="next" title="在 ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音">
+      在 ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Switch-to-Android-%E5%89%8D%E7%9A%84%E6%BA%96%E5%82%99"><span class="nav-number">2.</span> <span class="nav-text">Switch to Android 前的準備</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Switch-to-Android-%E7%9A%84%E9%81%8E%E7%A8%8B-%E5%90%AB%E9%87%8D%E9%BB%9E%E6%AD%A5%E9%A9%9F%E5%9C%96%E7%89%87"><span class="nav-number">3.</span> <span class="nav-text">Switch to Android 的過程(含重點步驟圖片)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

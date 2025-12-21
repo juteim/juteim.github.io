@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言老早以前，我就注意到 Fcitx5 for Android 這支 App。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安裝 Fcitx5 for Android(小企鵝輸入法5)與嘸蝦米(2025 年 3 月 18 日更新)">
+<meta property="og:url" content="https://jute.im/boshiamy/install-boshiamy-table-to-fcitx5-for-android/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言老早以前，我就注意到 Fcitx5 for Android 這支 App。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462808_f6d670f485_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309646117_24683503e7_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310638820_a0e5f53030_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337347_25cbbaf8c3_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337342_36bd4fd718_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337337_c28c17d6d4_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310216831_bd5ae5e731_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462788_a43f184d1a_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462923_c4ee797df1_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337427_5e9a03d66e_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310216921_63cafbeb9e_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310638915_68523242a6_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462898_58640bf982_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462893_97a02b5b52_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54362656541_6b7b8a7140_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337402_62b11f77d1_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462878_a47ebde787_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310216911_b7ab17f26b_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462863_59b857ac16_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462853_62e34a70d8_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310446764_7a26ab59a9_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310446774_d95842f220_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310462818_28169be115_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310638850_bd6a30628c_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310638855_f8523ae957_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54393136897_1d99375dbd_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337382_566466dbe6_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337387_54cf69e41a_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337397_66c20d36b3_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309337377_7033e6af1a_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310638845_9432927f71_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310286971_89a77fb34b_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310446744_568bdd2e72_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310464744_e8f5a934c1_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310656970_aa150dfe7e_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54309355972_89b060d75a_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310656950_fa295c5d5b_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54310656955_d96cb66280_o.png">
+<meta property="article:published_time" content="2024-04-28T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-07-29T23:13:55.466Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="google">
+<meta property="article:tag" content="boshiamy">
+<meta property="article:tag" content="android">
+<meta property="article:tag" content="fcitx5">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54310462808_f6d670f485_b.jpg">
+
+<link rel="canonical" href="https://jute.im/boshiamy/install-boshiamy-table-to-fcitx5-for-android/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>安裝 Fcitx5 for Android(小企鵝輸入法5)與嘸蝦米(2025 年 3 月 18 日更新) | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/boshiamy/install-boshiamy-table-to-fcitx5-for-android/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          安裝 Fcitx5 for Android(小企鵝輸入法5)與嘸蝦米(2025 年 3 月 18 日更新)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2024-04-28 08:00:00" itemprop="dateCreated datePublished" datetime="2024-04-28T08:00:00+08:00">2024-04-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/boshiamy/" itemprop="url" rel="index"><span itemprop="name">boshiamy</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>1.9k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>3 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>老早以前，我就注意到 Fcitx5 for Android 這支 App。<img src="https://live.staticflickr.com/65535/54310462808_f6d670f485_b.jpg" alt="installBoshiamyTableToFcitx5ForAndroidEp (1)"></p>
+<p>雖然，我曾經抱著好奇的心態下載與使用 Fcitx5 for Android 這支 App，但是，可能是我已經有官方的嘸蝦米輸入法 App，所以，啟動 Fcitx5 for Android 後，並沒有仔細研究如何把嘸蝦米輸入法表格掛載上去。一個機緣之下，發現已經有網友成功處理完成，我參考網友的說明後，發現設定的要點與程序，真的是「藏得有點深」，所以，決定以螢幕截圖的方式，紀錄自己走過的步驟。</p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><h4 id="安裝-Fcitx5-For-Android-這支主程式"><a href="#安裝-Fcitx5-For-Android-這支主程式" class="headerlink" title="安裝 Fcitx5 For Android 這支主程式"></a>安裝 Fcitx5 For Android 這支主程式</h4><ol>
+<li><p>對安裝 App 已經非常熟悉的伙伴，或可略過，直接去參考「2.2. 掛載嘸蝦米輸入法」這個段落。</p>
+</li>
+<li><p>先跑一趟 Google Play 應用程式商店（商店傳送門：<a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=org.fcitx.fcitx5.android&hl=zh_TW">Fcitx5 for Android - Google Play 應用程式</a>），把 Fcitx5 For Android 安裝進來。 <img src="https://live.staticflickr.com/65535/54309646117_24683503e7_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (1.5)"> <img src="https://live.staticflickr.com/65535/54310638820_a0e5f53030_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (2)"> <img src="https://live.staticflickr.com/65535/54309337347_25cbbaf8c3_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (3)"></p>
+</li>
+<li><p>安裝完成後，可以直接從「Play 商店」按【開啟】。 <img src="https://live.staticflickr.com/65535/54309337342_36bd4fd718_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (4)"></p>
+</li>
+<li><p>初次啟動，需要走幾個步驟。首先，就是先點【啟用輸入法】。 <img src="https://live.staticflickr.com/65535/54309337337_c28c17d6d4_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (5)"></p>
+</li>
+<li><p>點按【啟用輸入法】後，會帶到下圖所示之介面，我們要做的是把「小企鵝輸入法」右手邊的開關點開。 <img src="https://live.staticflickr.com/65535/54310216831_bd5ae5e731_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (6)"></p>
+</li>
+<li><p>打開開關後，「小企鵝輸入法」會帶出一個「注意」的說明視窗，有興趣的伙伴，可以讀一下，讀完記得點【確定】。<img src="https://live.staticflickr.com/65535/54310462788_a43f184d1a_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (7)"></p>
+</li>
+<li><p>開啟完「小企鵝輸入法」，會回到下圖所示之介面，我會直接再點一下【小企鵝輸入法】，直接進入程式的設定畫面。 <img src="https://live.staticflickr.com/65535/54310462923_c4ee797df1_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (8)"></p>
+</li>
+<li><p>我選擇點下【授予權限】。 <img src="https://live.staticflickr.com/65535/54309337427_5e9a03d66e_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (9)"></p>
+</li>
+<li><p>我會點【允許】，同時停留在這個介面上，以便接下來掛載嘸蝦米輸入法。※如果因故跳開這個介面，也不用擔心，只要找到並點下「小企鵝輸入法」的主程式圖示，還是可以回到熟悉的畫面。 <img src="https://live.staticflickr.com/65535/54310216921_63cafbeb9e_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (10)"></p>
+</li>
+</ol>
+<h4 id="掛載嘸蝦米輸入法"><a href="#掛載嘸蝦米輸入法" class="headerlink" title="掛載嘸蝦米輸入法"></a>掛載嘸蝦米輸入法</h4><ol>
+<li><p>到掛載嘸蝦米輸入法表格相關檔案的設定前，要走不少步驟。第一步先點【附加元件】。 <img src="https://live.staticflickr.com/65535/54310638915_68523242a6_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (11)"></p>
+</li>
+<li><p>接著點「碼表」右手邊的【齒輪】圖示。 <img src="https://live.staticflickr.com/65535/54310462898_58640bf982_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (12)"></p>
+</li>
+<li><p>點按【管理碼表輸入法】。 <img src="https://live.staticflickr.com/65535/54310462893_97a02b5b52_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (13)"></p>
+</li>
+<li><p>點按右下角的【+】號的圓形圖示。 <img src="https://live.staticflickr.com/65535/54362656541_6b7b8a7140_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (13.5)"></p>
+</li>
+<li><p>走到這裡，有 2 種方法可以將嘸蝦米輸入法表格相關檔案掛進來，我選用的方法是跑一趟 GitHub：<a target="_blank" rel="noopener" href="https://github.com/fcitx/fcitx5-table-extra/tree/master/tables">fcitx5-table-extra&#x2F;tables at master · fcitx&#x2F;fcitx5-table-extra · GitHub</a> ，把 <code>boshiamy.conf.in</code> 與 <code>boshiamy.txt</code> 載到行動裝置裡面，再分別掛載上去。 <img src="https://live.staticflickr.com/65535/54309337402_62b11f77d1_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (14)"> <img src="https://live.staticflickr.com/65535/54310462878_a47ebde787_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (15)"> <img src="https://live.staticflickr.com/65535/54310216911_b7ab17f26b_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (16)"> <img src="https://live.staticflickr.com/65535/54310462863_59b857ac16_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (17)"> <img src="https://live.staticflickr.com/65535/54310462853_62e34a70d8_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (18)"> <img src="https://live.staticflickr.com/65535/54310446764_7a26ab59a9_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (19)"></p>
+</li>
+<li><p>沒有問題的話，按下【確定】，就會看到「碼表輸入法」介面底下，多了一個「Boshiamy」。<img src="https://live.staticflickr.com/65535/54310446774_d95842f220_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (20)"> <img src="https://live.staticflickr.com/65535/54310462818_28169be115_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (21)"></p>
+</li>
+<li><p>點按左上角的【←】圖示 3 次，回到一開始的設定畫面，再從【輸入法】進去。 <img src="https://live.staticflickr.com/65535/54310638850_bd6a30628c_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (22)"> <img src="https://live.staticflickr.com/65535/54310638855_f8523ae957_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (23)"></p>
+</li>
+<li><p>點右下角的【+】號的圓形圖示，把「Boshiamy」新增進來。 <img src="https://live.staticflickr.com/65535/54393136897_1d99375dbd_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (23.5)"> <img src="https://live.staticflickr.com/65535/54309337382_566466dbe6_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (24)"> <img src="https://live.staticflickr.com/65535/54309337387_54cf69e41a_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (25)"></p>
+</li>
+</ol>
+<h4 id="切換輸入法至「小企鵝輸入法」"><a href="#切換輸入法至「小企鵝輸入法」" class="headerlink" title="切換輸入法至「小企鵝輸入法」"></a>切換輸入法至「小企鵝輸入法」</h4><ol>
+<li><p>點右下角的【地球鍵】，切換輸入法至「小企鵝輸入法」。 <img src="https://live.staticflickr.com/65535/54309337397_66c20d36b3_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (26)"> <img src="https://live.staticflickr.com/65535/54309337377_7033e6af1a_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (27)"> <img src="https://live.staticflickr.com/65535/54310638845_9432927f71_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (28)"></p>
+</li>
+<li><p>再點一下【English】左手邊的【地球鍵】。 <img src="https://live.staticflickr.com/65535/54310286971_89a77fb34b_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (28.5)"></p>
+</li>
+<li><p>看到【English】切換至【Boshiamy】，才算是真正切換到嘸蝦米輸入法。最後，再試著敲幾個字，看看是否安裝成功。 <img src="https://live.staticflickr.com/65535/54310446744_568bdd2e72_o.png" alt="installBoshiamyTableToFcitx5ForAndroidEp (29)"></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次安裝使用的硬體是 Pixel 7，系統版本是 Android 15；「小企鵝輸入法」（即 Fcitx5 for Android）的版本是 0.1.0-0-g78c03d12；boshiamy.conf.in 是 Commits on Apr 29, 2024；boshiamy.txt 是 Commits on Aug 25, 2019。</p>
+</li>
+<li><p>Fcitx，可以說是我目前使用 Linux 時，9 成以上會選用的輸入法框架。想不到 Android 版本，也非常好用，鍵盤的設定跟我的習慣很對味。</p>
+</li>
+<li><p>走一趟 GitHub 下載表格檔，包括：「輸入法設定檔」與「碼表字典檔案」，我都是下載「Raw file content」。 <img src="https://live.staticflickr.com/65535/54310464744_e8f5a934c1_o.png" alt="downloadboshiamy.conf.inAndboshiamy.txtEp1"> <img src="https://live.staticflickr.com/65535/54310656970_aa150dfe7e_o.png" alt="downloadboshiamy.conf.inAndboshiamy.txtEp2"></p>
+</li>
+<li><p>下載的檔案中，boshiamy.conf.in（即「輸入法設定檔」），檔名會變成 boshiamy.conf.in.txt，我直接從行動裝置上進行重新命名的動作（下圖）。 <img src="https://live.staticflickr.com/65535/54309355972_89b060d75a_o.png" alt="renameboshiamy.conf.inEp1"> <img src="https://live.staticflickr.com/65535/54310656950_fa295c5d5b_o.png" alt="renameboshiamy.conf.inEp2"> <img src="https://live.staticflickr.com/65535/54310656955_d96cb66280_o.png" alt="renameboshiamy.conf.inEp3"></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/fcitx/fcitx5-table-extra/tree/master/tables">fcitx5-table-extra&#x2F;tables at master · fcitx&#x2F;fcitx5-table-extra · GitHub</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.ptt.cc/bbs/Liu/M.1698929669.A.A7C.html">【情報】 fcitx 安卓可用的無蝦米輸入法 - 看板 Liu - 批踢踢實業坊</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://medium.com/@Dylan.Wang/android%E4%BD%BF%E7%94%A8fcitx5-for-android%E8%BC%B8%E5%85%A5%E5%98%B8%E8%9D%A6%E7%B1%B3-e68c364d6038">Android使用Fcitx5 for Android輸入嘸蝦米 - Dylan Wang - Medium</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=org.fcitx.fcitx5.android&hl=zh_TW">Fcitx5 for Android - Google Play 應用程式</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.tipo.gov.tw/tw/copyright/692-13512.html">智慧財產局著作權主題網－解釋資料檢索－電子郵件990322b</a></p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/google/" rel="tag"># google</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
+              <a href="/tags/android/" rel="tag"># android</a>
+              <a href="/tags/fcitx5/" rel="tag"># fcitx5</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/linux/caprine/" rel="prev" title="Caprine">
+      <i class="fa fa-chevron-left"></i> Caprine
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/" rel="next" title="ubuntu 24.04 LTS 與嘸蝦米">
+      ubuntu 24.04 LTS 與嘸蝦米 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E9%81%8E%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">安裝過程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D-Fcitx5-For-Android-%E9%80%99%E6%94%AF%E4%B8%BB%E7%A8%8B%E5%BC%8F"><span class="nav-number">2.1.</span> <span class="nav-text">安裝 Fcitx5 For Android 這支主程式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8E%9B%E8%BC%89%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95"><span class="nav-number">2.2.</span> <span class="nav-text">掛載嘸蝦米輸入法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%87%E6%8F%9B%E8%BC%B8%E5%85%A5%E6%B3%95%E8%87%B3%E3%80%8C%E5%B0%8F%E4%BC%81%E9%B5%9D%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8D"><span class="nav-number">2.3.</span> <span class="nav-text">切換輸入法至「小企鵝輸入法」</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

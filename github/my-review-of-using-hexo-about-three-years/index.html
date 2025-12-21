@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言用 Hexo 寫部落格，大概走過 3 年的時間，今天就來分享一下使用心得。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 Hexo 約莫 3 年的心得">
+<meta property="og:url" content="https://jute.im/github/my-review-of-using-hexo-about-three-years/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言用 Hexo 寫部落格，大概走過 3 年的時間，今天就來分享一下使用心得。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54260112558_4e60c6897c_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54260201627_dcff6f5fb3_b.jpg">
+<meta property="article:published_time" content="2025-01-11T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-31T23:22:14.562Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="github">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54260112558_4e60c6897c_b.jpg">
+
+<link rel="canonical" href="https://jute.im/github/my-review-of-using-hexo-about-three-years/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>使用 Hexo 約莫 3 年的心得 | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/github/my-review-of-using-hexo-about-three-years/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用 Hexo 約莫 3 年的心得
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2025-01-11 08:00:00" itemprop="dateCreated datePublished" datetime="2025-01-11T08:00:00+08:00">2025-01-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/github/" itemprop="url" rel="index"><span itemprop="name">github</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>2.3k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>4 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>用 Hexo 寫部落格，大概走過 3 年的時間，今天就來分享一下使用心得。<img src="https://live.staticflickr.com/65535/54260112558_4e60c6897c_b.jpg" alt="usingHexoAboutThreesYearsEp1"></p>
+<h3 id="經驗與心得"><a href="#經驗與心得" class="headerlink" title="經驗與心得"></a>經驗與心得</h3><h4 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h4><ol>
+<li><p>省錢：同時，這也是我轉用 Hexo 的起因，Hexo 要在 GitHub Pages 上部署，而 GitHub Pages 正是一項免費的資源。</p>
+</li>
+<li><p>架設簡單：GitHub Pages 本身就可以架設網站，但，就我自己摸索的經驗是不太能夠得其門而入，反而，Hexo 這支程式讓我很快地就能夠把網站架設好。</p>
+</li>
+<li><p>轉檔資源：如果要延續我之前所撰寫的文章到新的部落格程式上，在不自己動手寫程式的那提下，總得先把轉檔資源找出來。所幸，轉檔資源不難找，以我而言，選用 <a target="_blank" rel="noopener" href="https://github.com/lonekorean/wordpress-export-to-markdown">GitHub - lonekorean&#x2F;wordpress-export-to-markdown: Converts a WordPress export XML file into Markdown files.</a>，可以經易地將 WordPress 上的文章轉成 MarkDown 格式。</p>
+</li>
+<li><p>佈景主題：我選用的 Next，預設的功能就能夠滿足我 95% 以上的需求，所以，不太需要做太多自訂。所以，我認為，Hexo 上面能夠使用的佈景主題資源算是滿夠用的。自訂修改的話，可能是使用者不少，所以，網路上要找到佈景主題自訂、修改的分享文章也不少。</p>
+</li>
+<li><p>留言系統：Hexo 可以佈署靜態網頁，靜態網頁的限制，就是沒有自己的留言系統，需要使用資源嵌入，我左思右想後，便決定暫時不用留言系統，所以，對不少人而言，這可能是缺點，但，對我來說，以往使用 WordPress 時，後臺裡面總有一堆垃圾留言，也挺困擾的。這一點，究竟是優點，還是缺點，似乎比較視個人對部落格的設定需求而定。</p>
+</li>
+<li><p>偽專業：當我們使用 Terminal 佈署文章的時候，會讓多數旁人以為是在做什麼專業的事。</p>
+</li>
+</ol>
+<h4 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h4><ol>
+<li><p>文章撰寫與更新 (1)雖然可以透過指令的方式新增文章，再做修改之類的，但，這樣的方式，我至今仍不熟悉。 (2)坦白說，我也沒有打算花時間去瞭解如何用 CLI 去撰寫、修改或更新文章。 (3)使用至今，我撰寫文章所使用的作業系統，99% 是在 Windows 上。文章管理，用檔案總管；撰寫文章，則是用 VSCode。 (4)相較於 WordPress 或 Blogger 的 GUI 介面，我認為 Hexo 就稍弱一點。 (5)所幸，我使用的 VSCode，可以預覽文章。<img src="https://live.staticflickr.com/65535/54260201627_dcff6f5fb3_b.jpg" alt="usingHexoAboutThreesYearsEp2"></p>
+</li>
+<li><p>文章分類、標籤 (1)無法像 WordPress 的介面做管理。 (2)解決的方式，或許可以在一開始就幫自己做好文章分類，同時可以考慮在檔案命名時，就把分類放上檔案最前面，那麼佈署後的文章，在分類上就會有一定的鑑別度。</p>
+</li>
+<li><p>轉出可能不容易 (1)最近，我注意到 EasyWP 這玩意兒。 (2)再者，我租用域名的廠商，提供 EasyWP 的折價優惠。 (3)我一度想要轉到 EasyWP 上，但，我發現 MarkDown 文章，要轉成其他格式，似乎比較麻煩。 (4)曾設想用 ShellScript 來處理，只是，那又得耗費不少時間。 (5)加上，3 年下來，我也已經滿習慣 Hexo 佈署文章的方式，就暫時做罷。 (6)世事難料，未來如果 GitHub Pages 更改服務供應策略，或是任何可能會逼使用者做出改變，而必須處理這些文章時，就真的得花功夫處理。</p>
+</li>
+<li><p>版本差異 (1)就我個人而言，版本差異是在幫自己的部落格加上 Google Adsense 所遇到的問題。 (2)我確實沒有想到佈景主題版本，在設定上有很大的不同，導致的結果就是按表操課，不一定能夠順利達到設想的目標。 (3)印象中，TatterTools、WordPress 等不少程式都遭遇過這樣的問題，從 WordPress 轉用 Hexo 之前，我注意到 WordPress 這樣的狀況，已經少很多，即使有一些大變動，也可以用插件(Plug-ins)做處理。</p>
+</li>
+<li><p>自訂的紀錄 (1)通常自訂的部分，會以佈景主題的部分比較多。 (2)新增修訂的話，可以用註記來做紀錄。 (3)但，我之所以把這一點列為缺點，就是相較於其他的程式，有些時候，一個功能的開關，最好也再做一次註記，不然，就會像我現在這樣，究竟做了什麼，已經隨著時光而遣忘。</p>
+</li>
+<li><p>SEO 優化：我認為這是相對比較後的結果，以我自己使用 WordPress 的經驗而言，SEO 優化相對容易許多。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>沒有一支完美的部落格程式。</p>
+</li>
+<li><p>以我而言，Hexo 主要是讓我改變使用習慣，同時，有感地把錢省下來。</p>
+</li>
+<li><p>使用 Hexo 之前，我使用過 MovableType、TatterTools、Textpattern 與 WordPress 等程式，這些程式都滿好安裝，也滿好上手。況且，租用 Hosting 服務的話，還可以一鍵完成安裝。</p>
+</li>
+<li><p>當年使用過 TatterTools 的人，隨著 TatterTools 的後續更新，國內越來越少有人幫這支來自韓國的程式維護，不少人開始轉向其他程式，遇到的問題就是沒有轉檔程式或資源。我相信會寫程式的人，做一支轉檔的程式並不難，但是，如果是一般 End-User 就會覺得不容易。進入 Hexo 之前，我使用的 WordPress 資源很多，轉檔資源也算不少。</p>
+</li>
+<li><p>WordPress 具備運用插件(Plug-ins)等優勢，就能輕鬆簡單地達到我所想望的功能。只是，選用好一點的 Hosting 服務，對 WordPress 而言尤其重要；然而，穩定、效能佳的 Hosting 服務，也意味著要付出較多的費用。</p>
+</li>
+</ol>
+<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
+<li><p><a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/">Hexo</a></p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/github/" rel="tag"># github</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/esports/razer-blackwidow-v4-x/" rel="prev" title="Razer BlackWidow V4 X（綠軸）的使用心得">
+      <i class="fa fa-chevron-left"></i> Razer BlackWidow V4 X（綠軸）的使用心得
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/esports/razer-huntsman-v3-pro-tenkeyless/" rel="next" title="Razer Huntsman V3 Pro Tenkeyless 的使用心得">
+      Razer Huntsman V3 Pro Tenkeyless 的使用心得 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B6%93%E9%A9%97%E8%88%87%E5%BF%83%E5%BE%97"><span class="nav-number">2.</span> <span class="nav-text">經驗與心得</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%84%AA%E9%BB%9E"><span class="nav-number">2.1.</span> <span class="nav-text">優點</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BC%BA%E9%BB%9E"><span class="nav-number">2.2.</span> <span class="nav-text">缺點</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="nav-number">4.</span> <span class="nav-text">延伸閱讀</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言跟當年一樣，蘋果在 Mac 上進行處理器的改朝換代，我就開始將手上的 Mac 出清，目前只留下 Mac mini (2014 年末)。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[硬體升級前的評估] 把我 Mac mini (2014 年末) 的系統升級到 macOS Monterey">
+<meta property="og:url" content="https://jute.im/apple/upgrade-to-macos-monterey-on-my-mac-mini-late-2014/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言跟當年一樣，蘋果在 Mac 上進行處理器的改朝換代，我就開始將手上的 Mac 出清，目前只留下 Mac mini (2014 年末)。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894543819_d4bf56bd00_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894441923_b2efd2b18b_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894295113_6d26ac450e_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894860145_34ed8790ce_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894300373_ba30a657c8_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51893247122_91179ec0ef_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894860135_dd145a2cdc_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894860090_a27f34706e_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894300343_231e682cb9_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894206391_3cd3a9acba_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51895235323_8d2f64ecb8_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894206426_479ef0e534_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894860025_94cb7a4f55_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51894294933_53a3ccc8ac_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51895242733_9c375c990d_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51904503536_dbaf6f6ea5_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51903533557_5f42d19859_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51903533497_7481703ed7_b.jpg">
+<meta property="article:published_time" content="2022-02-21T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-02-01T06:41:20.924Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="apple">
+<meta property="article:tag" content="macos">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="嘸蝦米">
+<meta property="article:tag" content="mac">
+<meta property="article:tag" content="fedora">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/51894543819_d4bf56bd00_o.png">
+
+<link rel="canonical" href="https://jute.im/apple/upgrade-to-macos-monterey-on-my-mac-mini-late-2014/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>[硬體升級前的評估] 把我 Mac mini (2014 年末) 的系統升級到 macOS Monterey | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/apple/upgrade-to-macos-monterey-on-my-mac-mini-late-2014/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          [硬體升級前的評估] 把我 Mac mini (2014 年末) 的系統升級到 macOS Monterey
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2022-02-21 08:00:00" itemprop="dateCreated datePublished" datetime="2022-02-21T08:00:00+08:00">2022-02-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/apple/" itemprop="url" rel="index"><span itemprop="name">apple</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>2.5k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>4 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>跟當年一樣，蘋果在 Mac 上進行處理器的改朝換代，我就開始將手上的 Mac 出清，目前只留下 <a target="_blank" rel="noopener" href="https://support.apple.com/kb/SP710?viewlocale=zh_TW&locale=zh_CN">Mac mini (2014 年末)</a>。</p>
+<p>就產品週期推估，蘋果將在 2022 春季發表會，釋出全新的 Mac mini，雖然，在蘋果還沒有正式發布之前，這一切都是大家的猜測，然而，隨著行易有限公司日前已正式釋出嘸蝦米輸入法 X2 正式版(詳可見：<a target="_blank" rel="noopener" href="https://boshiamy.com/news_news.php?news=154">嘸蝦米輸入法開放 X2 軟體更新</a>)，我自己認為差不多是該評估與考慮是不是要入手新的機器。</p>
+<p>手邊的舊機器，就會是升級時很好的需求「參考線」，這一篇大概就是紀錄我將系統升級後，花一點時間觀察系統的狀況，推想要不要投入經費升級新主機的過程。</p>
+<hr>
+<h3 id="升級至-macOS-Monterey-之前"><a href="#升級至-macOS-Monterey-之前" class="headerlink" title="升級至 macOS Monterey 之前"></a>升級至 macOS Monterey 之前</h3><p>升級前，我大概做了 3 件事：製作開機隨身碟、取消 iTunes 授權與備份電腦內的資料檔案。</p>
+<h4 id="1-製作開機隨身碟"><a href="#1-製作開機隨身碟" class="headerlink" title="1. 製作開機隨身碟"></a>1. 製作開機隨身碟</h4><p>首先是製作開機隨身碟，我選擇製作 macOS High Sierra 與 macOS Mojave。這個官方參考文件寫得滿好的，請看 <a target="_blank" rel="noopener" href="https://support.apple.com/zh-tw/HT201372">如何製作可開機的 macOS 安裝磁碟 - Apple 支援 (台灣)</a>。</p>
+<p>(1) macOS High Sierra 是之前用 iMac 做好的，而且是做在 SD Card 上面。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894543819/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp01"><img src="https://live.staticflickr.com/65535/51894543819_d4bf56bd00_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp01"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>(2) 考量到手上的機器已經無法對 SD Card 進行寫入的動作，有可能連讀取都不是那麼順暢、穩定，我再花一點時間下載 macOS Mojave 並製作可開機隨身碟。1GB 下載速度加持，耗時不會太久，倒是製作隨身碟，花了 19 分 32 秒(我用錄影的方式計時)。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894441923/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp00"><img src="https://live.staticflickr.com/65535/51894441923_b2efd2b18b_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp00"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894295113/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp02"><img src="https://live.staticflickr.com/65535/51894295113_6d26ac450e_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp02"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<h4 id="2-取消-iTunes-授權"><a href="#2-取消-iTunes-授權" class="headerlink" title="2. 取消 iTunes 授權"></a>2. 取消 iTunes 授權</h4><p>iTunes 最多可以授權 5 部電腦，用不到而沒有做取消授權的動作，通常都要等個 1 年才能夠重置。</p>
+<p>考量到之前，升級到 Windows 11 的機器掛點，來不及進行「取消授權這部電腦…」，只能等可以進行重置的日期，我才特別先做這件事，單純是一個為防萬一的概念。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894860145/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp04"><img src="https://live.staticflickr.com/65535/51894860145_34ed8790ce_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp04"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<h4 id="3-備份電腦內的資料檔案"><a href="#3-備份電腦內的資料檔案" class="headerlink" title="3. 備份電腦內的資料檔案"></a>3. 備份電腦內的資料檔案</h4><p>不是用時光機器，也沒有特別使用什麼備份軟體，但我平常就有備份電腦的習慣。</p>
+<p>加上這部 Mac mini 也呈現半退休狀態，要備份的東西，其實不多，這一個步驟倒是沒有花費太多時間。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894300373/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp03"><img src="https://live.staticflickr.com/65535/51894300373_ba30a657c8_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp03"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>「照片圖庫」，我通常是整組備份下來。題外話，…我也在考慮是不要要多花一點錢，購買 iCloud 空間，將所有的照片備份到雲端。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51893247122/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp05"><img src="https://live.staticflickr.com/65535/51893247122_91179ec0ef_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp05"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<hr>
+<h3 id="開始升級至-macOS-Monterey"><a href="#開始升級至-macOS-Monterey" class="headerlink" title="開始升級至 macOS Monterey"></a>開始升級至 macOS Monterey</h3><p>12.18GB 的系統更新，印象中，之前的系統更新沒有那麼肥，…只不過，越來越肥也是正常現象。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894860135/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp06"><img src="https://live.staticflickr.com/65535/51894860135_dd145a2cdc_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp06"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>系統升級並不是從中午 12 點多，升級到 6 點多才完成。印象中，我大概是下午 2 點半出門，出門前就已經走到登入畫面(這樣看來應該是已經更新完成)，由此推算這部機器從 macOS Mojave 升級到 macOS Monterey，光機器自己跑更新的部分，就耗費約 2 個半小時，…不會輸給我之前給 Fedora 34 升級到 Fedora 35 的時間。</p>
+<p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894860090/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp07"><img src="https://live.staticflickr.com/65535/51894860090_a27f34706e_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp07"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>螢幕使用時間？前些日子，我曾經短暫地在 iMac 上使用 Big Sur，好像沒有在上面看到這個功能。然而，這個功能究竟需不需要呢？我個人認為確實是有必要的，3C 產品是視力殺手，不可不慎。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894300343/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp08"><img src="https://live.staticflickr.com/65535/51894300343_231e682cb9_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp08"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<hr>
+<h3 id="升級至-macOS-Monterey-後的觀察"><a href="#升級至-macOS-Monterey-後的觀察" class="headerlink" title="升級至 macOS Monterey 後的觀察"></a>升級至 macOS Monterey 後的觀察</h3><h4 id="1-記憶體-8GB-不足是硬傷"><a href="#1-記憶體-8GB-不足是硬傷" class="headerlink" title="1. 記憶體(8GB)不足是硬傷"></a>1. 記憶體(8GB)不足是硬傷</h4><p><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/systempal/id453164367?mt=12">SystemPal</a> 是我老早就購買並持續使用至今的 App，從升級的過程到升級完成，我不時會從這支 App 快速地觀察電腦狀況。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894206391/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp10"><img src="https://live.staticflickr.com/65535/51894206391_3cd3a9acba_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp10"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>升級完當天，我試著讓系統運作 2 個鐘頭，再重開機觀察，發現 8GB 的記憶體，光系統本身就吃到剩 3.9 GB，換句話說，就是以 8GB 的記憶體來說，系統在一開始就吃掉一半以上的記憶體。</p>
+<p>接著在系統上，開個 Firefox 看影片的話，記憶體就吃得差不多，同時要再開另外一支 App，機器就有點吃力。</p>
+<h4 id="2-內建顯示卡可能已經走到極限"><a href="#2-內建顯示卡可能已經走到極限" class="headerlink" title="2. 內建顯示卡可能已經走到極限"></a>2. 內建顯示卡可能已經走到極限</h4><p>登入的畫面就可以感受到，密碼輸入的區塊，邊角加倍圓潤。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51895235323/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp14"><img src="https://live.staticflickr.com/65535/51895235323_8d2f64ecb8_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp14"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>進到系統就可以感覺到「圓角」似乎又增加不少，也更 iOS 化。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894206426/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp09"><img src="https://live.staticflickr.com/65535/51894206426_479ef0e534_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp09"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>只是，有些圓角的處理看起來又不是那麼完美，有時候，我還會看到某些地方的線條旁邊還有稱不上是虛線的「線條」，如果不是內建顯卡可能已經走到極限，那就是我隨便拿一塊別人淘汰的 LCD，顯示上不是那麼完美所致。但，螢幕截圖應該就是系統所呈現的樣態，可見內建顯示卡已經是極限發揮。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894860025/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp12"><img src="https://live.staticflickr.com/65535/51894860025_94cb7a4f55_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp12"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<h4 id="3-iMovie-需要升級"><a href="#3-iMovie-需要升級" class="headerlink" title="3. iMovie 需要升級"></a>3. iMovie 需要升級</h4><p>另外，升級後，之前下載的系統原始安裝檔，檔案都被自動地移除，而 iMovie 也已經無法開啟，需要更新。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51894294933/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp11"><img src="https://live.staticflickr.com/65535/51894294933_53a3ccc8ac_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp11"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>我猜，更新到最新版的 iMovie，應該會支援 <a target="_blank" rel="noopener" href="https://support.apple.com/zh-tw/HT212778">在 iPhone 上使用「電影級」模式</a> 錄製的影片。</p>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>關於蘋果的 Mac 產品週期，可以參考 <a target="_blank" rel="noopener" href="https://buyersguide.macrumors.com/#mac">MacRumors Buyer’s Guide: Know When to Buy iPhone, Mac, iPad</a>。</p>
+</li>
+<li><p>我目前的 Mac mini，升級到 macOS Monterey 後，考量到我目前比較常在 Mac 上做的事：上網、影像處理與影片簡易後製，不一定需要編修 <a target="_blank" rel="noopener" href="https://support.apple.com/zh-tw/HT212778">在 iPhone 上使用「電影級」模式</a> 所錄製的影片，我買新機器的必要性與急迫性，似乎都不是那麼高。</p>
+</li>
+<li><p>記憶體的硬傷，提醒我一件事：即使硬碟換成 SSD，仍無法改善記憶體不夠用的問題，與其再花錢請人改機，不如存下銀彈直接入手新機。</p>
+</li>
+<li><p>儘管，我現在的儲存空間不會用很兇(如下圖所示)，但未來要入手的機器，還是會期待至少要 1TB 以上的容量比較好。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51895242733/in/dateposted-public/" title="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp15"><img src="https://live.staticflickr.com/65535/51895242733_9c375c990d_o.png" alt="upgrademyMacMini(Late2014)frommacOSmojavetomacOSmontereyEp15"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</li>
+<li><p>使用約一個星期後，基於硬體扛不太動 macOS Monterey，我決定降級回到 macOS High Sierra。(更新日期：2022 年 2 月 26 日)  </p>
+<p> 硬碟明顯扛不動，有不少人升級 SSD 會有感，但記憶體就像我剛安裝完那樣，重新啟動後，就剩差不多一半(甚至不到)的樣子，再開一支 App，就是等等等等。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51904503536/in/dateposted-public/" title="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp1"><img src="https://live.staticflickr.com/65535/51904503536_dbaf6f6ea5_b.jpg" alt="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp1"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51903533557/in/dateposted-public/" title="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp2"><img src="https://live.staticflickr.com/65535/51903533557_5f42d19859_b.jpg" alt="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp2"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<p> Mac mini (2014 年末)，以我的使用習慣來說，極限在 macOS Mojave，但我更愛 macOS High Sierra。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51903533497/in/dateposted-public/" title="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp3"><img src="https://live.staticflickr.com/65535/51903533497_7481703ed7_b.jpg" alt="downgrademyMacMini(Late2014)frommacOSmontereytomacOShighSierraEp3"></a></p>
+ <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/apple/" rel="tag"># apple</a>
+              <a href="/tags/macos/" rel="tag"># macos</a>
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/" rel="tag"># 嘸蝦米</a>
+              <a href="/tags/mac/" rel="tag"># mac</a>
+              <a href="/tags/fedora/" rel="tag"># fedora</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/windows/kb4023057-update-for-windows-update-service-components/" rel="prev" title="[版本更新] 快速回顧 微軟發布 KB4023057 (更新 Windows Update 服務元件)">
+      <i class="fa fa-chevron-left"></i> [版本更新] 快速回顧 微軟發布 KB4023057 (更新 Windows Update 服務元件)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/" rel="next" title="關於「嘸蝦米輸入法PRO」(Android 版) 的設定">
+      關於「嘸蝦米輸入法PRO」(Android 版) 的設定 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%87%E7%B4%9A%E8%87%B3-macOS-Monterey-%E4%B9%8B%E5%89%8D"><span class="nav-number">2.</span> <span class="nav-text">升級至 macOS Monterey 之前</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E8%A3%BD%E4%BD%9C%E9%96%8B%E6%A9%9F%E9%9A%A8%E8%BA%AB%E7%A2%9F"><span class="nav-number">2.1.</span> <span class="nav-text">1. 製作開機隨身碟</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%8F%96%E6%B6%88-iTunes-%E6%8E%88%E6%AC%8A"><span class="nav-number">2.2.</span> <span class="nav-text">2. 取消 iTunes 授權</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%82%99%E4%BB%BD%E9%9B%BB%E8%85%A6%E5%85%A7%E7%9A%84%E8%B3%87%E6%96%99%E6%AA%94%E6%A1%88"><span class="nav-number">2.3.</span> <span class="nav-text">3. 備份電腦內的資料檔案</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%96%8B%E5%A7%8B%E5%8D%87%E7%B4%9A%E8%87%B3-macOS-Monterey"><span class="nav-number">3.</span> <span class="nav-text">開始升級至 macOS Monterey</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%87%E7%B4%9A%E8%87%B3-macOS-Monterey-%E5%BE%8C%E7%9A%84%E8%A7%80%E5%AF%9F"><span class="nav-number">4.</span> <span class="nav-text">升級至 macOS Monterey 後的觀察</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E8%A8%98%E6%86%B6%E9%AB%94-8GB-%E4%B8%8D%E8%B6%B3%E6%98%AF%E7%A1%AC%E5%82%B7"><span class="nav-number">4.1.</span> <span class="nav-text">1. 記憶體(8GB)不足是硬傷</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E5%85%A7%E5%BB%BA%E9%A1%AF%E7%A4%BA%E5%8D%A1%E5%8F%AF%E8%83%BD%E5%B7%B2%E7%B6%93%E8%B5%B0%E5%88%B0%E6%A5%B5%E9%99%90"><span class="nav-number">4.2.</span> <span class="nav-text">2. 內建顯示卡可能已經走到極限</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-iMovie-%E9%9C%80%E8%A6%81%E5%8D%87%E7%B4%9A"><span class="nav-number">4.3.</span> <span class="nav-text">3. iMovie 需要升級</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">5.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

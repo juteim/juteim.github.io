@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言紀錄一下「UrKeyboard 與嘸蝦米輸入法」的使用心得與設定流程。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UrKeyboard 與嘸蝦米輸入法">
+<meta property="og:url" content="https://jute.im/boshiamy/urkeyboard-and-boshiamy/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言紀錄一下「UrKeyboard 與嘸蝦米輸入法」的使用心得與設定流程。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322666160_fe62697b74_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322955525_513f135b5d_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322479583_62ea571a25_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322484474_d600a5ef80_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322252166_044071e12e_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322479738_b7bcf0518b_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322768830_3aee8e4f9d_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322479718_7d3044e0fa_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322479703_dcfe49807c_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322666205_5a33a60379_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54321359792_ac88e1191f_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322484644_66990c2d7d_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54321359822_fbf0d65bc9_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322484619_1e0ca580fd_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322484639_e673b3fd26_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54321359757_9ce7e7ace6_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322666185_8010a894c1_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322252076_dd85c5a6c1_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322666145_db85d62bbd_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54322666140_40cfe53996_h.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54321359692_f882ff1544_h.jpg">
+<meta property="article:published_time" content="2025-02-12T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-03-14T06:49:16.212Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="apple">
+<meta property="article:tag" content="boshiamy">
+<meta property="article:tag" content="ios">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54322666160_fe62697b74_b.jpg">
+
+<link rel="canonical" href="https://jute.im/boshiamy/urkeyboard-and-boshiamy/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>UrKeyboard 與嘸蝦米輸入法 | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/boshiamy/urkeyboard-and-boshiamy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          UrKeyboard 與嘸蝦米輸入法
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2025-02-12 08:00:00" itemprop="dateCreated datePublished" datetime="2025-02-12T08:00:00+08:00">2025-02-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/boshiamy/" itemprop="url" rel="index"><span itemprop="name">boshiamy</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>1.3k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>2 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>紀錄一下「UrKeyboard 與嘸蝦米輸入法」的使用心得與設定流程。<br><img src="https://live.staticflickr.com/65535/54322666160_fe62697b74_b.jpg" alt="urkeyboardAndBoshiamyEp (22)"/></p>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>基本功能要價 120 元：UrKeyboard 算是很早就出現的第三方鍵盤，但，我當時可能是考量到「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」提供「基本打字免費」的功能，因此才跳過 UrKeyboard。</p>
+</li>
+<li><p>沒有廣告：這個心得，可能會讓不少人覺得奇怪。都已經完成付費，怎麼還會有廣告？事實是還真的有，那就是「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」：即使付費使用加購功能，在設定畫面裡，還是會看到廣告（所幸，只在設定畫面裡）。相較之下，UrKeyboard 的設定畫面，沒有廣告。</p>
+</li>
+<li><p>鍵盤的配置：算是合我的口味，而且，上方還有「功能列」，讓使用者可以快速切換到「英文」、「符號」、「簡中」等輸入。</p>
+<img src="https://live.staticflickr.com/65535/54322955525_513f135b5d_b.jpg" alt="urkeyboardAndBoshiamyEp (28)"/>
+</li>
+<li><p>鍵盤載入及入字速度：無論是鍵盤載入，或是入字速度，我認為可接受，但總覺得可以更快。這一點，在 iOS 上，我比較滿意的是「<a target="_blank" rel="noopener" href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」與「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」。</p>
+</li>
+<li><p>其他：觸覺回饋設定後，沒有產生效果，但，我印象中，「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」、「<a target="_blank" rel="noopener" href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」，也都是一樣，這一點，可能跟 iOS 有關，但，即使我按照各家第三方鍵盤的官方說明進行設定，只有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」可以設定成功。</p>
+</li>
+</ol>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>使用嘸蝦米輸入法前，只需要將表格檔載入就完成一大半。</p>
+<ol>
+<li><p>只是，表格檔的載入，若是照著使用說明：「如果你要找尋其它輸入法(如無蝦米)，請在首頁點擊『其它輸入法』！」，那麼，基本上會跑錯路。</p>
+<img src="https://live.staticflickr.com/65535/54322479583_62ea571a25_h.jpg" alt="urkeyboardAndBoshiamyEp (4)"/>
+<img src="https://live.staticflickr.com/65535/54322484474_d600a5ef80_h.jpg" alt="urkeyboardAndBoshiamyEp (5)"/>
+<img src="https://live.staticflickr.com/65535/54322252166_044071e12e_h.jpg" alt="urkeyboardAndBoshiamyEp (6)"/>
+<img src="https://live.staticflickr.com/65535/54322479738_b7bcf0518b_h.jpg" alt="urkeyboardAndBoshiamyEp (7)"/>
+<img src="https://live.staticflickr.com/65535/54322768830_3aee8e4f9d_h.jpg" alt="urkeyboardAndBoshiamyEp (8)"/>
+</li>
+<li><p>重新回到首頁：「UrKeyboard 中文輸入法」這一個介面，才發現「蝦米.cin」才是正道，只要點【蝦米.cin】，就可以順利載入嘸蝦米表格檔。</p>
+<img src="https://live.staticflickr.com/65535/54322479718_7d3044e0fa_h.jpg" alt="urkeyboardAndBoshiamyEp (9)"/>
+<img src="https://live.staticflickr.com/65535/54322479703_dcfe49807c_h.jpg" alt="urkeyboardAndBoshiamyEp (10)"/>
+</li>
+<li><p>載入表格檔之後，原則上就可以使用。儘管如此，我還是跑一趟「設定」，看看裡面有什麼。大致上，我認為有 4 點是比較可惜的地方。<br>  (1)整個「設定」裡面，並沒有幫使用者導至 iOS 系統內的「鍵盤」設定區。<br>  (2)點擊「鍵盤按鍵配置」，App 偶爾會發生閃退。<br>  (3)鍵盤上方「功能列」最右手邊的【▼】按鈕，預設其實是沒有啟用的，但，使用時已預設啟用【▼】按鈕，不過，這個小瑕疵，對我的影響並不大。<br>  (4)最底下有個【登出】，我摸索一下，到目前為止，還不知道這個按鈕的作用。</p>
+<img src="https://live.staticflickr.com/65535/54322666205_5a33a60379_h.jpg" alt="urkeyboardAndBoshiamyEp (11)"/>
+<img src="https://live.staticflickr.com/65535/54321359792_ac88e1191f_h.jpg" alt="urkeyboardAndBoshiamyEp (12)"/>
+<img src="https://live.staticflickr.com/65535/54322484644_66990c2d7d_h.jpg" alt="urkeyboardAndBoshiamyEp (13)"/>
+<img src="https://live.staticflickr.com/65535/54321359822_fbf0d65bc9_h.jpg" alt="urkeyboardAndBoshiamyEp (14)"/>
+</li>
+<li><p>我想透過「允許完整取用」，看看能不能在入字的時候，產生觸覺回饋，…答案是「No」。</p>
+<img src="https://live.staticflickr.com/65535/54322484619_1e0ca580fd_h.jpg" alt="urkeyboardAndBoshiamyEp (15)"/>
+<img src="https://live.staticflickr.com/65535/54322484639_e673b3fd26_h.jpg" alt="urkeyboardAndBoshiamyEp (16)"/>
+<img src="https://live.staticflickr.com/65535/54321359757_9ce7e7ace6_h.jpg" alt="urkeyboardAndBoshiamyEp (17)"/>
+<img src="https://live.staticflickr.com/65535/54322666185_8010a894c1_h.jpg" alt="urkeyboardAndBoshiamyEp (18)"/>
+<img src="https://live.staticflickr.com/65535/54322252076_dd85c5a6c1_h.jpg" alt="urkeyboardAndBoshiamyEp (19)"/>
+<img src="https://live.staticflickr.com/65535/54322666145_db85d62bbd_h.jpg" alt="urkeyboardAndBoshiamyEp (20)"/>
+<img src="https://live.staticflickr.com/65535/54322666140_40cfe53996_h.jpg" alt="urkeyboardAndBoshiamyEp (21)"/></li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>目前，我所使用的是 iPhone 13，iOS 版本是 18.3。</p>
+</li>
+<li><p>以下是我在 iOS 上使用過的嘸蝦米輸入法，各家有各家的優點，如果匯集這些優點，相信就會更完美。</p>
+<img src="https://live.staticflickr.com/65535/54321359692_f882ff1544_h.jpg" alt="urkeyboardAndBoshiamyEp (2)"/>
+</li>
+<li><p>UrKeyboard 也有 Android 版，但，我並不打算用，主要原因是官方的版本與 Fcitx5 for Android(小企鵝輸入法5) 就已經能夠滿足我在使用上的需求。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.zhihmeng.urkeyboard">UrKeyboard輸入法 - Google Play 應用程式</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://apps.apple.com/tw/app/urkeyboard%E8%BC%B8%E5%85%A5%E6%B3%95/id898188878">在 App Store 上的「UrKeyboard輸入法」</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://blog.molioapp.com/2017/04/urkeyboard.html">MolioApp: UrKeyboard 介紹</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.facebook.com/urkeyboard/">UrKeyboard | Facebook</a></p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/apple/" rel="tag"># apple</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
+              <a href="/tags/ios/" rel="tag"># ios</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/android/my-first-experience-of-private-space/" rel="prev" title="「私人空間」初體驗（feat. Pixel 7）">
+      <i class="fa fa-chevron-left"></i> 「私人空間」初體驗（feat. Pixel 7）
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/reviews/bocchi-kouryaku/" rel="next" title="孤單一人的異世界攻略">
+      孤單一人的異世界攻略 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97"><span class="nav-number">2.</span> <span class="nav-text">使用心得</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95%E7%9A%84%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">使用嘸蝦米輸入法的相關設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

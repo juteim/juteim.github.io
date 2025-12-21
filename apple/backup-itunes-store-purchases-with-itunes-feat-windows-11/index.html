@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言iPhone 上有一些音樂，想要備份到電腦上。這件事，一直以來，我都使用官方的 App 搞定。今天這一則，紀錄的是 iTunes 進行備份的過程。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 iTunes 備份 iTunes Store 上的已購音樂 feat. Windows 11">
+<meta property="og:url" content="https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言iPhone 上有一些音樂，想要備份到電腦上。這件事，一直以來，我都使用官方的 App 搞定。今天這一則，紀錄的是 iTunes 進行備份的過程。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54507990832_e4d71dc78c_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509174368_cdc4b03365_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509136603_43077b7372_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509048334_2863033cda_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509123118_566bd53036_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509048314_bb679fbd4d_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54508895006_3030f6824a_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509048299_976d62e8f0_z.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54509123088_789d14a1a3_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54507990807_57231923e8_b.jpg">
+<meta property="article:published_time" content="2025-05-10T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-05-17T01:39:58.417Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="windows11">
+<meta property="article:tag" content="itunes">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54507990832_e4d71dc78c_b.jpg">
+
+<link rel="canonical" href="https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>使用 iTunes 備份 iTunes Store 上的已購音樂 feat. Windows 11 | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用 iTunes 備份 iTunes Store 上的已購音樂 feat. Windows 11
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2025-05-10 08:00:00" itemprop="dateCreated datePublished" datetime="2025-05-10T08:00:00+08:00">2025-05-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/apple/" itemprop="url" rel="index"><span itemprop="name">apple</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>1.3k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>2 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>iPhone 上有一些音樂，想要備份到電腦上。這件事，一直以來，我都使用官方的 App 搞定。今天這一則，紀錄的是 iTunes 進行備份的過程。 <img src="https://live.staticflickr.com/65535/54507990832_e4d71dc78c_b.jpg"  alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep1"/></p>
+<h3 id="下載與備份程序"><a href="#下載與備份程序" class="headerlink" title="下載與備份程序"></a>下載與備份程序</h3><h4 id="iPhone-或-iPad-端要做的事：開啟「同步資料庫」"><a href="#iPhone-或-iPad-端要做的事：開啟「同步資料庫」" class="headerlink" title="iPhone 或 iPad 端要做的事：開啟「同步資料庫」"></a>iPhone 或 iPad 端要做的事：開啟「同步資料庫」</h4><ol>
+<li><p>使用「同步資料庫」，有一個前提就是需要訂閱 Apple Music 或 iTunes Match。</p>
+</li>
+<li><p>開啟「同步資料庫」的方法，官網有說明可供參考：<a target="_blank" rel="noopener" href="https://support.apple.com/zh-tw/118285">透過訂閱 Apple Music 使用「同步資料庫」 - Apple 支援 (台灣)</a></p>
+<img src="https://live.staticflickr.com/65535/54509174368_cdc4b03365_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep9"/></li>
+</ol>
+<h4 id="iTunes-端要做的事"><a href="#iTunes-端要做的事" class="headerlink" title="iTunes 端要做的事"></a>iTunes 端要做的事</h4><ol>
+<li><p>工欲善其事，必先有工具：iTunes，可以直接從 Microsoft Store 直接下載及安裝。 <img src="https://live.staticflickr.com/65535/54509136603_43077b7372_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep10"/></p>
+</li>
+<li><p>登入自己的 iTunes Store，並且授權給眼前的電腦。 <img src="https://live.staticflickr.com/65535/54509048334_2863033cda_b.jpg"  alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep2"/></p>
+</li>
+<li><p>從 iTunes App 的【編輯】→【偏好設定】進入「進階偏好設定」。 <img src="https://live.staticflickr.com/65535/54509123118_566bd53036_b.jpg"  alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep3"/></p>
+</li>
+<li><p>找到最右邊的【進階】，點進去把「保持 iTunes Media 資料夾的整理狀態」與「歌曲加入資料庫時，將其檔案複製到 iTunes Media 資料夾」都勾選起來。 <img src="https://live.staticflickr.com/65535/54509048314_bb679fbd4d_c.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep4"/></p>
+</li>
+<li><p>回到 iTunes App 的主畫面，點一下畫面左手邊分格裡的【歌曲】後，再全選畫面右手邊分格內所有歌曲，，或是選擇想要下載的歌曲，再點滑鼠右鍵，從跳出的選單裡點【下載】。 <img src="https://live.staticflickr.com/65535/54508895006_3030f6824a_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep5"/></p>
+</li>
+<li><p>可能會有一些音樂檔，下載時會出現錯誤訊息。 <img src="https://live.staticflickr.com/65535/54509048299_976d62e8f0_z.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep6"/></p>
+</li>
+<li><p>後續可以在 iTunes App 右上角，「搜尋工具列」右手邊，找到出現一個圈著驚嘆號的按鈕，點下去就可以把沒有下載到音樂檔，重新嘗試下載到電腦上（可能還是會有無法下載的檔案，但我個人的經驗是幾乎都能夠下載下來）。 <img src="https://live.staticflickr.com/65535/54509123088_789d14a1a3_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep7"/></p>
+</li>
+</ol>
+<h4 id="Windows-端要做的事"><a href="#Windows-端要做的事" class="headerlink" title="Windows 端要做的事"></a>Windows 端要做的事</h4><ol>
+<li><p>最後，下載後的音樂檔，以 Windows 而言，檔案位置預設可能會在下列 2 個部徑底下（會有這樣的差別，主要是使用者有沒有另外用 OneDrive 備份到雲端導致）。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">路徑(1)</span><br><span class="line">  %USERPROFILE%\OneDrive\Music\iTunes\iTunes Media\Music</span><br><span class="line"></span><br><span class="line">路徑(2)</span><br><span class="line">  %USERPROFILE%\Music\iTunes\iTunes Media\Music</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>只要用關鍵字「.m4a」搜尋，就可以把檔案找出來。 <img src="https://live.staticflickr.com/65535/54507990807_57231923e8_b.jpg" alt="backup-itunes-store-purchases-with-itunes-feat-windows-11-ep8"/></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>iTunes 曾經是蘋果音樂服務的重要 App，然而，隨著時代的發展，iTunes 的功能逐漸被削弱，Apple Music 這支 App 出現後，iTunes 所剩的功能已經不多。</p>
+</li>
+<li><p>除了 Windows 上的 iTunes 可以辦到，老 Mac 仍在使用 iTunes 的機器，也同樣可行。也就以說，下載老 App：iTunes，Windows 的話，可以從 Microsoft Store 下載與安裝，沒有支援 Microsoft Store 的 Windows，可以跑一趟蘋果官網下載獨立的 iTunes 安裝程式；Mac 的話，要找老機器或是裝有舊一點的 macOS 來處理（例如，High Sierra 就可以）。</p>
+</li>
+<li><p>今天的步驟程序，原則上，應該使用 Apple Music 這支 App 也辦得到，但，我沒有試過，沒有百分百的把握。</p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/windows11/" rel="tag"># windows11</a>
+              <a href="/tags/itunes/" rel="tag"># itunes</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/" rel="prev" title="Zorin OS 17.3 Core 與嘸蝦米">
+      <i class="fa fa-chevron-left"></i> Zorin OS 17.3 Core 與嘸蝦米
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/linux/cachyos-desktop-linux-250422/" rel="next" title="CachyOS">
+      CachyOS <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BC%89%E8%88%87%E5%82%99%E4%BB%BD%E7%A8%8B%E5%BA%8F"><span class="nav-number">2.</span> <span class="nav-text">下載與備份程序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#iPhone-%E6%88%96-iPad-%E7%AB%AF%E8%A6%81%E5%81%9A%E7%9A%84%E4%BA%8B%EF%BC%9A%E9%96%8B%E5%95%9F%E3%80%8C%E5%90%8C%E6%AD%A5%E8%B3%87%E6%96%99%E5%BA%AB%E3%80%8D"><span class="nav-number">2.1.</span> <span class="nav-text">iPhone 或 iPad 端要做的事：開啟「同步資料庫」</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#iTunes-%E7%AB%AF%E8%A6%81%E5%81%9A%E7%9A%84%E4%BA%8B"><span class="nav-number">2.2.</span> <span class="nav-text">iTunes 端要做的事</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Windows-%E7%AB%AF%E8%A6%81%E5%81%9A%E7%9A%84%E4%BA%8B"><span class="nav-number">2.3.</span> <span class="nav-text">Windows 端要做的事</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言目前，我所使用的 Windows 桌機是 Acer Aspire TC-1660。最近一直遇到系統在非預期的狀況下，自己就重新啟動的狀況，而本文主要是紀錄我的故障排除過程。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows 非預期重新啟動">
+<meta property="og:url" content="https://jute.im/windows/windows-restarts-unexpectedly/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言目前，我所使用的 Windows 桌機是 Acer Aspire TC-1660。最近一直遇到系統在非預期的狀況下，自己就重新啟動的狀況，而本文主要是紀錄我的故障排除過程。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54231204854_78c1b242e0_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54231309550_a18ac29069_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54229998122_5926921563_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54231309555_0f5a837c14_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/54230906491_621544356f_o.png">
+<meta property="article:published_time" content="2024-12-28T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-03T04:07:06.043Z">
+<meta property="article:author" content="jute">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="windows10">
+<meta property="article:tag" content="windows11">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/54231204854_78c1b242e0_o.png">
+
+<link rel="canonical" href="https://jute.im/windows/windows-restarts-unexpectedly/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>Windows 非預期重新啟動 | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+    <script data-pjax>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EFZSE1ET2D');
+      }
+    </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">jute.im</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Blogging</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/windows/windows-restarts-unexpectedly/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jute">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Windows 非預期重新啟動
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2024-12-28 08:00:00" itemprop="dateCreated datePublished" datetime="2024-12-28T08:00:00+08:00">2024-12-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/windows/" itemprop="url" rel="index"><span itemprop="name">windows</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">文章字數：</span>
+              <span>1.2k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+              <span>2 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>目前，我所使用的 Windows 桌機是 Acer Aspire TC-1660。最近一直遇到系統在非預期的狀況下，自己就重新啟動的狀況，而本文主要是紀錄我的故障排除過程。<img src="https://live.staticflickr.com/65535/54231204854_78c1b242e0_o.png" alt="windowsRestartsUnexpectedlyEp5"/></p>
+<h3 id="故障排除過程與想法"><a href="#故障排除過程與想法" class="headerlink" title="故障排除過程與想法"></a>故障排除過程與想法</h3><h4 id="問題發生的時間點"><a href="#問題發生的時間點" class="headerlink" title="問題發生的時間點"></a>問題發生的時間點</h4><ol>
+<li><p>這部機器出廠預載的系統是 Windows 10，後升級到 Windows 11。</p>
+</li>
+<li><p>使用一段時間的 Windows 11 後，我以重灌的方式，讓系統回到 Windows 10。</p>
+</li>
+<li><p>也就是從這個時間點開始，常常在我使用瀏覽器看影片（包括：Netflix、Youtube、Max 或 Disney+ 等）時，系統會卡住，接著進入黑暗畫面，然後，就是系統自己給自己重新啟動。</p>
+</li>
+</ol>
+<h4 id="把問題先瞄準到顯示卡"><a href="#把問題先瞄準到顯示卡" class="headerlink" title="把問題先瞄準到顯示卡"></a>把問題先瞄準到顯示卡</h4><ol>
+<li><p>一開始，我把問題鎖定在顯示卡，上網搜尋之後，也確實有不少伙伴有類似的情形。</p>
+</li>
+<li><p>這個時間點的排除方式，就是把顯示卡的驅動程式升好升滿。</p>
+</li>
+<li><p>至於，有沒有效果，答案是「有的」。只是，並沒有完全藥到病除。充其量，只能說，重新啟動的頻率變少，但實際上還是會發生。</p>
+</li>
+</ol>
+<h4 id="嘗試透過更新-BIOS、Firmware-與-Windows-來解決？"><a href="#嘗試透過更新-BIOS、Firmware-與-Windows-來解決？" class="headerlink" title="嘗試透過更新 BIOS、Firmware 與 Windows 來解決？"></a>嘗試透過更新 BIOS、Firmware 與 Windows 來解決？</h4><ol>
+<li><p>我親自跑一趟官網，把最新的 BIOS 與 Firmware 一個接著一個都升級上去。</p>
+</li>
+<li><p>再把重灌並使用一年多的 Windows 10 升級到 Windows 11。</p>
+</li>
+<li><p>經歷過這些升級，無預期重啟的狀況，可以說完全感受不到有任何改善。</p>
+</li>
+</ol>
+<h4 id="考慮更換電源供應器"><a href="#考慮更換電源供應器" class="headerlink" title="考慮更換電源供應器"></a>考慮更換電源供應器</h4><ol>
+<li><p>會想到要更換電源供應器，主要是因為這部電腦，出廠的 CPU 風扇實在不優，買來不久，我就把風扇換掉。（詳可見：<a href="/unpack/acer-aspire-tc-1660-desktop-feat-cooler-master/">開箱 Acer Aspire TC-1660 Desktop feat. Cooler Master</a>）</p>
+</li>
+<li><p>但，仔細回想一下，之前機器也是頂著新風扇運行好些日子，並沒有發生自己<del>玩自己</del>重新開機的狀況發生。</p>
+</li>
+<li><p>更何況，更換電源供應器是要花錢的，我認為除非非常必要，不然，我實在不太想先走這個解法。</p>
+</li>
+<li><p>不過，我得聲明的是…，我確實有點懶得去計算電源供應器能否負載目前機器上消耗的瓦數，如果算一算真的不太夠，或是太剛好的話，該花的錢，還是得花。</p>
+</li>
+</ol>
+<h4 id="透過系統設定排除故障"><a href="#透過系統設定排除故障" class="headerlink" title="透過系統設定排除故障"></a>透過系統設定排除故障</h4><p>我認為這是在不花錢的前提下，現階段我還能夠運用的方法。姑且，就把設定的過程，紀錄如下。</p>
+<ol>
+<li><p>進入系統的「設定」介面。</p>
+</li>
+<li><p>點一下左邊的「設定」。<img src="https://live.staticflickr.com/65535/54231309550_a18ac29069_o.png" alt="windowsRestartsUnexpectedlyEp1"/></p>
+</li>
+<li><p>找到「系統進階設定」，並且點一下進入設定畫面。<img src="https://live.staticflickr.com/65535/54229998122_5926921563_o.png" alt="windowsRestartsUnexpectedlyEp2"/></p>
+</li>
+<li><p>在「進階」這個頁籤，找到「啟動及修復」欄位內的【設定】按鈕，並且點按進入。<img src="https://live.staticflickr.com/65535/54231309555_0f5a837c14_o.png" alt="windowsRestartsUnexpectedlyEp3"/></p>
+</li>
+<li><p>在「系統失敗」欄位內，取消預設已勾選的「自動重新啟動」。<img src="https://live.staticflickr.com/65535/54230906491_621544356f_o.png" alt="windowsRestartsUnexpectedlyEp4"/></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>設定完，可以明顯感受到，當我在瀏覽器看影片時，會有鼠標卡頓的狀況發生，但，還不至於讓系統重新開機。</p>
+</li>
+<li><p>但，我在使用 Oracle VirtualBox 上的 Fedora 41，還是遭遇到系統強制被關機的狀況。應該是我把「自動重新啟動」取消掉，所造成的結果。</p>
+</li>
+<li><p>由於我使用 Oracle VirtualBox 的頻率並不算高，所以，我決定再觀察一下，這樣的設定，所帶來的效果。</p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/windows10/" rel="tag"># windows10</a>
+              <a href="/tags/windows11/" rel="tag"># windows11</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/" rel="prev" title="在 Fedora 41 上輕鬆安裝嘸蝦米(feat. Fcitx5)">
+      <i class="fa fa-chevron-left"></i> 在 Fedora 41 上輕鬆安裝嘸蝦米(feat. Fcitx5)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/reviews/love-next-door/" rel="next" title="媽媽朋友的兒子">
+      媽媽朋友的兒子 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E9%81%8E%E7%A8%8B%E8%88%87%E6%83%B3%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">故障排除過程與想法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%95%8F%E9%A1%8C%E7%99%BC%E7%94%9F%E7%9A%84%E6%99%82%E9%96%93%E9%BB%9E"><span class="nav-number">2.1.</span> <span class="nav-text">問題發生的時間點</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8A%8A%E5%95%8F%E9%A1%8C%E5%85%88%E7%9E%84%E6%BA%96%E5%88%B0%E9%A1%AF%E7%A4%BA%E5%8D%A1"><span class="nav-number">2.2.</span> <span class="nav-text">把問題先瞄準到顯示卡</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%98%97%E8%A9%A6%E9%80%8F%E9%81%8E%E6%9B%B4%E6%96%B0-BIOS%E3%80%81Firmware-%E8%88%87-Windows-%E4%BE%86%E8%A7%A3%E6%B1%BA%EF%BC%9F"><span class="nav-number">2.3.</span> <span class="nav-text">嘗試透過更新 BIOS、Firmware 與 Windows 來解決？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%80%83%E6%85%AE%E6%9B%B4%E6%8F%9B%E9%9B%BB%E6%BA%90%E4%BE%9B%E6%87%89%E5%99%A8"><span class="nav-number">2.4.</span> <span class="nav-text">考慮更換電源供應器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%8F%E9%81%8E%E7%B3%BB%E7%B5%B1%E8%A8%AD%E5%AE%9A%E6%8E%92%E9%99%A4%E6%95%85%E9%9A%9C"><span class="nav-number">2.5.</span> <span class="nav-text">透過系統設定排除故障</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jute</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">280</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">183</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="5237393196"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jute</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">總字數：</span>
+    <span title="總字數">321k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:44</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
