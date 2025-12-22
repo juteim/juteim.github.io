@@ -5671,15 +5671,17 @@ gdb -v
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 也是一支以 ubuntu 為基礎的 Linux Distro，幾天前釋出 Zorin OS 16 版，這一個版本立基在 ubuntu 20.04.3 LTS。</p>
 <p>這篇貼文大致分成 2 個部分的筆記：「安裝 Zorin OS」、「在 Zorin OS 16 上安裝及使用嘸蝦米」。</p>
 <h3 id="安裝-Zorin-OS"><a href="#安裝-Zorin-OS" class="headerlink" title="安裝 Zorin OS"></a>安裝 Zorin OS</h3><ol>
-<li>硬體的設定：Dual-Core CPU、ICH9 晶片組、啟用 EFI、4GB Ram、128MB VRAM、20GB Vdi HDD。</li>
-<li>安裝的過程，可以參考下面的相簿。我的觀察是前面的安裝步驟，跟 elementary OS 5.1 有點神似：就像是 ubuntu 的安裝程式換上另外一張皮，初次進入系統，可以跟著指示走, 我是在 VirtualBox 安裝的，初進系統走 Tour 會詢問要不要安裝 zorin-virtualbox-guest-additions 套件，我安裝後出現一些錯誤訊息，後續把其他系統升級做完，錯誤訊息才消失。</li>
+<li><p>硬體的設定：Dual-Core CPU、ICH9 晶片組、啟用 EFI、4GB Ram、128MB VRAM、20GB Vdi HDD。</p>
+</li>
+<li><p>安裝的過程，可以參考下面的相簿。我的觀察是前面的安裝步驟，跟 elementary OS 5.1 有點神似：就像是 ubuntu 的安裝程式換上另外一張皮，初次進入系統，可以跟著指示走, 我是在 VirtualBox 安裝的，初進系統走 Tour 會詢問要不要安裝 zorin-virtualbox-guest-additions 套件，我安裝後出現一些錯誤訊息，後續把其他系統升級做完，錯誤訊息才消失。</p>
+</li>
 </ol>
 <h3 id="在-Zorin-OS-16-上安裝及使用嘸蝦米"><a href="#在-Zorin-OS-16-上安裝及使用嘸蝦米" class="headerlink" title="在 Zorin OS 16 上安裝及使用嘸蝦米"></a>在 Zorin OS 16 上安裝及使用嘸蝦米</h3><p>依序，我會推薦使用 <strong>iBus</strong> → <strong>fcitx(4)</strong> → <strong>Fcitx5</strong>。</p>
 <h4 id="iBus"><a href="#iBus" class="headerlink" title="iBus"></a>iBus</h4><ul>
 <li>Zorin OS 16 預設的輸入法是 iBus，ibut-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
 </ul>
 <h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><ol>
-<li><p>以往我會下 sudo apt-get install fcitx-table-boshiamy 這個指令，但，這次我觀察與來回測試之後，發現以下的指令比較穩妥：</p>
+<li><p>以往我會下 sudo apt-get install fcitx-table-boshiamy 這個指令，但，這次我觀察與來回測試之後，發現以下的指令比較穩妥。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install fcitx fcitx-m17n fcitx-table-boshiamy</span><br><span class="line">im-config -n fcitx</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>重開機，再進入到「設定值」→「地區和語言」→「管理安裝的語言」，確認 fcitx 已成功設定為「鍵盤輸入法系統」。</p>
