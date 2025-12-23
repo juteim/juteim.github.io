@@ -11613,7 +11613,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <h3 id="安裝及使用嘸蝦米"><a href="#安裝及使用嘸蝦米" class="headerlink" title="安裝及使用嘸蝦米"></a>安裝及使用嘸蝦米</h3><ol>
 <li><p>我想要確認 <code>fcitx5-table-boshiamy</code> 是否已被收錄到軟體庫，所以分別下了幾道指令。<img src="https://live.staticflickr.com/65535/54997018490_5ab54a2a5b_b.jpg" alt="ZorinOS18onVirtualBoxEp (6)"/> <img src="https://live.staticflickr.com/65535/54997018500_c07ecc10d8_b.jpg" alt="ZorinOS18onVirtualBoxEp (7)"/></p>
 </li>
-<li><p>確認 <code>fcitx5-table-boshiamy</code> 存在軟體庫內，就下 <code>sudo apt install fcitx-table-boshiamy</code> 這道指令，將相依的套件一併安裝進來。 <img src="https://live.staticflickr.com/65535/54996977624_a421506263_b.jpg" alt="ZorinOS18onVirtualBoxEp (8)"/></p>
+<li><p>確認 <code>fcitx5-table-boshiamy</code> 存在軟體庫內，就下 <code>sudo apt install fcitx5-table-boshiamy</code> 這道指令，將相依的套件一併安裝進來。 <img src="https://live.staticflickr.com/65535/54996977624_a421506263_b.jpg" alt="ZorinOS18onVirtualBoxEp (8)"/></p>
 </li>
 <li><p>重新啟動系統。下圖是透過終端機(Terminal)下一道指令：<code>reboot</code>，去重新啟動系統。 <img src="https://live.staticflickr.com/65535/54996718911_399fa161a8_b.jpg" alt="ZorinOS18onVirtualBoxEp (9)"/></p>
 </li>
