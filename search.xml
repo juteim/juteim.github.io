@@ -11801,4 +11801,86 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
         <tag>windows</tag>
       </tags>
   </entry>
+  <entry>
+    <title>南極蝦鍵盤(nothingIME)與嘸蝦米輸入法</title>
+    <url>/boshiamy/nothingIME-and-boshiamy/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來紀錄一下「南極蝦鍵盤(nothingIME)與嘸蝦米輸入法」的使用心得與設定流程。<br><img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" width="1024" height="473" alt="IMG_0495"/></p>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>Lite 版提供基本功能：以「嘸蝦米輸入法」為例，Lite 版在掛載完 CIN 檔（Common Input file）之後，原則上就可以使用。另外，v1.12 的 Lite 版可以設定「打字震動回饋」、「打字音效回饋」與「顯示地球鍵」。附帶一提的是我個人很喜歡「觸覺回饋」這個功能，截至目前，我觀察到設定完，這個功能確實可用的，有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」，以及 26.2（Build 084）的 「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」。而，南極蝦鍵盤 Lite 版就提供這個功能，對我來說，該有的已經都有。</p>
+</li>
+<li><p>沒有廣告：其實，大部分可以輸入嘸蝦米的 App，似乎都沒有廣告。唯獨「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」，使用者即使付費使用加購功能，在設定畫面裡，還是會看到廣告（所幸，只在設定畫面裡）。</p>
+</li>
+<li><p>鍵盤的配置：合我的口味，而且，可以快速地在「繁體中文」與「英文」輸入之間切換。但，對於有「簡體中文」輸入需求的使用者，目前好像沒有這樣的設定。</p>
+<img src="https://live.staticflickr.com/65535/54322955525_513f135b5d_b.jpg" alt="urkeyboardAndBoshiamyEp (28)"/>
+</li>
+<li><p>鍵盤載入及入字速度：無論是鍵盤載入，或是入字速度，我認為可接受。想要有更好的打字效能，可以關掉設定裡的「自動學習」與「使用詞庫」這 2 個功能。</p>
+</li>
+</ol>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><ol>
+<li><p>新增「南極蝦鍵盤」，並且先給南極蝦鍵盤「允許完全取用」的權限：進入【iOS(或iPadOS)設定】→【一般】→【鍵盤】→【鍵盤】→【新增鍵盤】，加入「南極蝦鍵盤」或「南極蝦鍵盤 lite」。</p>
+<img src="https://live.staticflickr.com/65535/55022613545_37affdc48f_b.jpg" width="473" height="1024" alt="IMG_0482"/>
+<img src="https://live.staticflickr.com/65535/55022549519_6b04a773b5_b.jpg" width="473" height="1024" alt="IMG_0483"/>
+<img src="https://live.staticflickr.com/65535/55022292381_f10b9f117f_b.jpg" width="473" height="1024" alt="IMG_0484"/>
+<img src="https://live.staticflickr.com/65535/55022292376_bdfa645c10_b.jpg" width="473" height="1024" alt="IMG_0485"/>
+<img src="https://live.staticflickr.com/65535/55022549534_113227a792_b.jpg" width="473" height="1024" alt="IMG_0486"/>
+<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" width="473" height="1024" alt="IMG_0487"/>
+</li>
+<li><p>再點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完全取用」的話，「觸光回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完全取用」。</p>
+<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" width="473" height="1024" alt="IMG_0487"/>
+<img src="https://live.staticflickr.com/65535/55021408812_350f2c8efe_b.jpg" width="473" height="1024" alt="IMG_0488"/>
+<img src="https://live.staticflickr.com/65535/55022613485_fa71f3bd4b_b.jpg" width="473" height="1024" alt="IMG_0489"/>
+<img src="https://live.staticflickr.com/65535/55022549484_60705f57f0_b.jpg" width="473" height="1024" alt="IMG_0490"/>
+</li>
+<li><p>上傳字碼檔，我把自己之前製作的 CIN 檔掛載上來。</p>
+<img src="https://live.staticflickr.com/65535/55022476388_afb7d8133f_b.jpg" width="473" height="1024" alt="IMG_0491"/>
+<img src="https://live.staticflickr.com/65535/55022613490_32b85b2157_b.jpg" width="473" height="1024" alt="IMG_0492"/>
+<img src="https://live.staticflickr.com/65535/55021408747_32c6fac500_b.jpg" width="473" height="1024" alt="IMG_0493"/>
+</li>
+<li><p>找個地方來試吃看看。</p>
+<img src="https://live.staticflickr.com/65535/55022549469_349931ed39_b.jpg" width="1024" height="473" alt="IMG_0494"/>
+<img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" width="1024" height="473" alt="IMG_0495"/>
+</li>
+<li><p>Lite 版的輸入介面，有一點點不太一樣。</p>
+<img src="https://live.staticflickr.com/65535/55022476358_987341c585_b.jpg" width="1024" height="473" alt="IMG_0496"/>
+<img src="https://live.staticflickr.com/65535/55022476348_711d281d0e_b.jpg" width="473" height="1024" alt="IMG_0497"/></li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>這次的截圖，都是從我的 iPhone 13 拍下來的，上面運行的 iOS 版本是 26.2。</p>
+</li>
+<li><p><a href="https://apps.apple.com/tw/app/%E5%8D%97%E6%A5%B5%E8%9D%A6%E9%8D%B5%E7%9B%A4-nothingime-%E6%94%AF%E6%8F%B4%E5%98%B8%E8%9D%A6%E7%B1%B3%E9%8D%B5%E7%9B%A4%E8%BC%B8%E5%85%A5%E6%B3%95/id6748654605">《南極蝦鍵盤 | nothingIME :支援嘸蝦米鍵盤輸入法》App - App Store</a></p>
+</li>
+<li><p><a href="https://www.facebook.com/groups/1417781276124676">南極蝦鍵盤 | nothingIME | Facebook</a></p>
+</li>
+<li><p>關於 CIN 檔的製作流程，我發現自己在 <a href="/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/">香草輸入法 1.6.2 與嘸蝦米表格檔</a> 略有所述。基本上，就是把官方版本的 LIU5.CIN 檔的 Big5 編碼轉成 UTF-8，然後加減裡面的內容就可以搞定。由於我所使用的官方版本比較老舊，因此字詞會比較少。<br>(1)轉成 UTF-8。</p>
+<img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (1)"/>
+(2)刪除官方版本聲明的表頭。
+<img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (2)"/>
+(3)刪除 `%dupsel 9`。
+<img src="https://live.staticflickr.com/65535/55022544308_807c9a2531_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (3)"/>
+<img src="https://live.staticflickr.com/65535/55022617424_a4271ede3e_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (4)"/>
+(4)刪除 `quick begin`、`quick end`、`sellst begin`與`sellst end`。
+<img src="https://live.staticflickr.com/65535/55022617404_96cc4659a9_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (5)"/>
+(5)同一個位置，寫入 `chardef begin`。
+<img src="https://live.staticflickr.com/65535/55022360001_2c10025c80_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (6)"/>
+(6)在最尾端，另外寫入 `chardef begin`。
+<img src="https://live.staticflickr.com/65535/55022617409_0a45908939_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (7)"/>
+(7)存檔。
+<img src="https://live.staticflickr.com/65535/55021478027_5c08835b8c_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (8)"/>
+<img src="https://live.staticflickr.com/65535/55022617414_09f25a4095_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (9)"/>
+(8)將製作完成的 CIN，放一份到「iCloud 雲碟」，這樣方便上傳給 App 掛載。
+<img src="https://live.staticflickr.com/65535/55022720660_834e9835eb_b.jpg" width="1024" height="693" alt="diyCINforBoshiamyEp (10)"/>
+</li>
+<li><p>不想 DIY，或是有需要更多一點的字詞，可以請示 Google 大神指引明路。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>boshiamy</category>
+      </categories>
+      <tags>
+        <tag>apple</tag>
+        <tag>boshiamy</tag>
+        <tag>ios</tag>
+      </tags>
+  </entry>
 </search>
