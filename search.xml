@@ -11856,14 +11856,14 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (1)"/>
 (2)刪除官方版本聲明的表頭。
 <img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (2)"/>
-(3)刪除 `%dupsel 9`。
+(3)刪除 %dupsel 9。
 <img src="https://live.staticflickr.com/65535/55022544308_807c9a2531_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (3)"/>
 <img src="https://live.staticflickr.com/65535/55022617424_a4271ede3e_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (4)"/>
-(4)刪除 `quick begin`、`quick end`、`sellst begin`與`sellst end`。
+(4)刪除 quick begin、quick end、sellst begin 與 sellst end。
 <img src="https://live.staticflickr.com/65535/55022617404_96cc4659a9_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (5)"/>
-(5)同一個位置，寫入 `chardef begin`。
+(5)同一個位置，寫入 chardef begin。
 <img src="https://live.staticflickr.com/65535/55022360001_2c10025c80_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (6)"/>
-(6)在最尾端，另外寫入 `chardef begin`。
+(6)在最尾端，另外寫入 chardef end。
 <img src="https://live.staticflickr.com/65535/55022617409_0a45908939_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (7)"/>
 (7)存檔。
 <img src="https://live.staticflickr.com/65535/55021478027_5c08835b8c_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (8)"/>
