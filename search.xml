@@ -8751,13 +8751,13 @@ gdb -v
 </li>
 <li><p>有趣的是，我存成 LIU5modifiedutf8.CIN 及 LIU5.CIN 後，再用 OpenVanilla 新增輸入法，雖然 OpenVanilla 跟我說新增成功，但是並沒有真的新增到輸入法裡，最後，我索性到 OpenVanilla 1.6.2 釋出的詳細說明，下載 Source Code，把 LIU5.CIN 的內容複製貼到 Source Code 裡面的 cj.cin，儲存後再另存為 liu5.cin，就能夠順利服用。 <a href="https://www.flickr.com/photos/194265827@N08/51863853195/in/dateposted-public/" title="transferOfficalBoshiamyUnixTableforOpenVanlliaEp5"><img src="https://live.staticflickr.com/65535/51863853195_8e043326bb_o.png" alt="transferOfficalBoshiamyUnixTableforOpenVanlliaEp5"></a></p>
 </li>
-<li><p>可能是抱著好奇的想法，試了一下後，判斷最後造成卡關的可能原因是餵給 OpenVanilla 的 .cin 表格檔是用大寫命名，改為小寫命名後應該就沒有問題。 <a href="https://www.flickr.com/photos/194265827@N08/51863522059/in/dateposted-public/" title="transferOfficalBoshiamyUnixTableforOpenVanlliaEp7"><img src="https://live.staticflickr.com/65535/51863522059_e414e977be_o.png" alt="transferOfficalBoshiamyUnixTableforOpenVanlliaEp7"></a></p>
+<li><p>可能是抱著好奇的想法，試了一下後，判斷最後造成卡關的可能原因是餵給 OpenVanilla 的 .cin 檔是用大寫命名，改為小寫命名後應該就沒有問題。 <a href="https://www.flickr.com/photos/194265827@N08/51863522059/in/dateposted-public/" title="transferOfficalBoshiamyUnixTableforOpenVanlliaEp7"><img src="https://live.staticflickr.com/65535/51863522059_e414e977be_o.png" alt="transferOfficalBoshiamyUnixTableforOpenVanlliaEp7"></a></p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本篇貼文大概有八成以上使用支援 OpenVanllia 的嘸蝦米輸入法表格完成，儘管如此，我認為跟官方釋出的輸入法仍有些差距，其中，最大的不適應是有些字碼，空白鍵要打 2 次才能夠入字，以及標點符號的輸入與原版有明顯不同，我個人不太會繼續使用。</p>
 </li>
-<li><p>這裡並不會提供轉換好的 .cin 表格檔，請伙伴們多多包涵。行易公限公司目前已經釋出 X2 的試用版，我相信指日可待。</p>
+<li><p>這裡並不會提供轉換好的 CIN 檔（Common Input File），請伙伴們多多包涵。行易公限公司目前已經釋出 X2 的試用版，我相信指日可待。</p>
 </li>
 <li><p><a href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a> </p>
 </li>
