@@ -11850,7 +11850,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p><a href="https://www.facebook.com/groups/1417781276124676">南極蝦鍵盤 | nothingIME | Facebook</a></p>
 </li>
-<li><p>關於 CIN 檔的製作流程，我發現自己在 <a href="/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/">香草輸入法 1.6.2 與嘸蝦米表格檔</a> 略有所述。基本上，就是把官方版本的 LIU5.CIN 檔的 Big5 編碼轉成 UTF-8，然後加減裡面的內容就可以搞定。由於我所使用的官方版本比較老舊，因此字詞會比較少。<br>(1)轉成 UTF-8。<img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (1)"/><br>(2)刪除官方版本聲明的表頭。</p>
+<li><p>關於 CIN 檔的製作流程，我發現自己在 <a href="/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/">香草輸入法 1.6.2 與嘸蝦米表格檔</a> 略有所述。基本上，就是把官方版本的 LIU5.CIN 檔的 Big5 編碼轉成 UTF-8，然後加減裡面的內容就可以搞定。由於我所使用的官方版本原始檔比較老舊，因此字數會比較少。<br>(1)轉成 UTF-8。<img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (1)"/><br>(2)刪除官方版本聲明的表頭。</p>
 <img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (2)"/>
 (3)刪除 %dupsel 9。
 <img src="https://live.staticflickr.com/65535/55022544308_807c9a2531_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (3)"/>
@@ -11867,7 +11867,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 (8)將製作完成的 CIN，放一份到「iCloud 雲碟」，這樣方便上傳給 App 掛載。
 <img src="https://live.staticflickr.com/65535/55022720660_834e9835eb_b.jpg" width="1024" height="693" alt="diyCINforBoshiamyEp (10)"/>
 </li>
-<li><p>不想 DIY，或是有需要更多一點的字詞，可以請示 Google 大神指引明路。</p>
+<li><p>不想 DIY，或是有需要更多一點的字數，可以請示 Google 大神指引明路。</p>
 </li>
 </ol>
 ]]></content>
