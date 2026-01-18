@@ -2449,7 +2449,7 @@
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>目前手邊僅存的 Mac Mini（2014 年末），曾經，被拿來安裝過幾支不同的 Linux Distro。但，我得說，好玩歸好玩，除非 macOS 都跑不動，不然，原汁原味的 macOS 還是比較合口味。</p>
 </li>
-<li><p>原本系統預測要 2 小時 19 分鐘才能夠完成安裝 macOS Monterey，實際上不到 1 小時就能搞定，時間花費還是有點久(我的網路環境是「台灣大寬頻 1G」)。升級到 macOS Monterey 後，我感受到比較多的是整合上帶來的方便，其中一項是我在 iOS 上購買的幾支 App，現在也能夠在 macOS Monterey 使用，這感覺超爽的，問題就是系統運行不到 1 個月，就跑得實在不是普通的慢。</p>
+<li><p>原本系統預測要 2 小時 19 分鐘才能夠完成安裝 macOS Monterey，實際上不到 1 小時就能搞定，時間花費還是有點久(我所使用的網路服務是「台灣大寬頻 1G」)。升級到 macOS Monterey 後，我感受到比較多的是整合上帶來的方便，其中一項是我在 iOS 上購買的幾支 App，現在也能夠在 macOS Monterey 使用，這感覺超爽的，問題就是系統運行不到 1 個月，就跑得實在不是普通的慢。</p>
 </li>
 <li><p>我讓 macOS Monterey 運行 4 個月，還是決定用一支狀況良好的隨身碟製作成「可開機安裝磁碟」，讓自己回到 macOS High Sierra，降刷的時間約半小時就可以搞定。這次降刷，除了嘸蝦米輸入法外，只安裝 Firefox 與 Facebook Messenger 這 2 支 App。說實在的，回到 macOS High Sierra 的感覺真好。</p>
 </li>
@@ -5680,7 +5680,7 @@ gdb -v
 </ol>
 <h3 id="在-Zorin-OS-16-上安裝及使用嘸蝦米"><a href="#在-Zorin-OS-16-上安裝及使用嘸蝦米" class="headerlink" title="在 Zorin OS 16 上安裝及使用嘸蝦米"></a>在 Zorin OS 16 上安裝及使用嘸蝦米</h3><p>依序，我會推薦使用 <strong>iBus</strong> → <strong>fcitx(4)</strong> → <strong>Fcitx5</strong>。</p>
 <h4 id="iBus"><a href="#iBus" class="headerlink" title="iBus"></a>iBus</h4><ul>
-<li>Zorin OS 16 預設的輸入法是 iBus，ibut-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
+<li>Zorin OS 16 預設的輸入法是 iBus，ibus-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
 </ul>
 <h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><ol>
 <li><p>以往我會下 sudo apt-get install fcitx-table-boshiamy 這個指令，但，這次我觀察與來回測試之後，發現以下的指令比較穩妥。</p>
@@ -11564,7 +11564,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </ol>
 <h3 id="在-Zorin-OS-16-3-上安裝及使用嘸蝦米"><a href="#在-Zorin-OS-16-3-上安裝及使用嘸蝦米" class="headerlink" title="在 Zorin OS 16.3 上安裝及使用嘸蝦米"></a>在 Zorin OS 16.3 上安裝及使用嘸蝦米</h3><p>推薦順序上，就跟 Zorin OS 16 一樣：iBus → fcitx(4) → Fcitx5。 <img src="https://live.staticflickr.com/65535/53172151442_fba6a15823_c.jpg" alt="zorinOS16.3andBoshiamyEp (1)"/> <img src="https://live.staticflickr.com/65535/53173176775_6a5338cd43_c.jpg" alt="zorinOS16.3andBoshiamyEp (2)"/></p>
 <h4 id="iBus"><a href="#iBus" class="headerlink" title="iBus"></a>iBus</h4><ul>
-<li>Zorin OS 16.3 預設的輸入法是 iBus，ibut-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
+<li>Zorin OS 16.3 預設的輸入法是 iBus，ibus-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
 </ul>
 <h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><ol>
 <li><p>相較於我在 Zorin OS 16 時所下的指令(<code>sudo apt-get install fcitx fcitx-m17n fcitx-table-boshiamy</code>)，Zorin OS 16.3 變得簡單很多，而且與多數的 ubuntu 及其衍生發行版一樣，指令如下。</p>
