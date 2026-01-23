@@ -11208,7 +11208,7 @@ gdb -v
 </li>
 <li><p>鍵盤載入及入字速度：無論是鍵盤載入，或是入字速度，我認為可接受，但總覺得可以更快。這一點，在 iOS 上，我比較滿意的是「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」與「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」。</p>
 </li>
-<li><p>其他：觸覺回饋設定後，沒有產生效果，但，我印象中，「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」、「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」，也都是一樣，這一點，可能跟 iOS 有關，但，即使我按照各家第三方鍵盤的官方說明進行設定，只有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」可以設定成功。</p>
+<li><p>其他：觸覺回饋設定後，沒有立即產生效果，但，我印象中，「<a href="https://boshiamy.com/product_ixhiamy_2.php" target="_blank">蝦米鍵盤 2</a>」、「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」，也都是一樣，這一點，可能跟 iOS 有關，但，即使我按照各家第三方鍵盤的官方說明進行設定，只有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」可以設定成功。</p>
 </li>
 </ol>
 <h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>使用嘸蝦米輸入法前，只需要將表格檔載入就完成一大半。</p>
@@ -11806,7 +11806,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
     <url>/boshiamy/nothingIME-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來紀錄一下「南極蝦鍵盤(nothingIME)與嘸蝦米輸入法」的使用心得與設定流程。<br><img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" width="1024" height="473" alt="IMG_0495"/></p>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
-<li><p>Lite 版提供基本輸入功能與觸覺回饋。<br>(1)以「嘸蝦米輸入法」為例，Lite 版在掛載完 CIN 檔（Common Input File）之後，原則上就可以使用。<br>(2)另外，v1.12 的 Lite 版可以設定「打字震動回饋」、「打字音效回饋」與「顯示地球鍵」。我個人很喜歡「觸覺回饋」這個功能，截至目前，我觀察到設定完，這個功能確實可用的，有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」，以及 26.2（Build 084）的 「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」。而，南極蝦鍵盤 Lite 版就提供這個功能，對我來說，該有的已經都有。</p>
+<li><p>Lite 版提供基本輸入功能與觸覺回饋。<br>(1)以「嘸蝦米輸入法」為例，Lite 版在掛載完 CIN 檔（Common Input File）之後，原則上就可以使用。<br>(2)另外，v1.12 的 Lite 版可以設定「打字震動回饋」、「打字音效回饋」與「顯示地球鍵」。我個人很喜歡「觸覺回饋」這個功能，截至目前，我觀察到可以無視系統設定，只要在 App 介面完成設定就立即可以服用的，有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」，以及 26.2（Build 084）的 「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」。而，南極蝦鍵盤 Lite 版就提供這個功能，對我來說，該有的已經都有。</p>
 </li>
 <li><p>鍵盤的配置：合我的口味，而且，可以快速地在「繁體中文」與「英文」輸入之間切換。但，對於有「簡體中文」輸入需求的使用者，目前好像沒有這樣的設定。</p>
 </li>
