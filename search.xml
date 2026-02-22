@@ -11804,11 +11804,13 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
   <entry>
     <title>南極蝦鍵盤(nothingIME)與嘸蝦米輸入法</title>
     <url>/boshiamy/nothingIME-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來紀錄一下「南極蝦鍵盤(nothingIME)與嘸蝦米輸入法」的使用心得與設定流程。<br><img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" width="1024" height="473" alt="IMG_0495"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來紀錄一下「南極蝦鍵盤(nothingIME)與嘸蝦米輸入法」的使用心得與設定流程。<br><img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" alt="IMG_0495"/></p>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>持續更新維護：<br>(1)這一點很讚，而且是我在使用一段時間後，才注意到這隻南極蝦仍在不斷更新(成長)當中，也就是說，除了程式優化之外，還做了一些功能上的新增與調整。<br>(2)比方說，我在底下的第 3 點：鍵盤的配置、解碼細節與簡體中文支援度裡，提到「唯一比較不習慣的是我習慣透過拆解碼加上英文字母「V」去選解碼順序排位第 2 的單字，例如：用「RSS」解「茱」這個字的時候，南極蝦鍵盤只能直接用「點選」的方式選「茱」這個單字」，在幾次更新後，索性就在今天更新至 1.62 之後，試試看這個功能是否加進來，結果還真的已經可以「透過拆解碼加上英文字母『V』去選解碼順序排位第 2 的單字」。<br>(3)再者，我在之前的版本使用時，認為「現階段比較無法滿足有『簡體中文』輸入需求的使用者」，現在也已經可以透過快速鍵：<code>,,C</code> 切換至「簡體中文」輸入(此時，鍵盤上會顯示「南極蝦|打繁出簡」的字樣，若要切換回「繁體中文」輸入，則是再用快速鍵：<code>,,T</code> 就可以切換回來。</p>
+</li>
 <li><p>Lite 版提供基本輸入功能與觸覺回饋。<br>(1)以「嘸蝦米輸入法」為例，Lite 版在掛載完 CIN 檔（Common Input File）之後，原則上就可以使用。<br>(2)另外，v1.12 的 Lite 版可以設定「打字震動回饋」、「打字音效回饋」與「顯示地球鍵」。我個人很喜歡「觸覺回饋」這個功能，截至目前，我觀察到可以無視系統設定，只要在 App 介面完成設定就立即可以服用的，有「<a href="https://kaiboard.app/" target="_blank">Kaiboard</a>」，以及 26.2（Build 084）的 「<a href="https://boshiamy.com/product_iacces_keyboard.php">嘸蝦米輸入法 iAcces Keyboard</a>」。而，南極蝦鍵盤 Lite 版就提供這個功能，對我來說，該有的已經都有。</p>
 </li>
-<li><p>鍵盤的配置：合我的口味，而且，可以快速地在「繁體中文」與「英文」輸入之間切換。但，對於有「簡體中文」輸入需求的使用者，目前好像沒有這樣的設定。</p>
+<li><p>鍵盤的配置、解碼細節與簡體中文支援度：大致上合我的口味，而且，可以快速地在「繁體中文」與「英文」輸入之間切換，<del>唯一比較不習慣的是我習慣透過拆解碼加上英文字母「V」去選解碼順序排位第 2 的單字，例如：用「RSS」解「茱」這個字的時候，南極蝦鍵盤只能直接用「點選」的方式選「茱」這個單字</del>。另外，現階段比較無法滿足有「簡體中文」輸入需求的使用者。~~</p>
 </li>
 <li><p>鍵盤載入及入字速度：無論是鍵盤載入，或是入字速度，我認為可接受。想要有更好的打字效能，可以關掉設定裡的「自動學習」與「使用詞庫」這 2 個功能。</p>
 </li>
@@ -11819,29 +11821,29 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </ol>
 <h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><ol>
 <li><p>新增「南極蝦鍵盤」：進入【iOS(或iPadOS)設定】→【一般】→【鍵盤】→【鍵盤】→【新增鍵盤】，加入「南極蝦鍵盤」或「南極蝦鍵盤 lite」。</p>
-<img src="https://live.staticflickr.com/65535/55022613545_37affdc48f_b.jpg" width="473" height="1024" alt="IMG_0482"/>
-<img src="https://live.staticflickr.com/65535/55022549519_6b04a773b5_b.jpg" width="473" height="1024" alt="IMG_0483"/>
-<img src="https://live.staticflickr.com/65535/55022292381_f10b9f117f_b.jpg" width="473" height="1024" alt="IMG_0484"/>
-<img src="https://live.staticflickr.com/65535/55022292376_bdfa645c10_b.jpg" width="473" height="1024" alt="IMG_0485"/>
-<img src="https://live.staticflickr.com/65535/55022549534_113227a792_b.jpg" width="473" height="1024" alt="IMG_0486"/>
-<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" width="473" height="1024" alt="IMG_0487"/>
+<img src="https://live.staticflickr.com/65535/55022613545_37affdc48f_b.jpg" alt="IMG_0482"/>
+<img src="https://live.staticflickr.com/65535/55022549519_6b04a773b5_b.jpg" alt="IMG_0483"/>
+<img src="https://live.staticflickr.com/65535/55022292381_f10b9f117f_b.jpg" alt="IMG_0484"/>
+<img src="https://live.staticflickr.com/65535/55022292376_bdfa645c10_b.jpg" alt="IMG_0485"/>
+<img src="https://live.staticflickr.com/65535/55022549534_113227a792_b.jpg" alt="IMG_0486"/>
+<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
 </li>
 <li><p>給南極蝦鍵盤「允許完整取用」的權限：點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完整取用」的話，「觸光回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完整取用」。</p>
-<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" width="473" height="1024" alt="IMG_0487"/>
-<img src="https://live.staticflickr.com/65535/55021408812_350f2c8efe_b.jpg" width="473" height="1024" alt="IMG_0488"/>
-<img src="https://live.staticflickr.com/65535/55022613485_fa71f3bd4b_b.jpg" width="473" height="1024" alt="IMG_0489"/>
-<img src="https://live.staticflickr.com/65535/55022549484_60705f57f0_b.jpg" width="473" height="1024" alt="IMG_0490"/>
+<img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
+<img src="https://live.staticflickr.com/65535/55021408812_350f2c8efe_b.jpg" alt="IMG_0488"/>
+<img src="https://live.staticflickr.com/65535/55022613485_fa71f3bd4b_b.jpg" alt="IMG_0489"/>
+<img src="https://live.staticflickr.com/65535/55022549484_60705f57f0_b.jpg" alt="IMG_0490"/>
 </li>
 <li><p>上傳字碼檔，我把自己之前製作的 CIN 檔掛載上來。由於我所使用的官方版本原始檔比較老舊，因此字數會比較少。</p>
-<img src="https://live.staticflickr.com/65535/55022476388_afb7d8133f_b.jpg" width="473" height="1024" alt="IMG_0491"/>
-<img src="https://live.staticflickr.com/65535/55022613490_32b85b2157_b.jpg" width="473" height="1024" alt="IMG_0492"/>
-<img src="https://live.staticflickr.com/65535/55021408747_32c6fac500_b.jpg" width="473" height="1024" alt="IMG_0493"/>
+<img src="https://live.staticflickr.com/65535/55022476388_afb7d8133f_b.jpg" alt="IMG_0491"/>
+<img src="https://live.staticflickr.com/65535/55022613490_32b85b2157_b.jpg" alt="IMG_0492"/>
+<img src="https://live.staticflickr.com/65535/55021408747_32c6fac500_b.jpg" alt="IMG_0493"/>
 </li>
 <li><p>找個地方來試吃看看。</p>
-<img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" width="1024" height="473" alt="IMG_0495"/>
+<img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" alt="IMG_0495"/>
 </li>
 <li><p>Lite 版的輸入介面，有一點點不太一樣。</p>
-<img src="https://live.staticflickr.com/65535/55022476358_987341c585_b.jpg" width="1024" height="473" alt="IMG_0496"/></li>
+<img src="https://live.staticflickr.com/65535/55022476358_987341c585_b.jpg" alt="IMG_0496"/></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>以上的截圖，都是從我的 iPhone 13 拍下來的，上面運行的 iOS 版本是 26.2。</p>
@@ -11851,23 +11853,23 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="https://www.facebook.com/groups/1417781276124676">南極蝦鍵盤 | nothingIME | Facebook</a></p>
 </li>
 <li><p>關於 CIN 檔的製作流程，我發現自己在 <a href="/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/">香草輸入法 1.6.2 與嘸蝦米表格檔</a> 略有所述。基本上，就是把官方版本的 LIU5.CIN 檔的 ANSI 編碼(Big5) 轉成 UTF-8，然後加減裡面的內容就可以搞定。<br>(1)轉成 UTF-8。</p>
-<img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (1)"/>
+<img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" alt="diyCINforBoshiamyEp (1)"/>
 (2)刪除官方版本聲明的表頭。
-<img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (2)"/>
+<img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" alt="diyCINforBoshiamyEp (2)"/>
 (3)刪除 %dupsel 9。
-<img src="https://live.staticflickr.com/65535/55022544308_807c9a2531_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (3)"/>
-<img src="https://live.staticflickr.com/65535/55022617424_a4271ede3e_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (4)"/>
+<img src="https://live.staticflickr.com/65535/55022544308_807c9a2531_b.jpg" alt="diyCINforBoshiamyEp (3)"/>
+<img src="https://live.staticflickr.com/65535/55022617424_a4271ede3e_b.jpg" alt="diyCINforBoshiamyEp (4)"/>
 (4)刪除 quick begin、quick end、sellst begin 與 sellst end。
-<img src="https://live.staticflickr.com/65535/55022617404_96cc4659a9_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (5)"/>
+<img src="https://live.staticflickr.com/65535/55022617404_96cc4659a9_b.jpg" alt="diyCINforBoshiamyEp (5)"/>
 (5)同一個位置，寫入 chardef begin。
-<img src="https://live.staticflickr.com/65535/55022360001_2c10025c80_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (6)"/>
+<img src="https://live.staticflickr.com/65535/55022360001_2c10025c80_b.jpg" alt="diyCINforBoshiamyEp (6)"/>
 (6)在最尾端，另外寫入 chardef end。
-<img src="https://live.staticflickr.com/65535/55022617409_0a45908939_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (7)"/>
+<img src="https://live.staticflickr.com/65535/55022617409_0a45908939_b.jpg" alt="diyCINforBoshiamyEp (7)"/>
 (7)存檔。
-<img src="https://live.staticflickr.com/65535/55021478027_5c08835b8c_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (8)"/>
-<img src="https://live.staticflickr.com/65535/55022617414_09f25a4095_b.jpg" width="1010" height="693" alt="diyCINforBoshiamyEp (9)"/>
+<img src="https://live.staticflickr.com/65535/55021478027_5c08835b8c_b.jpg" alt="diyCINforBoshiamyEp (8)"/>
+<img src="https://live.staticflickr.com/65535/55022617414_09f25a4095_b.jpg" alt="diyCINforBoshiamyEp (9)"/>
 (8)將製作完成的 CIN，放一份到「iCloud 雲碟」，這樣方便上傳給 App 掛載。
-<img src="https://live.staticflickr.com/65535/55022720660_834e9835eb_b.jpg" width="1024" height="693" alt="diyCINforBoshiamyEp (10)"/>
+<img src="https://live.staticflickr.com/65535/55022720660_834e9835eb_b.jpg" alt="diyCINforBoshiamyEp (10)"/>
 </li>
 <li><p>不想 DIY，或是有需要更多一點的字數，可以請示 Google 大神指引明路。</p>
 </li>
