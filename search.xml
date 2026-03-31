@@ -8046,7 +8046,7 @@ gdb -v
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Fcitx，中文名稱是「小企鵝輸入法」。<br><img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg"></p>
 <p>本篇紀錄，主要是把各大發行版分類，再分別整理出安裝 Fcitx 與嘸蝦米輸入法時的過程紀錄與建議。</p>
 <p>希望這樣的紀錄，對有需要的伙伴而言，能夠有一定的參考度。</p>
-<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>可以優先考慮 Fcitx5。</p>
+<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>優先考慮 Fcitx5。</p>
 <ol>
 <li><a href="/boshiamy/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
 <li><a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
@@ -8055,7 +8055,9 @@ gdb -v
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
-<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><h4 id="Fcitx5-fcitx5-table-boshiamy"><a href="#Fcitx5-fcitx5-table-boshiamy" class="headerlink" title="Fcitx5(fcitx5-table-boshiamy)"></a>Fcitx5(<code>fcitx5-table-boshiamy</code>)</h4><ol>
+<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><p>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。</p>
+<h4 id="Fcitx5"><a href="#Fcitx5" class="headerlink" title="Fcitx5"></a>Fcitx5</h4><p>Debian 與 ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
+<h5 id="fcitx5-table-boshiamy"><a href="#fcitx5-table-boshiamy" class="headerlink" title="fcitx5-table-boshiamy"></a>fcitx5-table-boshiamy</h5><ol>
 <li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
 </ol>
@@ -8064,12 +8066,12 @@ gdb -v
 <li><a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a></li>
 <li><a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a></li>
 </ol>
-<h4 id="Fcitx5-fcitx5-table-extra-軟體庫版"><a href="#Fcitx5-fcitx5-table-extra-軟體庫版" class="headerlink" title="Fcitx5(fcitx5-table-extra 軟體庫版)"></a>Fcitx5(<code>fcitx5-table-extra</code> 軟體庫版)</h4><p>「ubuntu 24.04 LTS」及其衍生發行版，已經將 <code>fcitx5-table-extra</code> 收納至軟體庫，所以，先是一道指令將套件安裝進來，接著可以從圖形介面新增「嘸蝦米」就能搞定。</p>
+<h5 id="fcitx5-table-extra-軟體庫版"><a href="#fcitx5-table-extra-軟體庫版" class="headerlink" title="fcitx5-table-extra 軟體庫版"></a>fcitx5-table-extra 軟體庫版</h5><p>「ubuntu 24.04 LTS」及其衍生發行版開始，已經將 <code>fcitx5-table-extra</code> 收納至軟體庫，所以，先是一道指令將套件安裝進來，接著可以從圖形介面新增「嘸蝦米」就能搞定。</p>
 <ol>
 <li><a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></li>
 <li><a href="/boshiamy/linux-mint-22-and-boshiamy-feat-fcitx5-table-extra/">Linux Mint 22 與嘸蝦米 (feat. fcitx5-table-extra)</a></li>
 </ol>
-<h4 id="Fcitx5-fcitx5-table-extra-自行處理與服用版"><a href="#Fcitx5-fcitx5-table-extra-自行處理與服用版" class="headerlink" title="Fcitx5(fcitx5-table-extra 自行處理與服用版)"></a>Fcitx5(<code>fcitx5-table-extra</code> 自行處理與服用版)</h4><p><code>fcitx5-table-extra</code> 需要自行處理與服用，本篇貼文運用的方法是跑一趟 pkgs.org，下載相關檔案後再做一些處理，同樣可以服用，只是過程比較麻煩一些。</p>
+<h5 id="fcitx5-table-extra-自行處理與服用版"><a href="#fcitx5-table-extra-自行處理與服用版" class="headerlink" title="fcitx5-table-extra 自行處理與服用版"></a>fcitx5-table-extra 自行處理與服用版</h5><p>Debian 12 與 ubuntu 23.10 之前(說真的，我沒有一個版本接著一個版本去試，這裡，在版本上的分水嶺是我自己大致推估出來的，僅供參考)，應該是需要自行處理與服用 <code>fcitx5-table-extra</code> 的，本篇貼文運用的方法是跑一趟 pkgs.org，下載相關檔案後再做一些處理，同樣可以服用，只是過程比較麻煩一些。</p>
 <ol>
 <li><a href="/boshiamy/debian-12-and-boshiamy">Debian 12 與嘸蝦米</a></li>
 <li><a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/">在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a></li>
@@ -8090,12 +8092,12 @@ gdb -v
 <li><a href="/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/">在 Fedora 41 上輕鬆安裝嘸蝦米(feat. Fcitx5)</a></li>
 <li><a href="/linux/risios-37-1-1/">來玩 risiOS 37.1.1</a></li>
 </ol>
-<h3 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h3><p>建議使用 Fcitx5，有可能未來也只有 Fcitx5 可選。</p>
-<h4 id="使用-YaST-圖形介面模式進行相關套件安裝。"><a href="#使用-YaST-圖形介面模式進行相關套件安裝。" class="headerlink" title="使用 YaST 圖形介面模式進行相關套件安裝。"></a>使用 YaST 圖形介面模式進行相關套件安裝。</h4><ol>
+<h3 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h3><p>建議使用 Fcitx5，未來有可能也只有 Fcitx5 可選。</p>
+<h4 id="使用-YaST-圖形介面模式進行相關套件安裝"><a href="#使用-YaST-圖形介面模式進行相關套件安裝" class="headerlink" title="使用 YaST 圖形介面模式進行相關套件安裝"></a>使用 YaST 圖形介面模式進行相關套件安裝</h4><ol>
 <li><a href="/boshiamy/opensuse-leap-15-5-and-boshiamy/">openSUSE Leap 15.5 與嘸蝦米 (feat. Fcitx5)</a></li>
 <li><a href="/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/">openSUSE Tumbleweed Snapshot20231018 與嘸蝦米 (feat. Fcitx5)</a></li>
 </ol>
-<h4 id="使用-Myrlyn-圖形介面模式進行相關套件安裝。"><a href="#使用-Myrlyn-圖形介面模式進行相關套件安裝。" class="headerlink" title="使用 Myrlyn 圖形介面模式進行相關套件安裝。"></a>使用 Myrlyn 圖形介面模式進行相關套件安裝。</h4><ul>
+<h4 id="使用-Myrlyn-圖形介面模式進行相關套件安裝"><a href="#使用-Myrlyn-圖形介面模式進行相關套件安裝" class="headerlink" title="使用 Myrlyn 圖形介面模式進行相關套件安裝"></a>使用 Myrlyn 圖形介面模式進行相關套件安裝</h4><ul>
 <li><a href="/linux/opensuse-leap-16-0-beta/">openSUSE Leap 16.0 Beta</a></li>
 </ul>
 <h3 id="Slackware"><a href="#Slackware" class="headerlink" title="Slackware"></a>Slackware</h3><p>原則上，fcitx(4) 與 <code>fcitx-table-boshiamy</code> 都不用再另外安裝，使用者要做的是一點點設定。</p>
@@ -11828,7 +11830,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <img src="https://live.staticflickr.com/65535/55022549534_113227a792_b.jpg" alt="IMG_0486"/>
 <img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
 </li>
-<li><p>給南極蝦鍵盤「允許完整取用」的權限：點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完整取用」的話，「觸光回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完整取用」。</p>
+<li><p>給南極蝦鍵盤「允許完整取用」的權限：點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完整取用」的話，「觸覺回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完整取用」。</p>
 <img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
 <img src="https://live.staticflickr.com/65535/55021408812_350f2c8efe_b.jpg" alt="IMG_0488"/>
 <img src="https://live.staticflickr.com/65535/55022613485_fa71f3bd4b_b.jpg" alt="IMG_0489"/>
