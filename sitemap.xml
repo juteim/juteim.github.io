@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/about/index.html</loc>
+    
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
     
     <lastmod>2026-06-18</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://jute.im/boshiamy/kaiboard-and-boshiamy/</loc>
     
     <lastmod>2026-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/about/index.html</loc>
-    
-    <lastmod>2026-05-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
