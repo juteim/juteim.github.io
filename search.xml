@@ -5977,6 +5977,16 @@ gdb -v
 <li>必須另外匯入表格檔（碼表），而且在「選取輸入法表格檔…」時，表格檔的檔名最好全部都用英文小寫（如：liu7.cin）。我的表格檔是用英文大寫命名，一度在匯入過程卡關。</li>
 <li>作者還有另外一支 App，名為「Frankie by Creativecrap」，但似乎已停止更新維護。</li>
 </ol>
+<h4 id="萊姆輸入法"><a href="#萊姆輸入法" class="headerlink" title="萊姆輸入法"></a>萊姆輸入法</h4><img src="https://live.staticflickr.com/65535/55422650015_177c0ebb61_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (8)"/>
+
+<ol>
+<li>免費。自由開源的繁體中文輸入法，作者直接開放原始碼給伙伴們。</li>
+<li>鍵盤介面、按鍵配置合我的口味。<br>(1)對我而言，「空白鍵」的寬度比較窄一點，需要花一點時間適應。<img src="https://live.staticflickr.com/65535/55421280402_b7583c64cd_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (11)"/><br>(2)預設的鍵盤配置，轉成橫向時的鍵盤大小對我而言有點太小而不就手，但系統提供「鍵盤大小」的設定(點按 App 介面的「喜好設定」，在「鍵盤外觀」裡面可以找到的設定選項)，調到「大」或「特大」，對我來說比較好上手。<img src="https://live.staticflickr.com/65535/55422249591_0683e33e85_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (12)"/></li>
+<li>鍵盤反應與入字速度穩定。</li>
+<li>必須另外匯入表格檔（碼表）。</li>
+<li>強勢回歸後，更新速度非常快，我寫完本篇時，已經更新到 6.1.37 版。</li>
+<li>使用嘸蝦米輸入法前，需要再多做一點設定，詳情請點傳送門：<a href="/boshiamy/lime-ime-ios-version-and-boshiamy/">萊姆輸入法(iOS 版)與嘸蝦米</a>。</li>
+</ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>各家鍵盤都有自己的獨門功夫，只是，對我來說，鍵盤介面、按鍵配置、鍵盤反應與入字速度是基本盤。</p>
 </li>
@@ -12147,6 +12157,55 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
         <tag>monterey</tag>
         <tag>shell</tag>
         <tag>zsh</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>萊姆輸入法(iOS 版)與嘸蝦米</title>
+    <url>/boshiamy/lime-ime-ios-version-and-boshiamy/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>自由開源的繁體中文輸入法：萊姆輸入法，近日迎來滿血回歸，本篇要分享的是 iOS 版使用幾個小時下來的感受。<img src="https://live.staticflickr.com/65535/55422650015_177c0ebb61_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (8)"/></p>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><ol>
+<li><p>開啟「萊姆輸入法」。<img src="https://live.staticflickr.com/65535/55422650070_2df6042cd4.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (1)"/></p>
+</li>
+<li><p>點按 App 介面底部的【輸入法】進入後，再點「管理輸入法」介面右下角的【安裝輸入法】。<img src="https://live.staticflickr.com/65535/55422650030_cce4a02430_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (2)"/></p>
+</li>
+<li><p>接著會進入「下載&#x2F;匯入輸入法」的介面，直接往下滑到「自建」，點【匯入 .cin&#x2F; .lime】，把自己手機上的 .cin 或 .lime 檔(也有人稱這個檔案為「碼表」或「表格檔」)匯入。<img src="https://live.staticflickr.com/65535/55422249631_9d69736cbd_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (3)"/></p>
+</li>
+<li><p>匯入完成後，App 介面會停在「下載&#x2F;匯入輸入法」這裡。<img src="https://live.staticflickr.com/65535/55422383523_151012e8a2_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (4)"/></p>
+</li>
+<li><p>點一下左上角的【＜】按鈕，就可以從「已安裝的輸入法」確認是否完成匯入。<img src="https://live.staticflickr.com/65535/55422249621_f1d292fa79_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (5)"/></p>
+</li>
+<li><p>我是完成匯入後，再設定系統「允許完整取用」萊姆輸入法。<img src="https://live.staticflickr.com/65535/55422383478_d7dae8aea4_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (6)"/></p>
+</li>
+</ol>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>免費。</p>
+</li>
+<li><p>鍵盤介面、按鍵配置合我的口味。<br>(1)對我而言，「空白鍵」的寬度比較窄一點，需要花一點時間適應。<img src="https://live.staticflickr.com/65535/55421280402_b7583c64cd_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (11)"/><br>(2)預設的鍵盤配置，轉成橫向時的鍵盤大小對我而言有點太小而不就手，但系統提供「鍵盤大小」的設定(點按 App 介面的「喜好設定」，在「鍵盤外觀」裡面可以找到的設定選項)，調到「大」或「特大」，對我來說比較好上手。<img src="https://live.staticflickr.com/65535/55422249591_0683e33e85_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (12)"/></p>
+</li>
+<li><p>鍵盤反應與入字速度穩定。</p>
+</li>
+<li><p>必須另外匯入表格檔（碼表）。</p>
+</li>
+<li><p>強勢回歸後，更新速度非常快，我寫完本篇時，已經更新到 6.1.37 版。</p>
+</li>
+<li><p>自由開源的繁體中文輸入法，作者直接開放原始碼給伙伴們。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次截圖上的「萊姆輸入法」，是在我的 iPhone 13 運行，iOS 版本是 26.5.2，「萊姆輸入法」的版本是 6.1.36。</p>
+</li>
+<li><p><a href="https://lime-ime.github.io/limeime/">萊姆輸入法 LIME — 自由開源的繁體中文輸入法</a></p>
+</li>
+<li><p><a href="https://apps.apple.com/us/app/%E8%90%8A%E5%A7%86%E8%BC%B8%E5%85%A5%E6%B3%95/id6784694460">萊姆輸入法 App - App Store</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>boshiamy</category>
+      </categories>
+      <tags>
+        <tag>boshiamy</tag>
+        <tag>ios</tag>
       </tags>
   </entry>
 </search>
