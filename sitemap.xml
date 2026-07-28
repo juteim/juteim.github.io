@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/android-and-boshiamy/</loc>
+    
+    <lastmod>2026-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
+    
+    <lastmod>2026-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/typeingnote-and-boshiamy/</loc>
     
     <lastmod>2026-07-28</lastmod>
@@ -32,15 +50,6 @@
     <loc>https://jute.im/boshiamy/lime-ime-ios-version-and-boshiamy/</loc>
     
     <lastmod>2026-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
-    
-    <lastmod>2026-07-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
