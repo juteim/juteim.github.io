@@ -12180,7 +12180,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
 <li><p>免費。無廣告、無追蹤。</p>
 </li>
-<li><p>鍵盤介面、按鍵配置大致合我的口味。<br>(1)鍵盤左下角有一個可以收取鍵盤的按鍵，我特別喜歡。<br>(2)解碼輸入的過程中，候選字那一列會跳出 emoji，這一點好像是其他輸入法沒有的(…也有可能是我自己少見多怪)。<br>(3)我注意上鍵盤左上角有個黑白的 😊 符號按鈕，應該是 emoji 的快捷鍵，點進去之後，會有幾組分類，但似乎不是所有的分類都能夠順利對應到，所以，點下去之後反而會跳到系統內鍵的「繁體注音」輸入法介面。同樣的功能，在 Android 版上面並沒有發生類似的狀況(下圖是我試著 Android 版的萊姆輸入法，點按 🐶 符號按鈕後呈現的畫面)，相信 iOS 版後續也會改善。<img src="https://live.staticflickr.com/65535/55422720809_23f06cc702_b.jpg" alt="lime-ime-android-version-and-boshiamy-ep (2)"/>(4)鍵盤直立時，對我而言，「空白鍵」的寬度比較窄一點，需要花一點時間適應。<img src="https://live.staticflickr.com/65535/55421280402_b7583c64cd_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (11)"/>(5)預設的「鍵盤外觀」配置，轉成橫向時的鍵盤大小對我而言有點太小而不就手，但系統提供「鍵盤大小」的設定(點按 App 介面的「喜好設定」，在「鍵盤外觀」裡面可以找到的設定選項)，調到「大」或「特大」，對我來說比較好上手。<img src="https://live.staticflickr.com/65535/55422249591_0683e33e85_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (12)"/></p>
+<li><p>鍵盤介面、按鍵配置大致合我的口味。<br>(1)鍵盤左下角有一個可以收取鍵盤的按鍵，我特別喜歡。<br>(2)解碼輸入的過程中，候選字那一列會跳出 emoji，這一點好像是其他輸入法沒有的(…也有可能是我自己少見多怪)。<br>(3)我注意上鍵盤左上角有個黑白的 😊 符號按鈕，應該是 emoji 的快捷鍵，點進去之後，會有幾組分類，但似乎不是所有的分類都能夠順利對應到，所以，點下去之後反而會跳到系統內鍵的「繁體注音」輸入法介面。同樣的功能，在 Android 版上面並沒有發生類似的狀況(下圖是我試著使用 Android 版的萊姆輸入法，點按 🐶 符號按鈕後呈現的畫面)，相信 iOS 版後續也會改善。<img src="https://live.staticflickr.com/65535/55422720809_23f06cc702_b.jpg" alt="lime-ime-android-version-and-boshiamy-ep (2)"/>(4)鍵盤直立時，對我而言，「空白鍵」的寬度比較窄一點，需要花一點時間適應。<img src="https://live.staticflickr.com/65535/55421280402_b7583c64cd_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (11)"/>(5)預設的「鍵盤外觀」配置，轉成橫向時的鍵盤大小對我而言有點太小而不就手，但系統提供「鍵盤大小」的設定(點按 App 介面的「喜好設定」，在「鍵盤外觀」裡面可以找到的設定選項)，調到「大」或「特大」，對我來說比較好上手。<img src="https://live.staticflickr.com/65535/55422249591_0683e33e85_b.jpg" alt="lime-ime-ios-version-and-boshiamy-ep (12)"/></p>
 </li>
 <li><p>鍵盤反應與入字速度穩定。</p>
 </li>
@@ -12240,6 +12240,55 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次截圖上的「萊姆輸入法」，是在我的 SAMSUNG GALAXY A17 運行，Android 版本 16、One UI 版本 8.0，「萊姆輸入法」的版本是 6.1.37。</p>
+</li>
+<li><p><a href="https://lime-ime.github.io/limeime/">萊姆輸入法 LIME — 自由開源的繁體中文輸入法</a></p>
+</li>
+<li><p><a href="https://play.google.com/store/apps/details?id=org.limeime">萊姆輸入法 - LIME IME - Google Play 應用程式</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>boshiamy</category>
+      </categories>
+      <tags>
+        <tag>boshiamy</tag>
+        <tag>android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>gcin(Android 版)與嘸蝦米</title>
+    <url>/boshiamy/gcin-android-version-and-boshiamy/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>gcin，算是非常老牌的輸入法，老早以前，我使用過「實用版」一段時間，今天來分享一下使用這支鍵盤的心得。</p>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><ol>
+<li><p>點按 App 介面底部的【輸入法】進入後，再點「管理輸入法」介面右下角的【安裝輸入法】。</p>
+</li>
+<li><p>接著會進入「下載&#x2F;匯入輸入法」的介面，直接往下滑到「自建」，點【匯入 .cin&#x2F; .lime】，把自己手機上的 .cin 或 .lime 檔(也有人稱這個檔案為「碼表」或「表格檔」)匯入。</p>
+</li>
+<li><p>匯入完成後，App 介面裡的「自建」欄位右邊會顯示「已安裝」的字樣。</p>
+</li>
+<li><p>點一下左上角的【←】箭頭符號按鈕，就可以從「已安裝的輸入法」確認是否完成匯入。</p>
+</li>
+<li><p>我是完成匯入後，再從設定萊姆輸入法點按「選用萊姆輸入法」切換到萊姆輸入法。</p>
+</li>
+</ol>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>免費。無廣告、無追蹤。</p>
+</li>
+<li><p>鍵盤介面、按鍵配置大致合我的口味。<br>(1)鍵盤左下角有一個可以收取鍵盤的按鍵，我特別喜歡。<br>(2)解碼輸入的過程中，候選字那一列會跳出 emoji，我也滿喜歡這個功能。<br>(3)鍵盤直立時，對我而言，「空白鍵」的寬度比較窄一點，需要花一點時間適應。<br>(4)預設的「鍵盤外觀」配置，轉成橫向時的鍵盤大小適中，可能是因為我的所使用的行動電話是 SAMSUNG GALAXY A17(6.7 吋)，螢幕較 iPhone 13(6.1 吋)大一點點的關係。<br>(5)我注意上鍵盤左上角有個黑白的 😊 符號按鈕，應該是 emoji 的快捷鍵，點進去之後，會有幾組分類，都可以正常使用。<img src="https://live.staticflickr.com/65535/55422720809_23f06cc702_b.jpg" alt="lime-ime-android-version-and-boshiamy-ep (2)"/></p>
+</li>
+<li><p>鍵盤反應與入字速度穩定。</p>
+</li>
+<li><p>必須另外匯入表格檔（碼表）。</p>
+</li>
+<li><p>滿血回歸後，更新速度非常快，我寫完本篇時，已經更新到 6.1.37 版。而且，同時在 2 大行動裝置的作業系統上都有支援，我認為對於兩棲的蝦米伙伴是福音。</p>
+</li>
+<li><p>自由開源的繁體中文輸入法，作者直接開放原始碼給伙伴們。</p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次截圖上的「萊姆輸入法」，是在我的 SAMSUNG GALAXY A17 運行，Android 版本 16、One UI 版本 8.0，「萊姆輸入法」的版本是 6.1.37。</p>
+</li>
+<li><p>記得以前在 Linux 上最常用的輸入法，就是 gcin，但已經不太記得什麼時候開始使用，翻找一下我自己分享過的貼文裡，可以找到 2005 年寫過的一篇：<a href="https://jute.im/boshiamy/using-gcin-with-boshiamy-on-fedora-core-4/">在 Fedora Core 4 上面使用 gcin 與嘸蝦米</a>。數算起來，已經是 20 年前的事兒了。</p>
 </li>
 <li><p><a href="https://lime-ime.github.io/limeime/">萊姆輸入法 LIME — 自由開源的繁體中文輸入法</a></p>
 </li>
