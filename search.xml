@@ -374,7 +374,13 @@
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=com.boshiamy.boshiamyime.professional">嘸蝦米輸入法 PRO (Android 版) - Google Play 應用程式</a></p>
 </li>
+<li><p><a href="/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/">智慧型手機上的嘸蝦米使用心得</a></p>
+</li>
 <li><p>iOS(iPadOS) 版本的傳送門：<a href="/boshiamy/about-the-setting-of-ixhiamy-2-for-ios-and-ipados/">關於「蝦米鍵盤2」(iOS &amp; iPadOS) 的設定</a></p>
+</li>
+<li><p><a href="https://jute.im/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="https://jute.im/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
@@ -5996,6 +6002,8 @@ gdb -v
 </li>
 <li><p>以上是我個人做出的簡單分享，可能不夠全面，但，無論如何，我想跟各路好手表達感謝之意：因為各路好手的付出，讓我可以在 iOS 上持續當個蝦米族。同時，也希望蝦米伙伴們，能夠找到一個就手的鍵盤。<img src="https://live.staticflickr.com/65535/55260640903_7241a610b3_b.jpg" alt="iosAndBoshiamyEp (2)"/></p>
 </li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -6294,6 +6302,10 @@ gdb -v
 </li>
 <li><p>後續更新紀錄<br>(1)<a href="https://jute.im/boshiamy/ixhiamy-3-rev-1-2-6/">蝦米鍵盤3 版本 1.2.6</a><br>(2)<a href="https://jute.im/boshiamy/ixhiamy-3-rev-1-3-2/">蝦米鍵盤3 版本 1.3.2</a><br>(3)蝦米鍵盤3 近期釋出，作者目前對於使用者的反饋與修改速度非常快，我後續沒有再隨版本更新寫文。有興趣的伙伴，可以參考更新說明。</p>
 </li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -6348,6 +6360,10 @@ gdb -v
 <li><p><a href="https://kaiboard.app/">Kaiboard</a></p>
 </li>
 <li><p><a href="https://apps.apple.com/tw/app/kaiboard-%E4%B8%AD%E8%8B%B1%E6%B7%B7%E5%90%88%E9%8D%B5%E7%9B%A4/id946910980">App Store 上的《Kaiboard 中英混合鍵盤》</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
@@ -8586,9 +8602,9 @@ gdb -v
     <url>/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/</url>
     <content><![CDATA[<h3 id="走在「前言」之前"><a href="#走在「前言」之前" class="headerlink" title="走在「前言」之前"></a>走在「前言」之前</h3><p>有鑑於目前主流的 2 大智慧型手機系統上使用嘸蝦米有更多的選擇，我近期分別撰寫有關 iOS 與 Android 上面，我自己用過的嘸蝦米方案，有興趣的伙伴，可以直接點下列傳送門(按分享日期排序)，本篇貼文就不再更新。</p>
 <ol>
-<li><p><a href="https://jute.im/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
 </li>
-<li><p><a href="https://jute.im/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
 </li>
 </ol>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ol>
@@ -8816,31 +8832,40 @@ gdb -v
 </li>
 </ol>
 <h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><ol>
-<li><p>新增「南極蝦鍵盤」：進入【iOS(或iPadOS)設定】→【一般】→【鍵盤】→【鍵盤】→【新增鍵盤】，加入「南極蝦鍵盤」或「南極蝦鍵盤 lite」。</p>
+<li>新增「南極蝦鍵盤」：進入【iOS(或iPadOS)設定】→【一般】→【鍵盤】→【鍵盤】→【新增鍵盤】，加入「南極蝦鍵盤」或「南極蝦鍵盤 lite」。</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/55022613545_37affdc48f_b.jpg" alt="IMG_0482"/>
 <img src="https://live.staticflickr.com/65535/55022549519_6b04a773b5_b.jpg" alt="IMG_0483"/>
 <img src="https://live.staticflickr.com/65535/55022292381_f10b9f117f_b.jpg" alt="IMG_0484"/>
 <img src="https://live.staticflickr.com/65535/55022292376_bdfa645c10_b.jpg" alt="IMG_0485"/>
 <img src="https://live.staticflickr.com/65535/55022549534_113227a792_b.jpg" alt="IMG_0486"/>
 <img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
-</li>
-<li><p>給南極蝦鍵盤「允許完整取用」的權限：點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完整取用」的話，「觸覺回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完整取用」。</p>
+
+<ol start="2">
+<li>給南極蝦鍵盤「允許完整取用」的權限：點下「南極蝦鍵盤」或「南極蝦鍵盤 lite」項目（就是右手邊有【＞】符號的鍵盤列表裡，找到名為「南極蝦鍵盤」或「南極蝦鍵盤 lite」的項目）。不給「允許完整取用」的話，「觸覺回饋」的功能，即使設定也不會有效果，…這個我不行，所以我一定會給「允許完整取用」。</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/55022613495_903507e1f6_b.jpg" alt="IMG_0487"/>
 <img src="https://live.staticflickr.com/65535/55021408812_350f2c8efe_b.jpg" alt="IMG_0488"/>
 <img src="https://live.staticflickr.com/65535/55022613485_fa71f3bd4b_b.jpg" alt="IMG_0489"/>
 <img src="https://live.staticflickr.com/65535/55022549484_60705f57f0_b.jpg" alt="IMG_0490"/>
-</li>
-<li><p>上傳字碼檔，我把自己之前製作的 CIN 檔掛載上來。由於我所使用的官方版本原始檔比較老舊，因此字數會比較少。</p>
+
+<ol start="3">
+<li>上傳字碼檔，我把自己之前製作的 CIN 檔掛載上來。由於我所使用的官方版本原始檔比較老舊，因此字數會比較少。</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/55022476388_afb7d8133f_b.jpg" alt="IMG_0491"/>
 <img src="https://live.staticflickr.com/65535/55022613490_32b85b2157_b.jpg" alt="IMG_0492"/>
 <img src="https://live.staticflickr.com/65535/55021408747_32c6fac500_b.jpg" alt="IMG_0493"/>
-</li>
-<li><p>找個地方來試吃看看。</p>
-<img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" alt="IMG_0495"/>
-</li>
-<li><p>Lite 版的輸入介面，有一點點不太一樣。</p>
-<img src="https://live.staticflickr.com/65535/55022476358_987341c585_b.jpg" alt="IMG_0496"/></li>
+
+<ol start="4">
+<li>找個地方來試吃看看。</li>
 </ol>
+<img src="https://live.staticflickr.com/65535/55022613460_ec722f9088_b.jpg" alt="IMG_0495"/>
+
+<ol start="5">
+<li>Lite 版的輸入介面，有一點點不太一樣。</li>
+</ol>
+<img src="https://live.staticflickr.com/65535/55022476358_987341c585_b.jpg" alt="IMG_0496"/>
+
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>以上的截圖，都是從我的 iPhone 13 拍下來的，上面運行的 iOS 版本是 26.3，南極蝦鍵盤的版本是 1.62(2026 年 2 月 22 日更新)。</p>
 </li>
@@ -8849,6 +8874,8 @@ gdb -v
 <li><p><a href="https://www.facebook.com/groups/1417781276124676">南極蝦鍵盤 | nothingIME | Facebook</a></p>
 </li>
 <li><p>關於 CIN 檔的製作流程，我發現自己在 <a href="/boshiamy/openvanilla-1-6-2-and-boshiamy-unix-table/">香草輸入法 1.6.2 與嘸蝦米表格檔</a> 略有所述。基本上，就是把官方版本的 LIU5.CIN 檔的 ANSI 編碼(Big5) 轉成 UTF-8，然後加減裡面的內容就可以搞定。<br>(1)轉成 UTF-8。</p>
+</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/55022360061_432683e2ba_b.jpg" alt="diyCINforBoshiamyEp (1)"/>
 (2)刪除官方版本聲明的表頭。
 <img src="https://live.staticflickr.com/65535/55022360046_75fe5c9492_b.jpg" alt="diyCINforBoshiamyEp (2)"/>
@@ -8866,8 +8893,13 @@ gdb -v
 <img src="https://live.staticflickr.com/65535/55022617414_09f25a4095_b.jpg" alt="diyCINforBoshiamyEp (9)"/>
 (8)將製作完成的 CIN，放一份到「iCloud 雲碟」，這樣方便上傳給 App 掛載。
 <img src="https://live.staticflickr.com/65535/55022720660_834e9835eb_b.jpg" alt="diyCINforBoshiamyEp (10)"/>
-</li>
+
+<ol start="5">
 <li><p>不想 DIY，或是有需要更多一點的字數，可以請示 Google 大神指引明路。</p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
@@ -11377,6 +11409,10 @@ gdb -v
 </li>
 <li><p><a href="https://www.facebook.com/urkeyboard/">UrKeyboard | Facebook</a></p>
 </li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -12207,6 +12243,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p><a href="https://apps.apple.com/us/app/%E8%90%8A%E5%A7%86%E8%BC%B8%E5%85%A5%E6%B3%95/id6784694460">萊姆輸入法 App - App Store</a></p>
 </li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -12254,6 +12294,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=org.limeime">萊姆輸入法 - LIME IME - Google Play 應用程式</a></p>
 </li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -12300,6 +12344,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="https://play.google.com/store/apps/details?id=com.hyperrate.gcinfree">TW 中文輸入法 注音&#x2F;倉頡&#x2F;大易&#x2F;行列&#x2F;語音&#x2F;英數&#x2F;手寫 - Google Play 應用程式</a></p>
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=com.hyperrate.gcin">gcin 中文輸入 注音&#x2F;大易&#x2F;倉頡&#x2F;行列&#x2F;語音&#x2F;英數&#x2F;手寫 - Google Play 應用程式</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
@@ -12349,6 +12397,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="https://play.google.com/store/apps/details?id=com.cuttlexp.typingnote">TypingNote-語音輸入本地AI嘸蝦米倉頡輸入法 - Google Play 應用程式</a></p>
 </li>
 <li><p><a href="https://www.facebook.com/groups/166192980489031/">嘸蝦米社團 | Facebook</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
@@ -12440,6 +12492,8 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>以上是我個人做出的簡單分享，可能不夠全面，但，無論如何，我想跟各路好手表達感謝之意：因為各路好手的付出，讓我可以在 Android 上持續當個蝦米族。同時，也希望蝦米伙伴們，能夠找到一個就手的鍵盤。<img src="https://live.staticflickr.com/65535/55431652122_e4d814a99f_b.jpg" alt="android-and-boshiamy-ep (2)"/></p>
 </li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -12475,6 +12529,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="https://www.mobile01.com/topicdetail.php?f=423&t=7256708">【分享】嘸蝦米輸入法 Android 版 - 自製 App &#x3D; 目前已申請上架完成 - Mobile01</a></p>
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=com.simon.boshiamyhelper">蝦米助手 - Google Play 應用程式</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
 </li>
 </ol>
 ]]></content>
