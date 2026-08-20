@@ -12434,7 +12434,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li>鍵盤反應與入字速度穩定。</li>
 <li>需要匯入表格檔（碼表），而且匯入的步驟，算是所有鍵盤裡面比較複的一支鍵盤，詳細的設定流程，可以走傳送門：<a href="https://jute.im/boshiamy/install-boshiamy-table-to-fcitx5-for-android/">安裝 Fcitx5 for Android(小企鵝輸入法5)與嘸蝦米(2025 年 3 月 18 日更新) </a>。</li>
 <li>我習慣解碼時有振動回饋，這一點，可以從小企鵝輸入法的設定介面裡，找到並點按【虛擬鍵盤】，開啟「鬆開按鍵時振動」達到期待的振動回饋效果。<img src="https://live.staticflickr.com/65535/55424874586_ed1a11701c_b.jpg" alt="android-and-boshiamy-ep (3)"/></li>
-<li>Fcitx5 同時也是 Linux 上非常好用的輸入法框架。</li>
+<li>Fcitx 是 Linux 上非常好用的輸入法框架，有興趣瞭解的伙伴，不妨走傳送門：<a href="/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">Linux 與嘸蝦米(feat. Fcitx)</a>去瞧瞧簡單的介紹。</li>
 </ol>
 <h4 id="UrKeyboard"><a href="#UrKeyboard" class="headerlink" title="UrKeyboard"></a>UrKeyboard</h4><img src="https://live.staticflickr.com/65535/55430490008_a5bd557be7_b.jpg" alt="UrKeyboardAndroidVersionEp (1)"/>
 
