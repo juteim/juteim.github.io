@@ -12607,7 +12607,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
     <title>OnMyBias 米 - iOS 版來報到</title>
     <url>/boshiamy/onmybias-ios-version/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「OnMyBias 米」, 一開始是我在 <a href="https://www.facebook.com/groups/166192980489031/permalink/2540053293102976/">嘸蝦米社團 | 根據 Yabomish 的 MacOS 無蝦米輸入法，我把它移植到 Android 平台上，發布了 OnMyBias 輸入法 | Facebook</a> 看到的。除了是一支問世不久的鍵盤，目前更新速度很快，讓人意外的是 Android 平台上釋出不久，很快地就迎來 iOS 平台上的版本。<img src="https://live.staticflickr.com/65535/55507561142_ec3fe66a5b_b.jpg" alt="OhMyBias4iOSep (2)"/></p>
-<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55508951466_7f40ff5e56_b.jpg" alt="OhMyBias4iOSep (6)"/></p>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55508951466_7f40ff5e56_b.jpg" alt="OhMyBias4iOSep (5)"/></p>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
 <li><p>免費。</p>
 </li>
@@ -12619,11 +12619,13 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>對於 iOS 與 Android 雙平台使用者而言，使用同一支鍵盤，僅管細節上會有一點不同，應該還是會比較好上手。再者，雖然不像 Android 版可以到 500 多 KB，已經是近乎羽化成仙的境界，iOS 平台上的「OnMyBias 米」一樣保有輕盈的體態（目前是 2.3MB），而且，我喜歡一開始就保有「按鍵觸覺回饋」的功能設定。</p>
 </li>
-<li><p>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。另外，我在 Android 版上沒有注意到，還有一個換膚的功能，官網沒有介紹，我沒有花太多時間嘗試，但，感覺是可以針對個人使用習慣給予較高個別化的功能（類似的功能，似乎在「元書輸入法」也見識過），有興趣的伙伴，可以多玩玩試試。<img src="https://live.staticflickr.com/65535/55508566156_3ab9a78f84_b.jpg" alt="OhMyBias4iOSep (5)"/></p>
+<li><p>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。另外，我在 Android 版上沒有注意到，還有一個換膚的功能，官網沒有介紹，我沒有花太多時間嘗試，但，感覺是可以針對個人使用習慣給予較高個別化的功能（類似的功能，似乎在「元書輸入法」也見識過），有興趣的伙伴，可以多玩玩試試。<img src="https://live.staticflickr.com/65535/55508566156_3ab9a78f84_b.jpg" alt="OhMyBias4iOSep (4)"/></p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次截圖上的「OnMyBias 米」，是在我的 iPhone 13 運行，iOS 版本 26.6.1，「OnMyBias 米」的版本是 0.5.1。</p>
+</li>
+<li><p>安裝後，我發現有一個狀況，跟一代目的「蝦米鍵盤」有點類似，就是即使開啟「允許完整取用」，仍無法在系統上使用「OnMyBias 米」。<br>↘判斷這個狀況的方式很簡單，只要試著重新命名系統上 App 的資料夾，如果像下圖一樣，無法切換到「OnMyBias 米」。<img src="https://live.staticflickr.com/65535/55508939580_38b270f617_b.jpg" alt="OhMyBias4iOSep (1)"/><br>↘我所使用的解決方式是重新啟動 iOS，就可以順利看到輸入法切換選單上的「OnMyBias 米」。<img src="https://live.staticflickr.com/65535/55507561207_484006f011_b.jpg" alt="OhMyBias4iOSep (3)"/></p>
 </li>
 <li><p><a href="https://plateaukao.github.io/ohmybias-web/">OhMyBias 米 — 極簡嘸蝦米輸入法（macOS &#x2F; iOS &#x2F; Android）</a></p>
 </li>
