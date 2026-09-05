@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/android-and-boshiamy/</loc>
+    
+    <lastmod>2026-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/onmybias-ios-version/</loc>
     
     <lastmod>2026-09-05</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://jute.im/boshiamy/onmybias/</loc>
     
     <lastmod>2026-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/android-and-boshiamy/</loc>
-    
-    <lastmod>2026-08-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
