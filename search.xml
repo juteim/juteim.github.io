@@ -5884,7 +5884,7 @@ gdb -v
   <entry>
     <title>iOS 與嘸蝦米</title>
     <url>/boshiamy/ios-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這幾天在使用「蝦米鍵盤3」時，發現自己使用過不少跟嘸蝦米有關的鍵盤，索性將這些鍵盤的介面截圖下來，做個簡單的比較。<br><img src="https://live.staticflickr.com/65535/55258442698_424d0caa84.jpg" alt="iosAndBoshiamyEp (1)"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這幾天在使用「蝦米鍵盤3」時，發現自己使用過不少跟嘸蝦米有關的鍵盤，索性將這些鍵盤的介面截圖下來，做個簡單的比較。<br><img src="https://live.staticflickr.com/65535/55258442698_424d0caa84.jpg" alt="iosAndBoshiamyEp (1)"/><br>※2026 年 9 月 5 日，加入「OnMyBias 米」的使用心得。</p>
 <h3 id="嘸蝦米輸入鍵盤大比拼"><a href="#嘸蝦米輸入鍵盤大比拼" class="headerlink" title="嘸蝦米輸入鍵盤大比拼"></a>嘸蝦米輸入鍵盤大比拼</h3><h4 id="蝦米鍵盤3"><a href="#蝦米鍵盤3" class="headerlink" title="蝦米鍵盤3"></a>蝦米鍵盤3</h4><img src="https://live.staticflickr.com/65535/55241457229_ecc677b5c2_b.jpg" alt="ixhiamy-3 Ep (20)"/>
 
 <ol>
@@ -5994,6 +5994,14 @@ gdb -v
 <li>必須另外匯入表格檔（碼表）。</li>
 <li>滿血回歸後，更新速度非常快，我寫完本篇時，已經更新到 6.1.37 版。而且，同時在 2 大行動裝置的作業系統上都有支援，我認為對於兩棲的蝦米伙伴是福音。</li>
 <li>使用嘸蝦米輸入法前，需要再多做一點設定，詳情請點傳送門：<a href="/boshiamy/lime-ime-ios-version-and-boshiamy/">萊姆輸入法(iOS 版)與嘸蝦米</a>。</li>
+</ol>
+<h4 id="OnMyBias-米"><a href="#OnMyBias-米" class="headerlink" title="OnMyBias 米"></a>OnMyBias 米</h4><ol>
+<li>免費。</li>
+<li>鍵盤介面、按鍵配置基本上是合我的口味。<br>(1)鍵盤上方有功能列，我喜歡這樣的設計。<br>(2)左上角的【米】、【英】這 2 個按鍵是目前鍵盤狀態，而不是切換狀態的按鍵，這個介面設計是我比較不習慣的地方。<br>(3)空白鍵比較寬大，這個配置讓我在輸入全形標點符號：「，」的時候，需要花一點時間習慣。</li>
+<li>鍵盤反應與入字速度穩定。</li>
+<li>只有嘸蝦米輸入法，要另外自行匯入表格檔（碼表）。</li>
+<li>雖然不像 Android 版可以到 500 多 KB，已經是近乎羽化成仙的境界，iOS 平台上的「OnMyBias 米」一樣保有輕盈的體態（目前是 2.3MB），而且，我喜歡一開始就保有「按鍵觸覺回饋」的功能設定。</li>
+<li>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。另外，我在 Android 版上沒有注意到，還有一個換膚的功能，官網沒有介紹，我沒有花太多時間嘗試，但，感覺是可以針對個人使用習慣給予較高個別化的功能（類似的功能，似乎在「元書輸入法」也見識過），有興趣的伙伴，可以多玩玩試試。<img src="https://live.staticflickr.com/65535/55508566156_3ab9a78f84_b.jpg" alt="OhMyBias4iOSep (5)"/></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>各家鍵盤都有自己的獨門功夫，只是，對我來說，鍵盤介面、按鍵配置、鍵盤反應與入字速度是基本盤。另外，我也發現大部分在線持續優化與更新的鍵盤，在鍵盤反應與入字速度都能不斷改善，因此，或許有時候在同一部機器上，速度稍稍慢一點點，在後續優化或更新的過程，都能得到或多或少的改善，而讓表現越趨穩定。</p>
@@ -12556,7 +12564,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
       </tags>
   </entry>
   <entry>
-    <title>OnMyBias 米 - 小巧的嘸蝦米輸入法</title>
+    <title>OnMyBias 米 - Android 上小巧的嘸蝦米輸入法</title>
     <url>/boshiamy/onmybias/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「OnMyBias 米」是我在 <a href="https://www.facebook.com/groups/166192980489031/permalink/2540053293102976/">嘸蝦米社團 | 根據 Yabomish 的 MacOS 無蝦米輸入法，我把它移植到 Android 平台上，發布了 OnMyBias 輸入法 | Facebook</a> 看到的，也是一支問世不久的鍵盤。<img src="https://live.staticflickr.com/65535/55475778106_72797d921c_b.jpg" alt="OhMyBiasEp (1)"/></p>
 <h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55475917143_e80813a7c6_b.jpg" width="473" height="1024" alt="OhMyBiasEp (6)"/></p>
@@ -12571,7 +12579,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。<img src="https://live.staticflickr.com/65535/55474788812_f62a1612d4_b.jpg" alt="OhMyBiasEp (5)"/></p>
 </li>
-<li><p>這支鍵盤目前非常輕盈，據作者表示，現階段所釋出的版本，不到 900KB，我個人滿期待未來能夠有「觸覺回饋」的功能設定。</p>
+<li><p>這支鍵盤目前非常輕盈，據作者表示，現階段所釋出的版本，不到 900KB（據作者表示，0.3.7 版已經到達 500 多 KB 的境界），我個人滿期待未來能夠有「觸覺回饋」的功能設定。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -12593,6 +12601,50 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
       <tags>
         <tag>boshiamy</tag>
         <tag>android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OnMyBias 米 - iOS 版來報到</title>
+    <url>/boshiamy/onmybias-ios-version/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「OnMyBias 米」, 一開始是我在 <a href="https://www.facebook.com/groups/166192980489031/permalink/2540053293102976/">嘸蝦米社團 | 根據 Yabomish 的 MacOS 無蝦米輸入法，我把它移植到 Android 平台上，發布了 OnMyBias 輸入法 | Facebook</a> 看到的。除了是一支問世不久的鍵盤，目前更新速度很快，讓人意外的是 Android 平台上釋出不久，很快地就迎來 iOS 平台上的版本。<img src="https://live.staticflickr.com/65535/55507561142_ec3fe66a5b_b.jpg" alt="OhMyBias4iOSep (2)"/></p>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55508951466_7f40ff5e56_b.jpg" alt="OhMyBias4iOSep (6)"/></p>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>免費。</p>
+</li>
+<li><p>鍵盤介面、按鍵配置基本上是合我的口味。<br>(1)鍵盤上方有功能列，我喜歡這樣的設計。<br>(2)左上角的【米】、【英】這 2 個按鍵是目前鍵盤狀態，而不是切換狀態的按鍵，這個介面設計是我比較不習慣的地方。<br>(3)空白鍵比較寬大，這個配置讓我在輸入全形標點符號：「，」的時候，需要花一點時間習慣。</p>
+</li>
+<li><p>鍵盤反應與入字速度穩定。</p>
+</li>
+<li><p>只有嘸蝦米輸入法，要另外自行匯入表格檔（碼表）。</p>
+</li>
+<li><p>對於 iOS 與 Android 雙平台使用者而言，使用同一支鍵盤，僅管細節上會有一點不同，應該還是會比較好上手。再者，雖然不像 Android 版可以到 500 多 KB，已經是近乎羽化成仙的境界，iOS 平台上的「OnMyBias 米」一樣保有輕盈的體態（目前是 2.3MB），而且，我喜歡一開始就保有「按鍵觸覺回饋」的功能設定。</p>
+</li>
+<li><p>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。另外，我在 Android 版上沒有注意到，還有一個換膚的功能，官網沒有介紹，我沒有花太多時間嘗試，但，感覺是可以針對個人使用習慣給予較高個別化的功能（類似的功能，似乎在「元書輸入法」也見識過），有興趣的伙伴，可以多玩玩試試。<img src="https://live.staticflickr.com/65535/55508566156_3ab9a78f84_b.jpg" alt="OhMyBias4iOSep (5)"/></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次截圖上的「OnMyBias 米」，是在我的 iPhone 13 運行，iOS 版本 26.6.1，「OnMyBias 米」的版本是 0.5.1。</p>
+</li>
+<li><p><a href="https://plateaukao.github.io/ohmybias-web/">OhMyBias 米 — 極簡嘸蝦米輸入法（macOS &#x2F; iOS &#x2F; Android）</a></p>
+</li>
+<li><p><a href="https://www.facebook.com/groups/166192980489031/posts/2554062098368762/"> 嘸蝦米社團 | OhMyBias 米 - 嘸蝦米鍵盤也上架到 App Store 了，可以安裝到 iPhone 上 | Facebook</a></p>
+</li>
+<li><p><a href="https://apps.apple.com/us/app/ohmybias%E7%B1%B3-%E5%98%B8%E8%9D%A6%E7%B1%B3%E9%8D%B5%E7%9B%A4/id6805070802">OhMyBias米 - 嘸蝦米鍵盤 App - App Store</a></p>
+</li>
+<li><p><a href="/boshiamy/onmybias/">OnMyBias 米 - Android 小巧的嘸蝦米輸入法</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>boshiamy</category>
+      </categories>
+      <tags>
+        <tag>boshiamy</tag>
+        <tag>ios</tag>
       </tags>
   </entry>
 </search>
