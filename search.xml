@@ -12506,7 +12506,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li>鍵盤反應與入字速度穩定。</li>
 <li>只有嘸蝦米輸入法，要另外自行匯入表格檔（碼表）。</li>
 <li>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。<img src="https://live.staticflickr.com/65535/55474788812_f62a1612d4_b.jpg" alt="OhMyBiasEp (5)"/></li>
-<li>這支鍵盤目前非常輕盈，據作者表示，現階段所釋出的版本，不到 900KB（據作者表示，0.3.7 版已經到達 500 多 KB 的境界）。</li>
+<li>這支鍵盤目前非常輕盈，現階段所釋出的版本，不到 900KB（據作者表示，0.3.7 版已經到達 500 多 KB 的境界）。</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>各家鍵盤都有自己的獨門功夫，只是，對我來說，鍵盤介面、按鍵配置、鍵盤反應與入字速度是基本盤。</p>
@@ -12571,7 +12571,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
     <title>OnMyBias 米 - Android 上小巧的嘸蝦米輸入法</title>
     <url>/boshiamy/onmybias/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「OnMyBias 米」是我在 <a href="https://www.facebook.com/groups/166192980489031/permalink/2540053293102976/">嘸蝦米社團 | 根據 Yabomish 的 MacOS 無蝦米輸入法，我把它移植到 Android 平台上，發布了 OnMyBias 輸入法 | Facebook</a> 看到的，也是一支問世不久的鍵盤。<img src="https://live.staticflickr.com/65535/55475778106_72797d921c_b.jpg" alt="OhMyBiasEp (1)"/></p>
-<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55475917143_e80813a7c6_b.jpg" width="473" height="1024" alt="OhMyBiasEp (6)"/></p>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>需要匯入碼表（.CIN 檔），匯入的方式不困難。開啟 App 的設定畫面，找到「字表」內的【匯入 liu.cin】這個按鈕，點按之後，把自己本機或雲端上的 .CIN 檔匯入，而且我實測命名不一定要跟 liu.cin 完全一樣，仍可順利匯入。<img src="https://live.staticflickr.com/65535/55475917143_e80813a7c6_b.jpg" alt="OhMyBiasEp (6)"/></p>
 <h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
 <li><p>免費。</p>
 </li>
@@ -12583,7 +12583,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>所有的設定，都在一頁裡面完成，不用一層一層去查找與設定。<img src="https://live.staticflickr.com/65535/55474788812_f62a1612d4_b.jpg" alt="OhMyBiasEp (5)"/></p>
 </li>
-<li><p>這支鍵盤目前非常輕盈，據作者表示，現階段所釋出的版本，不到 900KB（據作者表示，0.3.7 版已經到達 500 多 KB 的境界）。</p>
+<li><p>這支鍵盤目前非常輕盈，現階段所釋出的版本，不到 900KB（據作者表示，0.3.7 版已經到達 500 多 KB 的境界）。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -12592,6 +12592,8 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="https://www.facebook.com/groups/166192980489031/permalink/2540053293102976/">嘸蝦米社團 | 根據 Yabomish 的 MacOS 無蝦米輸入法，我把它移植到 Android 平台上，發布了 OnMyBias 輸入法 | Facebook</a></p>
 </li>
 <li><p><a href="https://play.google.com/store/apps/details?id=info.plateaukao.ohmybias.g">蝦OhMyBias 米 — 嘸蝦米鍵盤 - Google Play 應用程式</a></p>
+</li>
+<li><p><a href="/boshiamy/onmybias-ios-version/">OnMyBias 米 - iOS 版來報到</a></p>
 </li>
 <li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
 </li>
@@ -12621,7 +12623,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 </li>
 <li><p>只有嘸蝦米輸入法，要另外自行匯入表格檔（碼表）。</p>
 </li>
-<li><p>對於 iOS 與 Android 雙平台使用者而言，使用同一支鍵盤，僅管細節上會有一點不同，應該還是會比較好上手。再者，雖然不像 Android 版可以到 500 多 KB，已經是近乎羽化成仙的境界，iOS 平台上的「OnMyBias 米」一樣保有輕盈的體態（目前是 2.3MB）。</p>
+<li><p>對於 iOS 與 Android 雙平台使用者而言，使用同一支鍵盤，僅管細節上會有一點不同，應該還是會比較好上手。再者，雖然不像 Android 版可以到 500 多 KB，已經是近乎羽化成仙的境界，iOS 平台上的「OnMyBias 米」一樣保有輕盈的體態，2.3MB 基本上是把我目前使用過的嘸蝦米輸入法鍵盤狠狠甩開好幾條街（其他輸入法的「體態」，我把查找到的資料放在「後記」底下的「嘸蝦米鍵盤檔案容量比較」裡）。</p>
 </li>
 <li><p>安裝後，我發現有一個狀況，跟一代目的「蝦米鍵盤」在 iOS 26 上面運行時有點類似，就是即使開啟「允許完整取用」，仍無法在系統上使用「OnMyBias 米」。<br>↘判斷這個狀況的方式很簡單，只要試著重新命名系統上 App 的資料夾，就會像下圖一樣，無法切換到「OnMyBias 米」。<img src="https://live.staticflickr.com/65535/55508939580_38b270f617_b.jpg" alt="OhMyBias4iOSep (1)"/>↘我所使用的解決方式是重新啟動 iOS，重新啟動後，就可以看到輸入法切換選單上的「OnMyBias 米」。<img src="https://live.staticflickr.com/65535/55507561207_484006f011_b.jpg" alt="OhMyBias4iOSep (3)"/></p>
 </li>
@@ -12646,7 +12648,121 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
 </li>
 </ol>
-]]></content>
+<h4 id="嘸蝦米鍵盤檔案容量比較"><a href="#嘸蝦米鍵盤檔案容量比較" class="headerlink" title="嘸蝦米鍵盤檔案容量比較"></a>嘸蝦米鍵盤檔案容量比較</h4><ol>
+<li>「使用心得」第 5 點，談到輸入法的「體態」，為求公正，我試著把目前查找到的結果臚列如下。</li>
+<li>我是使用 iOS 上的 App Store 查找，後來發現如果用網頁版的 App Store 查找出來的資料有一點點差距。</li>
+<li>承上，下列資料僅供參考，如果有誤，敬請見諒，並且，請以官方資料為主。</li>
+</ol>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"> 序號</th>
+    <th class="tg-0pky">鍵盤名稱</th>
+    <th class="tg-0pky">版本</th>
+    <th class="tg-0pky">檔案容量(MB)</th>
+    <th class="tg-0pky">備註</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-0pky">蝦米鍵盤3</td>
+    <td class="tg-0pky">1.10</td>
+    <td class="tg-0pky">66.8</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-0pky">蝦米鍵盤2</td>
+    <td class="tg-0pky">6.3</td>
+    <td class="tg-0pky">79.5</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-0pky">蝦米鍵盤</td>
+    <td class="tg-0pky">未知</td>
+    <td class="tg-0pky">未知</td>
+    <td class="tg-0pky">已下架，非常抱歉，要查找比較耗時，我就懶。</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-0pky">南極蝦鍵盤</td>
+    <td class="tg-0pky">2.28</td>
+    <td class="tg-0pky">16.6</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-0pky">南極蝦鍵盤 Lite</td>
+    <td class="tg-0pky">1.17</td>
+    <td class="tg-0pky">7.3</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-0pky">iAcces Keyboard</td>
+    <td class="tg-0pky">26.2.84</td>
+    <td class="tg-0pky">734</td>
+    <td class="tg-0pky">最大隻</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">7</td>
+    <td class="tg-0pky">Urkeyboard</td>
+    <td class="tg-0pky">2.4.19</td>
+    <td class="tg-0pky">130.5</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-0pky">Kaiboard</td>
+    <td class="tg-0pky">1.9.13</td>
+    <td class="tg-0pky">108.9</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">9</td>
+    <td class="tg-0pky">爪爪鍵盤</td>
+    <td class="tg-0pky">1.0.20</td>
+    <td class="tg-0pky">45.9</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">10</td>
+    <td class="tg-0pky">元書輸入法</td>
+    <td class="tg-0pky">1.7.3</td>
+    <td class="tg-0pky">73</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">11</td>
+    <td class="tg-0pky">OkidoKey</td>
+    <td class="tg-0pky">4.4.0</td>
+    <td class="tg-0pky">44.6</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-0pky">萊姆輸入法</td>
+    <td class="tg-0pky">6.1.38</td>
+    <td class="tg-0pky">20.7</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">13</td>
+    <td class="tg-0pky">OnMyBias 米</td>
+    <td class="tg-0pky">0.5.1</td>
+    <td class="tg-0pky">2.3</td>
+    <td class="tg-0pky">最輕盈</td>
+  </tr>
+</tbody></table>]]></content>
       <categories>
         <category>boshiamy</category>
       </categories>
