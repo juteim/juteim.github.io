@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
+    
+    <lastmod>2026-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/</loc>
     
     <lastmod>2026-09-19</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://jute.im/boshiamy/about-the-setting-of-ixhiamy-2-for-ios-and-ipados/</loc>
     
     <lastmod>2026-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
-    
-    <lastmod>2026-09-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
