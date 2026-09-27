@@ -5915,7 +5915,7 @@ gdb -v
 <td>蝦米鍵盤3</td>
 <td>試用 30 天，買斷 US$9.99（約 320 元）；AI 功能每週 30 元</td>
 <td>內建</td>
-<td></td>
+<td>✓ 長不一樣</td>
 <td>持續更新</td>
 <td>我的主力，反應速度大幅改善</td>
 </tr>
@@ -5923,23 +5923,23 @@ gdb -v
 <td>蝦米鍵盤2</td>
 <td>基本打字免費</td>
 <td>內建</td>
-<td></td>
-<td>可能下架，建議先下載</td>
-<td>曾是主力，有卡頓回報</td>
+<td>✓ 長不一樣</td>
+<td>未來可能下架，建議先下載</td>
+<td>不花錢就能使用基本功能的官蝦</td>
 </tr>
 <tr>
-<td>蝦米鍵盤（一代）</td>
+<td>蝦米鍵盤（1 代）</td>
 <td>付費</td>
 <td>內建</td>
-<td></td>
+<td>✓ 長不一樣</td>
 <td>已下架</td>
-<td>需從購買紀錄下載，震動回饋已失效</td>
+<td>上古時期的官蝦，需從購買紀錄下載，震動回饋已失效</td>
 </tr>
 <tr>
 <td>南極蝦鍵盤</td>
 <td>Lite 免費；一般版 150 元，另有 3 項加購各 50 元</td>
 <td>需匯入</td>
-<td></td>
+<td>無</td>
 <td>更新快</td>
 <td>Lite 版就很夠用</td>
 </tr>
@@ -5947,9 +5947,9 @@ gdb -v
 <td>iAcces Keyboard</td>
 <td>嘸蝦米 190 元；新機型需另購授權</td>
 <td>內建（可選 31 鍵）</td>
-<td></td>
-<td>—</td>
-<td>最早取得授權，容量最大</td>
+<td>無</td>
+<td>持續更新</td>
+<td>最早取得授權</td>
 </tr>
 <tr>
 <td>UrKeyboard</td>
@@ -5963,7 +5963,7 @@ gdb -v
 <td>Kaiboard</td>
 <td>免費</td>
 <td>需額外設定</td>
-<td></td>
+<td>無</td>
 <td>持續更新</td>
 <td>穩定，中英混打順手</td>
 </tr>
@@ -5971,15 +5971,15 @@ gdb -v
 <td>爪爪鍵盤</td>
 <td>免費</td>
 <td>需匯入</td>
-<td></td>
-<td>—</td>
+<td>無</td>
+<td>持續更新</td>
 <td>速打字根提示；無法用 V 選第二字</td>
 </tr>
 <tr>
 <td>元書輸入法</td>
 <td>免費；Pro 解鎖剪貼簿、腳本</td>
 <td>需設定輸入方案（難度最高）</td>
-<td></td>
+<td>無</td>
 <td>更新快</td>
 <td>高度客製化</td>
 </tr>
@@ -5987,8 +5987,8 @@ gdb -v
 <td>OkidoKey</td>
 <td>免費</td>
 <td>需匯入（檔名用小寫英文）</td>
-<td></td>
-<td>—</td>
+<td>無</td>
+<td>持續更新</td>
 <td>候選字列可調，可字根反查</td>
 </tr>
 <tr>
@@ -6016,6 +6016,7 @@ gdb -v
 <li>iPhone、Android 兩棲 → UrKeyboard、萊姆輸入法、OnMyBias 米</li>
 <li>AI 功能 → 蝦米鍵盤3（付費訂閱）</li>
 <li>手機空間吃緊 → OnMyBias 米</li>
+<li>老字號 → iAcces Keyboard</li>
 </ul>
 <h3 id="嘸蝦米輸入鍵盤重點分述"><a href="#嘸蝦米輸入鍵盤重點分述" class="headerlink" title="嘸蝦米輸入鍵盤重點分述"></a>嘸蝦米輸入鍵盤重點分述</h3><h4 id="蝦米鍵盤3"><a href="#蝦米鍵盤3" class="headerlink" title="蝦米鍵盤3"></a>蝦米鍵盤3</h4><img src="https://live.staticflickr.com/65535/55241457229_ecc677b5c2_b.jpg" alt="ixhiamy-3 Ep (20)"/>
 
