@@ -8719,7 +8719,7 @@ gdb -v
 <td><a href="#Arch-Linux-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Arch 系</a></td>
 </tr>
 <tr>
-<td>Linux Mint 22.1</td>
+<td>Linux Mint 22.1 Cinnamon</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-boshiamy</td>
 <td>可經由圖形介面，免指令</td>
@@ -8785,7 +8785,7 @@ gdb -v
 </tbody></table>
 <p><strong>快速判斷</strong>：</p>
 <ul>
-<li>不想碰指令 → Linux Mint 22.1、Zorin OS 18、openSUSE</li>
+<li>不想碰指令 → Linux Mint 22.1 Cinnamon、openSUSE</li>
 <li>用的是新版發行版 → 優先選 Fcitx5，對 Wayland 支援也較好</li>
 <li>用的是較舊的 Debian／ubuntu 系 → fcitx(4) 通常最省事</li>
 </ul>
