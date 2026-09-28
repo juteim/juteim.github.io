@@ -8774,7 +8774,7 @@ gdb -v
 <tr>
 <td>openSUSE（Leap、Tumbleweed）</td>
 <td>Fcitx5</td>
-<td>待補</td>
+<td>fcitx5-table-extra</td>
 <td>YaST 或 Myrlyn 圖形介面</td>
 <td>★</td>
 <td><a href="#openSUSE">openSUSE</a></td>
