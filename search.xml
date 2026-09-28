@@ -8797,7 +8797,9 @@ gdb -v
 <li>用的是新版發行版 → 優先選 Fcitx5，對 Wayland 支援也較好</li>
 <li>用的是較舊的 Debian／ubuntu 系 → fcitx(4) 通常最省事</li>
 </ul>
-<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>優先考慮 Fcitx5。</p>
+<h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><blockquote>
+<p>優先考慮 Fcitx5。</p>
+</blockquote>
 <ol>
 <li><a href="/boshiamy/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
 <li><a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
@@ -8806,11 +8808,12 @@ gdb -v
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
-<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><ul>
-<li>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。</li>
-<li>新版本尚未實測：2025 年 8 月推出的 Debian 13，2026 年 4 月推出的 ubuntu 26.04 LTS。</li>
-</ul>
-<h4 id="Fcitx5"><a href="#Fcitx5" class="headerlink" title="Fcitx5"></a>Fcitx5</h4><p>Debian 與 ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
+<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><blockquote>
+<p>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。<br>新版本尚未實測：2025 年 8 月推出的 Debian 13，2026 年 4 月推出的 ubuntu 26.04 LTS。</p>
+</blockquote>
+<h4 id="Fcitx5"><a href="#Fcitx5" class="headerlink" title="Fcitx5"></a>Fcitx5</h4><blockquote>
+<p>Debian 與 ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
+</blockquote>
 <h5 id="fcitx5-table-boshiamy"><a href="#fcitx5-table-boshiamy" class="headerlink" title="fcitx5-table-boshiamy"></a>fcitx5-table-boshiamy</h5><ol>
 <li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
@@ -8832,7 +8835,9 @@ gdb -v
 <li><a href="/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/">Linux Mint 21.1 與嘸蝦米 (feat. fcitx5-table-extra)</a></li>
 <li><a href="/linux/lmde-6/">來玩 LMDE 6</a></li>
 </ol>
-<h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><p>以下的發行版，選用 fcitx(4) 是比較方便的決定，因為，只要下完 <code>sudo apt install fcitx-table-boshiamy</code> 這道指令就幾乎搞定一半。</p>
+<h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><blockquote>
+<p>以下的發行版，選用 fcitx(4) 是比較方便的決定，因為，只要下完 <code>sudo apt install fcitx-table-boshiamy</code> 這道指令就幾乎搞定一半。</p>
+</blockquote>
 <ol>
 <li><a href="/boshiamy/ubuntu-23-04-and-boshiamy/">ubuntu 23.04 與嘸蝦米</a></li>
 <li><a href="/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/">在 ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米</a></li>
@@ -8841,12 +8846,16 @@ gdb -v
 <li><a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a></li>
 <li><a href="/linux/lmde-5/">來玩 LMDE 5</a></li>
 </ol>
-<h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><p>Fcitx5 是首選，在 Terminal 下 <code>sudo dnf install &#39;fcitx5*&#39;</code> 指令來服用，雖然也可以用 <code>yum</code> 也行，但個人已經不是那麼建議。</p>
+<h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><blockquote>
+<p>Fcitx5 是首選，在 Terminal 下 <code>sudo dnf install &#39;fcitx5*&#39;</code> 指令來服用，雖然也可以用 <code>yum</code> 也行，但個人已經不是那麼建議。</p>
+</blockquote>
 <ol>
 <li><a href="/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/">在 Fedora 41 上輕鬆安裝嘸蝦米(feat. Fcitx5)</a></li>
 <li><a href="/linux/risios-37-1-1/">來玩 risiOS 37.1.1</a></li>
 </ol>
-<h3 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h3><p>建議使用 Fcitx5，未來有可能也只有 Fcitx5 可選。</p>
+<h3 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h3><blockquote>
+<p>建議使用 Fcitx5，未來有可能也只有 Fcitx5 可選。</p>
+</blockquote>
 <h4 id="使用-YaST-圖形介面模式進行相關套件安裝"><a href="#使用-YaST-圖形介面模式進行相關套件安裝" class="headerlink" title="使用 YaST 圖形介面模式進行相關套件安裝"></a>使用 YaST 圖形介面模式進行相關套件安裝</h4><ol>
 <li><a href="/boshiamy/opensuse-leap-15-5-and-boshiamy/">openSUSE Leap 15.5 與嘸蝦米 (feat. Fcitx5)</a></li>
 <li><a href="/boshiamy/opensuse-tumbleweed-snapshot20231018-and-boshiamy/">openSUSE Tumbleweed Snapshot20231018 與嘸蝦米 (feat. Fcitx5)</a></li>
@@ -8854,7 +8863,9 @@ gdb -v
 <h4 id="使用-Myrlyn-圖形介面模式進行相關套件安裝"><a href="#使用-Myrlyn-圖形介面模式進行相關套件安裝" class="headerlink" title="使用 Myrlyn 圖形介面模式進行相關套件安裝"></a>使用 Myrlyn 圖形介面模式進行相關套件安裝</h4><ul>
 <li><a href="/linux/opensuse-leap-16-0-beta/">openSUSE Leap 16.0 Beta</a></li>
 </ul>
-<h3 id="Slackware"><a href="#Slackware" class="headerlink" title="Slackware"></a>Slackware</h3><p>原則上，fcitx(4) 與 <code>fcitx-table-boshiamy</code> 都不用再另外安裝，使用者要做的是一點點設定。</p>
+<h3 id="Slackware"><a href="#Slackware" class="headerlink" title="Slackware"></a>Slackware</h3><blockquote>
+<p>原則上，fcitx(4) 與 <code>fcitx-table-boshiamy</code> 都不用再另外安裝，使用者要做的是一點點設定。</p>
+</blockquote>
 <ul>
 <li><a href="/linux/slackware-15-0/">來玩 Slackware 15.0</a></li>
 </ul>
