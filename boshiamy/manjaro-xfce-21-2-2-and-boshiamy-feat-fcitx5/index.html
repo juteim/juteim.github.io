@@ -267,7 +267,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>785</span>
+              <span>757</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -288,12 +288,16 @@
       
         <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇是紀錄在 Manjaro 上安裝 Fcitx5 與嘸蝦米的過程。</p>
 <h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><ol>
-<li><p>下指令。</p>
+<li>下指令。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-table-extra</span><br><span class="line">sudo nano /etc/enviroment</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>寫入下列資料(「複製貼上」是王道)，然後重開機。</p>
+
+<ol start="2">
+<li>寫入下列資料(「複製貼上」是王道)，然後重開機。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GTK_IM_MODULE=fcitx</span><br><span class="line">QT_IM_MODULE=fcitx</span><br><span class="line">XMODIFIERS=@im=fcitx</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="3">
 <li><p>重新登入系統後，右下角有一個鍵盤圖示，點右鍵進入「設定」。在「Fcitx 設定」介面裡，「可用輸入法：」下的搜尋框，用關鍵字「bosh」，找出「嘸蝦米」並新增至「目前輸入法」，Apply 後 Close「Fcitx 設定」介面 。</p>
 </li>
 <li><p>測試輸入法：我隨意找個程式開啟，再找個地方，使用 Ctrl+Space 切換輸入法後，看到小框框裡有「嘸」字出現，試著打幾個字。</p>
@@ -473,13 +477,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

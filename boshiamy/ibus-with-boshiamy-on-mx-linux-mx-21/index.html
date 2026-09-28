@@ -271,7 +271,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>1.3k</span>
+              <span>1.2k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -299,21 +299,27 @@
 </blockquote>
 <p>我目前以 MX Linux 為主力，今天也就把輸入法轉換到行易有限公司提供支援的 iBus 輸入平台上，幾個步驟與指令，我試著完成安裝與設定，同時紀錄下來。</p>
 <h3 id="從-fcitx-轉換到-iBus"><a href="#從-fcitx-轉換到-iBus" class="headerlink" title="從 fcitx 轉換到 iBus"></a>從 fcitx 轉換到 iBus</h3><ol>
-<li><p>移除 fcitx，後安裝 iBus。</p>
+<li>移除 fcitx，後安裝 iBus。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt remove fcitx*</span><br><span class="line">sudo apt install ibus*</span><br></pre></td></tr></table></figure>
 <p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51855380591/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp3"><img src="https://live.staticflickr.com/65535/51855380591_7368780331_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp3"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51855459388/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp4"><img src="https://live.staticflickr.com/65535/51855459388_9e28c0b2c2_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp4"></a></p>
-</li>
-<li><p><code>sudo vim /etc/enviroment</code> 寫入以下內容：</p>
+<ol start="2">
+<li><code>sudo vim /etc/enviroment</code> 寫入以下內容：</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GTK_IM_MODULE=ibus</span><br><span class="line">QT_IM_MODULE=ibus</span><br><span class="line">XMODIFIERS=@im=ibus</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>至行易有限公司下載官方表格檔。</p>
+
+<ol start="3">
+<li>至行易有限公司下載官方表格檔。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd 下載/ /*←這道指令，在沒有中文輸入法的前提下，還是可以善用 Tab 鍵，再用「複製貼上」*/</span><br><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp ./boshiamy_*.db /usr/share/ibus-table/tables &amp;&amp; sudo cp ./boshiamy-*.png /usr/share/ibus-table/icons</span><br><span class="line">ibus-daemon -dx</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>點出開始功能表，使用關鍵字「start」，找出「工作階段與啟動」這個設定介面。在「應用程式自動啟動」新增「ibus-daemon -dx」指令，名稱與敘述我分別隨便命名為 ibusStart 與 Start iBus。</p>
+
+<ol start="4">
+<li>點出開始功能表，使用關鍵字「start」，找出「工作階段與啟動」這個設定介面。在「應用程式自動啟動」新增「ibus-daemon -dx」指令，名稱與敘述我分別隨便命名為 ibusStart 與 Start iBus。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)因為 macOS 使用比較久的一點關係，我已習慣用 Ctrl+Space 切換輸入法，來到 Linux，用一樣的設定會比較直覺一點，因此，這一個設定不是每個人都會用到。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51854702269/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp1"><img src="https://live.staticflickr.com/65535/51854702269_fd4d3af2e9_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp1"></a><br>(下圖)在系統上只留嘸蝦米輸入法，也是個人習慣問題。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51854376026/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp2"><img src="https://live.staticflickr.com/65535/51854376026_834f001fe1_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp2"></a></p>
-</li>
+
+<ol start="5">
+<li>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)因為 macOS 使用比較久的一點關係，我已習慣用 Ctrl+Space 切換輸入法，來到 Linux，用一樣的設定會比較直覺一點，因此，這一個設定不是每個人都會用到。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51854702269/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp1"><img src="https://live.staticflickr.com/65535/51854702269_fd4d3af2e9_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp1"></a><br>(下圖)在系統上只留嘸蝦米輸入法，也是個人習慣問題。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51854376026/in/dateposted/" title="installingBoshiamyIbusTableonMXLinuxEp2"><img src="https://live.staticflickr.com/65535/51854376026_834f001fe1_o.png" alt="installingBoshiamyIbusTableonMXLinuxEp2"></a></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a target="_blank" rel="noopener" href="https://mxlinux.org/">MX Linux – Midweight Simple Stable Desktop OS</a></p>
@@ -490,13 +496,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

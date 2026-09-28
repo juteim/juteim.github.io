@@ -270,7 +270,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>957</span>
+              <span>880</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -293,25 +293,35 @@
 <p>iBus 輸入平台上，有行易有限公司釋出的官方嘸蝦米表格檔，原則上，我個人也比較推薦使用官方釋出的版本。</p>
 <p>今天，就把我自己從 fcitx 轉到 iBus 的部分，做一個小小的紀錄。</p>
 <h3 id="從-fcitx-轉換到-iBus"><a href="#從-fcitx-轉換到-iBus" class="headerlink" title="從 fcitx 轉換到 iBus"></a>從 fcitx 轉換到 iBus</h3><ol>
-<li><p>移除 fcitx，安裝 iBus。</p>
+<li>移除 fcitx，安裝 iBus。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -R fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-table-extra libime</span><br><span class="line">sudo pacman -S ibus ibus-table</span><br><span class="line">sudo vim /etc/enviroment</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>寫入以下內容</p>
+
+<ol start="2">
+<li>寫入以下內容</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GTK_IM_MODULE=ibus</span><br><span class="line">QT_IM_MODULE=ibus</span><br><span class="line">XMODIFIERS=@im=ibus</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="3">
 <li><p>至行易有限公司下載官方表格檔：<code>boshiamy-ibus-1-8-x.tar.gz</code>。</p>
 </li>
 <li><p>將官方表格檔解壓縮。</p>
+</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd 下載/ //沒有中文輸入法，可以善用 ls 指令或是 Tab 鍵，再用「複製貼上」。</span><br><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp _.db /usr/share/ibus-table/tables &amp;&amp; sudo cp_ .png /usr/share/ibus-table/icons</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>寫入一個讓 iBus 隨著開機啟動的 Script。</p>
+
+<ol start="5">
+<li>寫入一個讓 iBus 隨著開機啟動的 Script。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/profile.d/ibusStart.sh</span><br><span class="line">ibus-daemon -drxR</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重新開機</p>
+
+<ol start="6">
+<li>重新開機</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)進入 iBus 設定介面，有 2 種方式，一個是直接點右下角的「FOX」或「小鍵盤」圖示，一個是在 Terminal 裡下 ibus-setup 指令。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51875600942/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp1"><img src="https://live.staticflickr.com/65535/51875600942_3477d8e4e8_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp1"></a><br>(下圖)找個地方，小試一下 iBus 上的嘸蝦米。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51876563511/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp2"><img src="https://live.staticflickr.com/65535/51876563511_6d19646c05_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp2"></a></p>
-</li>
+
+<ol start="7">
+<li>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。<br>(下圖)進入 iBus 設定介面，有 2 種方式，一個是直接點右下角的「FOX」或「小鍵盤」圖示，一個是在 Terminal 裡下 ibus-setup 指令。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51875600942/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp1"><img src="https://live.staticflickr.com/65535/51875600942_3477d8e4e8_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp1"></a><br>(下圖)找個地方，小試一下 iBus 上的嘸蝦米。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51876563511/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp2"><img src="https://live.staticflickr.com/65535/51876563511_6d19646c05_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp2"></a></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a target="_blank" rel="noopener" href="https://manjaro.org/">Manjaro - enjoy the simplicity</a></p>
@@ -489,13 +499,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

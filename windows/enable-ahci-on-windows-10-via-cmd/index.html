@@ -268,7 +268,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>573</span>
+              <span>499</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -297,12 +297,12 @@
 <li><p>【以系統管理員身份執行】CMD。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51904424023/in/dateposted-public/" title="enableAHCIonWindows10viaCMDEp1"><img src="https://live.staticflickr.com/65535/51904424023_f5cc1d0203_o.png" alt="enableAHCIonWindows10viaCMDEp1"></a></p>
  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
-<li><p>將 <code>bcdedit /set &#123;current&#125; safeboot minimal</code> 這串指令打進去(記得 Enter)。</p>
+<li><p>將 <code>bcdedit /set {current} safeboot minimal</code> 這串指令打進去(記得 Enter)。</p>
 </li>
 <li><p>重開機，進入 BIOS 設定，找到並啟用 AHCI 設定。各家、各廠牌或各版本等等主機板的設定位置，可能會不太一樣，以今天我設定的機器而言，是在 Advanced\SATA Configuration 這個地方。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51904424008/in/dateposted-public/" title="enableAHCIonWindows10viaCMDEp2"><img src="https://live.staticflickr.com/65535/51904424008_9ff4e64708_o.jpg" alt="enableAHCIonWindows10viaCMDEp2"></a></p>
  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
-<li><p>跳出 BIOS 設定後，原則上會進入「安全模式」，在「安全模式」下，將 <code>bcdedit /deletevalue &#123;current&#125; safeboot</code> 這串指令打進去(一樣，要記得 Enter)。</p>
+<li><p>跳出 BIOS 設定後，原則上會進入「安全模式」，在「安全模式」下，將 <code>bcdedit /deletevalue {current} safeboot</code> 這串指令打進去(一樣，要記得 Enter)。</p>
 </li>
 <li><p>再次重開機，而且重開機之後，原則上就會支援 AHCI。</p>
 </li>
@@ -475,13 +475,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

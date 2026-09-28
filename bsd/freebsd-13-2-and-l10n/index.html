@@ -277,7 +277,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>2.3k</span>
+              <span>2.1k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -311,8 +311,10 @@
 <li><p>除了設定 root 密碼之外，我會新增至少一個使用者，由於後續會用到 X Window System，所以，除了 wheel 這個 Group 以外，我還會將使用者加入到 video 的 Group，如果忘記在這個步驟加入 wheel 或 video，後續可以用指令 <code>pw groupmod group(群組名稱) -m username(使用者帳號名稱)</code> 處理。</p>
 </li>
 <li><p>在處理 X Window System 之前，我事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件，doas 在安裝完之後，記得把設定檔的部分搞定，最快的方式，就是拷貝 doas.conf.sample 來服用。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure></li>
+</li>
 </ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure>
+
 <h3 id="設定-X-Window-System-feat-XFCE"><a href="#設定-X-Window-System-feat-XFCE" class="headerlink" title="設定 X Window System(feat. XFCE)"></a>設定 X Window System(feat. XFCE)</h3><ol>
 <li><p>切換到 root 權限。</p>
 </li>
@@ -333,44 +335,59 @@
 <li><p>我先試著在 root 權限下，執行 <code>kldload snd_driver</code> 後，音效就順利出現。</p>
 </li>
 <li><p>接著將以下內容寫入 <code>/boot/loader.conf</code>。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure></li>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure>
+<ol start="4">
 <li><p>我另外安裝 <code>mixer</code> 這支套件。</p>
 </li>
 <li><p>放出的聲量似乎有點不足，由於我目前只是想讓系統在操作時，讓系統有點「動靜」而已，因此，就決定讓程序先走到這邊。</p>
 </li>
 </ol>
 <h3 id="中文化-含中文輸入法-的安裝與處理過程"><a href="#中文化-含中文輸入法-的安裝與處理過程" class="headerlink" title="中文化(含中文輸入法)的安裝與處理過程"></a>中文化(含中文輸入法)的安裝與處理過程</h3><ol>
-<li><p>安裝中文字體。</p>
+<li>安裝中文字體。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install zh-CJKUnifonts zh-kcfonts zh-taipeisanstc-b</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安裝中文輸入法框架。</p>
+
+<ol start="2">
+<li>安裝中文輸入法框架。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pkg install fcitx5 fcitx5-configtool zh-fcitx5-chewing zh-fcitx5-chinese-addons zh-fcitx5-table-extra zh-fcitx5-table-other</span><br><span class="line">mkdir ~/.config/autostart</span><br><span class="line">cp /usr/local/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>設定語系與中文輸入法框架：先處理 <code>~/.cshrc</code>。</p>
+
+<ol start="3">
+<li>設定語系與中文輸入法框架：先處理 <code>~/.cshrc</code>。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ee ~/.cshrc </span><br></pre></td></tr></table></figure>
 <p>寫入以下內容。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv LANGUAGE zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8 </span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>再處理 <code>/etc/csh.cshrc</code>。</p>
+
+<ol start="4">
+<li>再處理 <code>/etc/csh.cshrc</code>。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">doas ee /etc/csh.cshrc</span><br></pre></td></tr></table></figure>
 <p>寫入以下內容。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">setenv QT4_IM_MODULE fcitx</span><br><span class="line">setenv GTK_IM_MODULE fcitx</span><br><span class="line">setenv QT_IM_MODULE fcitx</span><br><span class="line">setenv GTK2_IM_MODULE fcitx</span><br><span class="line">setenv GTK3_IM_MODULE fcitx</span><br><span class="line">setenv XMODIFIERS @im=fcitx</span><br><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8</span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="5">
 <li><p>重新啟動系統，讓中文語系與中文輸入法框架(即 Fcitx5)生效。</p>
 </li>
 <li><p>新酷音輸入法在預設的輸入法裡面。</p>
+</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/53274592768_589b5b0c4e_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (1)"/>
 <img src="https://live.staticflickr.com/65535/53274592723_388277f2d4_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (2)"/>
 <img src="https://live.staticflickr.com/65535/53274666544_cc175c43ef_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (3)"/>
-</li>
-<li><p>嘸蝦米輸入法則是要另外手動添加。</p>
+
+<ol start="7">
+<li>嘸蝦米輸入法則是要另外手動添加。</li>
+</ol>
 <img src="https://live.staticflickr.com/65535/53274592693_91c24c428c_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (4)"/>
 <img src="https://live.staticflickr.com/65535/53274666529_66614fd6eb_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (5)"/>
 <img src="https://live.staticflickr.com/65535/53274592678_39257449d2_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (6)"/>
 <img src="https://live.staticflickr.com/65535/53273423177_ba8fea265a_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (7)"/>
 <img src="https://live.staticflickr.com/65535/53274666554_effc089d34_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (8)"/>
-<img src="https://live.staticflickr.com/65535/53274318066_5e07c6e47a_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (9)"/></li>
-</ol>
+<img src="https://live.staticflickr.com/65535/53274318066_5e07c6e47a_b.jpg" alt="chineseInputMethodsAndFreeBSD13.2Ep (9)"/>
+
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次安裝使用的 ISO 檔版本是 FreeBSD-13.2-RELEASE-amd64-dvd1.iso。</p>
 </li>
@@ -555,13 +572,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

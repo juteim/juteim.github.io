@@ -266,7 +266,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>2.2k</span>
+              <span>2k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -291,11 +291,12 @@
 <p>卡關，無法繼續，Google 之後，發現不少人遇到這樣的問題。</p>
 <p>我整理一下，總共有 4 種解法，並且紀錄在本篇貼文裡。</p>
 <h3 id="解法-一-：改變-NVRAM-軟體更新網址"><a href="#解法-一-：改變-NVRAM-軟體更新網址" class="headerlink" title="解法(一)：改變 NVRAM 軟體更新網址"></a>解法(一)：改變 NVRAM 軟體更新網址</h3><ol>
-<li><p>說明：開啟 Terminal，先確認一下所使用的系統時間是否正確，再更改 NVRAM 軟體更新網址。</p>
+<li>說明：開啟 Terminal，先確認一下所使用的系統時間是否正確，再更改 NVRAM 軟體更新網址。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">date //這個指令是要確認自己的系統時間是否正確</span><br><span class="line">ntpdate -u time.apple.com //如果不正確，就用這個指令更新一下系統時間</span><br><span class="line">nvram IASUCatalogURL=&quot;http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>這個解法，我個人沒有試過，主要是我得知這個方法後，思考一下就決定這一次不走這個方法。原因是 <code>http</code> 並沒有加密，這樣的安裝，我認為有安全性相關的疑慮。至於，系統上寫入的 NVRAM 軟體更新網址本來是不是走 <code>https</code>，以我個人淺薄的經驗是無法去進一步考究的，只知道現在能夠走不加密的 <code>http</code>，是有機會成功復原到 macOS High Sierra。</p>
-</li>
+
+<ol start="2">
+<li>這個解法，我個人沒有試過，主要是我得知這個方法後，思考一下就決定這一次不走這個方法。原因是 <code>http</code> 並沒有加密，這樣的安裝，我認為有安全性相關的疑慮。至於，系統上寫入的 NVRAM 軟體更新網址本來是不是走 <code>https</code>，以我個人淺薄的經驗是無法去進一步考究的，只知道現在能夠走不加密的 <code>http</code>，是有機會成功復原到 macOS High Sierra。</li>
 </ol>
 <h3 id="解法-二-：「可開機安裝磁碟」安裝法"><a href="#解法-二-：「可開機安裝磁碟」安裝法" class="headerlink" title="解法(二)：「可開機安裝磁碟」安裝法"></a>解法(二)：「可開機安裝磁碟」安裝法</h3><ol>
 <li><p>說明：拿出可開機安裝磁碟(通常使用 USB 隨身碟製作)，重開機按住 C，進入可開機安裝磁碟就能夠迎刃而解。</p>
@@ -498,13 +499,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

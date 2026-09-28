@@ -283,7 +283,7 @@
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>3 分鐘</span>
+              <span>2 分鐘</span>
             </span>
 
         </div>
@@ -315,26 +315,37 @@
 </li>
 </ol>
 <h3 id="中文輸入法安裝與設定"><a href="#中文輸入法安裝與設定" class="headerlink" title="中文輸入法安裝與設定"></a>中文輸入法安裝與設定</h3><ol>
-<li><p>我先在 Terminal 下幾道指令，去確認一下軟體庫收納的狀況。</p>
+<li>我先在 Terminal 下幾道指令，去確認一下軟體庫收納的狀況。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf update</span><br><span class="line">sudo dnf search fcitx</span><br><span class="line">sudo dnf search ibus</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>下完上面的指令後，目前看得到是 iBus 的完整版比較高，就決定使用 iBus。</p>
+
+<ol start="2">
+<li>下完上面的指令後，目前看得到是 iBus 的完整版比較高，就決定使用 iBus。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install ibus*</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>設定 iBus。</p>
+
+<ol start="3">
+<li>設定 iBus。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ibus-setup</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>再下一道指令：<code>vi .bashrc</code>(下這道指令時，我的路徑是在家目錄)後，寫入以下內容。</p>
-<blockquote>
+
+<ol start="4">
+<li>再下一道指令：<code>vi .bashrc</code>(下這道指令時，我的路徑是在家目錄)後，寫入以下內容。<blockquote>
 <p>Tip：複製貼上是王道。</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export GTK_IM_MODULE=ibus</span><br><span class="line">export XMODIFERS=@im=ibus</span><br><span class="line">export QT_IM_MODULE=ibus</span><br><span class="line">ibus-daemon -drx</span><br></pre></td></tr></table></figure>
 </li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export GTK_IM_MODULE=ibus</span><br><span class="line">export XMODIFERS=@im=ibus</span><br><span class="line">export QT_IM_MODULE=ibus</span><br><span class="line">ibus-daemon -drx</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
 <li><p>走一趟行易有限公司，下載官方的表格檔。(官方的下載網址：<a target="_blank" rel="noopener" href="https://boshiamy.com/member_download.php">https://boshiamy.com/member_download.php</a>)</p>
 </li>
 <li><p>到表格檔的下載位置，解壓縮並將檔案放到相對應的位置後，再重新啟動一次 iBus。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x</span><br><span class="line">sudo cp *.png /usr/share/ibus-table/icons/</span><br><span class="line">sudo cp *.db /usr/share/ibus-table/tables/</span><br><span class="line">ibus restart</span><br></pre></td></tr></table></figure>
 </li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x</span><br><span class="line">sudo cp *.png /usr/share/ibus-table/icons/</span><br><span class="line">sudo cp *.db /usr/share/ibus-table/tables/</span><br><span class="line">ibus restart</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
 <li><p>進入 iBus 設定的 GUI 介面，加入「嘸蝦米輸入法(繁體中文)」。<br><img src="https://live.staticflickr.com/65535/53630611163_da4f854cf1_c.jpg"><br><img src="https://live.staticflickr.com/65535/53630403086_5b60671532_c.jpg"><br><img src="https://live.staticflickr.com/65535/53630403111_ff809af7eb_c.jpg"><br><img src="https://live.staticflickr.com/65535/53630611233_05f5991169_c.jpg"></p>
 </li>
 <li><p>開個程式，切換輸入法，測試一下。<br><img src="https://live.staticflickr.com/65535/53630403116_5b61244d4c_c.jpg"><br><img src="https://live.staticflickr.com/65535/53630849730_72f4d0cf25_c.jpg"></p>
@@ -523,13 +534,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

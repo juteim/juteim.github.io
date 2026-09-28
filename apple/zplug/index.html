@@ -271,7 +271,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>3.5k</span>
+              <span>3.1k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -293,27 +293,37 @@
         <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天，我決定在 macOS 與 Linux 上都安裝與設定 zplug，並且以本篇貼文留下紀錄。<br><img src="https://live.staticflickr.com/65535/53652176921_0d6c5ea4b8_o.png"></p>
 <hr>
 <h3 id="在-macOS-Monterey-12-7-4-的安裝過程"><a href="#在-macOS-Monterey-12-7-4-的安裝過程" class="headerlink" title="在 macOS Monterey 12.7.4 的安裝過程"></a>在 macOS Monterey 12.7.4 的安裝過程</h3><ol>
-<li><p>安裝 zplug、fzy 與 fzf。(我是透過 Homebrew 安裝)</p>
+<li>安裝 zplug、fzy 與 fzf。(我是透過 Homebrew 安裝)</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install zplug fzy fzf</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>執行 <code>vim .zshrc</code>，並寫入以下內容。</p>
+
+<ol start="2">
+<li>執行 <code>vim .zshrc</code>，並寫入以下內容。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">export ZPLUG_HOME=/usr/local/opt/zplug</span><br><span class="line"></span><br><span class="line">source ~/.zplug/init.zsh</span><br><span class="line"></span><br><span class="line"># History config</span><br><span class="line">HISTSIZE=10000</span><br><span class="line">SAVEHIST=10000</span><br><span class="line">HISTFILE=~/.zsh_history</span><br><span class="line"></span><br><span class="line">zplug &quot;romkatv/powerlevel10k&quot;, as:theme, depth:1</span><br><span class="line">zplug &quot;zsh-users/zsh-history-substring-search&quot;</span><br><span class="line">zplug &quot;Jxck/dotfiles&quot;, as:command, use:&quot;bin/&#123;histuniq,color&#125;&quot;</span><br><span class="line">zplug &quot;tcnksm/docker-alias&quot;, use:zshrc</span><br><span class="line">zplug &quot;k4rthik/git-cal&quot;, as:command, frozen:1</span><br><span class="line">zplug &quot;plugins/git&quot;,   from:oh-my-zsh</span><br><span class="line">zplug &quot;modules/prompt&quot;, from:prezto</span><br><span class="line">zplug --rollback=build</span><br><span class="line">zplug &quot;b4b4r07/enhancd&quot;, at:v1</span><br><span class="line">zplug &quot;mollifier/anyframe&quot;, at:4c23cb60</span><br><span class="line">zplug &quot;zsh-users/zsh-syntax-highlighting&quot;, defer:2</span><br><span class="line">zplug &quot;b4b4r07/79ee61f7c140c63d2786&quot;, \</span><br><span class="line">    from:gist, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:get_last_pane_path.sh</span><br><span class="line">zplug &quot;b4b4r07/hello_bitbucket&quot;, \</span><br><span class="line">    from:bitbucket, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&quot;*.sh&quot;</span><br><span class="line">zplug &quot;b4b4r07/httpstat&quot;, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&#x27;(*).sh&#x27;, \</span><br><span class="line">    rename-to:&#x27;$1&#x27;</span><br><span class="line"></span><br><span class="line"># Install plugins if there are plugins that have not been installed</span><br><span class="line">if ! zplug check --verbose; then</span><br><span class="line">    printf &quot;Install? [y/N]: &quot;</span><br><span class="line">    if read -q; then</span><br><span class="line">        echo; zplug install</span><br><span class="line">    fi</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"># Then, source plugins and add commands to $PATH</span><br><span class="line">zplug load --verbose</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="3">
 <li><p>執行 <code>source ~/.zshrc</code>。</p>
 </li>
 <li><p>powerlevel10k 的部分，會走一段設定流程，下圖是我自己設定完所顯示的樣子，如果設定完，未來想要再更改，可以下 <code>p10k configure</code> 這道指令，重新走一次設定流程。<br><img src="https://live.staticflickr.com/65535/53651298362_3c47b0def4_o.png"></p>
 </li>
 </ol>
 <h3 id="在-MX-Linux-MX-23-2-的安裝過程"><a href="#在-MX-Linux-MX-23-2-的安裝過程" class="headerlink" title="在 MX Linux MX-23.2 的安裝過程"></a>在 MX Linux MX-23.2 的安裝過程</h3><ol>
-<li><p>安裝 zsh、zplug、fzy 與 fzf。</p>
+<li>安裝 zsh、zplug、fzy 與 fzf。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install zsh zplug fzy fzf</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>將系統預設的 bash 改為 zsh。</p>
+
+<ol start="2">
+<li>將系統預設的 bash 改為 zsh。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chsh -s /usr/bin/zsh &lt;使用者名稱&gt;</span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>執行 <code>vim .zshrc</code>，並寫入以下內容。</p>
+
+<ol start="3">
+<li>執行 <code>vim .zshrc</code>，並寫入以下內容。</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zplug/init.zsh</span><br><span class="line"></span><br><span class="line"># History config</span><br><span class="line">HISTSIZE=10000</span><br><span class="line">SAVEHIST=10000</span><br><span class="line">HISTFILE=~/.zsh_history</span><br><span class="line"></span><br><span class="line">zplug &quot;romkatv/powerlevel10k&quot;, as:theme, depth:1</span><br><span class="line">zplug &quot;zsh-users/zsh-history-substring-search&quot;</span><br><span class="line">zplug &quot;Jxck/dotfiles&quot;, as:command, use:&quot;bin/&#123;histuniq,color&#125;&quot;</span><br><span class="line">zplug &quot;tcnksm/docker-alias&quot;, use:zshrc</span><br><span class="line">zplug &quot;k4rthik/git-cal&quot;, as:command, frozen:1</span><br><span class="line">zplug &quot;plugins/git&quot;,   from:oh-my-zsh</span><br><span class="line">zplug &quot;modules/prompt&quot;, from:prezto</span><br><span class="line">zplug --rollback=build</span><br><span class="line">zplug &quot;b4b4r07/enhancd&quot;, at:v1</span><br><span class="line">zplug &quot;mollifier/anyframe&quot;, at:4c23cb60</span><br><span class="line">zplug &quot;zsh-users/zsh-syntax-highlighting&quot;, defer:2</span><br><span class="line">zplug &quot;b4b4r07/79ee61f7c140c63d2786&quot;, \</span><br><span class="line">    from:gist, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:get_last_pane_path.sh</span><br><span class="line">zplug &quot;b4b4r07/hello_bitbucket&quot;, \</span><br><span class="line">    from:bitbucket, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&quot;*.sh&quot;</span><br><span class="line">zplug &quot;b4b4r07/httpstat&quot;, \</span><br><span class="line">    as:command, \</span><br><span class="line">    use:&#x27;(*).sh&#x27;, \</span><br><span class="line">    rename-to:&#x27;$1&#x27;</span><br><span class="line"></span><br><span class="line"># Install plugins if there are plugins that have not been installed</span><br><span class="line">if ! zplug check --verbose; then</span><br><span class="line">    printf &quot;Install? [y/N]: &quot;</span><br><span class="line">    if read -q; then</span><br><span class="line">        echo; zplug install</span><br><span class="line">    fi</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"># Then, source plugins and add commands to $PATH</span><br><span class="line">zplug load --verbose</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="3">
 <li><p>執行 <code>source ~/.zshrc</code>。</p>
 </li>
 <li><p>powerlevel10k 的部分，會走一段設定流程，下圖是我自己設定完所顯示的樣子，如果設定完，未來想要再更改，可以下 <code>p10k configure</code> 這道指令，重新走一次設定流程。<br><img src="https://live.staticflickr.com/65535/53651362237_347f47bd75_o.png"></p>
@@ -499,13 +509,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">347k</span>
+    <span title="總字數">325k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">10:31</span>
+    <span title="所需總閱讀時間">9:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>
