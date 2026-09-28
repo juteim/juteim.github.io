@@ -8719,12 +8719,12 @@ gdb -v
 <td><a href="#Arch-Linux-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Arch 系</a></td>
 </tr>
 <tr>
-<td>Linux Mint 22.1、Zorin OS 18</td>
+<td>Linux Mint 22.1</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-boshiamy</td>
 <td>可經由圖形介面，免指令</td>
 <td>★</td>
-<td><a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a></td>
+<td><a href="#fcitx5-table-boshiamy">獨立套件：fcitx5-table-boshiamy</a></td>
 </tr>
 <tr>
 <td>Zorin OS 18</td>
@@ -8732,7 +8732,7 @@ gdb -v
 <td>fcitx5-table-boshiamy</td>
 <td>一道指令＋圖形介面加入</td>
 <td>★★</td>
-<td><a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a></td>
+<td><a href="#fcitx5-table-boshiamy">獨立套件：fcitx5-table-boshiamy</a></td>
 </tr>
 <tr>
 <td>ubuntu 24.04 LTS 以後、Linux Mint 22</td>
@@ -8740,7 +8740,7 @@ gdb -v
 <td>fcitx5-table-extra（軟體庫內建）</td>
 <td>一道指令＋圖形介面加入</td>
 <td>★★</td>
-<td><a href="#fcitx5-table-extra-%E8%BB%9F%E9%AB%94%E5%BA%AB%E7%89%88">軟體庫版</a></td>
+<td><a href="#fcitx5-table-extra-%E8%BB%9F%E9%AB%94%E5%BA%AB%E7%89%88">軟體庫版：fcitx5-table-extra</a></td>
 </tr>
 <tr>
 <td>Debian 12、ubuntu 23.10 以前、Linux Mint 21.1、LMDE 6</td>
@@ -8748,7 +8748,7 @@ gdb -v
 <td>fcitx5-table-extra（自 pkgs.org 下載）</td>
 <td>手動放置檔案</td>
 <td>★★★</td>
-<td><a href="#fcitx5-table-extra-%E8%87%AA%E8%A1%8C%E8%99%95%E7%90%86%E8%88%87%E6%9C%8D%E7%94%A8%E7%89%88">自行處理版</a></td>
+<td><a href="#fcitx5-table-extra-%E8%87%AA%E8%A1%8C%E8%99%95%E7%90%86%E8%88%87%E6%9C%8D%E7%94%A8%E7%89%88">自行處理版：fcitx5-table-extra</a></td>
 </tr>
 <tr>
 <td>ubuntu 22.04／23.04、MX Linux、elementary OS、Zorin OS 17.3、LMDE 5</td>
@@ -8806,7 +8806,10 @@ gdb -v
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
-<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><p>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。</p>
+<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><ul>
+<li>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。</li>
+<li>新版本尚未實測：2025 年 8 月推出的 Debian 13，2026 年 4 月推出的 ubuntu 26.04 LTS。</li>
+</ul>
 <h4 id="Fcitx5"><a href="#Fcitx5" class="headerlink" title="Fcitx5"></a>Fcitx5</h4><p>Debian 與 ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
 <h5 id="fcitx5-table-boshiamy"><a href="#fcitx5-table-boshiamy" class="headerlink" title="fcitx5-table-boshiamy"></a>fcitx5-table-boshiamy</h5><ol>
 <li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
@@ -8855,7 +8858,7 @@ gdb -v
 <ul>
 <li><a href="/linux/slackware-15-0/">來玩 Slackware 15.0</a></li>
 </ul>
-<h2 id="2025-年內容更新列表"><a href="#2025-年內容更新列表" class="headerlink" title="2025 年內容更新列表"></a>2025 年內容更新列表</h2><ul>
+<h2 id="內容更新列表"><a href="#內容更新列表" class="headerlink" title="內容更新列表"></a>內容更新列表</h2><ul>
 <li>2025 年 1 月 30 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a>。</li>
 <li>2025 年 4 月 4 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a>。</li>
 <li>2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</li>
