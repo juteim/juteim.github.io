@@ -8704,10 +8704,7 @@ gdb -v
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Fcitx，中文名稱是「小企鵝輸入法」。<br><img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg"></p>
 <p>本篇紀錄，主要是把各大發行版分類，再分別整理出安裝 Fcitx 與嘸蝦米輸入法時的過程紀錄與建議。</p>
 <p>希望這樣的紀錄，對有需要的伙伴而言，能夠有一定的參考度。</p>
-<h3 id="快速查詢表（2026-年-9-月-28日加入）"><a href="#快速查詢表（2026-年-9-月-28日加入）" class="headerlink" title="快速查詢表（2026 年 9 月 28日加入）"></a>快速查詢表（2026 年 9 月 28日加入）</h3><blockquote>
-<p>最後更新：2026-03-31</p>
-</blockquote>
-<table>
+<h3 id="快速查詢表（2026-年-9-月-28日加入）"><a href="#快速查詢表（2026-年-9-月-28日加入）" class="headerlink" title="快速查詢表（2026 年 9 月 28日加入）"></a>快速查詢表（2026 年 9 月 28日加入）</h3><table>
 <thead>
 <tr>
 <th>發行版</th>
