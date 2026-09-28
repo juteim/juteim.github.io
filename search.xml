@@ -8696,6 +8696,107 @@ gdb -v
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Fcitx，中文名稱是「小企鵝輸入法」。<br><img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg"></p>
 <p>本篇紀錄，主要是把各大發行版分類，再分別整理出安裝 Fcitx 與嘸蝦米輸入法時的過程紀錄與建議。</p>
 <p>希望這樣的紀錄，對有需要的伙伴而言，能夠有一定的參考度。</p>
+<h3 id="快速查詢表"><a href="#快速查詢表" class="headerlink" title="快速查詢表"></a>快速查詢表</h3><blockquote>
+<p>最後更新：2026-03-31</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>發行版</th>
+<th>建議框架</th>
+<th>嘸蝦米套件</th>
+<th>安裝方式</th>
+<th>難度</th>
+<th>詳見</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Arch 系（Arch、Manjaro、EndeavourOS、Garuda、ArcoLinux、CachyOS）</td>
+<td>Fcitx5</td>
+<td>fcitx5-table-extra（軟體庫內建）</td>
+<td>指令安裝＋圖形介面加入</td>
+<td>★★</td>
+<td><a href="#Arch-Linux-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Arch 系</a></td>
+</tr>
+<tr>
+<td>Linux Mint 22.1、Zorin OS 18</td>
+<td>Fcitx5</td>
+<td>fcitx5-table-boshiamy</td>
+<td>可經由圖形介面，免指令</td>
+<td>★</td>
+<td><a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a></td>
+</tr>
+<tr>
+<td>Zorin OS 18</td>
+<td>Fcitx5</td>
+<td>fcitx5-table-boshiamy</td>
+<td>一道指令＋圖形介面加入</td>
+<td>★★</td>
+<td><a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a></td>
+</tr>
+<tr>
+<td>ubuntu 24.04 LTS 以後、Linux Mint 22</td>
+<td>Fcitx5</td>
+<td>fcitx5-table-extra（軟體庫內建）</td>
+<td>一道指令＋圖形介面加入</td>
+<td>★★</td>
+<td><a href="#fcitx5-table-extra-%E8%BB%9F%E9%AB%94%E5%BA%AB%E7%89%88">軟體庫版</a></td>
+</tr>
+<tr>
+<td>Debian 12、ubuntu 23.10 以前、Linux Mint 21.1、LMDE 6</td>
+<td>Fcitx5</td>
+<td>fcitx5-table-extra（自 pkgs.org 下載）</td>
+<td>手動放置檔案</td>
+<td>★★★</td>
+<td><a href="#fcitx5-table-extra-%E8%87%AA%E8%A1%8C%E8%99%95%E7%90%86%E8%88%87%E6%9C%8D%E7%94%A8%E7%89%88">自行處理版</a></td>
+</tr>
+<tr>
+<td>ubuntu 22.04／23.04、MX Linux、elementary OS、Zorin OS 17.3、LMDE 5</td>
+<td>fcitx(4)</td>
+<td>fcitx-table-boshiamy</td>
+<td><code>sudo apt install fcitx-table-boshiamy</code></td>
+<td>★★</td>
+<td><a href="#fcitx-4">fcitx(4)</a></td>
+</tr>
+<tr>
+<td>Fedora 系（Fedora、risiOS）</td>
+<td>Fcitx5</td>
+<td>Fcitx5 相關套件</td>
+<td>dnf 指令</td>
+<td>★★</td>
+<td><a href="#Fedora-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Fedora 系</a></td>
+</tr>
+<tr>
+<td>openSUSE（Leap、Tumbleweed）</td>
+<td>Fcitx5</td>
+<td>待補</td>
+<td>YaST 或 Myrlyn 圖形介面</td>
+<td>★</td>
+<td><a href="#openSUSE">openSUSE</a></td>
+</tr>
+<tr>
+<td>Slackware</td>
+<td>fcitx(4)</td>
+<td>系統已內建</td>
+<td>只需少量設定</td>
+<td>★</td>
+<td><a href="#Slackware">Slackware</a></td>
+</tr>
+<tr>
+<td>使用 iBus 的環境（如 GNOME 預設）</td>
+<td>iBus</td>
+<td>行易官網表格檔</td>
+<td>待補</td>
+<td>待補</td>
+<td>待補</td>
+</tr>
+</tbody></table>
+<p><strong>快速判斷</strong>：</p>
+<ul>
+<li>不想碰指令 → Linux Mint 22.1、Zorin OS 18、openSUSE</li>
+<li>用的是新版發行版 → 優先選 Fcitx5，對 Wayland 支援也較好</li>
+<li>用的是較舊的 Debian／ubuntu 系 → fcitx(4) 通常最省事</li>
+</ul>
 <h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><p>優先考慮 Fcitx5。</p>
 <ol>
 <li><a href="/boshiamy/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
@@ -8737,7 +8838,7 @@ gdb -v
 <li><a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a></li>
 <li><a href="/linux/lmde-5/">來玩 LMDE 5</a></li>
 </ol>
-<h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><p>Fcitx5 是首選，在 Terminal 下 <code>sudo yum install fcitx5*</code> 或 <code>sudo dnf install fcitx5*</code> 指令來服用。</p>
+<h3 id="Fedora-及其衍生發行版"><a href="#Fedora-及其衍生發行版" class="headerlink" title="Fedora 及其衍生發行版"></a>Fedora 及其衍生發行版</h3><p>Fcitx5 是首選，在 Terminal 下 <code>sudo dnf install &#39;fcitx5*&#39;</code> 指令來服用，雖然也可以用 <code>yum</code> 也行，但個人已經不是那麼建議。</p>
 <ol>
 <li><a href="/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/">在 Fedora 41 上輕鬆安裝嘸蝦米(feat. Fcitx5)</a></li>
 <li><a href="/linux/risios-37-1-1/">來玩 risiOS 37.1.1</a></li>
