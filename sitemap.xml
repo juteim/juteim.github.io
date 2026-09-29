@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/github/blogging-on-github-and-easywp/</loc>
+    
+    <lastmod>2026-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
     
     <lastmod>2026-09-29</lastmod>
@@ -680,15 +689,6 @@
     <loc>https://jute.im/esports/razer-basilisk-v3-pro/</loc>
     
     <lastmod>2025-03-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/github/blogging-on-github-and-easywp/</loc>
-    
-    <lastmod>2025-03-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
