@@ -124,9 +124,9 @@
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>本篇貼文內，使用的嘸蝦米版本是**「嘸蝦米 J」**。</p>
+<li><p>本篇貼文內，使用的嘸蝦米版本是 <strong>「嘸蝦米 J」</strong>。</p>
 </li>
-<li><p>與 <a href="/windows/making-boshiamy-be-the-default-chinese-input-method-on-windows-10/">Windows 10 預設為嘸蝦米輸入法之設定方式</a> 相比，就可以發現嘸蝦米輸入法本身的設定是一樣的，不同的是【設定】介面的部分， Windows 11 與 Windows 10 有所不同。</p>
+<li><p>與 <a href="/boshiamy/making-boshiamy-be-the-default-chinese-input-method-on-windows-10/">在 Windows 10 將嘸蝦米設定為預設中文輸入法</a> 相比，就可以發現嘸蝦米輸入法本身的設定是一樣的，不同的是【設定】介面的部分， Windows 11 與 Windows 10 有所不同。</p>
 </li>
 <li><p>題外話…，隨著不少新的電腦已搭載 Windows 11 出貨，我相信目前的 Windows 11 已經有一定的穩定度，而我此次更新到 Windows 11 後，會持續觀注系統補丁，而且不一定每一個補丁釋出，都立馬跟著更新，主要是希望，這一回升級到 Windows 11 至少要能夠穩穩用個 1 年。</p>
 </li>
@@ -8059,7 +8059,7 @@ gdb -v
 </li>
 <li><p>跑一趟 pkgs.org (<a href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>) 把 fcitx5-table-extra 載回來。</p>
 </li>
-<li><p>載回來的是一個壓縮檔：<code>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</code>，我建議不要急著解壓縮以及把檔案放到它們該去的位置：<code>/usr/share</code> 裡，因為，**「重新啟動」**Fcitx5 後，會發現嘸蝦米的「嘸」圖像，並沒有正常顯示，而新酷音的圖像卻是大大地展露無遺。(詳可見下圖) <a href="https://www.flickr.com/photos/194265827@N08/53062101302/in/dateposted-public/%22linuxmint-21.2-cinnamon-64bitonVirtualBoxEp7%22"><img src="https://live.staticflickr.com/65535/53062101302_6ebdee152a_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonVirtualBoxEp7"></a></p>
+<li><p>載回來的是一個壓縮檔：<code>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</code>，我建議不要急著解壓縮以及把檔案放到它們該去的位置：<code>/usr/share</code> 裡，因為， <strong>「重新啟動」</strong> Fcitx5 後，會發現嘸蝦米的「嘸」圖像，並沒有正常顯示，而新酷音的圖像卻是大大地展露無遺。(詳可見下圖) <a href="https://www.flickr.com/photos/194265827@N08/53062101302/in/dateposted-public/%22linuxmint-21.2-cinnamon-64bitonVirtualBoxEp7%22"><img src="https://live.staticflickr.com/65535/53062101302_6ebdee152a_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonVirtualBoxEp7"></a></p>
 </li>
 <li><p>基本上，這個的狀況，不太會影響到嘸蝦米輸入法的使用(至少我使用過程沒遇到過)。但，我多少有點在意，因此走一個簡單的做法，就是只把 <strong>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</strong>裡 <code>/usr/share/icons/hicolor/16x16/apps</code> 這個路徑底下的嘸蝦米圖像相關檔案(詳可見下圖)原封不動地搬入系統內的 <code>/usr/share/icons/hicolor/16x16/apps</code> 裡，其他 <code>icons/hicolor</code> 路徑內的圖像檔，如：<code>/22x22</code>、<code>/24x24</code>、<code>/48x48</code> 以及 <code>64x64</code> 底下的圖像檔，就不要移師進入系統 (按兵不動的概念)。 <img src="https://live.staticflickr.com/65535/53110981748_33ac79ce86_c.jpg" width="800" height="751" alt="structure-of-fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz"/></p>
 </li>
@@ -8192,7 +8192,7 @@ gdb -v
 </li>
 <li><p>跑一趟 pkgs.org (<a href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>) 把 <code>fcitx5-table-extra</code> 載回來。</p>
 </li>
-<li><p>載回來的是一個壓縮檔：<code>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</code>，我建議不要急著解壓縮以及把檔案放到它們該去的位置：<code>/usr/share</code> 裡，因為，**「重新啟動」**Fcitx5 後，會發現嘸蝦米的「嘸」圖像，並沒有正常顯示，而新酷音的圖像卻是大大地展露無遺。基本上，這個的狀況，不太會影響到嘸蝦米輸入法的使用(至少我使用過程沒遇到過)。但，我多少有點在意，因此走一個簡單的做法，就是只把 <strong>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</strong>裡 <code>/usr/share/icons/hicolor/16x16/apps</code> 這個路徑底下的嘸蝦米圖像相關檔案(詳可見下圖)原封不動地搬入系統內的 <code>/usr/share/icons/hicolor/16x16/apps</code> 裡，其他 <code>icons/hicolor</code> 路徑內的圖像檔，如：<code>/22x22</code>、<code>/24x24</code>、<code>/48x48</code> 以及 <code>64x64</code> 底下的圖像檔，就不要移師進入系統 (按兵不動的概念)。</p>
+<li><p>載回來的是一個壓縮檔：<code>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</code>，我建議不要急著解壓縮以及把檔案放到它們該去的位置：<code>/usr/share</code> 裡，因為， <strong>「重新啟動」</strong> Fcitx5 後，會發現嘸蝦米的「嘸」圖像，並沒有正常顯示，而新酷音的圖像卻是大大地展露無遺。基本上，這個的狀況，不太會影響到嘸蝦米輸入法的使用(至少我使用過程沒遇到過)。但，我多少有點在意，因此走一個簡單的做法，就是只把 <strong>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</strong>裡 <code>/usr/share/icons/hicolor/16x16/apps</code> 這個路徑底下的嘸蝦米圖像相關檔案(詳可見下圖)原封不動地搬入系統內的 <code>/usr/share/icons/hicolor/16x16/apps</code> 裡，其他 <code>icons/hicolor</code> 路徑內的圖像檔，如：<code>/22x22</code>、<code>/24x24</code>、<code>/48x48</code> 以及 <code>64x64</code> 底下的圖像檔，就不要移師進入系統 (按兵不動的概念)。</p>
 </li>
 <li><p>接著，**「重新啟動」**Fcitx5，應該會顯示 16x16 的嘸蝦米圖像(詳可見下圖)，雖然，在 48x48 的新酷音圖像面前，嘸蝦米顯得有點小咖就是，但，總比沒有好。當然，如果要讓嘸蝦米與新酷音平起平坐，也不是不行，但…，對我來說，有顯示就有加分，我已經懶得再花時間去處理這美中不足之處。 <img src="https://live.staticflickr.com/65535/53251703412_35009af505_c.jpg" alt="lmde6AndBoshiamyEp (10)"/></p>
 </li>
