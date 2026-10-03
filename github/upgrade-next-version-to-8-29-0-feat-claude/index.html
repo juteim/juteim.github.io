@@ -22,20 +22,17 @@
 
     <meta name="description" content="前言忘了多久之前，只要幫 jute.im 推送更新文章，就會跳出錯誤訊息，由於沒有影響部落格運作，我就一直擺著沒有處理。中秋節連續幾天的假期，終於讓我提起勁來處理。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="將 NexT 升級至 8.29.0 版">
-<meta property="og:url" content="https://jute.im/github/upgrade-next-version-to-8-29-0/index.html">
+<meta property="og:title" content="將 NexT 升級至 8.29.0 版 feat. Claude">
+<meta property="og:url" content="https://jute.im/github/upgrade-next-version-to-8-29-0-feat-claude/index.html">
 <meta property="og:site_name" content="jute.im">
 <meta property="og:description" content="前言忘了多久之前，只要幫 jute.im 推送更新文章，就會跳出錯誤訊息，由於沒有影響部落格運作，我就一直擺著沒有處理。中秋節連續幾天的假期，終於讓我提起勁來處理。">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55565728566_7b4fd75875_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565728536_c5d6fcb0e8_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/55556076983_57bd8dc33c_b.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/55556007016_abca8a8418_b.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/55432762128_fa991b24cc_b.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/55557725027_44b1dda813_b.jpg">
-<meta property="og:image" content="https://live.staticflickr.com/65535/55433043475_0009dab7c1_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg">
 <meta property="article:published_time" content="2026-10-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-03T02:06:51.350Z">
+<meta property="article:modified_time" content="2026-10-03T03:40:40.053Z">
 <meta property="article:author" content="jsio">
 <meta property="article:tag" content="blogware">
 <meta property="article:tag" content="git">
@@ -44,16 +41,16 @@
 <meta property="article:tag" content="theme-next.js.org">
 <meta property="article:tag" content="theme-next.org">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/55565728536_c5d6fcb0e8_b.jpg">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/55565728566_7b4fd75875_b.jpg">
 
 
-<link rel="canonical" href="https://jute.im/github/upgrade-next-version-to-8-29-0/">
+<link rel="canonical" href="https://jute.im/github/upgrade-next-version-to-8-29-0-feat-claude/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/github/upgrade-next-version-to-8-29-0/","path":"github/upgrade-next-version-to-8-29-0/","title":"將 NexT 升級至 8.29.0 版"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/github/upgrade-next-version-to-8-29-0-feat-claude/","path":"github/upgrade-next-version-to-8-29-0-feat-claude/","title":"將 NexT 升級至 8.29.0 版 feat. Claude"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>將 NexT 升級至 8.29.0 版 | jute.im</title>
+<title>將 NexT 升級至 8.29.0 版 feat. Claude | jute.im</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-EFZSE1ET2D","only_pageview":false,"measure_protocol_api_secret":null}</script>
@@ -174,7 +171,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E9%81%8E%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">更新過程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%95%8F%E9%A1%8C%E8%A8%BA%E6%96%B7"><span class="nav-number">2.1.</span> <span class="nav-text">問題診斷</span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">2.2.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97"><span class="nav-number">3.</span> <span class="nav-text">使用心得</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E9%81%8E%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">更新過程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%95%8F%E9%A1%8C%E8%A8%BA%E6%96%B7"><span class="nav-number">2.1.</span> <span class="nav-text">問題診斷</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0-NexT"><span class="nav-number">2.2.</span> <span class="nav-text">更新 NexT</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%90%9E%E5%AE%9A-Google-Adsense"><span class="nav-number">2.3.</span> <span class="nav-text">搞定 Google Adsense</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -233,7 +230,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jute.im/github/upgrade-next-version-to-8-29-0/">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/github/upgrade-next-version-to-8-29-0-feat-claude/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -246,12 +243,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="將 NexT 升級至 8.29.0 版 | jute.im">
+      <meta itemprop="name" content="將 NexT 升級至 8.29.0 版 feat. Claude | jute.im">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          將 NexT 升級至 8.29.0 版
+          將 NexT 升級至 8.29.0 版 feat. Claude
         </h1>
 
         <div class="post-meta-container">
@@ -281,14 +278,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">文章字數：</span>
-      <span>1.2k</span>
+      <span>1.6k</span>
     </span>
     <span class="post-meta-item" title="所需閱讀時間">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-      <span>3 分鐘</span>
+      <span>4 分鐘</span>
     </span>
 </div>
 
@@ -298,8 +295,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>忘了多久之前，只要幫 <a href="/">jute.im</a> 推送更新文章，就會跳出錯誤訊息，由於沒有影響部落格運作，我就一直擺著沒有處理。<img src="https://live.staticflickr.com/65535/55565728536_c5d6fcb0e8_b.jpg" alt="upgradeNextVersionTo8.29.0Ep1"/>中秋節連續幾天的假期，終於讓我提起勁來處理。</p>
-<h3 id="更新過程"><a href="#更新過程" class="headerlink" title="更新過程"></a>更新過程</h3><h4 id="問題診斷"><a href="#問題診斷" class="headerlink" title="問題診斷"></a>問題診斷</h4><ol>
+    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>忘了多久之前，只要幫 <a href="/">jute.im</a> 推送更新文章，就會跳出錯誤訊息，由於沒有影響部落格運作，我就一直擺著沒有處理。<img src="https://live.staticflickr.com/65535/55565728566_7b4fd75875_b.jpg" alt="upgradeNextVersionTo8.29.0Ep2"/>中秋節連續幾天的假期，終於讓我提起勁來處理。</p>
+<h3 id="更新過程"><a href="#更新過程" class="headerlink" title="更新過程"></a>更新過程</h3><h4 id="問題診斷"><a href="#問題診斷" class="headerlink" title="問題診斷"></a>問題診斷</h4><img src="https://live.staticflickr.com/65535/55565728536_c5d6fcb0e8_b.jpg" alt="upgradeNextVersionTo8.29.0Ep1"/>
+
+<ol>
 <li>首先是把下列的錯誤訊息丟給 Google。</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(node:34512)[DEP0169] DeprecationWarning: url.parse() behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for url.parse() vulnerabilities.</span><br><span class="line">(Use node --trace-deprecation ... to show where the warning was created)</span><br></pre></td></tr></table></figure>
@@ -308,41 +307,61 @@
 <li>Google 丟出來的資料中，有一筆訊息（如下），對我來說比較易讀易懂，有興趣的伙伴可以走傳送門：<a target="_blank" rel="noopener" href="https://nodejs.cn/api/v22/deprecations/dep0169_url_parse.html">DEP0169：不安全的 url.parse() | Node.js API 文档</a>。</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url.parse() 的行为不标准且容易出错，这可能带来安全隐患。请改用 WHATWG URL API。url.parse() 的漏洞不会发布 CVE。</span><br></pre></td></tr></table></figure>
-<p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/unboxcp/55565850228/in/dateposted-public/" title="upgradeNextVersionTo8.29.0Ep3"><img src="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg" width="1024" height="747" alt="upgradeNextVersionTo8.29.0Ep3"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-<ol start="3">
-<li>順著誤錯訊息給的建議，下一道指令：<code>$env:NODE_OPTIONS=&quot;--trace-deprecation&quot;; npx hexo deploy</code>，跳出下列訊息。</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">(node:53008) [DEP0169] DeprecationWarning: url.parse() behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for url.parse() vulnerabilities.</span><br><span class="line">    at Object.urlParse [as parse] (node:url:137:13)</span><br><span class="line">    at Object.&lt;anonymous&gt; (D:\juteim\themes\next\scripts\helpers\next-config.js:14:21)</span><br><span class="line">    at Object.callWrap (D:\juteim\node_modules\nunjucks\src\runtime.js:217:14)</span><br><span class="line">    at Template.root [as rootRenderFunc] (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:138:67)</span><br><span class="line">    at Template.render (D:\juteim\node_modules\nunjucks\src\environment.js:454:10)</span><br><span class="line">    at D:\juteim\themes\next\scripts\renderer.js:32:29</span><br><span class="line">    at _View._compiledSync (D:\juteim\node_modules\hexo\dist\theme\view.js:117:32)</span><br><span class="line">    at _View.renderSync (D:\juteim\node_modules\hexo\dist\theme\view.js:55:29)</span><br><span class="line">    at D:\juteim\node_modules\hexo\dist\plugins\helper\partial.js:25:56</span><br><span class="line">    at Cache.apply (D:\juteim\node_modules\hexo\node_modules\hexo-util\dist\cache.js:22:21)</span><br><span class="line">    at Object.fragmentCache (D:\juteim\node_modules\hexo\dist\plugins\helper\fragment_cache.js:9:26)</span><br><span class="line">    at Object.partial (D:\juteim\node_modules\hexo\dist\plugins\helper\partial.js:25:21)</span><br><span class="line">    at Object.callWrap (D:\juteim\node_modules\nunjucks\src\runtime.js:217:14)</span><br><span class="line">    at Template.root [as rootRenderFunc] (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:12:66)</span><br><span class="line">    at eval (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:39:16)</span><br><span class="line">    at eval (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:34:46)</span><br></pre></td></tr></table></figure>
+<img src="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg" alt="upgradeNextVersionTo8.29.0Ep3"/>
 
-<h4 id=""><a href="#" class="headerlink" title=""></a></h4><ol>
-<li>我的想法是好久沒有看</li>
+<ol start="3">
+<li><p>之前，我就卡關在這裡，對錯誤訊息建議 <code>Use node --trace-deprecation ... to show where the warning was created</code> 似懂非懂的，原因是我試著用 Google 挖出來的資訊比較片段，加上我的英文閱讀能力不足，導致翻找出來的訊息，最終在我眼前似乎只能用「破碎」形容）。但，時代不同，現在可以問 AI，於是乎接下來的步驟，我便請教最近開始接觸的 AI：Claude。</p>
+</li>
+<li><p>我把同樣的錯誤訊息丟給 Claude後，順著誤錯訊息給的建議，在 PowerShell下一道指令：<code>$env:NODE_OPTIONS=&quot;--trace-deprecation&quot;; npx hexo deploy</code>（比較習慣用 CMD 下指令的伙伴，可以下 <code>set &quot;NODE_OPTIONS=--trace-deprecation&quot; &amp;&amp; npx hexo deploy</code>）後，在我的終端機畫面跳出下列訊息。</p>
+</li>
 </ol>
-<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
-<li><p>免費。開發者認真看待使用者的回饋。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">(node:35008) [DEP0169] DeprecationWarning: url.parse() behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for url.parse() vulnerabilities.</span><br><span class="line">    at Object.urlParse [as parse] (node:url:137:13)</span><br><span class="line">    at Object.&lt;anonymous&gt; (D:\juteim\themes\next\scripts\helpers\next-config.js:14:21)</span><br><span class="line">    at Object.callWrap (D:\juteim\node_modules\nunjucks\src\runtime.js:217:14)</span><br><span class="line">    at Template.root [as rootRenderFunc] (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:138:67)</span><br><span class="line">    at Template.render (D:\juteim\node_modules\nunjucks\src\environment.js:454:10)</span><br><span class="line">    at D:\juteim\themes\next\scripts\renderer.js:32:29</span><br><span class="line">    at _View._compiledSync (D:\juteim\node_modules\hexo\dist\theme\view.js:117:32)</span><br><span class="line">    at _View.renderSync (D:\juteim\node_modules\hexo\dist\theme\view.js:55:29)</span><br><span class="line">    at D:\juteim\node_modules\hexo\dist\plugins\helper\partial.js:25:56</span><br><span class="line">    at Cache.apply (D:\juteim\node_modules\hexo\node_modules\hexo-util\dist\cache.js:22:21)</span><br><span class="line">    at Object.fragmentCache (D:\juteim\node_modules\hexo\dist\plugins\helper\fragment_cache.js:9:26)</span><br><span class="line">    at Object.partial (D:\juteim\node_modules\hexo\dist\plugins\helper\partial.js:25:21)</span><br><span class="line">    at Object.callWrap (D:\juteim\node_modules\nunjucks\src\runtime.js:217:14)</span><br><span class="line">    at Template.root [as rootRenderFunc] (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:12:66)</span><br><span class="line">    at eval (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:39:16)</span><br><span class="line">    at eval (eval at _compile (D:\juteim\node_modules\nunjucks\src\environment.js:527:18), &lt;anonymous&gt;:34:46)</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li><p>再把上面的錯誤訊息丟給 Claude，Claude 便說：從以上的訊息來看，應該跟 <code>themes\next\scripts\helpers\next-config.js</code>有關，而且問題出在 <code>themes\next\scripts\helpers\next-config.js</code> 的第 14 行。同時，建議我改掉第 14 行的寫法，或是直接更新 NexT。</p>
 </li>
-<li><p>鍵盤介面、按鍵配置合我的口味。橫向鍵盤原本會吃掉螢幕不少空間，開發者在後續的版本已經調整與改善，另外，針對橫向時提供「分離式鍵盤」的設定，這一點我個人很喜歡。<br>↘在 SHARP AQUOS wish5 的橫向鍵盤截圖。<img src="https://live.staticflickr.com/65535/55556076983_57bd8dc33c_b.jpg" alt="boshiamyhelperEp7"/>↘在 SAMSUNG GALAXY A17 的橫向鍵盤截圖。<img src="https://live.staticflickr.com/65535/55556007016_abca8a8418_b.jpg" alt="boshiamyhelperEp8"/></p>
+<li><p>雖然，Claude 的建議中，表示「升級到 NexT 8.x（長期，需要半天到一天）」，但，我考慮之後，最終的選擇是更新 NexT，因為，之前雖然像瞎子摸象一樣，亂抓問題，當時我試著更新過 NexT，錯誤訊息便不存在。</p>
 </li>
-<li><p>鍵盤反應與入字速度穩定。</p>
+</ol>
+<h4 id="更新-NexT"><a href="#更新-NexT" class="headerlink" title="更新 NexT"></a>更新 NexT</h4><blockquote>
+<p>更新並沒有花很多時間，有比較多的時間是花在更新之後，原本在 NexT 上的設定檔，無法直接用在新版本的 NexT，這個比較困擾我，尤其是 Google Adsense 不好搞定（當時，還因此滿懷念 WordPress 的）。但，無論如何，我決心跟 Claude 一起努力看看。</p>
+</blockquote>
+<ol>
+<li><p>更新前，從 <code>themes\next\package.json</code> 確認我所目前使用的 NexT 版本是 7.8.0（如下圖）。<img src="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg" alt="upgradeNextVersionTo8.29.0Ep4"/></p>
 </li>
-<li><p>只有嘸蝦米輸入法，不用再匯入表格檔（碼表）。<br>(1)內建的表格檔（碼表，又稱「字典檔」）是「RIME 開源社群版嘸蝦米」，與官方的版本不太一樣，對於習慣官方版本的伙伴，可能需要一點時間適應。<br>(2)在全形標點符號輸入部分，這支鍵盤提供常用符號：「，」與「。」非常便捷的輸入方式，但，其他全形標點符號輸入，就我目前所摸索的結論是似乎不太容易辦到。<br>(3)我習慣透過拆解碼加上英文字母「V」去選解碼順序排位第 2 的單字，「蝦米助手」似乎沒有支援這個功能，但，我目前的觀察到「蝦米助手」似乎會隨著使用者的使用詞頻，調整第 1 個單字的位置，例如：我登打「輸」這個字的次數一多，經過幾次之後，就會從第 2 個單字的位置，調整到第 1 個單字的位置。<br>↘原本的「輸」字的排位在第 2。<img src="https://live.staticflickr.com/65535/55432762128_fa991b24cc_b.jpg" alt="boshiamyhelperEp2"/>↘選幾次之後的「輸」字排位變第 1。<img src="https://live.staticflickr.com/65535/55557725027_44b1dda813_b.jpg" alt="boshiamyhelperEp9"/></p>
+<li><p>先下 <code>npm install hexo-theme-next</code> 安裝新版，同時，找到新版本安裝的路徑是 <code>node_modules\hexo-theme-next</code>。</p>
 </li>
-<li><p>進入 App 的介面，可以看到總共有「查碼」、「字根表」、「練習」、「收藏」與「設定」幾個功能選項，從這些功能來看，我認為這支鍵盤也非常適合學習嘸蝦米的新手。</p>
+<li><p>將新主題的預設設定檔 <code>node_modules\hexo-theme-next\_config.yml</code> 搬到部落格根目錄，並且命名為 <code>_config.next.yml</code>，Claude 跟我說「這樣設定跟主題程式分開，升級時不會被覆蓋。」</p>
 </li>
-<li><p>點按鍵盤左手邊的【查】，會進入查碼介面。而且，我建議使用直向顯示。<img src="https://live.staticflickr.com/65535/55433043475_0009dab7c1_b.jpg" alt="boshiamyhelperEp4"/></p>
+<li><p>新舊版的設定項目有不少差異，我沒有做到逐項對照調整，主要進行的調整有三。<br>(1)把預設的 <code>scheme: Muse</code> 改成 <code>scheme: Gemini</code>。<br>(2)Menu Settings：開啟 home、about、tags、categories、archives 與 sitemap，以及開啟 badges。<br>(3)Sidebar Settings：調整為 position: right。</p>
 </li>
-<li><p>這支鍵盤是正在開發中的年輕伙伴，除了具備獨門功夫以外，非常樂意接受蝦米伙伴的建議進行修改，我個人許願的「觸覺回饋」已出現在後續的版本（我是在 1.3.0 版注意到的）。</p>
+</ol>
+<h4 id="搞定-Google-Adsense"><a href="#搞定-Google-Adsense" class="headerlink" title="搞定 Google Adsense"></a>搞定 Google Adsense</h4><blockquote>
+<p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難，Claude 跟我說「在 _config.next.yml 啟用自訂檔案」，跟著做以下步驟。</p>
+</blockquote>
+<ol>
+<li><p>打開部落格根目錄的 _config.next.yml，找到 custom_file_path，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>source/_data/sidebar.njk</code>。</p>
+</li>
+<li><p>建立 source_data\head.njk，寫入以下內容（ca-pub- 後面要換成自己的 ID）。</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>建立 source_data\sidebar.njk，寫入以下內容（ca-pub- 後面要換成自己的 ID）。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;sidebar-inner&quot; style=&quot;margin-top: 12px;&quot;&gt;</span><br><span class="line">  &lt;ins class=&quot;adsbygoogle&quot;</span><br><span class="line">       style=&quot;display:block&quot;</span><br><span class="line">       data-ad-client=&quot;ca-pub-1234567890123456&quot;</span><br><span class="line">       data-ad-slot=&quot;1234567890&quot;</span><br><span class="line">       data-ad-format=&quot;auto&quot;</span><br><span class="line">       data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;</span><br><span class="line">  &lt;script data-pjax&gt;(adsbygoogle = window.adsbygoogle || []).push(&#123;&#125;);&lt;/script&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li><p>確認 ads.txt 還在，另外，Claude 建議我「特別注意：PJAX」，原因是「NexT 8 有 pjax 選項，開啟後點擊站內連結時只會替換頁面內容，不會整頁重新載入。這會導致一個很常見的狀況：第一頁有廣告，點到其他文章就沒了，因為廣告的程式碼不會再執行一次。」而最省事的處理方式，就是在 <code>_config.next.yml</code> 讓 <code>pjax: false</code>。</p>
+</li>
+<li><p>最後，有一件事要先確認：如果舊版本的 <code>themes\next</code> 資料夾還在，Hexo 會優先使用，所以我把舊的 <code>themes\next</code> 改名為 <code>themes\nextOld</code>，因為，如果真的需要去對照舊設定或是找必要檔案的話，還可以從 <code>themes\nextOld</code> 裡面去找。例如：我就從 <code>themes\nextOld</code> 去把 Favicon 複製到 <code>node_modules\hexo-theme-next</code> 去用。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>本次截圖上的「蝦米助手」，分別是在我的 SAMSUNG GALAXY A17（Android 版本 16、One UI 版本 8.5）與 SHARP AQUOS wish5（Android 版本 16）運行，「蝦米助手」的版本是 v1.3.0。</p>
+<li><p><a target="_blank" rel="noopener" href="https://theme-next.org/">theme-next.org</a>，這是舊版 NexT（7.x 以前）的網址，該專案已經停止維護。新版 NexT 8.x 由另一個團隊接手，網址是 <a target="_blank" rel="noopener" href="https://theme-next.js.org/">theme-next.js.org</a>。</p>
 </li>
-<li><p><a target="_blank" rel="noopener" href="https://www.mobile01.com/topicdetail.php?f=423&t=7256708">【分享】嘸蝦米輸入法 Android 版 - 自製 App &#x3D; 目前已申請上架完成 - Mobile01</a></p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.simon.boshiamyhelper">蝦米助手 - Google Play 應用程式</a></p>
-</li>
-<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
-</li>
-<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+<li><p>NexT 的更新，大致在走完以上流程後就搞定，相較於多年前卡關所造成的停擺，這次的經驗讓我見識到 AI 確實好用。</p>
 </li>
 </ol>
 
@@ -409,7 +428,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">9:11</span>
+    <span title="所需總閱讀時間">9:12</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
