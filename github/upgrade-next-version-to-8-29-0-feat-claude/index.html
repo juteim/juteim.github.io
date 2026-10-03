@@ -32,7 +32,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg">
 <meta property="article:published_time" content="2026-10-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-03T03:40:40.053Z">
+<meta property="article:modified_time" content="2026-10-03T03:51:42.269Z">
 <meta property="article:author" content="jsio">
 <meta property="article:tag" content="blogware">
 <meta property="article:tag" content="git">
@@ -310,7 +310,7 @@
 <img src="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg" alt="upgradeNextVersionTo8.29.0Ep3"/>
 
 <ol start="3">
-<li><p>之前，我就卡關在這裡，對錯誤訊息建議 <code>Use node --trace-deprecation ... to show where the warning was created</code> 似懂非懂的，原因是我試著用 Google 挖出來的資訊比較片段，加上我的英文閱讀能力不足，導致翻找出來的訊息，最終在我眼前似乎只能用「破碎」形容）。但，時代不同，現在可以問 AI，於是乎接下來的步驟，我便請教最近開始接觸的 AI：Claude。</p>
+<li><p>之前，我就卡關在這裡，對錯誤訊息建議 <code>Use node --trace-deprecation ... to show where the warning was created</code> 似懂非懂的，原因是我試著用 Google 挖出來的資訊比較片段，加上我的英文閱讀能力不足，導致翻找出來的訊息，最終在我眼前似乎只能用「破碎」形容。但，時代不同，現在可以問 AI，於是乎接下來的步驟，我便請教最近開始接觸的 AI：Claude。</p>
 </li>
 <li><p>我把同樣的錯誤訊息丟給 Claude後，順著誤錯訊息給的建議，在 PowerShell下一道指令：<code>$env:NODE_OPTIONS=&quot;--trace-deprecation&quot;; npx hexo deploy</code>（比較習慣用 CMD 下指令的伙伴，可以下 <code>set &quot;NODE_OPTIONS=--trace-deprecation&quot; &amp;&amp; npx hexo deploy</code>）後，在我的終端機畫面跳出下列訊息。</p>
 </li>
@@ -361,7 +361,9 @@
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a target="_blank" rel="noopener" href="https://theme-next.org/">theme-next.org</a>，這是舊版 NexT（7.x 以前）的網址，該專案已經停止維護。新版 NexT 8.x 由另一個團隊接手，網址是 <a target="_blank" rel="noopener" href="https://theme-next.js.org/">theme-next.js.org</a>。</p>
 </li>
-<li><p>NexT 的更新，大致在走完以上流程後就搞定，相較於多年前卡關所造成的停擺，這次的經驗讓我見識到 AI 確實好用。</p>
+<li><p>NexT 的更新，大致在走完以上流程後就搞定，過程並沒有超過 30 分鐘，跟 Claude 估計的「升級到 NexT 8.x（長期，需要半天到一天）」不太一樣，我猜，應該是 Claude 認為我可能需要花一點時間才能搞定。</p>
+</li>
+<li><p>無論如何，相較於多年前卡關所造成的停擺，這次的經驗讓我見識到 AI 確實好用。</p>
 </li>
 </ol>
 
