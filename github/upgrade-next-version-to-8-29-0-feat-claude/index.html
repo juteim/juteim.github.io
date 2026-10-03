@@ -31,8 +31,9 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565728536_c5d6fcb0e8_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg">
 <meta property="article:published_time" content="2026-10-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-03T03:51:42.269Z">
+<meta property="article:modified_time" content="2026-10-03T05:05:48.170Z">
 <meta property="article:author" content="jsio">
 <meta property="article:tag" content="blogware">
 <meta property="article:tag" content="git">
@@ -331,24 +332,24 @@
 </li>
 <li><p>先下 <code>npm install hexo-theme-next</code> 安裝新版，同時，找到新版本安裝的路徑是 <code>node_modules\hexo-theme-next</code>。</p>
 </li>
-<li><p>將新主題的預設設定檔 <code>node_modules\hexo-theme-next\_config.yml</code> 搬到部落格根目錄，並且命名為 <code>_config.next.yml</code>，Claude 跟我說「這樣設定跟主題程式分開，升級時不會被覆蓋。」</p>
+<li><p>將新主題的預設設定檔 <code>node_modules\hexo-theme-next\_config.yml</code> 搬到部落格根目錄，並且命名為 <code>_config.next.yml</code>，Claude 跟我說：「這樣設定跟主題程式分開，升級時不會被覆蓋。」</p>
 </li>
-<li><p>新舊版的設定項目有不少差異，我沒有做到逐項對照調整，主要進行的調整有三。<br>(1)把預設的 <code>scheme: Muse</code> 改成 <code>scheme: Gemini</code>。<br>(2)Menu Settings：開啟 home、about、tags、categories、archives 與 sitemap，以及開啟 badges。<br>(3)Sidebar Settings：調整為 position: right。</p>
+<li><p>新舊版的設定項目有不少差異，我沒有做到逐項對照調整，主要進行的調整有三。<br>(1)把預設的 <code>scheme: Muse</code> 改成 <code>scheme: Gemini</code>。<br>(2)Menu Settings：取消註解 home、about、tags、categories、archives 與 sitemap，以及讓 <code>badges: true</code>。<br>(3)Sidebar Settings：調整為 <code>position: right</code>。</p>
 </li>
 </ol>
 <h4 id="搞定-Google-Adsense"><a href="#搞定-Google-Adsense" class="headerlink" title="搞定 Google Adsense"></a>搞定 Google Adsense</h4><blockquote>
 <p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難，Claude 跟我說「在 _config.next.yml 啟用自訂檔案」，跟著做以下步驟。</p>
 </blockquote>
 <ol>
-<li><p>打開部落格根目錄的 _config.next.yml，找到 custom_file_path，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>source/_data/sidebar.njk</code>。</p>
+<li><p>打開部落格根目錄的 <code>_config.next.yml</code>，找到 <code>custom_file_path</code>，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>sidebar: source/_data/sidebar.njk</code>。<img src="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg" alt="upgradeNextVersionTo8.29.0Ep5"/></p>
 </li>
-<li><p>建立 source_data\head.njk，寫入以下內容（ca-pub- 後面要換成自己的 ID）。</p>
+<li><p>建立 <code>source\_data\head.njk</code>，寫入以下內容（ca-pub- 後面換成我自己的 ID）。</p>
 </li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
 <ol start="3">
-<li>建立 source_data\sidebar.njk，寫入以下內容（ca-pub- 後面要換成自己的 ID）。</li>
+<li>建立 <code>source\_data\sidebar.njk</code>，寫入以下內容（ca-pub- 後面換成我自己的 ID）。</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;sidebar-inner&quot; style=&quot;margin-top: 12px;&quot;&gt;</span><br><span class="line">  &lt;ins class=&quot;adsbygoogle&quot;</span><br><span class="line">       style=&quot;display:block&quot;</span><br><span class="line">       data-ad-client=&quot;ca-pub-1234567890123456&quot;</span><br><span class="line">       data-ad-slot=&quot;1234567890&quot;</span><br><span class="line">       data-ad-format=&quot;auto&quot;</span><br><span class="line">       data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;</span><br><span class="line">  &lt;script data-pjax&gt;(adsbygoogle = window.adsbygoogle || []).push(&#123;&#125;);&lt;/script&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
