@@ -12187,9 +12187,9 @@ gdb -v
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p><a href="https://theme-next.org/">theme-next.org</a>，這是舊版 NexT（7.x 以前）的網址，該專案已經停止維護。新版 NexT 8.x 由另一個團隊接手，網址是 <a href="https://theme-next.js.org/">theme-next.js.org</a>。</p>
 </li>
-<li><p>NexT 的更新，大致在走完以上流程後就搞定，過程並沒有超過 30 分鐘，跟 Claude 估計的「升級到 NexT 8.x（長期，需要半天到一天）」不太一樣，我猜，應該是 Claude 認為我可能需要花一點時間才能搞定。</p>
+<li><p>NexT 的更新，大致在走完以上流程後就搞定，過程並沒有超過 30 分鐘，跟 Claude 估計的「升級到 NexT 8.x（長期，需要半天到一天）」不太一樣，我猜，應該是 Claude 推估後，認為我可能需要花半天到一天的時間才能搞定。</p>
 </li>
-<li><p>無論如何，相較於多年前卡關所造成的停擺，這次的經驗讓我見識到 AI 確實好用。</p>
+<li><p>相較於多年前卡關所造成的停擺，這次的經驗讓我見識到 AI 確實好用。</p>
 </li>
 </ol>
 ]]></content>
