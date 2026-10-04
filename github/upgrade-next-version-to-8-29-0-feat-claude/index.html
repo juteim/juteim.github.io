@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg">
 <meta property="article:published_time" content="2026-10-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-03T13:45:03.862Z">
+<meta property="article:modified_time" content="2026-10-04T02:15:42.934Z">
 <meta property="article:author" content="jsio">
 <meta property="article:tag" content="blogware">
 <meta property="article:tag" content="git">
@@ -305,9 +305,8 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(node:34512)[DEP0169] DeprecationWarning: url.parse() behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for url.parse() vulnerabilities.</span><br><span class="line">(Use node --trace-deprecation ... to show where the warning was created)</span><br></pre></td></tr></table></figure>
 
 <ol start="2">
-<li>Google 丟出來的資料中，有一筆訊息（如下），對我來說比較易讀易懂，有興趣的伙伴可以走傳送門：<a target="_blank" rel="noopener" href="https://nodejs.cn/api/v22/deprecations/dep0169_url_parse.html">DEP0169：不安全的 url.parse() | Node.js API 文档</a>。</li>
+<li>Google 丟出來的資料中，有一筆訊息（如下），對我來說比較易讀易懂，有興趣的伙伴可以走傳送門：<a target="_blank" rel="noopener" href="https://nodejs.cn/api/v22/deprecations/dep0169_url_parse.html">DEP0169：不安全的 url.parse() | Node.js API 文档</a>。<br><code>url.parse() 的行为不标准且容易出错，这可能带来安全隐患。请改用 WHATWG URL API。url.parse() 的漏洞不会发布 CVE。</code></li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url.parse() 的行为不标准且容易出错，这可能带来安全隐患。请改用 WHATWG URL API。url.parse() 的漏洞不会发布 CVE。</span><br></pre></td></tr></table></figure>
 <img src="https://live.staticflickr.com/65535/55565850228_93e817d415_b.jpg" alt="upgradeNextVersionTo8.29.0Ep3"/>
 
 <ol start="3">
@@ -321,11 +320,11 @@
 <ol start="5">
 <li><p>再把上面的錯誤訊息丟給 Claude，Claude 便說：從以上的訊息來看，應該跟 <code>themes\next\scripts\helpers\next-config.js</code>有關，而且問題出在 <code>themes\next\scripts\helpers\next-config.js</code> 的第 14 行。同時，建議我改掉第 14 行的寫法，或是直接更新 NexT。</p>
 </li>
-<li><p>雖然，Claude 的建議中，表示「升級到 NexT 8.x（長期，需要半天到一天）」，但，我考慮之後，最終的選擇是更新 NexT，因為，之前雖然像瞎子摸象一樣，亂抓問題，當時我試著更新過 NexT，錯誤訊息便不存在。</p>
+<li><p>雖然，Claude 的建議中，表示「升級到 NexT 8.x（長期，需要半天到一天）」，但，我考慮之後，最終的選擇是更新 NexT。因為，之前雖然像瞎子摸象一樣，亂抓問題，但是，我記得當時曾試著更新過 NexT，更新後錯誤訊息便不存在，只是，更新後我找不到更新的痕跡，也不知道原來從舊版 NexT（7.x 以前）升級到新版 NexT 8.x，算是重大變化，搞不定設定檔與 Google Adsense 後，就決定暫時先讓舊版 NexT（7.x 以前）先頂著。</p>
 </li>
 </ol>
 <h4 id="更新-NexT"><a href="#更新-NexT" class="headerlink" title="更新 NexT"></a>更新 NexT</h4><blockquote>
-<p>更新並沒有花很多時間，有比較多的時間是花在更新之後，原本在 NexT 上的設定檔，無法直接用在新版本的 NexT，這個比較困擾我，尤其是 Google Adsense 不好搞定（當時，還因此滿懷念 WordPress 的）。但，無論如何，我決心跟 Claude 一起努力看看。</p>
+<p>本次有比較多的時間是花在處理新版本 NexT 的設定檔。</p>
 </blockquote>
 <ol>
 <li><p>更新前，從 <code>themes\next\package.json</code> 確認我所目前使用的 NexT 版本是 7.8.0（如下圖）。<img src="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg" alt="upgradeNextVersionTo8.29.0Ep4"/></p>
@@ -338,7 +337,7 @@
 </li>
 </ol>
 <h4 id="搞定-Google-Adsense"><a href="#搞定-Google-Adsense" class="headerlink" title="搞定 Google Adsense"></a>搞定 Google Adsense</h4><blockquote>
-<p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難，Claude 跟我說「在 _config.next.yml 啟用自訂檔案」，跟著做以下步驟。</p>
+<p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難，Claude 跟我說「在 <code>_config.next.yml</code> 啟用自訂檔案」，跟著做以下步驟。</p>
 </blockquote>
 <ol>
 <li><p>打開部落格根目錄的 <code>_config.next.yml</code>，找到 <code>custom_file_path</code>，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>sidebar: source/_data/sidebar.njk</code>。<img src="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg" alt="upgradeNextVersionTo8.29.0Ep5"/></p>
@@ -431,7 +430,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">9:12</span>
+    <span title="所需總閱讀時間">9:13</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
