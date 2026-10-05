@@ -12145,7 +12145,7 @@ gdb -v
 <ol start="5">
 <li><p>再把上面的錯誤訊息丟給 Claude，Claude 便說：從以上的訊息來看，應該跟 <code>themes\next\scripts\helpers\next-config.js</code>有關，而且問題出在 <code>themes\next\scripts\helpers\next-config.js</code> 的第 14 行。同時，建議我改掉第 14 行的寫法，或是直接更新 NexT。</p>
 </li>
-<li><p>雖然，Claude 的建議中，表示「升級到 NexT 8.x（長期，需要半天到一天）」，但，我考慮之後，最終還是決定更新 NexT。<br>(1)因為，之前雖然像瞎子摸象一樣，亂抓問題，但是，我記得當時曾試著更新過 NexT，更新後錯誤訊息便不存在，只是，更新後我找不到更新的痕跡，也不知道原來從舊版 NexT（7.x 以前）升級到新版 NexT 8.x，算是重大變化，搞不定設定檔與 Google Adsense 後，就決定暫時先讓舊版 NexT（7.x 以前）先頂著。<br>(2)重點是 Claude 能夠診斷出問題，大大提升我的信賴感，讓我認為有機會跨過這次的升級門檻。</p>
+<li><p>雖然，Claude 的建議中，表示「升級到 NexT 8.x（長期，需要半天到一天）」，但，我考慮之後，最終還是決定更新 NexT。<br>(1)因為，之前雖然像瞎子摸象一樣，亂抓問題，但是，我記得當時曾試著更新過 NexT，更新後錯誤訊息便不存在，只是，更新後我找不到更新的痕跡，也不知道原來從舊版 NexT（7.x 以前）升級到新版 NexT 8.x，算是重大變化，搞不定設定檔與 Google Adsense 後，就決定暫時讓舊版 NexT（7.x 以前）先頂著。<br>(2)重點是 Claude 能夠診斷出問題，大大提升我的信賴感，讓我認為有機會跨過這次的升級門檻。</p>
 </li>
 </ol>
 <h4 id="更新-NexT"><a href="#更新-NexT" class="headerlink" title="更新 NexT"></a>更新 NexT</h4><blockquote>
