@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg">
 <meta property="article:published_time" content="2026-10-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-04T02:31:37.377Z">
+<meta property="article:modified_time" content="2026-10-05T03:00:30.726Z">
 <meta property="article:author" content="jsio">
 <meta property="article:tag" content="blogware">
 <meta property="article:tag" content="git">
@@ -337,10 +337,10 @@
 </li>
 </ol>
 <h4 id="搞定-Google-Adsense"><a href="#搞定-Google-Adsense" class="headerlink" title="搞定 Google Adsense"></a>搞定 Google Adsense</h4><blockquote>
-<p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難，Claude 跟我說「在 <code>_config.next.yml</code> 啟用自訂檔案」，跟著做以下步驟。</p>
+<p>本來，我認為要搞定 Google Adsense 是比較麻煩的部分，但，問完 Claude 之後，我發現其實不難。</p>
 </blockquote>
 <ol>
-<li><p>打開部落格根目錄的 <code>_config.next.yml</code>，找到 <code>custom_file_path</code>，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>sidebar: source/_data/sidebar.njk</code>。<img src="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg" alt="upgradeNextVersionTo8.29.0Ep5"/></p>
+<li><p>Claude 跟我說「在 <code>_config.next.yml</code> 啟用自訂檔案」，所以，我先打開部落格根目錄的 <code>_config.next.yml</code>，找到 <code>custom_file_path</code>，取消註解需要的項目，我取消註解的項目是 <code>head: source/_data/head.njk</code> 與 <code>sidebar: source/_data/sidebar.njk</code>。<img src="https://live.staticflickr.com/65535/55566393115_ec0f12778b_c.jpg" alt="upgradeNextVersionTo8.29.0Ep5"/></p>
 </li>
 <li><p>建立 <code>source\_data\head.njk</code>，寫入以下內容。<br>※<code>client</code> 等號右邊的 <code>ca-pub-</code> 後面換成我自己的 ID。</p>
 </li>
@@ -353,7 +353,9 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;sidebar-inner&quot; style=&quot;margin-top: 12px;&quot;&gt;</span><br><span class="line">  &lt;ins class=&quot;adsbygoogle&quot;</span><br><span class="line">       style=&quot;display:block&quot;</span><br><span class="line">       data-ad-client=&quot;ca-pub-1234567890123456&quot;</span><br><span class="line">       data-ad-slot=&quot;1234567890&quot;</span><br><span class="line">       data-ad-format=&quot;auto&quot;</span><br><span class="line">       data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;</span><br><span class="line">  &lt;script data-pjax&gt;(adsbygoogle = window.adsbygoogle || []).push(&#123;&#125;);&lt;/script&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
 <ol start="4">
-<li><p>確認 ads.txt 還在，另外，Claude 建議我「特別注意：PJAX」，原因是「NexT 8 有 pjax 選項，開啟後點擊站內連結時只會替換頁面內容，不會整頁重新載入。這會導致一個很常見的狀況：第一頁有廣告，點到其他文章就沒了，因為廣告的程式碼不會再執行一次。」而最省事的處理方式，就是在 <code>_config.next.yml</code> 讓 <code>pjax: false</code>。</p>
+<li><p>接著，確認 ads.txt 還在。</p>
+</li>
+<li><p>另外，Claude 建議我「特別注意：PJAX」，原因是「NexT 8 有 pjax 選項，開啟後點擊站內連結時只會替換頁面內容，不會整頁重新載入。這會導致一個很常見的狀況：第一頁有廣告，點到其他文章就沒了，因為廣告的程式碼不會再執行一次。」而最省事的處理方式，就是在 <code>_config.next.yml</code> 讓 <code>pjax: false</code>。</p>
 </li>
 <li><p>最後，有一件事要先確認：如果舊版本的 <code>themes\next</code> 資料夾還在，Hexo 會優先使用，所以我把舊的 <code>themes\next</code> 改名為 <code>themes\nextOld</code>，因為，如果真的需要去對照舊設定或是找必要檔案的話，還可以從 <code>themes\nextOld</code> 裡面去找。例如：我就從 <code>themes\nextOld</code> 去把 Favicon 複製到 <code>node_modules\hexo-theme-next</code> 去用。</p>
 </li>
