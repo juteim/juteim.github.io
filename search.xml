@@ -12158,7 +12158,7 @@ gdb -v
 </li>
 <li><p>將新主題的預設設定檔 <code>node_modules\hexo-theme-next\_config.yml</code> 搬到部落格根目錄，並且命名為 <code>_config.next.yml</code>，Claude 跟我說：「這樣設定跟主題程式分開，升級時不會被覆蓋。」</p>
 </li>
-<li><p>新舊版的設定項目有不少差異，我沒有做到逐項對照調整，主要進行的調整有三。<br>(1)把預設的 <code>scheme: Muse</code> 改成 <code>scheme: Gemini</code>。<br>(2)Menu Settings：取消註解 home、about、tags、categories、archives 與 sitemap，以及讓 <code>badges: true</code>。<br>(3)Sidebar Settings：調整為 <code>position: right</code>。</p>
+<li><p>新舊版的設定項目有不少差異，我沒有做到逐項對照調整，主要進行的調整如下。<br>(1)把預設的 <code>scheme: Muse</code> 改成 <code>scheme: Gemini</code>。<br>(2)Menu Settings：取消註解 home、about、tags、categories、archives 與 sitemap，以及讓 <code>badges: true</code>。<br>(3)Sidebar Settings：調整為 <code>position: right</code>。<br>(4)恢復搜尋：先確認 hexo-generator-searchdb 這個外掛還在不在：下 <code>npm ls hexo-generator-searchdb</code> 這道指令，確定不是 (empty)，然後，在 <code>_config.next.yml</code> 搜尋 <code>local_search</code>，調整為 <code>enable: true</code>。</p>
 </li>
 </ol>
 <h4 id="搞定-Google-Adsense"><a href="#搞定-Google-Adsense" class="headerlink" title="搞定 Google Adsense"></a>搞定 Google Adsense</h4><blockquote>
