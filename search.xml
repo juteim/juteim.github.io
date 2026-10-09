@@ -9093,7 +9093,7 @@ gdb -v
 <td>Arch 系（Arch、Manjaro、EndeavourOS、Garuda、ArcoLinux、CachyOS）</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-extra（軟體庫內建）</td>
-<td>指令安裝＋圖形介面加入</td>
+<td>pacman 指令安裝＋圖形介面加入</td>
 <td>★★</td>
 <td><a href="#Arch-Linux-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Arch 系</a></td>
 </tr>
@@ -9109,7 +9109,7 @@ gdb -v
 <td>Zorin OS 18</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-boshiamy</td>
-<td>指令＋圖形介面加入</td>
+<td>apt 指令＋圖形介面加入</td>
 <td>★★</td>
 <td><a href="#fcitx5-table-boshiamy">獨立套件：fcitx5-table-boshiamy</a></td>
 </tr>
@@ -9117,7 +9117,7 @@ gdb -v
 <td>ubuntu 24.04 LTS 以後、Linux Mint 22</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-extra（軟體庫內建）</td>
-<td>指令＋圖形介面加入</td>
+<td>apt 指令＋圖形介面加入</td>
 <td>★★</td>
 <td><a href="#fcitx5-table-extra-%E8%BB%9F%E9%AB%94%E5%BA%AB%E7%89%88">軟體庫版：fcitx5-table-extra</a></td>
 </tr>
@@ -9125,7 +9125,7 @@ gdb -v
 <td>Debian 12、ubuntu 23.10 以前、Linux Mint 21.1、LMDE 6</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-extra（自 pkgs.org 下載）</td>
-<td>手動放置檔案</td>
+<td>apt 指令＋手動放置檔案</td>
 <td>★★★</td>
 <td><a href="#fcitx5-table-extra-%E8%87%AA%E8%A1%8C%E8%99%95%E7%90%86%E8%88%87%E6%9C%8D%E7%94%A8%E7%89%88">自行處理版：fcitx5-table-extra</a></td>
 </tr>
@@ -9133,7 +9133,7 @@ gdb -v
 <td>ubuntu 22.04／23.04、MX Linux、elementary OS、Zorin OS 17.3、LMDE 5</td>
 <td>fcitx(4)</td>
 <td>fcitx-table-boshiamy</td>
-<td>apt 指令</td>
+<td>apt 指令＋圖形介面加入</td>
 <td>★★</td>
 <td><a href="#fcitx-4">fcitx(4)</a></td>
 </tr>
@@ -9141,7 +9141,7 @@ gdb -v
 <td>Fedora 系（Fedora、risiOS）</td>
 <td>Fcitx5</td>
 <td>Fcitx5 相關套件</td>
-<td>dnf 指令</td>
+<td>dnf 指令＋圖形介面加入</td>
 <td>★★</td>
 <td><a href="#Fedora-%E5%8F%8A%E5%85%B6%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88">Fedora 系</a></td>
 </tr>
