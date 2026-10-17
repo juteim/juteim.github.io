@@ -12154,7 +12154,7 @@ gdb -v
 <ol>
 <li><p>更新前，從 <code>themes\next\package.json</code> 確認我所目前使用的 NexT 版本是 7.8.0（如下圖）。<img src="https://live.staticflickr.com/65535/55565894221_fa39fe9548_b.jpg" alt="upgradeNextVersionTo8.29.0Ep4"/></p>
 </li>
-<li><p>先下 <code>npm install hexo-theme-next</code> 安裝新版，同時，找到新版本安裝的路徑是 <code>node_modules\hexo-theme-next</code>。</p>
+<li><p>先下一道指令：<code>npm install hexo-theme-next</code> 安裝新版，同時，找到新版本安裝的路徑是 <code>node_modules\hexo-theme-next</code>。</p>
 </li>
 <li><p>將新主題的預設設定檔 <code>node_modules\hexo-theme-next\_config.yml</code> 搬到部落格根目錄，並且命名為 <code>_config.next.yml</code>，Claude 跟我說：「這樣設定跟主題程式分開，升級時不會被覆蓋。」</p>
 </li>
