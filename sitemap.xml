@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/installing-codeblocks-ide-17-12-on-lubuntu-18-04/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/installing-visual-studio-code-on-lubuntu-18-04-lts/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-boshiamy-on-lubuntu-18-04/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/apple/installing-pop_os-21-10-on-my-mac-mini/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-pop_os-21-04-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/installing-pop_os-20-04-lts-on-asus-m32cd/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/pop_os-22-04-lts/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/20-days-after-shifting-to-garuda-linux/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -255,15 +327,6 @@
   
   <url>
     <loc>https://jute.im/linux/install-chrome-to-ubuntu-24-04-lts/</loc>
-    
-    <lastmod>2026-10-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04/</loc>
     
     <lastmod>2026-10-29</lastmod>
     
@@ -1226,15 +1289,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/installing-boshiamy-on-lubuntu-18-04/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/using-fcitx5-with-boshiamy-on-debian-11/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1325,15 +1379,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/pop_os-22-04-lts/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/windows/downgrade-back-to-windows-10/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1397,15 +1442,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/installing-visual-studio-code-on-lubuntu-18-04-lts/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/apple/more-important-things-for-me-than-the-versus-between-apple-m1-and-intel/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1452,15 +1488,6 @@
   
   <url>
     <loc>https://jute.im/windows/google-toolbar-6-for-ie/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/installing-codeblocks-ide-17-12-on-lubuntu-18-04/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
@@ -1802,15 +1829,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/installing-pop_os-20-04-lts-on-asus-m32cd/</loc>
-    
-    <lastmod>2025-01-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/windows/my-note-about-creating-installers-for-windows-with-nsis/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -2037,24 +2055,6 @@
   
   <url>
     <loc>https://jute.im/boshiamy/installing-amarok-linux-3-2-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-pop_os-21-04-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/apple/installing-pop_os-21-10-on-my-mac-mini/</loc>
     
     <lastmod>2024-12-28</lastmod>
     

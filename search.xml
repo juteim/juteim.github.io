@@ -4356,11 +4356,11 @@
       </tags>
   </entry>
   <entry>
-    <title>在 LUbuntu 21.04 上輕鬆安裝嘸蝦米</title>
+    <title>在 Lubuntu 21.04 上輕鬆安裝嘸蝦米</title>
     <url>/boshiamy/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Linux 上面的中文輸入平台，可以說是百花齊放、各有千秋。</p>
 <p>今天來分享一個，安裝使用上非常方便的平台：fcitx。</p>
-<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><p>fcitx 在 LUbuntu 21.04 是預設的中文輸入平台，因此，2 個步驟，就可以搞定。</p>
+<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><p>fcitx 在 Lubuntu 21.04 是預設的中文輸入平台，因此，2 個步驟，就可以搞定。</p>
 <ol>
 <li>sudo apt-get install fcitx-table-boshiamy</li>
 <li>
@@ -4404,8 +4404,8 @@
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>ibus</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4655,7 +4655,7 @@
   <entry>
     <title>在 Lubuntu 18.04 上安裝 CodeBlocks IDE 17.12</title>
     <url>/linux/installing-codeblocks-ide-17-12-on-lubuntu-18-04/</url>
-    <content><![CDATA[<p>寫程式，弄個 IDE 真的會方便不少，如果您是要在 ubuntu 20.04 上面使用 Code::Blocks IDE 的話，直接下 sudo apt-get install codeblocks 這道指令，那麼，Code::Blocks IDE 20.03 就會安裝好，立馬可以進行 Coding。</p>
+    <content><![CDATA[<p>寫程式，弄個 IDE 真的會方便不少，如果您是要在 Ubuntu 20.04 上面使用 Code::Blocks IDE 的話，直接下 sudo apt-get install codeblocks 這道指令，那麼，Code::Blocks IDE 20.03 就會安裝好，立馬可以進行 Coding。</p>
 <p>由於我想用 Code::Blocks IDE 17.12 這個版本，而且是在 Lubuntu 上面安裝，就需要繞一點路，費一點小功夫。</p>
 <p>先是安裝 gcc、gpp 與 g++。 <a href="http://www.youtube.com/watch?v=hCjHmKC8oDM" title="Installing Code::Blocks IDE 17.12 on Lubuntu 18.04 Episode 1 | 在 Lubuntu 上安裝 Code::Blocks (第 1 集)"><img src="http://img.youtube.com/vi/hCjHmKC8oDM/0.jpg"></a></p>
 <p>再來是從官網下載 Code::Blocks IDE 17.12 的安裝檔。 <a href="http://www.youtube.com/watch?v=_C0ivJZGiIQ" title="Installing Code::Blocks IDE 17.12 on Lubuntu 18.04 Episode 2 | 在 Lubuntu 上安裝 Code::Blocks (第 2 集)"><img src="http://img.youtube.com/vi/_C0ivJZGiIQ/0.jpg"></a></p>
@@ -4665,7 +4665,7 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5631,7 +5631,7 @@
 </li>
 <li><p>硬體相關資訊：<br>  (1)<a href="https://www.userbenchmark.com/System/Asus-M32CD-A-F-K20CD-K31CD/20636">UserBenchmark: Asus M32CD_A_F_K20CD_K31CD Compatible Components</a><br>  (2)顯示卡在幾年前，已換成 <a href="https://www.asus.com/tw/Motherboards-Components/Graphics-Cards/Phoenix/PH-GTX1050TI-4G/">ASUS Phoenix GeForce® GT 1050 Ti 4GB DDR5</a> <img src="https://live.staticflickr.com/65535/51808778048_baee5bf1a9_o.png"></p>
 </li>
-<li><p>其實，我在這部機器試過 ubuntu、Fedora 與 CentOS，最終才決心使用 Pop!_OS，主要還是因為這支 Distro 對 Nvidia 有特別「加持」。<br> <img src="https://live.staticflickr.com/65535/51808676863_d3262514a2_o.png"></p>
+<li><p>其實，我在這部機器試過 Ubuntu、Fedora 與 CentOS，最終才決心使用 Pop!_OS，主要還是因為這支 Distro 對 Nvidia 有特別「加持」。<br> <img src="https://live.staticflickr.com/65535/51808676863_d3262514a2_o.png"></p>
 </li>
 </ol>
 <h3 id="參考網站"><a href="#參考網站" class="headerlink" title="參考網站"></a>參考網站</h3><ol>
@@ -5657,7 +5657,7 @@
         <tag>linux</tag>
         <tag>centos</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
         <tag>davinciresolve17</tag>
         <tag>nvidia</tag>
         <tag>pop_os</tag>
@@ -5669,8 +5669,8 @@
     <url>/boshiamy/installing-pop_os-21-04-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51693798173_8b855c95f1_b.jpg" alt="installingPop!_OS_21.04_02"/>
 
-<p>Debian 衍生發行版 (Debian Based Linux Distros) 很多，我想，最有名的應屬 ubuntu。而且，ubuntu 也有很多衍生發行版。數算起來，其實都可以說系出同門：也就是 Debian。</p>
-<p>之前，我自己安裝過幾個 ubuntu 衍生發行版，其中，最讓我印象深刻的是 Zorin OS。今天安裝的 Pop!_OS，同樣也是 ubuntu 衍生發行版，而且，我是直接找一部老舊電腦來安裝，並且決定就讓這個系統待在這部老機器身上。</p>
+<p>Debian 衍生發行版 (Debian Based Linux Distros) 很多，我想，最有名的應屬 Ubuntu。而且，Ubuntu 也有很多衍生發行版。數算起來，其實都可以說系出同門：也就是 Debian。</p>
+<p>之前，我自己安裝過幾個 Ubuntu 衍生發行版，其中，最讓我印象深刻的是 Zorin OS。今天安裝的 Pop!_OS，同樣也是 Ubuntu 衍生發行版，而且，我是直接找一部老舊電腦來安裝，並且決定就讓這個系統待在這部老機器身上。</p>
 <h3 id="安裝-Pop-OS-21-04"><a href="#安裝-Pop-OS-21-04" class="headerlink" title="安裝 Pop!_OS 21.04"></a>安裝 Pop!_OS 21.04</h3><p>有圖形介面就是容易上手，我把整個安裝過程的重要截圖整理到一本相簿裡，有興趣的伙伴，可以直接點進去。 <a href="https://www.flickr.com/photos/jutedev/albums/72157720161515089" title="Pop!_OS21.04"><img src="https://live.staticflickr.com/65535/51694205804_c639629cb8_b.jpg" alt="Pop!_OS21.04"></a></p>
 <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -5678,7 +5678,7 @@
 <ol>
 <li><p>這次使用的機器，在安裝系統前，我先裝上一張舊的顯示卡：NVIDIA GeForce GT 730，同時下載 Pop!_OS 21.04 NVIDIA 版本來服用。</p>
 </li>
-<li><p>在 Pop!_OS 的官網上面，可以從目前供使用者下載的系統版本號，直接對應到 ubuntu 的版本號，我認為，這有助於 ubuntu 的使用者，容易直覺判斷想要用的發行版。</p>
+<li><p>在 Pop!_OS 的官網上面，可以從目前供使用者下載的系統版本號，直接對應到 Ubuntu 的版本號，我認為，這有助於 Ubuntu 的使用者，容易直覺判斷想要用的發行版。</p>
 </li>
 <li><p>不過，我會選擇 Pop!_OS，有一個很大的原因，在於 System76 這家公司，除了維護 Pop!_OS 這個 Linux 系統外，同時也提供硬體銷售服務，或許，談不上軟硬體開發，但我認為 System76 應該在一定程度上，提供較高的軟硬體整合與支援度，而這一點，從官網上提供 NVIDIA 顯示卡支援的系統版本看出一點端倪。</p>
 </li>
@@ -5692,7 +5692,7 @@
 <h3 id="在-Pop-OS-21-04-上安裝嘸蝦米"><a href="#在-Pop-OS-21-04-上安裝嘸蝦米" class="headerlink" title="在 Pop!_OS 21.04 上安裝嘸蝦米"></a>在 Pop!_OS 21.04 上安裝嘸蝦米</h3><ol>
 <li><p>選用的順序上，我強烈建議是 iBus→fcitx4→fcitx5。</p>
 </li>
-<li><p>承上，原因是可以省下很多時間，至於，安裝的方法，可以參考這一篇：「<a href="/linux/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/">在 ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a>」或站內其他的安裝過程紀錄文。</p>
+<li><p>承上，原因是可以省下很多時間，至於，安裝的方法，可以參考這一篇：「<a href="/linux/installing-ibus-table-for-boshiamy-on-Ubuntu-20-04-lts/">在 Ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a>」或站內其他的安裝過程紀錄文。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -5714,8 +5714,8 @@
       <tags>
         <tag>boshiamy</tag>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
         <tag>debian</tag>
+        <tag>Ubuntu</tag>
         <tag>pop_os</tag>
       </tags>
   </entry>
@@ -5787,11 +5787,11 @@
 </li>
 <li><p>Pop!_OS 21.10 要求 &#x2F;boot 至少要 500MB，我再分割 2GB 給 Swap，其他的硬碟空間就掛載在 &#x2F; 這裡。(這樣，算是簡單粗暴嗎？) <img src="https://live.staticflickr.com/65535/51773765446_90ef06d919_o.png"></p>
 </li>
-<li><p>快速完成：我自己對 ubuntu 與它的衍生版本的觀察，硬碟分割好的下一步，不用等太久，就可以重新開機(下圖)。但，重開機後，畫面黑中帶光，我一度以為安裝失敗，還好稍稍耐著性子，就看到右下角若隱若現的鼠標，不久後就會進到系統登入畫面。 <img src="https://live.staticflickr.com/65535/51774407924_4561b32f23_o.png"></p>
+<li><p>快速完成：我自己對 Ubuntu 與它的衍生版本的觀察，硬碟分割好的下一步，不用等太久，就可以重新開機(下圖)。但，重開機後，畫面黑中帶光，我一度以為安裝失敗，還好稍稍耐著性子，就看到右下角若隱若現的鼠標，不久後就會進到系統登入畫面。 <img src="https://live.staticflickr.com/65535/51774407924_4561b32f23_o.png"></p>
 </li>
 </ol>
 <h3 id="安裝嘸蝦米"><a href="#安裝嘸蝦米" class="headerlink" title="安裝嘸蝦米"></a>安裝嘸蝦米</h3><ol>
-<li><p>先從嘸蝦米官網將 iBus 表格檔載回來安裝，之前曾經在 <a href="http://mtmatt.page/linux/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/">在 ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a> 分享過對應的表格檔版本。 <img src="https://live.staticflickr.com/65535/51774651180_8ce3cf3d67_o.png"></p>
+<li><p>先從嘸蝦米官網將 iBus 表格檔載回來安裝，之前曾經在 <a href="http://mtmatt.page/linux/installing-ibus-table-for-boshiamy-on-Ubuntu-20-04-lts/">在 Ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a> 分享過對應的表格檔版本。 <img src="https://live.staticflickr.com/65535/51774651180_8ce3cf3d67_o.png"></p>
 </li>
 <li><p>安裝好之後，再到「設定值」裡面的「鍵盤」，點「+」(加號)把「中文(嘸蝦米-繁)」加進來。 <img src="https://live.staticflickr.com/65535/51774651175_6d8b48e53d_o.png"></p>
 </li>
@@ -5828,7 +5828,7 @@
         <tag>boshiamy</tag>
         <tag>macos</tag>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
         <tag>highsierra</tag>
         <tag>mojave</tag>
         <tag>macmini</tag>
@@ -5885,7 +5885,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
+        <tag>vscode</tag>
       </tags>
   </entry>
   <entry>
@@ -10341,14 +10342,14 @@ gdb -v
 <p> 這是 11 月 6 日的截圖，今天上去瀏覽一下 DistroWatch 上的「網頁參觀排名」，Pop!_OS 的排名仍舊在第 5 名，印象中，Pop!_OS 一直都在前 10 名的位置。</p>
 <h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>這次安裝過程紀錄所使用的機器與 VirtualBox 的設定，幾乎與 <a href="/linux/quickrecap-of-endeavouros-artemis-nova-22-9/">快速回顧 EndeavourOS Artemis Nova 22.9</a> 是一樣的，我觀察到 VirtualBox 同樣是 7.0 版，使用 VirtualBox 的錄影功能時，Pop!_OS 22.04 LTS 比較沒有錄到最後，錄影檔案讀不出來，也刪不掉的情況發生。然而，我目前的電腦硬體，硬碟應該跑起來已經越來越扛不住，運作起來也可能感受到已經有一點點延遲，例如：我點 Dock 上的圖像，有時會沒有反應，要再多點個幾下。(是在提醒我，該換電腦 XD)</p>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
-<li>關於這一個版本的更新內容，網路上有一些文章分享，我用關鍵字查找後，點出前 2 篇來閱讀，分別是 <a href="https://www.omgubuntu.co.uk/2022/04/pop-os-22-04-lts-features-download">Pop!_OS 22.04 Released, This is What’s New - OMG! Ubuntu!</a> 與 <a href="https://www.linuxmi.com/pop_os-22-04-lts-ubuntu-22-04-lts.html">Pop!_OS 22.04 LTS 与 Ubuntu 22.04 LTS：您应该选择哪个？ - Linux迷</a>。</li>
+<li>關於這一個版本的更新內容，網路上有一些文章分享，我用關鍵字查找後，點出前 2 篇來閱讀，分別是 <a href="https://www.omgubuntu.co.uk/2022/04/pop-os-22-04-lts-features-download">Pop!_OS 22.04 Released, This is What’s New - OMG! Ubuntu!</a> 與 <a href="https://www.linuxmi.com/pop_os-22-04-lts-Ubuntu-22-04-lts.html">Pop!_OS 22.04 LTS 与 Ubuntu 22.04 LTS：您应该选择哪个？ - Linux迷</a>。</li>
 <li><a href="https://www.omgubuntu.co.uk/2022/04/pop-os-22-04-lts-features-download">Pop!_OS 22.04 Released, This is What’s New - OMG! Ubuntu!</a> 這一篇，簡單點出幾個重要更新：New update schedule options、new ‘Support’ panel、improved workspaces、defaults to PipeWire 與 newer Linux kernel。</li>
-<li><a href="https://www.linuxmi.com/pop_os-22-04-lts-ubuntu-22-04-lts.html">Pop!_OS 22.04 LTS 与 Ubuntu 22.04 LTS：您应该选择哪个？ - Linux迷</a>，我稍為讀了一下之後，思考這幾天的使用心得，我非常同意文末提到，ubuntu 和 Pop!_OS 會帶給使用者 2 種截然不同的體驗，預設把 Dock 放在左側的 ubuntu，對我來說，已經跟目前大多數的發行版有一點區隔，使用起來是有一點獨特性；Pop!_OS 則是讓我常常想到 macOS 的使用感受，而工作區域又有那麼點像 Windows，可以說似乎在試著找到現在桌面使用體驗較佳的功能，整合到 Pop!_OS，而且用心的程度，我個人是肯定的。</li>
+<li><a href="https://www.linuxmi.com/pop_os-22-04-lts-Ubuntu-22-04-lts.html">Pop!_OS 22.04 LTS 与 Ubuntu 22.04 LTS：您应该选择哪个？ - Linux迷</a>，我稍為讀了一下之後，思考這幾天的使用心得，我非常同意文末提到，Ubuntu 和 Pop!_OS 會帶給使用者 2 種截然不同的體驗，預設把 Dock 放在左側的 Ubuntu，對我來說，已經跟目前大多數的發行版有一點區隔，使用起來是有一點獨特性；Pop!_OS 則是讓我常常想到 macOS 的使用感受，而工作區域又有那麼點像 Windows，可以說似乎在試著找到現在桌面使用體驗較佳的功能，整合到 Pop!_OS，而且用心的程度，我個人是肯定的。</li>
 </ol>
 <h3 id="中文輸入法框架的使用心得與選擇上的建議"><a href="#中文輸入法框架的使用心得與選擇上的建議" class="headerlink" title="中文輸入法框架的使用心得與選擇上的建議"></a>中文輸入法框架的使用心得與選擇上的建議</h3><p>我會建議使用系統預設的 iBus，同時我在這一次安裝使用時發現，過去我都是直接安裝嘸蝦米輸入法的官方表格檔，沒有特別注意到系統安裝並完成初次啟動的設定後，我是無法直接切換及使用新酷音輸入法的。</p>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>本次安裝使用的 ISO 檔版本是 pop-os_22.04_amd64_intel_16.iso。</li>
-<li>Pop!_OS 是 ubuntu 的衍生發行版，然而，又能夠發展並保有自己的獨特性，再者，Pop!_OS 是 <a href="https://system76.com/">System76</a> 這家公司在維護的，我會認為軟硬兼施之下，Pop!_OS 有一定的可靠度，安裝與使用期間，多少都會激發我想購買一部 <a href="https://system76.com/">System76</a> 出品的機器來把玩一番。</li>
+<li>Pop!_OS 是 Ubuntu 的衍生發行版，然而，又能夠發展並保有自己的獨特性，再者，Pop!_OS 是 <a href="https://system76.com/">System76</a> 這家公司在維護的，我會認為軟硬兼施之下，Pop!_OS 有一定的可靠度，安裝與使用期間，多少都會激發我想購買一部 <a href="https://system76.com/">System76</a> 出品的機器來把玩一番。</li>
 <li><a href="https://pop.system76.com/">Pop!_OS by System76</a></li>
 <li><a href="https://zh.wikipedia.org/zh-tw/System76">System76 - 維基百科，自由的百科全書</a></li>
 </ol>
@@ -10360,8 +10361,8 @@ gdb -v
         <tag>windows</tag>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>新酷音</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
