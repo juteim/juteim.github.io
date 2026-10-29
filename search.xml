@@ -4445,7 +4445,7 @@
 <p>fcitx5-table-extra provides extra table for Fcitx5, including Boshiamy, Zhengma, Cangjie, and Quick.</p>
 </blockquote>
 <p> <img src="https://live.staticflickr.com/65535/54296140909_53a94a84c6_b.jpg" alt="installingBoshiamyOnLinuxMint22.1Cinnamon (15)"></p>
-<p> 以往，我選用 Fcitx5 的時候，安裝嘸蝦米時，就是搭 <code>fcitx5-table-extra</code> 這支套件。然而，我最近注意到 Debian 與 ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件，並收錄至軟體庫。也就是說，只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。 <img src="https://live.staticflickr.com/65535/54295022097_9935db0798_b.jpg" alt="installingBoshiamyOnLinuxMint22.1Cinnamon (18)"></p>
+<p> 以往，我選用 Fcitx5 的時候，安裝嘸蝦米時，就是搭 <code>fcitx5-table-extra</code> 這支套件。然而，我最近注意到 Debian 與 Ubuntu 及其衍生發行版，單獨將「嘸蝦米」打包成 <code>fcitx5-table-boshiamy</code> 這支套件，並收錄至軟體庫。也就是說，只想安裝「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。 <img src="https://live.staticflickr.com/65535/54295022097_9935db0798_b.jpg" alt="installingBoshiamyOnLinuxMint22.1Cinnamon (18)"></p>
 </li>
 <li><p>在 DistroWatch 上，Linux Mint 霸榜「網頁參觀排名」好一段時間，就我自己的使用經驗，推測應該是 Linux Mint 解決不少 End-User 會碰到的困擾。</p>
 <p> 就以這次分享的 22.1 版（Xia）來說，官方在「<a href="https://www.linuxmint.com/rel_xia_whatsnew.php">New Features in Linux Mint 22.1 ‘Xia’ - Linux Mint</a>」說明裡，一開始就談到「Modernization of APT dependencies」這一項更新。</p>
@@ -4543,10 +4543,10 @@
   <entry>
     <title>在 Linux Mint 20.2 上輕鬆安裝嘸蝦米</title>
     <url>/boshiamy/installing-boshiamy-table-for-fcitx-on-linux-mint-20-2/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://live.staticflickr.com/65535/51315698449_c7e056a0e2_o.png"> <a href="https://linuxmint.com/">Linux Mint</a> 是 ubuntu 的衍生發行版(Distro)，它的使用介面(Cinnamon Edition)，我也滿喜歡的。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://live.staticflickr.com/65535/51315698449_c7e056a0e2_o.png"> <a href="https://linuxmint.com/">Linux Mint</a> 是 Ubuntu 的衍生發行版(Distro)，它的使用介面(Cinnamon Edition)，我也滿喜歡的。</p>
 <h3 id="在-Linux-Mint-20-2-上安裝嘸蝦米"><a href="#在-Linux-Mint-20-2-上安裝嘸蝦米" class="headerlink" title="在 Linux Mint 20.2 上安裝嘸蝦米"></a>在 Linux Mint 20.2 上安裝嘸蝦米</h3><ol>
 <li>選用的順序上，我的建議是 fcitx(4)→iBus→Fcitx5。</li>
-<li>跟 ubuntu 幾乎一樣是下一道指令就搞定一半：<code>sudo apt-get install fcitx-table-boshiamy</code>。</li>
+<li>跟 Ubuntu 幾乎一樣是下一道指令就搞定一半：<code>sudo apt-get install fcitx-table-boshiamy</code>。</li>
 <li>到「偏好設定」裡的「Fcitx 設定」去確認相關設定，講起來好像在繞口令，這個部分我個人比較習慣用圖形介面來解決(如下圖)。 <img src="https://live.staticflickr.com/65535/51319303573_9727b8b185_o.png"></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -4562,8 +4562,8 @@
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
         <tag>linuxmint</tag>
       </tags>
   </entry>
@@ -5197,7 +5197,7 @@
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
         <tag>linuxmint</tag>
       </tags>
   </entry>
@@ -6143,12 +6143,12 @@ gdb -v
   <entry>
     <title>安裝 Zorin OS 16 Core 與嘸蝦米</title>
     <url>/boshiamy/installing-zorin-os-16-core-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 也是一支以 ubuntu 為基礎的 Linux Distro，幾天前釋出 Zorin OS 16 版，這一個版本立基在 ubuntu 20.04.3 LTS。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 也是一支以 Ubuntu 為基礎的 Linux Distro，幾天前釋出 Zorin OS 16 版，這一個版本立基在 Ubuntu 20.04.3 LTS。</p>
 <p>這篇貼文大致分成 2 個部分的筆記：「安裝 Zorin OS」、「在 Zorin OS 16 上安裝及使用嘸蝦米」。</p>
 <h3 id="安裝-Zorin-OS"><a href="#安裝-Zorin-OS" class="headerlink" title="安裝 Zorin OS"></a>安裝 Zorin OS</h3><ol>
 <li><p>硬體的設定：Dual-Core CPU、ICH9 晶片組、啟用 EFI、4GB Ram、128MB VRAM、20GB Vdi HDD。</p>
 </li>
-<li><p>安裝的過程，我觀察到前段的安裝步驟，跟 elementary OS 5.1 有點神似，因此，那種感覺就像是 ubuntu 的安裝程式換上另外一張皮。</p>
+<li><p>安裝的過程，我觀察到前段的安裝步驟，跟 elementary OS 5.1 有點神似，因此，那種感覺就像是 Ubuntu 的安裝程式換上另外一張皮。</p>
 </li>
 <li><p>初次進入系統，可以跟著指示走, 我是在 VirtualBox 安裝的，初進系統走 Tour 會詢問要不要安裝 zorin-virtualbox-guest-additions 套件，我安裝後出現一些錯誤訊息，後續把其他系統升級做完，錯誤訊息才消失。</p>
 </li>
@@ -6170,9 +6170,9 @@ gdb -v
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次安裝使用的 ISO 檔版本是 Zorin-OS-16-Core-64-bit.iso。</p>
 </li>
-<li><p>Zorin OS 16 分為 3 個版本，分別是需要付費的 Pro 版(美金 39 元)、Core 版與 Lite 版，3 個版本都有 Zorin 外觀(皮)，要簡單地說出不同的部分，應該是就是付費的 Pro 版包含了 Core 與 Lite 版的功能外，還有類 macOS、 Windows 11 &amp; Classic 與 ubuntu 等幾個桌面環境、內建專業層級的 App 套件包與進階的生產力軟體等等。</p>
+<li><p>Zorin OS 16 分為 3 個版本，分別是需要付費的 Pro 版(美金 39 元)、Core 版與 Lite 版，3 個版本都有 Zorin 外觀(皮)，要簡單地說出不同的部分，應該是就是付費的 Pro 版包含了 Core 與 Lite 版的功能外，還有類 macOS、 Windows 11 &amp; Classic 與 Ubuntu 等幾個桌面環境、內建專業層級的 App 套件包與進階的生產力軟體等等。</p>
 </li>
-<li><p>立基在 ubuntu 架構與特性上的 Distro，我目前知道有 Linux Mint、elementary OS 與這次紀錄的 Zorin OS，有一種開枝散葉的感覺。<br>(1)Linux Mint：From freedom came elegance.<br>(2)elementary OS：The thoughtful, capable, and ethical replacement for Windows and macOS.<br>(3)Zorin OS：Make your computer better, faster, easier, more powerful, secure, and reliable.</p>
+<li><p>立基在 Ubuntu 架構與特性上的 Distro，我目前知道有 Linux Mint、elementary OS 與這次紀錄的 Zorin OS，有一種開枝散葉的感覺。<br>(1)Linux Mint：From freedom came elegance.<br>(2)elementary OS：The thoughtful, capable, and ethical replacement for Windows and macOS.<br>(3)Zorin OS：Make your computer better, faster, easier, more powerful, secure, and reliable.</p>
 </li>
 </ol>
 ]]></content>
@@ -7652,7 +7652,7 @@ gdb -v
 </li>
 </ol>
 <h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><ol>
-<li><p>關鍵是 fcitx5-table-extra 這支套件，但身為 ubuntu(Debian) 衍生發行版的 Linux Mint，也一樣沒有將 fcitx5-table-extra 納入軟體庫。 <a href="https://www.flickr.com/photos/boxplay/52886952987/in/dateposted-public/" title="linuxMint21.1cinnamonEp (1)"><img src="https://live.staticflickr.com/65535/52886952987_9d6a07a563_c.jpg" alt="linuxMint21.1cinnamonEp (1)"></a></p>
+<li><p>關鍵是 fcitx5-table-extra 這支套件，但身為 Ubuntu(Debian) 衍生發行版的 Linux Mint，也一樣沒有將 fcitx5-table-extra 納入軟體庫。 <a href="https://www.flickr.com/photos/boxplay/52886952987/in/dateposted-public/" title="linuxMint21.1cinnamonEp (1)"><img src="https://live.staticflickr.com/65535/52886952987_9d6a07a563_c.jpg" alt="linuxMint21.1cinnamonEp (1)"></a></p>
 </li>
 <li><p>我的方法是先下一道指令，一口氣把能夠上的 Fcitx5 相關套件都補足。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx5*</span><br></pre></td></tr></table></figure>
@@ -7663,7 +7663,7 @@ gdb -v
 </li>
 <li><p>安裝完表格檔之後，先「重新啟動」Fcitx5，如果「重新啟動」並沒有把嘸蝦米輸入法載進程式裡，再考慮重新登入系統。附帶一提的是我之前使用 Fcitx5 的「重新啟動」似乎沒有什麼效果，但目前在 Linux Mint 上的 Fcitx5，我服用幾次「重新啟動」，功能上是沒有問題的。 <a href="https://www.flickr.com/photos/boxplay/52887910055/in/dateposted-public/" title="linuxMint21.1cinnamonEp (5)"><img src="https://live.staticflickr.com/65535/52887910055_9c83b92234_c.jpg" alt="linuxMint21.1cinnamonEp (5)"></a></p>
 </li>
-<li><p>以上說明，比較不是以實際的步驟，一個接著一個帶出來，若不夠詳盡，或許可以再參考之前的這篇貼文：<a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/#%E4%B8%8B%E8%BC%89%E4%B8%A6%E5%B0%87_fcitx5-table-extra_%E6%94%BE%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%9A%84%E8%B7%AF%E5%BE%91%E8%A3%A1">在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a>。</p>
+<li><p>以上說明，比較不是以實際的步驟，一個接著一個帶出來，若不夠詳盡，或許可以再參考之前的這篇貼文：<a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-Ubuntu-22-04-1-lts/#%E4%B8%8B%E8%BC%89%E4%B8%A6%E5%B0%87_fcitx5-table-extra_%E6%94%BE%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%9A%84%E8%B7%AF%E5%BE%91%E8%A3%A1">在 Ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a>。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -7708,7 +7708,7 @@ gdb -v
 </li>
 </ol>
 <h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><ol>
-<li><p>關鍵是 <code>fcitx5-table-extra</code> 這支套件，但身為 ubuntu(Debian) 衍生發行版的 Linux Mint，也一樣沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。</p>
+<li><p>關鍵是 <code>fcitx5-table-extra</code> 這支套件，但身為 Ubuntu(Debian) 衍生發行版的 Linux Mint，也一樣沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。</p>
 </li>
 <li><p>我的方法是先下一道指令，一口氣把能夠上的 Fcitx5 相關套件都補足。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx5*</span><br></pre></td></tr></table></figure>
@@ -7721,7 +7721,7 @@ gdb -v
 </li>
 <li><p>接著，「重新啟動」Fcitx5，應該會顯示 16x16 的嘸蝦米圖像(詳可見下圖)，雖然，在 48x48 的新酷音圖像面前，嘸蝦米顯得有點小咖就是，但，總比沒有好。當然，如果要讓嘸蝦米與新酷音平起平坐，也不是不行，但…，對我來說，有顯示就有加分，我已經懶得再花時間去處理這美中不足之處。 <img src="https://live.staticflickr.com/65535/53109901317_1e07cd8010_c.jpg" width="800" height="450" alt="boshiamy-ICON-on-linuxmint-21.2-cinnamon-64bit"/></p>
 </li>
-<li><p>以上說明，比較不是以實際的步驟，一個接著一個帶出來，若不夠詳盡，或許可以再參考之前的這篇貼文：<a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/#%E4%B8%8B%E8%BC%89%E4%B8%A6%E5%B0%87_fcitx5-table-extra_%E6%94%BE%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%9A%84%E8%B7%AF%E5%BE%91%E8%A3%A1">在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a>。</p>
+<li><p>以上說明，比較不是以實際的步驟，一個接著一個帶出來，若不夠詳盡，或許可以再參考之前的這篇貼文：<a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-Ubuntu-22-04-1-lts/#%E4%B8%8B%E8%BC%89%E4%B8%A6%E5%B0%87_fcitx5-table-extra_%E6%94%BE%E5%88%B0%E6%AD%A3%E7%A2%BA%E7%9A%84%E8%B7%AF%E5%BE%91%E8%A3%A1">在 Ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a>。</p>
 </li>
 </ol>
 <hr>
@@ -7889,13 +7889,13 @@ gdb -v
 <h4 id="Main-components"><a href="#Main-components" class="headerlink" title="Main components"></a>Main components</h4><ol>
 <li><p>官方一句話帶出所有重點：「Linux Mint 22 features a Linux kernel 6.8 and an Ubuntu 24.04 package base.」</p>
 </li>
-<li><p>由於我自己很喜歡 ubuntu 24.04 LTS，Linux Mint 22 是立基在這個版本上的衍生發行版，加上 Linux Mint 在桌面使用與設計上的用心，我相信會往更好的方向發展。</p>
+<li><p>由於我自己很喜歡 Ubuntu 24.04 LTS，Linux Mint 22 是立基在這個版本上的衍生發行版，加上 Linux Mint 在桌面使用與設計上的用心，我相信會往更好的方向發展。</p>
 </li>
 </ol>
 <h4 id="LTS-strategy"><a href="#LTS-strategy" class="headerlink" title="LTS strategy"></a>LTS strategy</h4><ol>
 <li><p>官方說明的意思，應該是直到 2026 年，應該都可以妥妥地使用 Linux Mint 22，而且 Linux Mint 22 將會持續安全性更新至 2029 年。</p>
 </li>
-<li><p>能夠進行 LTS(Long Term Support) 策略的主要原因，應該是就是立基於 ubuntu 24.04 LTS 吧！？</p>
+<li><p>能夠進行 LTS(Long Term Support) 策略的主要原因，應該是就是立基於 Ubuntu 24.04 LTS 吧！？</p>
 </li>
 </ol>
 <h3 id="中文輸入法"><a href="#中文輸入法" class="headerlink" title="中文輸入法"></a>中文輸入法</h3><ol>
@@ -7912,7 +7912,7 @@ gdb -v
 <li>重新啟動系統之後，「新酷音」已經是預設的中文輸入法，再另外從圖形介面把與「嘸蝦米」加進來，就搞定。</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>DistroWatch.com 上，「網頁參觀排名」前 10 名裡，有 6 名都被 Debian 或 ubuntu 及其衍生發行版給佔據，Arch Linux 的衍生發行版佔了 2 名，Fedora 與 openSUSE 各佔 1 名。</p>
+<li><p>DistroWatch.com 上，「網頁參觀排名」前 10 名裡，有 6 名都被 Debian 或 Ubuntu 及其衍生發行版給佔據，Arch Linux 的衍生發行版佔了 2 名，Fedora 與 openSUSE 各佔 1 名。</p>
 </li>
 <li><p>本次安裝使用的 ISO 檔是 linuxmint-22-cinnamon-64bit-beta.iso。</p>
 </li>
@@ -7941,7 +7941,7 @@ gdb -v
     <url>/linux/linux-mint-on-parallels-desktop-15/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>macOS 又重新回到只支援自家處理器的路，無法使用 Bootcamp 的狀況下，我相信會有不少使用者會透過虛擬主機軟體去滿足自己使用上的需求，我使用的 <a href="https://www.parallels.com/">Parallels Desktop</a> 最後一個版本是第 15 版，但，我並沒有在上面安裝過 Linux。</p>
 <p>這幾天姑且一試，發現 <a href="https://www.parallels.com/">Parallels Desktop</a> 會挑 Distro，在 <a href="https://www.parallels.com/">Parallels Desktop</a> 介面上有列出來的，比較可以正常讀到 ISO 檔，之所以會說比較可以，原因是 Manjaro Linux 的 ISO 檔 (版本為 manjaro-xfce-21.1.5-211008-linux513.iso) 讀到一半就卡住，我試了 2 次後，就決定暫時先放著，如果要再試，我可能會用比較舊的版本。</p>
-<p>就網路上的分享，ubuntu 的契合度比較好，但，我今天想安裝有點一樣又有點不一樣的 ubuntu 衍生版本：<a href="https://linuxmint.com/">Linux Mint</a>。 <a href="https://www.flickr.com/photos/jutedev/51646143712/in/album-72157720095337804/" title="linuxMintonParallelsDesktop15Ep5"><img src="https://live.staticflickr.com/65535/51646143712_8920d641fd_b.jpg" alt="linuxMintonParallelsDesktop15Ep5"></a></p>
+<p>就網路上的分享，Ubuntu 的契合度比較好，但，我今天想安裝有點一樣又有點不一樣的 Ubuntu 衍生版本：<a href="https://linuxmint.com/">Linux Mint</a>。 <a href="https://www.flickr.com/photos/jutedev/51646143712/in/album-72157720095337804/" title="linuxMintonParallelsDesktop15Ep5"><img src="https://live.staticflickr.com/65535/51646143712_8920d641fd_b.jpg" alt="linuxMintonParallelsDesktop15Ep5"></a></p>
 <script async charset="utf-8" src="//embedr.flickr.com/assets/client-code.js"></script>
 
 <h3 id="快速回顧"><a href="#快速回顧" class="headerlink" title="快速回顧"></a>快速回顧</h3><ol>
@@ -7955,7 +7955,7 @@ gdb -v
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx-table-boshiamy</span><br></pre></td></tr></table></figure>
 
 <ol start="4">
-<li>預設的輸入介面名為 ubuntu，我個人認為，有點花俏。<br><img src="https://live.staticflickr.com/65535/51647827165_fd40c130c0_b.jpg"></li>
+<li>預設的輸入介面名為 Ubuntu，我個人認為，有點花俏。<br><img src="https://live.staticflickr.com/65535/51647827165_fd40c130c0_b.jpg"></li>
 </ol>
 <h3 id="10-分鐘使用心得"><a href="#10-分鐘使用心得" class="headerlink" title="10 分鐘使用心得"></a>10 分鐘使用心得</h3><ol>
 <li>順：我是在 Mac mini(2014 年末版) 安裝，只有 8G 的記憶體，這樣的硬體，用 <a href="https://www.parallels.com/">Parallels Desktop</a> 扛 Windows 10 有點吃力，但是跑 Linux Mint 卻遊刃有餘。</li>
@@ -7974,8 +7974,8 @@ gdb -v
         <tag>windows</tag>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
         <tag>linuxmint</tag>
       </tags>
   </entry>
@@ -13216,10 +13216,10 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
   <entry>
     <title>Zorin OS 16.3 Core 與嘸蝦米</title>
     <url>/boshiamy/zorin-os-16-3-core-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 也是一支以 ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/53172742516_d8c4eb312d_c.jpg" alt="zorinOS16.3andBoshiamyEp (12)"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 也是一支以 Ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/53172742516_d8c4eb312d_c.jpg" alt="zorinOS16.3andBoshiamyEp (12)"/></p>
 <hr>
 <h3 id="安裝-Zorin-OS"><a href="#安裝-Zorin-OS" class="headerlink" title="安裝 Zorin OS"></a>安裝 Zorin OS</h3><ol>
-<li>安裝的過程，就像是 ubuntu 23.04 版本之前的安裝程式，換上另外一張皮，初次進入系統，可以跟著指示走，基本而言，並沒有什麼難度。</li>
+<li>安裝的過程，就像是 Ubuntu 23.04 版本之前的安裝程式，換上另外一張皮，初次進入系統，可以跟著指示走，基本而言，並沒有什麼難度。</li>
 <li>在 Zorin OS 16.3 我注意到一件事，在安裝過程，安裝程式把「參加人口普查」的前面再加個「不要」二個字，以現在的使用介面引導話語而言，使用者可能會很容易地就參加人口普查。<img src="https://live.staticflickr.com/65535/53173248363_4fa338cf23_c.jpg" alt="zorinOS16.3andBoshiamyEp (14)"/></li>
 </ol>
 <h3 id="在-Zorin-OS-16-3-上安裝及使用嘸蝦米"><a href="#在-Zorin-OS-16-3-上安裝及使用嘸蝦米" class="headerlink" title="在 Zorin OS 16.3 上安裝及使用嘸蝦米"></a>在 Zorin OS 16.3 上安裝及使用嘸蝦米</h3><p>推薦順序上，就跟 Zorin OS 16 一樣：iBus → fcitx(4) → Fcitx5。 <img src="https://live.staticflickr.com/65535/53172151442_fba6a15823_c.jpg" alt="zorinOS16.3andBoshiamyEp (1)"/> <img src="https://live.staticflickr.com/65535/53173176775_6a5338cd43_c.jpg" alt="zorinOS16.3andBoshiamyEp (2)"/></p>
@@ -13227,7 +13227,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <li>Zorin OS 16.3 預設的輸入法是 iBus，ibus-table 這支套件一開始就已經安裝好，我個人滿推薦直接服用官網的表格檔。</li>
 </ul>
 <h4 id="fcitx-4"><a href="#fcitx-4" class="headerlink" title="fcitx(4)"></a>fcitx(4)</h4><ol>
-<li><p>相較於我在 Zorin OS 16 時所下的指令(<code>sudo apt-get install fcitx fcitx-m17n fcitx-table-boshiamy</code>)，Zorin OS 16.3 變得簡單很多，而且與多數的 ubuntu 及其衍生發行版一樣，指令如下。</p>
+<li><p>相較於我在 Zorin OS 16 時所下的指令(<code>sudo apt-get install fcitx fcitx-m17n fcitx-table-boshiamy</code>)，Zorin OS 16.3 變得簡單很多，而且與多數的 Ubuntu 及其衍生發行版一樣，指令如下。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx-table-boshiamy</span><br></pre></td></tr></table></figure>
 <p><img src="https://live.staticflickr.com/65535/53172943389_93e1d2229c_c.jpg" alt="zorinOS16.3andBoshiamyEp (3)"/> <img src="https://live.staticflickr.com/65535/53173226718_f436a857d6_c.jpg" alt="zorinOS16.3andBoshiamyEp (4)"/></p>
 </li>
@@ -13245,11 +13245,11 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次安裝使用的 ISO 檔版本是 Zorin-OS-16.3-Core-64-bit.iso。</p>
 </li>
-<li><p>Zorin OS 16.3 分為 3 個版本，分別是需要付費的 Pro 版(美金 40.5 元)、Core 版與 Lite 版，3 個版本都有 Zorin 外觀(皮)，要簡單地說出不同的部分，應該是就是付費的 Pro 版包含了 Core 與 Lite 版的功能外，還有類 macOS、 Windows 11 &amp; Classic 與 ubuntu 等幾個桌面環境、內建專業層級的 App 套件包與進階的生產力軟體等等。</p>
+<li><p>Zorin OS 16.3 分為 3 個版本，分別是需要付費的 Pro 版(美金 40.5 元)、Core 版與 Lite 版，3 個版本都有 Zorin 外觀(皮)，要簡單地說出不同的部分，應該是就是付費的 Pro 版包含了 Core 與 Lite 版的功能外，還有類 macOS、 Windows 11 &amp; Classic 與 Ubuntu 等幾個桌面環境、內建專業層級的 App 套件包與進階的生產力軟體等等。</p>
 </li>
-<li><p>我是在 Zorin OS 16.3 這一版(立基於 ubuntu 20.04.3 LTS) 開始與 Zorin OS 的。使用後不久，我就滿喜歡這一支 Distro 的，也曾經一度讓 Zorin OS 以雙系統的方式，在筆電上生活好長一段時間。今天再跑一趟，把玩一下 Zorin OS，一方面，想看看有沒有 Back to School 的優惠；另一方面，則是想要看看安裝嘸蝦米的部分，是不是更輕鬆簡單一點(按常理而言，這個想法應該是「肯定」的)。</p>
+<li><p>我是在 Zorin OS 16.3 這一版(立基於 Ubuntu 20.04.3 LTS) 開始與 Zorin OS 的。使用後不久，我就滿喜歡這一支 Distro 的，也曾經一度讓 Zorin OS 以雙系統的方式，在筆電上生活好長一段時間。今天再跑一趟，把玩一下 Zorin OS，一方面，想看看有沒有 Back to School 的優惠；另一方面，則是想要看看安裝嘸蝦米的部分，是不是更輕鬆簡單一點(按常理而言，這個想法應該是「肯定」的)。</p>
 </li>
-<li><p>立基在 ubuntu 架構與特性上的 Distro，我目前知道有 Linux Mint、elementary OS 與這次紀錄的 Zorin OS，有一種開枝散葉的感覺。<br>(1)Linux Mint：From freedom came elegance.<br>(2)elementary OS：The thoughtful, capable, and ethical replacement for Windows and macOS.<br>(3)Zorin OS：Make your computer better, faster, easier, more powerful, secure, and reliable.</p>
+<li><p>立基在 Ubuntu 架構與特性上的 Distro，我目前知道有 Linux Mint、elementary OS 與這次紀錄的 Zorin OS，有一種開枝散葉的感覺。<br>(1)Linux Mint：From freedom came elegance.<br>(2)elementary OS：The thoughtful, capable, and ethical replacement for Windows and macOS.<br>(3)Zorin OS：Make your computer better, faster, easier, more powerful, secure, and reliable.</p>
 </li>
 </ol>
 ]]></content>
@@ -13269,7 +13269,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
   <entry>
     <title>Zorin OS 17.3 Core 與嘸蝦米</title>
     <url>/boshiamy/zorin-os-17-3-core-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 是一支以 ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/54460133743_9f50d57b39_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (1)"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 是一支以 Ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/54460133743_9f50d57b39_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (1)"/></p>
 <h3 id="安裝及使用嘸蝦米"><a href="#安裝及使用嘸蝦米" class="headerlink" title="安裝及使用嘸蝦米"></a>安裝及使用嘸蝦米</h3><ol>
 <li>在終端機(Terminal)下一道指令：<code>sudo apt install fcitx-table-boshiamy</code>，安裝輸入法框架 fcitx(4) 與嘸蝦米表格(<code>fcitx-table-boshiamy</code>)。 <img src="https://live.staticflickr.com/65535/54460231300_b15a305340_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (2)"/></li>
 </ol>
@@ -13310,7 +13310,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>本次安裝使用的 ISO 檔版本是 Zorin-OS-17.3-Core-64-bit.iso。</p>
 </li>
-<li><p>Zorin OS 17.3 這一版，立基於 ubuntu 22.04 LTS，所以，還沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。 <img src="https://live.staticflickr.com/65535/54459027997_88d92d581b_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (18)"/></p>
+<li><p>Zorin OS 17.3 這一版，立基於 Ubuntu 22.04 LTS，所以，還沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。 <img src="https://live.staticflickr.com/65535/54459027997_88d92d581b_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (18)"/></p>
 </li>
 </ol>
 <img src="https://live.staticflickr.com/65535/54459871741_84ddc47bb4_b.jpg" alt="zorinOS17.3Core64bitOnVirtualBoxEp (19)"/>
@@ -13331,7 +13331,7 @@ Video on [最狂輔助職業【話術士】世界最強戰團聽我號令｜Muse
   <entry>
     <title>Zorin OS 18 與嘸蝦米</title>
     <url>/boshiamy/zorin-os-18-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 是一支以 ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/54996718961_d354194937_b.jpg" alt="ZorinOS18onVirtualBoxEp (1)"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Zorin OS 是一支以 Ubuntu 為基礎的 Linux Distro。 <img src="https://live.staticflickr.com/65535/54996718961_d354194937_b.jpg" alt="ZorinOS18onVirtualBoxEp (1)"/></p>
 <h3 id="安裝及使用嘸蝦米"><a href="#安裝及使用嘸蝦米" class="headerlink" title="安裝及使用嘸蝦米"></a>安裝及使用嘸蝦米</h3><ol>
 <li><p>我想要確認 <code>fcitx5-table-boshiamy</code> 是否已被收錄到軟體庫，所以分別下了幾道指令。<img src="https://live.staticflickr.com/65535/54997018490_5ab54a2a5b_b.jpg" alt="ZorinOS18onVirtualBoxEp (6)"/> <img src="https://live.staticflickr.com/65535/54997018500_c07ecc10d8_b.jpg" alt="ZorinOS18onVirtualBoxEp (7)"/></p>
 </li>

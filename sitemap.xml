@@ -2,6 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/linux-mint-on-parallels-desktop-15/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-linux-mint-20-3-cinnamon-and-boshiamy-feat-fcitx/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-linux-mint-20-2/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/linux-mint-22-beta/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/linux-mint-21-2/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/zorin-os-17-3-core-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-zorin-os-16-core-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/zorin-os-16-3-core-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/zorin-os-18-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/ios-and-boshiamy/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -389,15 +488,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/linux-mint-21-2/</loc>
-    
-    <lastmod>2026-10-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/lmde-6/</loc>
     
     <lastmod>2026-10-01</lastmod>
@@ -590,33 +680,6 @@
     <loc>https://jute.im/apple/backup-itunes-store-purchases-with-itunes-feat-windows-11/</loc>
     
     <lastmod>2026-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/zorin-os-18-and-boshiamy/</loc>
-    
-    <lastmod>2026-01-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/zorin-os-16-3-core-and-boshiamy/</loc>
-    
-    <lastmod>2026-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-zorin-os-16-core-and-boshiamy/</loc>
-    
-    <lastmod>2026-01-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -848,15 +911,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/linux-mint-22-beta/</loc>
-    
-    <lastmod>2025-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/20-days-after-shifting-to-garuda-linux/</loc>
     
     <lastmod>2025-05-16</lastmod>
@@ -869,15 +923,6 @@
     <loc>https://jute.im/404.html</loc>
     
     <lastmod>2025-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/zorin-os-17-3-core-and-boshiamy/</loc>
-    
-    <lastmod>2025-04-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1298,15 +1343,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-linux-mint-20-2/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/installing-elementary-os-6-0-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1334,15 +1370,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/installing-linux-mint-20-3-cinnamon-and-boshiamy-feat-fcitx/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/installing-lubuntu-21-10-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1362,15 +1389,6 @@
   
   <url>
     <loc>https://jute.im/linux/installing-visual-studio-code-on-lubuntu-18-04-lts/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/linux-mint-on-parallels-desktop-15/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
@@ -1713,15 +1731,6 @@
   
   <url>
     <loc>https://jute.im/apple/my-review-of-using-apple-watch-series-10-jet-black-about-four-months/</loc>
-    
-    <lastmod>2025-01-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/</loc>
     
     <lastmod>2025-01-31</lastmod>
     
@@ -2226,15 +2235,6 @@
   
   <url>
     <loc>https://jute.im/linux/gufw-firewall-feat-manjaro/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
