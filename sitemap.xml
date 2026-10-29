@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/remove-grub-by-clearlinux-live-usb/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/apple/installing-clear-linux-on-usb-hdd-with-my-imac-retina-4k-2017/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/apple/installing-clear-linux-into-my-mac-mini-late-2014/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/using-boshiamy-with-gcin-on-linux/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/installing-codeblocks-ide-17-12-on-lubuntu-18-04/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -1460,15 +1496,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/remove-grub-by-clearlinux-live-usb/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/apple/upgrade-to-macos-monterey-on-my-mac-mini-late-2014/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -2513,25 +2540,7 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/using-boshiamy-with-gcin-on-linux/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/using-gcin-with-boshiamy-on-fedora-core-4/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/apple/installing-clear-linux-into-my-mac-mini-late-2014/</loc>
     
     <lastmod>2024-03-17</lastmod>
     
@@ -2658,15 +2667,6 @@
   
   <url>
     <loc>https://jute.im/windows/kb5018418-windows-11-os-build-22000-1098/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/apple/installing-clear-linux-on-usb-hdd-with-my-imac-retina-4k-2017/</loc>
     
     <lastmod>2023-08-03</lastmod>
     

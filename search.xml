@@ -4581,12 +4581,12 @@
 <li>把系統上的 iCloud 先登出。 <img src="https://live.staticflickr.com/65535/51328883230_481d7ae03c_o.png"></li>
 <li>把硬碟裡面的資料全備出來，同時看一下硬碟空間概況，因為…，我其實有點想要安裝成雙系統，後來覺得切來切去也不方便，也就做罷。 <img src="https://live.staticflickr.com/65535/51328883200_e3cefd9467_o.png"></li>
 </ol>
-<p>至於選用 Linux Distro 的部分，我想在 Clear Linux 與 ubuntu 20.04 兩者之間，實際在 Mac mini 上面安裝測試過後，才做出決定，我比較的點分別如下：</p>
+<p>至於選用 Linux Distro 的部分，我想在 Clear Linux 與 Ubuntu 20.04 兩者之間，實際在 Mac mini 上面安裝測試過後，才做出決定，我比較的點分別如下：</p>
 <ol>
 <li>效能：第一印象是用我的感覺來評分，Clear Linux 跑起來的感覺有比較順，我再打開「系統監控」，Clear Linux 在記憶體的使用上，含蓄不少，而且桌面動畫也是 Clear Linux 比較沒有卡頓的情形。</li>
-<li>使用者介面：ubuntu 的介面用起來比較順手，不過，我就是想讓自己知道正在使用一個不一樣的系統，算是我的小癖好。</li>
-<li>藍牙連線：本來像我上面說的，對驅動程式並沒有什麼期待，剛安裝好的 Clear Linux，藍牙是沒有反應的，系統甚至顯示成飛航模式，我安裝 hardware-wifi 後，WiFi 沒有順利搞定，倒是藍牙自動啟用，啟用後的藍牙連線表現比 ubuntu 穩定，ubuntu 常常會跟我目前的滑鼠斷訊，Clear Linux 非但不會，還可以在系統睡眠時喚醒(但，我還是把無線裝著，反正，這一台應該其他的 USB 頂多就是再插個隨身碟與隨身硬碟，插槽肯定夠用)。</li>
-<li>無線上網：另外一個要說明的是 ubuntu 可以透過圖形介面程式，把 WiFi 的驅動裝進系統，相較之下是方便很多，只可惜，我一開始就決定有線方式連網，對 WiFi 沒有特別期待。</li>
+<li>使用者介面：Ubuntu 的介面用起來比較順手，不過，我就是想讓自己知道正在使用一個不一樣的系統，算是我的小癖好。</li>
+<li>藍牙連線：本來像我上面說的，對驅動程式並沒有什麼期待，剛安裝好的 Clear Linux，藍牙是沒有反應的，系統甚至顯示成飛航模式，我安裝 hardware-wifi 後，WiFi 沒有順利搞定，倒是藍牙自動啟用，啟用後的藍牙連線表現比 Ubuntu 穩定，Ubuntu 常常會跟我目前的滑鼠斷訊，Clear Linux 非但不會，還可以在系統睡眠時喚醒(但，我還是把無線裝著，反正，這一台應該其他的 USB 頂多就是再插個隨身碟與隨身硬碟，插槽肯定夠用)。</li>
+<li>無線上網：另外一個要說明的是 Ubuntu 可以透過圖形介面程式，把 WiFi 的驅動裝進系統，相較之下是方便很多，只可惜，我一開始就決定有線方式連網，對 WiFi 沒有特別期待。</li>
 </ol>
 <p>綜合以上，我就選用 Clear Linux。</p>
 <p><img src="https://live.staticflickr.com/65535/51328612189_b8b269bff2_o.png"> <img src="https://live.staticflickr.com/65535/51329900794_5b86685925_o.png"></p>
@@ -4609,7 +4609,7 @@
       <tags>
         <tag>boshiamy</tag>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
         <tag>mojave</tag>
         <tag>macmini</tag>
         <tag>appleComputer</tag>
@@ -4635,7 +4635,7 @@
 <p><img src="https://live.staticflickr.com/65535/51333450237_4c3ece7b73_o.png"></p>
 <p>實際上是能夠運作的，只是無線網卡的驅動程式，仍然沒有 On 起來，需要另外處理。</p>
 <p>以上，零零總總的紀錄，對於想要嘗試 Linux，卻又擔心無法習慣 Linux 後，不容易回到 macOS 的人，希望這一篇能夠做為一個小小的參考。</p>
-<p>後記：iMac 上面的 ubuntu 20.04 跟 Windows 10 都被我處理掉，才會有這一篇。</p>
+<p>後記：iMac 上面的 Ubuntu 20.04 跟 Windows 10 都被我處理掉，才會有這一篇。</p>
 ]]></content>
       <categories>
         <category>apple</category>
@@ -4644,8 +4644,8 @@
         <tag>apple</tag>
         <tag>windows10</tag>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
         <tag>ibus</tag>
+        <tag>Ubuntu</tag>
         <tag>highsierra</tag>
         <tag>imac</tag>
         <tag>clearlinux</tag>
@@ -10783,7 +10783,7 @@ gdb -v
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo mount /dev/nvme0n1p1 /mnt</span><br></pre></td></tr></table></figure>
 <p> (3)確認一下分割區裡的內容。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ls /mnt</span><br><span class="line">ls /mnt/EFI</span><br></pre></td></tr></table></figure>
-<p> (4)這部電腦上安裝的是 ZorinOS，也順利地看到 ubuntu 這個資料夾，並砍掉它：<code>sudo rm -rf ubuntu</code> (圖片裡面少了 sudo，這個不能少，沒有 Super User 權限是無法執行完這道指令的)。關於這裡，每個系統不太一樣，如果不是很確定，請再進該資料夾仔細確認。 <a href="https://live.staticflickr.com/65535/51621414069_370405e045_o.png"><img src="https://live.staticflickr.com/65535/51621414069_370405e045_o.png"></a></p>
+<p> (4)這部電腦上安裝的是 ZorinOS，也順利地看到 Ubuntu 這個資料夾，並砍掉它：<code>sudo rm -rf ubuntu</code> (圖片裡面少了 sudo，這個不能少，沒有 Super User 權限是無法執行完這道指令的)。關於這裡，每個系統不太一樣，如果不是很確定，請再進該資料夾仔細確認。 <a href="https://live.staticflickr.com/65535/51621414069_370405e045_o.png"><img src="https://live.staticflickr.com/65535/51621414069_370405e045_o.png"></a></p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -10798,7 +10798,7 @@ gdb -v
       <tags>
         <tag>windows</tag>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -12634,14 +12634,14 @@ gdb -v
     <title>在 Linux 上使用 gcin 與嘸蝦米</title>
     <url>/boshiamy/using-boshiamy-with-gcin-on-linux/</url>
     <content><![CDATA[<p>先請教一個小小的問題：「各位成功將轉換嘸蝦米表格給 SCIM 之後，在輸入時有沒有任何問題？」相信是有的。  </p>
-<p>在 ubuntu 7.10 輸入所遭遇的問題，而且 Fedora 8 也有同樣的狀況。在 Fedora Core 6 使用同樣的 Table 輸入，並沒有 ubuntu 7.10 與 Fedora 8 所呈現的問題。  </p>
-<p>以我而言，在 ubuntu 7.10 與 Fedora 8 上面的 SCIM 輸入都有狀況，我還沒有去仔細探究，但是有試著在 Fedora Core 6 將表格掛上，輸入時都沒有任何問題。所謂的問題，簡言之，單碼輸入的字都會將該輸入碼轉成大寫，而不是正確地將字碼轉換成中文字，比方說我想鍵入「的」這個字而輸入字碼 “ d “ ，呈現的結果就是輸入 “ D “ 大寫字母，暫時的解決方法是用選字代替空白鍵，說真的要我這麼做實在很不習慣，因此在細究解決之道前，我的替代性方案馬上端出來，是的，所謂的替代性方案很簡單，就是安裝 gcin 。  </p>
-<p>目前，我所使用的 Distribution 主要是 ubuntu 7.10 與 Fedora 8 ，以下分二套紀錄安裝過程：  </p>
+<p>在 Ubuntu 7.10 輸入所遭遇的問題，而且 Fedora 8 也有同樣的狀況。在 Fedora Core 6 使用同樣的 Table 輸入，並沒有 Ubuntu 7.10 與 Fedora 8 所呈現的問題。  </p>
+<p>以我而言，在 Ubuntu 7.10 與 Fedora 8 上面的 SCIM 輸入都有狀況，我還沒有去仔細探究，但是有試著在 Fedora Core 6 將表格掛上，輸入時都沒有任何問題。所謂的問題，簡言之，單碼輸入的字都會將該輸入碼轉成大寫，而不是正確地將字碼轉換成中文字，比方說我想鍵入「的」這個字而輸入字碼 “ d “ ，呈現的結果就是輸入 “ D “ 大寫字母，暫時的解決方法是用選字代替空白鍵，說真的要我這麼做實在很不習慣，因此在細究解決之道前，我的替代性方案馬上端出來，是的，所謂的替代性方案很簡單，就是安裝 gcin 。  </p>
+<p>目前，我所使用的 Distribution 主要是 Ubuntu 7.10 與 Fedora 8 ，以下分二套紀錄安裝過程：  </p>
 <ul>
 <li><p>Fedora 8</p>
   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">su -l</span><br><span class="line">yum -y install gcin</span><br><span class="line">/usr/share/gcin/script/noseeing-inst</span><br><span class="line">IM Chooser (GUI) → \[ Use gcin \] → \[ Logout \] → \[ Login \]</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>ubuntu 7.10</p>
+<li><p>Ubuntu 7.10</p>
   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo -i</span><br><span class="line">vi /etc/apt/sources.list → /universe → take &quot; # &quot; off</span><br><span class="line">apt-get install gcin</span><br><span class="line">/usr/share/gcin/script/noseeing-inst</span><br><span class="line">imswitch -s gcin</span><br></pre></td></tr></table></figure></li>
 </ul>
 <p>以上紀錄。</p>
