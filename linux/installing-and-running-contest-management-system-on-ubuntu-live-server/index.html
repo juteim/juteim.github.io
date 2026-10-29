@@ -22,7 +22,7 @@
 
     <meta name="description" content="前言">
 <meta property="og:type" content="article">
-<meta property="og:title" content="安裝與運作 Contest Management System (ubuntu Server 版)">
+<meta property="og:title" content="安裝與運作 Contest Management System (Ubuntu Server 版)">
 <meta property="og:url" content="https://jute.im/linux/installing-and-running-contest-management-system-on-ubuntu-live-server/index.html">
 <meta property="og:site_name" content="jute.im">
 <meta property="og:description" content="前言">
@@ -33,11 +33,11 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51854418307_ee58ed9942_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51855378741_41171036b5_o.png">
 <meta property="article:published_time" content="2022-01-31T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-28T06:49:14.000Z">
+<meta property="article:modified_time" content="2026-10-29T22:46:27.247Z">
 <meta property="article:author" content="jsio">
+<meta property="article:tag" content="Ubuntu">
 <meta property="article:tag" content="contest">
 <meta property="article:tag" content="linux">
-<meta property="article:tag" content="ubuntu">
 <meta property="article:tag" content="web">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://live.staticflickr.com/65535/51853106702_bc0836c4a1_b.jpg">
@@ -46,10 +46,10 @@
 <link rel="canonical" href="https://jute.im/linux/installing-and-running-contest-management-system-on-ubuntu-live-server/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/linux/installing-and-running-contest-management-system-on-ubuntu-live-server/","path":"linux/installing-and-running-contest-management-system-on-ubuntu-live-server/","title":"安裝與運作 Contest Management System (ubuntu Server 版)"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/linux/installing-and-running-contest-management-system-on-ubuntu-live-server/","path":"linux/installing-and-running-contest-management-system-on-ubuntu-live-server/","title":"安裝與運作 Contest Management System (Ubuntu Server 版)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>安裝與運作 Contest Management System (ubuntu Server 版) | jute.im</title>
+<title>安裝與運作 Contest Management System (Ubuntu Server 版) | jute.im</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-EFZSE1ET2D","only_pageview":false,"measure_protocol_api_secret":null}</script>
@@ -119,7 +119,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">185</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">298</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">186</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">298</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
         </a>
@@ -170,7 +170,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8-VirtualBox-%E4%B8%8A%E5%AE%89%E8%A3%9D-ubuntu-18-04-6-LTS-Live-Server"><span class="nav-number">2.</span> <span class="nav-text">在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8-ubuntu-18-04-6-LTS-Live-Server-%E4%B8%8A%E5%AE%89%E8%A3%9D-Contest-Management-System"><span class="nav-number">3.</span> <span class="nav-text">在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%87%E4%BB%A4%E5%A4%A7%E8%87%B4%E5%A6%82%E4%B8%8B"><span class="nav-number">3.1.</span> <span class="nav-text">指令大致如下</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%B7%E8%A1%8C%E4%B8%A6%E6%B8%AC%E8%A9%A6-Contest-Management-System"><span class="nav-number">4.</span> <span class="nav-text">執行並測試 Contest Management System</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">5.</span> <span class="nav-text">後記</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8-VirtualBox-%E4%B8%8A%E5%AE%89%E8%A3%9D-Ubuntu-18-04-6-LTS-Live-Server"><span class="nav-number">2.</span> <span class="nav-text">在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8-Ubuntu-18-04-6-LTS-Live-Server-%E4%B8%8A%E5%AE%89%E8%A3%9D-Contest-Management-System"><span class="nav-number">3.</span> <span class="nav-text">在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%87%E4%BB%A4%E5%A4%A7%E8%87%B4%E5%A6%82%E4%B8%8B"><span class="nav-number">3.1.</span> <span class="nav-text">指令大致如下</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%B7%E8%A1%8C%E4%B8%A6%E6%B8%AC%E8%A9%A6-Contest-Management-System"><span class="nav-number">4.</span> <span class="nav-text">執行並測試 Contest Management System</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">5.</span> <span class="nav-text">後記</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -194,7 +194,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">185</span>
+        <span class="site-state-item-count">186</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -242,12 +242,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="安裝與運作 Contest Management System (ubuntu Server 版) | jute.im">
+      <meta itemprop="name" content="安裝與運作 Contest Management System (Ubuntu Server 版) | jute.im">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          安裝與運作 Contest Management System (ubuntu Server 版)
+          安裝與運作 Contest Management System (Ubuntu Server 版)
         </h1>
 
         <div class="post-meta-container">
@@ -296,17 +296,17 @@
     
     <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51853106702_bc0836c4a1_b.jpg" alt="installingUbuntu18.04.6LiveServerinVirtualBoxEp20"/>
 
-<p>本次紀錄所使用的是在 VirtualBox 上安裝的 ubuntu 18.04.6 LTS Live Server，本篇紀錄大致分為 3 個部分。</p>
+<p>本次紀錄所使用的是在 VirtualBox 上安裝的 Ubuntu 18.04.6 LTS Live Server，本篇紀錄大致分為 3 個部分。</p>
 <ol>
-<li><p>在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server。</p>
+<li><p>在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server。</p>
 </li>
-<li><p>在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System。</p>
+<li><p>在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System。</p>
 </li>
 <li><p>執行並測試 Contest Management System。</p>
 </li>
 </ol>
-<h3 id="在-VirtualBox-上安裝-ubuntu-18-04-6-LTS-Live-Server"><a href="#在-VirtualBox-上安裝-ubuntu-18-04-6-LTS-Live-Server" class="headerlink" title="在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server"></a>在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server</h3><p>以下是在 VirtualBox 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/albums/72177720296347493" title="ubuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51853107057_374b3990e4_b.jpg" alt="ubuntu18.04.6LiveServer"></a></p>
-<h3 id="在-ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System"><a href="#在-ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System" class="headerlink" title="在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System"></a>在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</h3><p>以下是在 ubuntu 18.04.6 LTS Live Server 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/albums/72177720296347823" title="contestManagementSystemonUbuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51854395864_732003cb55_b.jpg" alt="contestManagementSystemonUbuntu18.04.6LiveServer"></a></p>
+<h3 id="在-VirtualBox-上安裝-Ubuntu-18-04-6-LTS-Live-Server"><a href="#在-VirtualBox-上安裝-Ubuntu-18-04-6-LTS-Live-Server" class="headerlink" title="在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server"></a>在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server</h3><p>以下是在 VirtualBox 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/albums/72177720296347493" title="Ubuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51853107057_374b3990e4_b.jpg" alt="Ubuntu18.04.6LiveServer"></a></p>
+<h3 id="在-Ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System"><a href="#在-Ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System" class="headerlink" title="在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System"></a>在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</h3><p>以下是在 Ubuntu 18.04.6 LTS Live Server 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/albums/72177720296347823" title="contestManagementSystemonUbuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51854395864_732003cb55_b.jpg" alt="contestManagementSystemonUbuntu18.04.6LiveServer"></a></p>
 <h4 id="指令大致如下"><a href="#指令大致如下" class="headerlink" title="指令大致如下"></a>指令大致如下</h4><p>sudo apt update</p>
 <p>sudo apt install build-essential openjdk-8-jdk-headless fp-compiler postgresql postgresql-client python3.6 cppreference-doc-en-html cgroup-lite libcap-dev zip python3.6-dev libpq-dev libcups2-dev libyaml-dev libffi-dev python3-pip python3-setuptools python3-tornado python3-psycopg2 python3-sqlalchemy python3-psutil python3-netifaces python3-crypto python3-six python3-bs4 python3-coverage python3-mock python3-requests python3-werkzeug python3-gevent python3-bcrypt python3-chardet patool python3-babel python3-xdg python3-future python3-jinja2 python3-yaml python3-sphinx python3-cups python3-pypdf2</p>
 <p>&#x2F;&#x2F;python3 的相關套件很多。<br>&#x2F;&#x2F;如果想要方便的話，比較建議可以用 Shell Script 的方式服用。</p>
@@ -329,7 +329,7 @@
 <p>cmsLogService</p>
 <p>cmsAdminWebServer</p>
 <h3 id="執行並測試-Contest-Management-System"><a href="#執行並測試-Contest-Management-System" class="headerlink" title="執行並測試 Contest Management System"></a>執行並測試 Contest Management System</h3><p>要從目前的主機，登入到 VirtualBox 上的 CMS Server 前，請確認一下網卡的設定。 第一步是先到 「Oracle VM VirtualBox 管理員」→「建立」一張新的網卡。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51854418307/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp19"><img src="https://live.staticflickr.com/65535/51854418307_ee58ed9942_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp19"></a></p>
-<p>再到 VirtualBox 上的 ubuntu 18.04.6 LTS Live Server 的「設定」→「網路」→「介面卡 1」，改成「僅限主機介面卡」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51855378741/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"><img src="https://live.staticflickr.com/65535/51855378741_41171036b5_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"></a></p>
+<p>再到 VirtualBox 上的 Ubuntu 18.04.6 LTS Live Server 的「設定」→「網路」→「介面卡 1」，改成「僅限主機介面卡」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51855378741/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"><img src="https://live.staticflickr.com/65535/51855378741_41171036b5_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"></a></p>
 <p>ifconfig -a &#x2F;&#x2F;看一下 [CMS Server 的 IP] 是什麼。</p>
 <p>從另外一部電腦，去 ping 一下 [CMS Server 的 IP] 看看。</p>
 <p>假設是 192.168.56.102，從另外一部電腦，用 Web Browser 登入設定好的 CMS Server 試試看，本例為 <a target="_blank" rel="noopener" href="http://192.168.56.102:8888/"></a><a target="_blank" rel="noopener" href="http://192.168.56.102:8888/">http://192.168.56.102:8888</a>。</p>
@@ -358,9 +358,9 @@
     <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/linux/" rel="tag"># linux</a>
-              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
               <a href="/tags/web/" rel="tag"># web</a>
               <a href="/tags/contest/" rel="tag"># contest</a>
+              <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
           </div>
 
         

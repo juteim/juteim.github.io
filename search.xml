@@ -2186,17 +2186,17 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音</title>
+    <title>在 Ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音</title>
     <url>/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/52157343351_2c30ef5ffc_b.jpg" alt="fcitx5-chewingEp7"/>
 
-<p>本次紀錄的是在 ubuntu 22.04 LTS 上的安裝 Fcitx5 搭配「新酷音輸入法」的過程，Arch Linux 及其衍生發行版的安裝方式，可以參考另外一篇貼文：<a href="/linux/fcitx5-with-chewing-on-arch-linux/">在 Arch Linux 衍生發行版上用 Fcitx5 搭配新酷音</a>。</p>
+<p>本次紀錄的是在 Ubuntu 22.04 LTS 上的安裝 Fcitx5 搭配「新酷音輸入法」的過程，Arch Linux 及其衍生發行版的安裝方式，可以參考另外一篇貼文：<a href="/linux/fcitx5-with-chewing-on-arch-linux/">在 Arch Linux 衍生發行版上用 Fcitx5 搭配新酷音</a>。</p>
 <h3 id="安裝-Fcitx5-搭配「新酷音輸入法」"><a href="#安裝-Fcitx5-搭配「新酷音輸入法」" class="headerlink" title="安裝 Fcitx5 搭配「新酷音輸入法」"></a>安裝 Fcitx5 搭配「新酷音輸入法」</h3><ol>
 <li><p>我先下一道指令(如下)，確認 fcitx5-chewing 已經在軟體資源庫 (Software Repositories) 裡。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt search fcitx5-chewing</span><br></pre></td></tr></table></figure>
 <p> <a href="https://www.flickr.com/photos/194265827@N08/52157515124/in/dateposted-public/" title="fcitx5-chewingEp1"><img src="https://live.staticflickr.com/65535/52157515124_eeb839a7d9_b.jpg" alt="fcitx5-chewingEp1"></a></p>
 </li>
-<li><p>想到在 ubuntu 上，以一道指令就可以搞定 fcitx(4) 與嘸蝦米輸入法，我也依樣畫葫蘆下一道指令(如下)，並且觀察 APT 抓到的相依套件後，發現同樣的方法用在 Fcitx5 是行不通的。</p>
+<li><p>想到在 Ubuntu 上，以一道指令就可以搞定 fcitx(4) 與嘸蝦米輸入法，我也依樣畫葫蘆下一道指令(如下)，並且觀察 APT 抓到的相依套件後，發現同樣的方法用在 Fcitx5 是行不通的。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx5-chewing</span><br></pre></td></tr></table></figure>
 <p> <a href="https://www.flickr.com/photos/194265827@N08/52157285458/in/dateposted-public/" title="fcitx5-chewingEp2"><img src="https://live.staticflickr.com/65535/52157285458_21e7cb314e_b.jpg" alt="fcitx5-chewingEp2"></a></p>
 </li>
@@ -2226,15 +2226,15 @@
       <tags>
         <tag>linux</tag>
         <tag>fcitx5</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
         <tag>fcitx5-chewing</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</title>
+    <title>在 Ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</title>
     <url>/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本次紀錄的是在 ubuntu 22.04.1 LTS 上，安裝 Fcitx5 搭配 fcitx5-table-extra 來服用「嘸蝦米輸入法」的過程。 <img src="https://live.staticflickr.com/65535/52696276278_7bb670f2db_o.png" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp12"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本次紀錄的是在 Ubuntu 22.04.1 LTS 上，安裝 Fcitx5 搭配 fcitx5-table-extra 來服用「嘸蝦米輸入法」的過程。 <img src="https://live.staticflickr.com/65535/52696276278_7bb670f2db_o.png" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp12"/></p>
 <h3 id="安裝-Fcitx5"><a href="#安裝-Fcitx5" class="headerlink" title="安裝 Fcitx5"></a>安裝 Fcitx5</h3><ol>
 <li><p>我先下一道指令(如下)。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
@@ -2248,7 +2248,7 @@
 </li>
 </ol>
 <h3 id="下載並將-fcitx5-table-extra-放到正確的路徑裡"><a href="#下載並將-fcitx5-table-extra-放到正確的路徑裡" class="headerlink" title="下載並將 fcitx5-table-extra 放到正確的路徑裡"></a>下載並將 fcitx5-table-extra 放到正確的路徑裡</h3><ol>
-<li><p>跟 Fedora、Arch Linux 不太一樣，Debian 與 ubuntu 都沒有將 fcitx5-table-extra 納入軟體庫，所以，我們得跑一趟取經之路(傳送門)：<a href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>。 <a href="https://www.flickr.com/photos/194265827@N08/52696200375/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"><img src="https://live.staticflickr.com/65535/52696200375_4f6912e930_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"></a></p>
+<li><p>跟 Fedora、Arch Linux 不太一樣，Debian 與 Ubuntu 都沒有將 fcitx5-table-extra 納入軟體庫，所以，我們得跑一趟取經之路(傳送門)：<a href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>。 <a href="https://www.flickr.com/photos/194265827@N08/52696200375/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"><img src="https://live.staticflickr.com/65535/52696200375_4f6912e930_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"></a></p>
 </li>
 <li><p>有好幾個版本，我下載的是 Arch Linux 的壓縮檔：<a href="https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz">https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz</a>，連結與版本號都可能會有變動，建議自己跑一趟 <a href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a> 會比較好。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz</span><br></pre></td></tr></table></figure>
@@ -2299,8 +2299,8 @@
         <tag>boshiamy</tag>
         <tag>fcitx5-table-extra</tag>
         <tag>fcitx5</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx5-chewing</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -2918,13 +2918,13 @@
       </tags>
   </entry>
   <entry>
-    <title>修正 ubuntu 20.04 LTS 與 Windows 10 雙系統的時間錯誤</title>
+    <title>修正 Ubuntu 20.04 LTS 與 Windows 10 雙系統的時間錯誤</title>
     <url>/linux/fixing-time-differences-in-ubuntu-20-04-lts-and-windows-10-dual-boot/</url>
     <content><![CDATA[<p>是的，我目前有一部機器，上面跑雙系統，有件事，我有想到，也有注意到，更有被困擾到，就是切換系統時，我總得要重新更新一下系統上面的時間。</p>
 <p>系統時間不對，若有不慎，有時會造成一些困擾的，因此，我有兩個選擇，一個就是砍掉其中一個系統，讓機器的運轉單純一點，只是這樣反而會造成其他的麻煩。</p>
 <p>另外一個做法，其實就是讓 2 個系統在系統時間上不打架(…這個好像才是比較正常的做法吧！)。</p>
-<p>為什麼雙系統會產生這樣的亂象，下面有幾篇文章可以參考：<br>1.<a href="https://www.mdeditor.tw/pl/p5VT/zh-tw">Windows 10 改為使用 UTC 時間_chipo - MdEditor</a><br>2.<a href="https://ubuntuhandbook.org/index.php/2016/05/time-differences-ubuntu-1604-windows-10/">How to Fix Time Differences in Ubuntu 16.04 &amp; Windows 10 Dual Boot | UbuntuHandbook</a><br>3.<a href="https://tdlin00009.pixnet.net/blog/post/310933040-%E5%90%8C%E6%AD%A5-%E9%9B%99%E7%B3%BB%E7%B5%B1-ubuntu-%E8%88%87-windows%E6%99%82%E9%96%93">[雙系統]同步 Ubuntu 與 Windows時間 @ 蟲匯聚之所 :: 痞客邦 ::</a></p>
-<p>最後，我選擇從 ubuntu 這邊下手，使用以下指令解決：  </p>
+<p>為什麼雙系統會產生這樣的亂象，下面有幾篇文章可以參考：<br>1.<a href="https://www.mdeditor.tw/pl/p5VT/zh-tw">Windows 10 改為使用 UTC 時間_chipo - MdEditor</a><br>2.<a href="https://ubuntuhandbook.org/index.php/2016/05/time-differences-Ubuntu-1604-windows-10/">How to Fix Time Differences in Ubuntu 16.04 &amp; Windows 10 Dual Boot | UbuntuHandbook</a><br>3.<a href="https://tdlin00009.pixnet.net/blog/post/310933040-%E5%90%8C%E6%AD%A5-%E9%9B%99%E7%B3%BB%E7%B5%B1-Ubuntu-%E8%88%87-windows%E6%99%82%E9%96%93">[雙系統]同步 Ubuntu 與 Windows時間 @ 蟲匯聚之所 :: 痞客邦 ::</a></p>
+<p>最後，我選擇從 Ubuntu 這邊下手，使用以下指令解決：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ntpdate</span><br><span class="line">sudo ntpdate time.windows.com</span><br><span class="line">sudo hwclock --localtime --systohc</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
@@ -2932,7 +2932,7 @@
       </categories>
       <tags>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4011,10 +4011,10 @@
       </tags>
   </entry>
   <entry>
-    <title>將 Google Chrome 安裝到 ubuntu 24.04 LTS</title>
+    <title>將 Google Chrome 安裝到 Ubuntu 24.04 LTS</title>
     <url>/linux/install-chrome-to-ubuntu-24-04-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>紀錄一下，將 Google Chrome 安裝到 ubuntu 24.04 LTS 的過程。<br><img src="https://live.staticflickr.com/65535/53698026993_7042bbca59_b.jpg"></p>
-<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>在 Terminal 上，走過下列指令，原則上就可以成功地將 Google 官方的 Chrome 安裝到 ubuntu 24.04 LTS。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>紀錄一下，將 Google Chrome 安裝到 Ubuntu 24.04 LTS 的過程。<br><img src="https://live.staticflickr.com/65535/53698026993_7042bbca59_b.jpg"></p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>在 Terminal 上，走過下列指令，原則上就可以成功地將 Google 官方的 Chrome 安裝到 Ubuntu 24.04 LTS。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub &gt; linux_signing_key.pub</span><br><span class="line">sudo install -D -o root -g root -m 644 linux_signing_key.pub /etc/apt/keyrings/linux_signing_key.pub</span><br><span class="line">sudo sh -c &#x27;echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/linux_signing_key.pub] http://dl.google.com/linux/chrome/deb/ stable main&quot; &gt; /etc/apt/sources.list.d/google-chrome.list&#x27;</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install google-chrome-stable</span><br></pre></td></tr></table></figure>
 
 <h3 id="安裝過程截圖（Powered-by-Flickr）"><a href="#安裝過程截圖（Powered-by-Flickr）" class="headerlink" title="安裝過程截圖（Powered by Flickr）"></a>安裝過程截圖（Powered by Flickr）</h3><img src="https://live.staticflickr.com/65535/53696926997_5ec8ea5b68_b.jpg" alt="installChrometoUbuntu24.04LtsOnVirtualBoxEp (1)"/>
@@ -4041,8 +4041,8 @@
       <tags>
         <tag>linux</tag>
         <tag>google</tag>
-        <tag>ubuntu</tag>
         <tag>chrome</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4092,21 +4092,21 @@
       </tags>
   </entry>
   <entry>
-    <title>安裝與運作 Contest Management System (ubuntu Server 版)</title>
+    <title>安裝與運作 Contest Management System (Ubuntu Server 版)</title>
     <url>/linux/installing-and-running-contest-management-system-on-ubuntu-live-server/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51853106702_bc0836c4a1_b.jpg" alt="installingUbuntu18.04.6LiveServerinVirtualBoxEp20"/>
 
-<p>本次紀錄所使用的是在 VirtualBox 上安裝的 ubuntu 18.04.6 LTS Live Server，本篇紀錄大致分為 3 個部分。</p>
+<p>本次紀錄所使用的是在 VirtualBox 上安裝的 Ubuntu 18.04.6 LTS Live Server，本篇紀錄大致分為 3 個部分。</p>
 <ol>
-<li><p>在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server。</p>
+<li><p>在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server。</p>
 </li>
-<li><p>在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System。</p>
+<li><p>在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System。</p>
 </li>
 <li><p>執行並測試 Contest Management System。</p>
 </li>
 </ol>
-<h3 id="在-VirtualBox-上安裝-ubuntu-18-04-6-LTS-Live-Server"><a href="#在-VirtualBox-上安裝-ubuntu-18-04-6-LTS-Live-Server" class="headerlink" title="在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server"></a>在 VirtualBox 上安裝 ubuntu 18.04.6 LTS Live Server</h3><p>以下是在 VirtualBox 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296347493" title="ubuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51853107057_374b3990e4_b.jpg" alt="ubuntu18.04.6LiveServer"></a></p>
-<h3 id="在-ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System"><a href="#在-ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System" class="headerlink" title="在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System"></a>在 ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</h3><p>以下是在 ubuntu 18.04.6 LTS Live Server 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296347823" title="contestManagementSystemonUbuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51854395864_732003cb55_b.jpg" alt="contestManagementSystemonUbuntu18.04.6LiveServer"></a></p>
+<h3 id="在-VirtualBox-上安裝-Ubuntu-18-04-6-LTS-Live-Server"><a href="#在-VirtualBox-上安裝-Ubuntu-18-04-6-LTS-Live-Server" class="headerlink" title="在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server"></a>在 VirtualBox 上安裝 Ubuntu 18.04.6 LTS Live Server</h3><p>以下是在 VirtualBox 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296347493" title="Ubuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51853107057_374b3990e4_b.jpg" alt="Ubuntu18.04.6LiveServer"></a></p>
+<h3 id="在-Ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System"><a href="#在-Ubuntu-18-04-6-LTS-Live-Server-上安裝-Contest-Management-System" class="headerlink" title="在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System"></a>在 Ubuntu 18.04.6 LTS Live Server 上安裝 Contest Management System</h3><p>以下是在 Ubuntu 18.04.6 LTS Live Server 的安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296347823" title="contestManagementSystemonUbuntu18.04.6LiveServer"><img src="https://live.staticflickr.com/65535/51854395864_732003cb55_b.jpg" alt="contestManagementSystemonUbuntu18.04.6LiveServer"></a></p>
 <h4 id="指令大致如下"><a href="#指令大致如下" class="headerlink" title="指令大致如下"></a>指令大致如下</h4><p>sudo apt update</p>
 <p>sudo apt install build-essential openjdk-8-jdk-headless fp-compiler postgresql postgresql-client python3.6 cppreference-doc-en-html cgroup-lite libcap-dev zip python3.6-dev libpq-dev libcups2-dev libyaml-dev libffi-dev python3-pip python3-setuptools python3-tornado python3-psycopg2 python3-sqlalchemy python3-psutil python3-netifaces python3-crypto python3-six python3-bs4 python3-coverage python3-mock python3-requests python3-werkzeug python3-gevent python3-bcrypt python3-chardet patool python3-babel python3-xdg python3-future python3-jinja2 python3-yaml python3-sphinx python3-cups python3-pypdf2</p>
 <p>&#x2F;&#x2F;python3 的相關套件很多。<br>&#x2F;&#x2F;如果想要方便的話，比較建議可以用 Shell Script 的方式服用。</p>
@@ -4129,7 +4129,7 @@
 <p>cmsLogService</p>
 <p>cmsAdminWebServer</p>
 <h3 id="執行並測試-Contest-Management-System"><a href="#執行並測試-Contest-Management-System" class="headerlink" title="執行並測試 Contest Management System"></a>執行並測試 Contest Management System</h3><p>要從目前的主機，登入到 VirtualBox 上的 CMS Server 前，請確認一下網卡的設定。 第一步是先到 「Oracle VM VirtualBox 管理員」→「建立」一張新的網卡。 <a href="https://www.flickr.com/photos/jutedev/51854418307/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp19"><img src="https://live.staticflickr.com/65535/51854418307_ee58ed9942_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp19"></a></p>
-<p>再到 VirtualBox 上的 ubuntu 18.04.6 LTS Live Server 的「設定」→「網路」→「介面卡 1」，改成「僅限主機介面卡」。 <a href="https://www.flickr.com/photos/jutedev/51855378741/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"><img src="https://live.staticflickr.com/65535/51855378741_41171036b5_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"></a></p>
+<p>再到 VirtualBox 上的 Ubuntu 18.04.6 LTS Live Server 的「設定」→「網路」→「介面卡 1」，改成「僅限主機介面卡」。 <a href="https://www.flickr.com/photos/jutedev/51855378741/in/dateposted/" title="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"><img src="https://live.staticflickr.com/65535/51855378741_41171036b5_o.png" alt="installingContestManagementSystemonUbuntu18.04.6LiveServerEp20"></a></p>
 <p>ifconfig -a &#x2F;&#x2F;看一下 [CMS Server 的 IP] 是什麼。</p>
 <p>從另外一部電腦，去 ping 一下 [CMS Server 的 IP] 看看。</p>
 <p>假設是 192.168.56.102，從另外一部電腦，用 Web Browser 登入設定好的 CMS Server 試試看，本例為 <a href="http://192.168.56.102:8888/"></a><a href="http://192.168.56.102:8888/">http://192.168.56.102:8888</a>。</p>
@@ -4154,9 +4154,9 @@
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
         <tag>web</tag>
         <tag>contest</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4518,11 +4518,11 @@
       </tags>
   </entry>
   <entry>
-    <title>在 Lubuntu 21.04 上輕鬆安裝嘸蝦米</title>
+    <title>在 LUbuntu 21.04 上輕鬆安裝嘸蝦米</title>
     <url>/boshiamy/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Linux 上面的中文輸入平台，可以說是百花齊放、各有千秋。</p>
 <p>今天來分享一個，安裝使用上非常方便的平台：fcitx。</p>
-<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><p>fcitx 在 Lubuntu 21.04 是預設的中文輸入平台，因此，2 個步驟，就可以搞定。</p>
+<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><p>fcitx 在 LUbuntu 21.04 是預設的中文輸入平台，因此，2 個步驟，就可以搞定。</p>
 <ol>
 <li>sudo apt-get install fcitx-table-boshiamy</li>
 <li>
@@ -4539,8 +4539,8 @@
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4776,22 +4776,22 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米 (2023 年 9 月 15 日更新)</title>
+    <title>在 Ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米 (2023 年 9 月 15 日更新)</title>
     <url>/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu 22.04 LTS 已經釋出近一個月，如果只是單純地想要把嘸蝦米裝到系統裡面去，fcitx(4) 搭配嘸蝦米是最快速的服用方式。 <img src="https://live.staticflickr.com/65535/53188783770_62e2b3ed90_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep8"/></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu 22.04 LTS 已經釋出近一個月，如果只是單純地想要把嘸蝦米裝到系統裡面去，fcitx(4) 搭配嘸蝦米是最快速的服用方式。 <img src="https://live.staticflickr.com/65535/53188783770_62e2b3ed90_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep8"/></p>
 <h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><ol>
 <li><p>一道指令就可以搞定 fcitx(4) 與嘸蝦米的表格檔。 </p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx-table-boshiamy</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>接著，從「設定值」進入系統的「地區和語言」。 <img src="https://live.staticflickr.com/65535/53188783760_37ce8f9dd5_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep3"/></p>
+<li><p>接著，從「設定值」進入系統的「地區和語言」。 <img src="https://live.staticflickr.com/65535/53188783760_37ce8f9dd5_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep3"/></p>
 </li>
-<li><p>在「語言」項下，點下「管理安裝的語言」，進入設定裡面後，把「鍵盤輸入法系統」改成【Fcitx 4】。 <img src="https://live.staticflickr.com/65535/53188650599_efc77c8e7b_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep4"/></p>
+<li><p>在「語言」項下，點下「管理安裝的語言」，進入設定裡面後，把「鍵盤輸入法系統」改成【Fcitx 4】。 <img src="https://live.staticflickr.com/65535/53188650599_efc77c8e7b_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep4"/></p>
 </li>
-<li><p>「重新啟動…」。 <img src="https://live.staticflickr.com/65535/53187867517_bc541643fe_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep5"/></p>
+<li><p>「重新啟動…」。 <img src="https://live.staticflickr.com/65535/53187867517_bc541643fe_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep5"/></p>
 </li>
-<li><p>順利的話，重新進入系統，就會看到工作列上面，多出了一個鍵盤，而且已經把嘸蝦米安裝進來。 <img src="https://live.staticflickr.com/65535/53188954068_efe10dc610_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep6"/></p>
+<li><p>順利的話，重新進入系統，就會看到工作列上面，多出了一個鍵盤，而且已經把嘸蝦米安裝進來。 <img src="https://live.staticflickr.com/65535/53188954068_efe10dc610_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep6"/></p>
 </li>
-<li><p>使用 Ctrl+空白鍵(Space)，切換到嘸蝦米時，畫面上會跳出被框框包圍住的藍色嘸蝦米，同時，在右上角工作列那邊，原本的「鍵盤」圖示，也變成紅色的「嘸」。 <img src="https://live.staticflickr.com/65535/53187867512_6fd3011e5b_b.jpg" alt="installingfcitx4andboshiamyonubuntu2204Ep7"/></p>
+<li><p>使用 Ctrl+空白鍵(Space)，切換到嘸蝦米時，畫面上會跳出被框框包圍住的藍色嘸蝦米，同時，在右上角工作列那邊，原本的「鍵盤」圖示，也變成紅色的「嘸」。 <img src="https://live.staticflickr.com/65535/53187867512_6fd3011e5b_b.jpg" alt="installingfcitx4andboshiamyonUbuntu2204Ep7"/></p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -4809,9 +4809,9 @@
       <tags>
         <tag>linux</tag>
         <tag>boshiamy</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -4948,10 +4948,10 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 21.04 上輕鬆安裝嘸蝦米 (2024 年 5 月 25 日更新)</title>
+    <title>在 Ubuntu 21.04 上輕鬆安裝嘸蝦米 (2024 年 5 月 25 日更新)</title>
     <url>/boshiamy/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來試試在 ubuntu 21.04 快速安裝 fcitx(4) 並啟用嘸蝦米。</p>
-<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>fcitx(4) 在 ubuntu 21.04 並不是預設的中文輸入平台，不過，仍然可以在幾個步驟內就搞定。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來試試在 Ubuntu 21.04 快速安裝 fcitx(4) 並啟用嘸蝦米。</p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>fcitx(4) 在 Ubuntu 21.04 並不是預設的中文輸入平台，不過，仍然可以在幾個步驟內就搞定。</p>
 <ol>
 <li><p>一個指令（如下），就讓相依的套件都安裝進來。<br><code>sudo apt-get install fcitx-table-boshiamy</code></p>
 </li>
@@ -4979,9 +4979,9 @@
       <tags>
         <tag>linux</tag>
         <tag>boshiamy</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5052,14 +5052,14 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 8.10 上面安裝 gcin 與嘸蝦米</title>
+    <title>在 Ubuntu 8.10 上面安裝 gcin 與嘸蝦米</title>
     <url>/boshiamy/installing-gcin-and-boshiamy-on-ubuntu-8-10/</url>
-    <content><![CDATA[<p>對於 <a href="http://cle.linux.org.tw/trac">gcin</a> 的官方網站已經有非常詳盡的說明而言，再寫乙次在 ubuntu 8.10 上面安裝 gcin 與配搭的嘸蝦米表格，似乎是脫褲子放屁的事兒，對吧？  </p>
+    <content><![CDATA[<p>對於 <a href="http://cle.linux.org.tw/trac">gcin</a> 的官方網站已經有非常詳盡的說明而言，再寫乙次在 Ubuntu 8.10 上面安裝 gcin 與配搭的嘸蝦米表格，似乎是脫褲子放屁的事兒，對吧？  </p>
 <p>快別這麼說，我的手邊已有支援 SCIM 的嘸蝦米表格檔，總以為反正使用上都沒有什麼問題，應該不會再跟 <a href="http://cle.linux.org.tw/trac">gcin</a> 扯上關係。話說得太早、太滿，總是得付出代價的。  </p>
 <p>其實，並沒有什麼代價，安裝 <a href="http://cle.linux.org.tw/trac">gcin</a> 是件輕鬆容易的事兒呢！  </p>
-<p>老早之前，敝人在下小生我曾經寫過一篇：提到在 ubuntu 7.10 上頭安裝 <a href="http://cle.linux.org.tw/trac">gcin</a> 的方法，今次並沒有太大的不同，最大的差別在於 sudo 指令的下法，日前的寫法是先下 sudo -i，我之所以這麼寫是為了省去伙伴們的麻煩。  </p>
+<p>老早之前，敝人在下小生我曾經寫過一篇：提到在 Ubuntu 7.10 上頭安裝 <a href="http://cle.linux.org.tw/trac">gcin</a> 的方法，今次並沒有太大的不同，最大的差別在於 sudo 指令的下法，日前的寫法是先下 sudo -i，我之所以這麼寫是為了省去伙伴們的麻煩。  </p>
 <p>由於之前已經安裝過，系統會跟你說：「『gcin』已經是最新版本了。」</p>
-<p>另外，官方網站的安裝說明：<a href="http://cle.linux.org.tw/trac/wiki/GcinInstallUbuntu">GcinInstallUbuntu - gcin - Trac</a>，指令裡面尚有 im-switch，在 ubuntu 8.10 應該是可以免除的，多給也沒有關係，系統應該也只是會說已經有安裝該套件，不礙事兒的。  </p>
+<p>另外，官方網站的安裝說明：<a href="http://cle.linux.org.tw/trac/wiki/GcinInstallUbuntu">GcinInstallUbuntu - gcin - Trac</a>，指令裡面尚有 im-switch，在 Ubuntu 8.10 應該是可以免除的，多給也沒有關係，系統應該也只是會說已經有安裝該套件，不礙事兒的。  </p>
 <p>緊接著就是透過上圖所示的指令將支援 <a href="http://cle.linux.org.tw/trac">gcin</a> 的嘸蝦米表格檔安裝上去，若是連同安裝 <a href="http://cle.linux.org.tw/trac">gcin</a> 一氣呵成者，則 sudo 指令可免。</p>
 ]]></content>
       <categories>
@@ -5068,7 +5068,7 @@
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5089,7 +5089,7 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</title>
+    <title>在 Ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</title>
     <url>/boshiamy/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天要分享的流程…</p>
 <p>如果您是從官網取得嘸蝦米的 iBus 表格檔，那麼，官網就有安裝流程說明。</p>
@@ -5116,8 +5116,8 @@
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>ibus</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5581,16 +5581,16 @@
       </tags>
   </entry>
   <entry>
-    <title>安裝 ubuntu 21.10 與嘸蝦米</title>
+    <title>安裝 Ubuntu 21.10 與嘸蝦米</title>
     <url>/boshiamy/installing-ubuntu-21-10-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu 21.10 正式釋出，主要的更新如下。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu 21.10 正式釋出，主要的更新如下。</p>
 <blockquote>
 <p>GNOME 40 desktop by default Yaru light theme by default Firefox Snap by default Zstd compression for packages Wayland enabled for NVIDIA driver users Multitouch gestures Linux 5.13 kernel Updated theme and icons</p>
 </blockquote>
 <p>安裝完，我自己認為比較會有直接感受的，應該是 GNOME 帶來的桌面體驗感。</p>
 <h3 id="嘸蝦米安裝與使用上的建議"><a href="#嘸蝦米安裝與使用上的建議" class="headerlink" title="嘸蝦米安裝與使用上的建議"></a>嘸蝦米安裝與使用上的建議</h3><ol>
 <li>選用的順序上，我比較建議是 iBus→fcitx(4)→Fcitx5。</li>
-<li>iBus：如果是全新安裝，並且有嘸蝦米輸入法之使用需求的人，我會建議服用官方的 iBus 表格檔，只要選對版本，安裝的過程是輕鬆且愉快的，詳可參考之前的貼文：<a href="/linux/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/" title="在 ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔">在 ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a>。</li>
+<li>iBus：如果是全新安裝，並且有嘸蝦米輸入法之使用需求的人，我會建議服用官方的 iBus 表格檔，只要選對版本，安裝的過程是輕鬆且愉快的，詳可參考之前的貼文：<a href="/linux/installing-ibus-table-for-boshiamy-on-Ubuntu-20-04-lts/" title="在 Ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔">在 Ubuntu 20.04 安裝官方嘸蝦米的 iBus 表格檔</a>。</li>
 <li>fcitx(4)： (1)fcitx(4) 是另外一個服用上的選擇，我比較建議急需的人安裝 fcitx(4)，而不是先安裝 Fcitx5。原因很簡單：透過一道指令 <code>sudo apt install fcitx-table-boshiamy</code> 就可以把嘸蝦米表格檔含 fcitx(4) 主程式安裝好，相對容易很多；如果是 Fcitx5，就無法透過 <code>sudo apt install fcitx5-table-extra</code> 將嘸蝦米表格檔含主程式安裝完成，相關測試如下圖。 <img src="https://live.staticflickr.com/65535/51591519503_37c3480f9a_o.png"> (2)安裝完 fcitx(4) 後，進入到「設定值」→「地區和語言」→「管理安裝的語言」，確認 fcitx(4) 已成功設定為「鍵盤輸入法系統」，再重開機。 <img src="https://live.staticflickr.com/65535/51591301761_08151e3e42_o.png"></li>
 <li>Fcitx5：如果比較堅持想用 Fcitx5，或是 fcitx(4) 在個人使用上有不穩定的情形，也有解決方式，詳可見：<a href="/linux/using-fcitx5-with-boshiamy-on-debian-11/" title="在 Debian 11 上直接用 Fcitx5 與嘸蝦米">在 Debian 11 上直接用 Fcitx5 與嘸蝦米</a>。</li>
 </ol>
@@ -5605,20 +5605,20 @@
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>在 Acer Aspire X3600 上面安裝 ubuntu 8.04</title>
+    <title>在 Acer Aspire X3600 上面安裝 Ubuntu 8.04</title>
     <url>/linux/installing-ubuntu-8-04-on-acer-aspire-x3600/</url>
-    <content><![CDATA[<p><strong>初極狹，纔通人；復行數十步，豁然開朗。</strong> (( 出自<strong>桃花源記</strong>（陶淵明），相關訊息可以參閱：<a href="http://zh.wikipedia.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90_%28%E6%96%87%E5%AD%A6%29">桃花源 - Wikipedia</a> 與<a href="http://zh.wikipedia.org/w/index.php?title=%E9%99%B6%E6%B8%8A%E6%98%8E&variant=zh-tw">陶淵明 - Wikipedia</a>。 ))是本次我試著讓 ubuntu 8.04 從舒適卻受限的 VMWare 環境往實機安裝的最佳心境寫照，也了解到一直以來 ubuntu 能夠以 700 MB 的 ISO 檔供使用者下載的原因，再回頭看自己與 ubuntu 共處的經驗，更加確信通往烏托邦的路上，乙太網路線在其中扮演著相當重要的角色。  </p>
-<p>今次我是 ubuntu 8.04 與 X-BLUE 的媒人，然而更重要的是那條<strong>看得見的紅線</strong>，絕不能少。談完感受，接下來就分享敝人在下實際撮合雙方的過程…  </p>
-<p>目前直接使用 ubuntu 8.04 安裝並與 Windows Vista 共存的雙系統設置中，開機的部分會不會像之前在 ubuntu 7.10 那樣不好設定？這個問題，使用 Google 爬文的結果是好像還沒有相關的文章與經驗分享，絕大多數仍舊是在談 ubuntu 7.10，為此不想多做猜想，也不希望因為下不了判斷而盲目測試，更何況早先使用 wubi 的 Install inside Windows 的方法有效，所以我在從雙系統這個方向走時，很快地就決定延用此法練就，經驗值累積後，這乙次我可是乖乖地選擇 <strong>English</strong> 為預設的安裝語系，相同的部分是將日前備下來的 sources.list 丟到 &#x2F;etc&#x2F;apt 路徑底下，再執行 apt-get update 的指令 (( 附帶一提的是 wubi 在 Windows XP 執行 Install inside Windows 相當順利，卻在 Windows Vista 安裝結束時掛點，之前我有同樣的遭遇，但是開機後仍舊可以順利進入烏托邦，今兒個卻不行，只得移除再重新安裝乙次，耐心的等候結果是 wubi 依然沒有回應，所幸能夠進入系統，由於沒深究原因，如果有伙伴們有同樣的遭遇，或許多點等候也能夠解決，但這種非除錯的方法不見得每每奏效。根據官方的釋出說明，最好的方法是把 wubi 拷貝至電腦桌面並執行之，詳可閱 <a href="http://www.ubuntu.com/getubuntu/releasenotes/804">Ubuntu 8.04 Release Notes | Ubuntu</a> 中的 wubi 部分。 )) 。  </p>
+    <content><![CDATA[<p><strong>初極狹，纔通人；復行數十步，豁然開朗。</strong> (( 出自<strong>桃花源記</strong>（陶淵明），相關訊息可以參閱：<a href="http://zh.wikipedia.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90_%28%E6%96%87%E5%AD%A6%29">桃花源 - Wikipedia</a> 與<a href="http://zh.wikipedia.org/w/index.php?title=%E9%99%B6%E6%B8%8A%E6%98%8E&variant=zh-tw">陶淵明 - Wikipedia</a>。 ))是本次我試著讓 Ubuntu 8.04 從舒適卻受限的 VMWare 環境往實機安裝的最佳心境寫照，也了解到一直以來 Ubuntu 能夠以 700 MB 的 ISO 檔供使用者下載的原因，再回頭看自己與 Ubuntu 共處的經驗，更加確信通往烏托邦的路上，乙太網路線在其中扮演著相當重要的角色。  </p>
+<p>今次我是 Ubuntu 8.04 與 X-BLUE 的媒人，然而更重要的是那條<strong>看得見的紅線</strong>，絕不能少。談完感受，接下來就分享敝人在下實際撮合雙方的過程…  </p>
+<p>目前直接使用 Ubuntu 8.04 安裝並與 Windows Vista 共存的雙系統設置中，開機的部分會不會像之前在 Ubuntu 7.10 那樣不好設定？這個問題，使用 Google 爬文的結果是好像還沒有相關的文章與經驗分享，絕大多數仍舊是在談 Ubuntu 7.10，為此不想多做猜想，也不希望因為下不了判斷而盲目測試，更何況早先使用 wubi 的 Install inside Windows 的方法有效，所以我在從雙系統這個方向走時，很快地就決定延用此法練就，經驗值累積後，這乙次我可是乖乖地選擇 <strong>English</strong> 為預設的安裝語系，相同的部分是將日前備下來的 sources.list 丟到 &#x2F;etc&#x2F;apt 路徑底下，再執行 apt-get update 的指令 (( 附帶一提的是 wubi 在 Windows XP 執行 Install inside Windows 相當順利，卻在 Windows Vista 安裝結束時掛點，之前我有同樣的遭遇，但是開機後仍舊可以順利進入烏托邦，今兒個卻不行，只得移除再重新安裝乙次，耐心的等候結果是 wubi 依然沒有回應，所幸能夠進入系統，由於沒深究原因，如果有伙伴們有同樣的遭遇，或許多點等候也能夠解決，但這種非除錯的方法不見得每每奏效。根據官方的釋出說明，最好的方法是把 wubi 拷貝至電腦桌面並執行之，詳可閱 <a href="http://www.ubuntu.com/getUbuntu/releasenotes/804">Ubuntu 8.04 Release Notes | Ubuntu</a> 中的 wubi 部分。 )) 。  </p>
 <p>為何會提到<strong>桃花源記</strong>，原因就是出在這兒，之前安裝時沒有被載入的 Broadcom 驅動程式，今次我更為謹慎，在 <a href="http://bcm43xx.berlios.de/">Broadcom 43xx</a> 閱讀 Devices 的頁面資訊，可是安裝後情境依舊，只好硬著頭皮裝上乙太網路線，令人興奮的是系統很快地就回應有新的第三方驅動程式釋出，一步接著一步很就可以通往烏托邦。  </p>
-<p>還記得 Fedora 9 提到 GNOME 已經附上 Cheese 這支視訊套件嗎？ubuntu 8.04 並沒有在安裝後隨附，卻可以輕鬆地透過 apt-get 事後裝上，我的 Webcam 輕易地被驅動程式支援，呈現出來的結果並不如人意，有點可惜。我找不到圖形裡面去做細部的調整，其他可能的方法，未來再試試。  </p>
+<p>還記得 Fedora 9 提到 GNOME 已經附上 Cheese 這支視訊套件嗎？Ubuntu 8.04 並沒有在安裝後隨附，卻可以輕鬆地透過 apt-get 事後裝上，我的 Webcam 輕易地被驅動程式支援，呈現出來的結果並不如人意，有點可惜。我找不到圖形裡面去做細部的調整，其他可能的方法，未來再試試。  </p>
 <p>在清閒的補休假晨間，費時不到 1.5 小時，就可以成功地在 X-BLUE 建立烏托邦，興奮之情難以言喻。擺脫對魔獸世界的掛念後，未來我將把 95% 的工作時間擺在烏托邦，至於剩餘的 5% 還是得靠維斯塔帝國的援助，因為來自惠普世界的 C4385 現階段只與 Windows 以及 Mac OS X 打交道。  </p>
-<p>ubuntu 8.04 與 X-BLUE 可以 Marriage，我是樂見其成的媒人，也是最大的受益者。</p>
+<p>Ubuntu 8.04 與 X-BLUE 可以 Marriage，我是樂見其成的媒人，也是最大的受益者。</p>
 ]]></content>
       <categories>
         <category>linux</category>
@@ -5626,19 +5626,19 @@
       <tags>
         <tag>windows</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
     <title>使用 Windows XP 上的 wubi 安裝 Ubuntu 8.04</title>
     <url>/linux/installing-ubuntu-8-04-using-wubi-on-windows-xp/</url>
-    <content><![CDATA[<p>最近，我對 ubuntu 8.04 實在是深深著迷，今兒個即使忙碌到不行，我還是不管任何時間管理上的安排，動起安裝的念頭。</p>
-<p>今次使用的是精靈安裝法，精靈名為 <strong>wubi</strong> (( 全名 Windows based UBuntu Installer ，不是新玩意兒， <a href="http://lists.debian.org/debian-boot/2007/01/msg01083.html">Debian-Installer Loader</a> 應該算是前輩，另外也有其他 Linux distribution 有類似，甚且更強大的玩具，不過，礙於訊息較為片段、不確定，在此就不多談。 )) ，過程很簡單。</p>
+    <content><![CDATA[<p>最近，我對 Ubuntu 8.04 實在是深深著迷，今兒個即使忙碌到不行，我還是不管任何時間管理上的安排，動起安裝的念頭。</p>
+<p>今次使用的是精靈安裝法，精靈名為 <strong>wubi</strong> (( 全名 Windows based Ubuntu Installer ，不是新玩意兒， <a href="http://lists.debian.org/debian-boot/2007/01/msg01083.html">Debian-Installer Loader</a> 應該算是前輩，另外也有其他 Linux distribution 有類似，甚且更強大的玩具，不過，礙於訊息較為片段、不確定，在此就不多談。 )) ，過程很簡單。</p>
 <p>英文的翻釋如下：</p>
 <ol>
 <li>Installation Drive：選擇安裝的目標硬碟。</li>
 <li>Installation Size：調整安裝的空間。</li>
-<li>Desktop Enviroment：直譯為桌面環境，我在安裝時只有 ubuntu 這個選項。</li>
+<li>Desktop Enviroment：直譯為桌面環境，我在安裝時只有 Ubuntu 這個選項。</li>
 <li>Language：看起來挺帥的，有 Chinese (Traditional)，不過結果並非如此，稍後再述。</li>
 <li>Username 與 Password：用戶名與密碼。</li>
 </ol>
@@ -5652,19 +5652,19 @@
       <tags>
         <tag>linux</tag>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
         <tag>debian</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
     <title>使用 Windows Vista 上的 wubi 安裝 Ubuntu 8.10</title>
     <url>/linux/installing-ubuntu-8-10-using-wubi-on-windows-vista/</url>
-    <content><![CDATA[<p>如果不是因為日前乙部壞掉的光碟機，讓 wubi 於 Windows XP 上安裝 ubuntu 8.10 不成，得到的結果就不會像現在，把蒼鷺放飛…  </p>
-<p>由於我之前安裝 ubuntu 8.04 的關係，執行 wubi 後，就先要我把已經在機子上的 ubuntu 移除。  </p>
-<p>移除後，wubi 並不會進一步把新的 ubuntu 安裝上去，所以我就自己再去執行乙次。在 ubuntu 8.04 隨附的 wubi 若要在 Windows Vista 順利安裝，必須在硬碟上執行程式，否則最後會掛點，今次我直接執行光碟片裡面的 wubi，並未遭遇此一問題，可見已有明顯改善。  </p>
-<p>重新開機進入 ubuntu 8.10 後，有檢查安裝…的過程，我試著拍下來，可是再重新開機後就不見蹤影。而 X-BLUE 的無線網卡是 Broadcom 43XX 系列，無法像 Intel 系列那樣安裝完就立即可以使用（至少 Fedora 現在都是如此），所以後續有些套件需要從網路下載補完的，在沒有網路加持的前提下全然沒有安裝，尤以語系支援與硬體驅動程式最明顯。  </p>
-<p>ubuntu 8.04 時的 wubi 即使在安裝時選擇繁體中文語系，安裝後 apt 的 sources.list 裡面指向的伺服器全都在對岸，因此在安裝語系套件時，我特別看一下詳細的下載內容，全部都來自 TW，速度快令人爽。  </p>
-<p>把嘸蝦米表格檔擺好，開始愉快地使用 ubuntu 8.10 是一定要的。  </p>
+    <content><![CDATA[<p>如果不是因為日前乙部壞掉的光碟機，讓 wubi 於 Windows XP 上安裝 Ubuntu 8.10 不成，得到的結果就不會像現在，把蒼鷺放飛…  </p>
+<p>由於我之前安裝 Ubuntu 8.04 的關係，執行 wubi 後，就先要我把已經在機子上的 Ubuntu 移除。  </p>
+<p>移除後，wubi 並不會進一步把新的 Ubuntu 安裝上去，所以我就自己再去執行乙次。在 Ubuntu 8.04 隨附的 wubi 若要在 Windows Vista 順利安裝，必須在硬碟上執行程式，否則最後會掛點，今次我直接執行光碟片裡面的 wubi，並未遭遇此一問題，可見已有明顯改善。  </p>
+<p>重新開機進入 Ubuntu 8.10 後，有檢查安裝…的過程，我試著拍下來，可是再重新開機後就不見蹤影。而 X-BLUE 的無線網卡是 Broadcom 43XX 系列，無法像 Intel 系列那樣安裝完就立即可以使用（至少 Fedora 現在都是如此），所以後續有些套件需要從網路下載補完的，在沒有網路加持的前提下全然沒有安裝，尤以語系支援與硬體驅動程式最明顯。  </p>
+<p>Ubuntu 8.04 時的 wubi 即使在安裝時選擇繁體中文語系，安裝後 apt 的 sources.list 裡面指向的伺服器全都在對岸，因此在安裝語系套件時，我特別看一下詳細的下載內容，全部都來自 TW，速度快令人爽。  </p>
+<p>把嘸蝦米表格檔擺好，開始愉快地使用 Ubuntu 8.10 是一定要的。  </p>
 <p>先跟大伙分享至此，安裝完我還發現除了對無線網路的支援，還有其他好玩的東西，先玩再說囉！</p>
 ]]></content>
       <categories>
@@ -5674,16 +5674,16 @@
         <tag>windows</tag>
         <tag>嘸蝦米</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
     <title>使用 Windows XP 上的 wubi 安裝 Ubuntu 8.10</title>
     <url>/linux/installing-ubuntu-8-10-using-wubi-on-windows-xp/</url>
-    <content><![CDATA[<p>ubuntu 8.10 釋出，我在下載後立即燒錄，並且想用 wubi 安裝，也不禁讓我想起以前曾經寫過的文章：<a href="/linux/installing-ubuntu-8-04-using-wubi-on-windows-xp/">使用 Windows XP 上的 wubi 安裝 Ubuntu 8.4</a>，安裝過程稍為比較一下，發現 ubuntu 8.10 在 wubi 的部分有明顯進化。  </p>
+    <content><![CDATA[<p>Ubuntu 8.10 釋出，我在下載後立即燒錄，並且想用 wubi 安裝，也不禁讓我想起以前曾經寫過的文章：<a href="/linux/installing-ubuntu-8-04-using-wubi-on-windows-xp/">使用 Windows XP 上的 wubi 安裝 Ubuntu 8.4</a>，安裝過程稍為比較一下，發現 Ubuntu 8.10 在 wubi 的部分有明顯進化。  </p>
 <p>程式啟動之初，即發現介面已有完整的中文化，把滑鼠指標放到各個對話框上，提示說明也是完整的中文化，真讓人興奮。  </p>
-<p>ubuntu 8.10 主要是以 3G 與 Wireless 為主打，對我來說是不必要的升級。  </p>
-<p>因此，老早就決定不跟進，而且，仍會以 Long Term Support 的 ubuntu 8.04 來延續自由與開放的精神。</p>
+<p>Ubuntu 8.10 主要是以 3G 與 Wireless 為主打，對我來說是不必要的升級。  </p>
+<p>因此，老早就決定不跟進，而且，仍會以 Long Term Support 的 Ubuntu 8.04 來延續自由與開放的精神。</p>
 ]]></content>
       <categories>
         <category>linux</category>
@@ -5691,59 +5691,59 @@
       <tags>
         <tag>linux</tag>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>安裝 ubuntu Budgie 21.10 Desktop 與嘸蝦米</title>
+    <title>安裝 Ubuntu Budgie 21.10 Desktop 與嘸蝦米</title>
     <url>/boshiamy/installing-ubuntu-budgie-21-10-desktop-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu Budgie 是 ubuntu 官方的衍生發行版，透過這支發行版，讓我初次體驗到 Budgie (桌面環境)。 <a href="https://www.flickr.com/photos/jutedev/51834417100/in/dateposted/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp18"><img src="https://live.staticflickr.com/65535/51834417100_12543a043d_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp18"></a></p>
-<h3 id="安裝-ubuntu-Budgie"><a href="#安裝-ubuntu-Budgie" class="headerlink" title="安裝 ubuntu Budgie"></a>安裝 ubuntu Budgie</h3><p>以下是安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a data-flickr-embed="true" href="https://www.flickr.com/photos/jutedev/albums/72177720296110947" title="ubuntuBudgie21.10Desktop"><img src="https://live.staticflickr.com/65535/51834035494_160eb0595a_b.jpg" alt="ubuntuBudgie21.10Desktop"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu Budgie 是 Ubuntu 官方的衍生發行版，透過這支發行版，讓我初次體驗到 Budgie (桌面環境)。 <a href="https://www.flickr.com/photos/jutedev/51834417100/in/dateposted/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp18"><img src="https://live.staticflickr.com/65535/51834417100_12543a043d_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp18"></a></p>
+<h3 id="安裝-Ubuntu-Budgie"><a href="#安裝-Ubuntu-Budgie" class="headerlink" title="安裝 Ubuntu Budgie"></a>安裝 Ubuntu Budgie</h3><p>以下是安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a data-flickr-embed="true" href="https://www.flickr.com/photos/jutedev/albums/72177720296110947" title="UbuntuBudgie21.10Desktop"><img src="https://live.staticflickr.com/65535/51834035494_160eb0595a_b.jpg" alt="UbuntuBudgie21.10Desktop"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 <h3 id="安裝嘸蝦米-有雷：以下是有點囉嗦的過程紀錄"><a href="#安裝嘸蝦米-有雷：以下是有點囉嗦的過程紀錄" class="headerlink" title="安裝嘸蝦米(有雷：以下是有點囉嗦的過程紀錄)"></a>安裝嘸蝦米(有雷：以下是有點囉嗦的過程紀錄)</h3><ol>
-<li><p>ubuntu Budgie 在安裝完，會先跳出一個 Budgie Welcome 的畫面。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035264/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp17"><img src="https://live.staticflickr.com/65535/51834035264_eb89c56d74_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp17"></a></p>
+<li><p>Ubuntu Budgie 在安裝完，會先跳出一個 Budgie Welcome 的畫面。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035264/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp17"><img src="https://live.staticflickr.com/65535/51834035264_eb89c56d74_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp17"></a></p>
 </li>
-<li><p>點下「語言與輸入法」之後，顯示的是下列畫面。從畫面中，可以看出來，系統安裝好之後，預設的輸入法平台是 iBus。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795183/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/51833795183_046fa955d7_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp20"></a></p>
+<li><p>點下「語言與輸入法」之後，顯示的是下列畫面。從畫面中，可以看出來，系統安裝好之後，預設的輸入法平台是 iBus。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795183/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/51833795183_046fa955d7_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp20"></a></p>
 </li>
-<li><p>我還特別跑到設定裡面去確認。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035219/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp21"><img src="https://live.staticflickr.com/65535/51834035219_c3b9901392_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp21"></a></p>
+<li><p>我還特別跑到設定裡面去確認。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035219/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp21"><img src="https://live.staticflickr.com/65535/51834035219_c3b9901392_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp21"></a></p>
 </li>
-<li><p>安裝系統時，即使我選擇「最小安裝」，【Fcitx 5】 仍在預設安裝的套件之中，要注意的是，【Fcitx 5】 並不是預設的輸入平台。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795148/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp22"><img src="https://live.staticflickr.com/65535/51833795148_69337f8b35_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp22"></a></p>
+<li><p>安裝系統時，即使我選擇「最小安裝」，【Fcitx 5】 仍在預設安裝的套件之中，要注意的是，【Fcitx 5】 並不是預設的輸入平台。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795148/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp22"><img src="https://live.staticflickr.com/65535/51833795148_69337f8b35_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp22"></a></p>
 </li>
 <li><p>看完系統的樣子後，我認為要服用嘸蝦米，選擇 iBus 或 Fcitx5 的話，就是把分別對應的嘸蝦米表格檔安裝進來，再稍做設定，就可服用。</p>
 </li>
 <li><p>以往，我會直接用 sudo apt search fcitx-table-boshiamy：搜尋一下是不是能夠吃得到「fcitx(4)+嘸蝦米」這道菜。</p>
 </li>
-<li><p>只不過，今次，我選擇先使用 Budgie Welcome 執行「Install $ Configure Fcitx」，因為，我想看看額外加裝的版本是不是我猜的 fcitx(4)。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035149/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp23"><img src="https://live.staticflickr.com/65535/51834035149_8876493b0f_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp23"></a></p>
+<li><p>只不過，今次，我選擇先使用 Budgie Welcome 執行「Install $ Configure Fcitx」，因為，我想看看額外加裝的版本是不是我猜的 fcitx(4)。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035149/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp23"><img src="https://live.staticflickr.com/65535/51834035149_8876493b0f_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp23"></a></p>
 </li>
-<li><p>事實證明，我猜中了，而且安裝完，預設的輸入法也會自動調整為 【Fcitx 4】。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035144/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp24"><img src="https://live.staticflickr.com/65535/51834035144_14064c9ca8_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp24"></a></p>
+<li><p>事實證明，我猜中了，而且安裝完，預設的輸入法也會自動調整為 【Fcitx 4】。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035144/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp24"><img src="https://live.staticflickr.com/65535/51834035144_14064c9ca8_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp24"></a></p>
 </li>
 <li><p>既然已經有 【Fcitx 4】，那也就表示，一樣缺嘸蝦米表格檔而已，也就是說，同樣也可以把下列指令打到 Terminal 去「點餐」(老闆，請給我「fcitx(4)+嘸蝦米」這道菜)。(下圖)</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx-table-boshiamy</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>我也順道搜尋 Fcitx5 的嘸蝦米表格相關套件，儘管，就經驗上，我認為目前在 Debian 或 ubuntu 的(衍生)發行版出現的機率並不高。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795053/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp26"><img src="https://live.staticflickr.com/65535/51833795053_1c071625d2_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp26"></a><br> <a href="https://www.flickr.com/photos/jutedev/51834035064/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp27"><img src="https://live.staticflickr.com/65535/51834035064_130cfe8906_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp27"></a></p>
+<li><p>我也順道搜尋 Fcitx5 的嘸蝦米表格相關套件，儘管，就經驗上，我認為目前在 Debian 或 Ubuntu 的(衍生)發行版出現的機率並不高。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833795053/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp26"><img src="https://live.staticflickr.com/65535/51833795053_1c071625d2_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp26"></a><br> <a href="https://www.flickr.com/photos/jutedev/51834035064/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp27"><img src="https://live.staticflickr.com/65535/51834035064_130cfe8906_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp27"></a></p>
 </li>
-<li><p>同樣地，安裝完成後，直接 reboot，重新進入系統後，嘸蝦米輸入法已是預設輸入法。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035009/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp28"><img src="https://live.staticflickr.com/65535/51834035009_e8d74c3c25_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp28"></a><br> <a href="https://www.flickr.com/photos/jutedev/51832740287/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp29"><img src="https://live.staticflickr.com/65535/51832740287_c9487b7ac9_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp29"></a><br> <a href="https://www.flickr.com/photos/jutedev/51834034979/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp30"><img src="https://live.staticflickr.com/65535/51834034979_1048a54e66_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp30"></a></p>
+<li><p>同樣地，安裝完成後，直接 reboot，重新進入系統後，嘸蝦米輸入法已是預設輸入法。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834035009/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp28"><img src="https://live.staticflickr.com/65535/51834035009_e8d74c3c25_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp28"></a><br> <a href="https://www.flickr.com/photos/jutedev/51832740287/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp29"><img src="https://live.staticflickr.com/65535/51832740287_c9487b7ac9_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp29"></a><br> <a href="https://www.flickr.com/photos/jutedev/51834034979/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp30"><img src="https://live.staticflickr.com/65535/51834034979_1048a54e66_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp30"></a></p>
 </li>
-<li><p>沒有試過 fcitx(4) 與 Fcitx5 這兩個版本同時並存的模樣，今天索性也來試試看。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833680421/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp32"><img src="https://live.staticflickr.com/65535/51833680421_f822a6339a_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp32"></a></p>
+<li><p>沒有試過 fcitx(4) 與 Fcitx5 這兩個版本同時並存的模樣，今天索性也來試試看。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833680421/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp32"><img src="https://live.staticflickr.com/65535/51833680421_f822a6339a_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp32"></a></p>
 </li>
-<li><p>「小 a」是 fcitx(4)，「大 a」是 Fcitx5。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833794928/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp33"><img src="https://live.staticflickr.com/65535/51833794928_8bfab96ef8_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp33"></a></p>
+<li><p>「小 a」是 fcitx(4)，「大 a」是 Fcitx5。(下圖) <a href="https://www.flickr.com/photos/jutedev/51833794928/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp33"><img src="https://live.staticflickr.com/65535/51833794928_8bfab96ef8_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp33"></a></p>
 </li>
-<li><p>看完 fcitx(4) 的相關設定後，我就決定送走 Fcitx5。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834034944/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp34"><img src="https://live.staticflickr.com/65535/51834034944_15829e9576_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp34"></a></p>
+<li><p>看完 fcitx(4) 的相關設定後，我就決定送走 Fcitx5。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834034944/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp34"><img src="https://live.staticflickr.com/65535/51834034944_15829e9576_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp34"></a></p>
 </li>
-<li><p>Fcitx5，咱們有緣再見。(下圖) <a href="https://www.flickr.com/photos/jutedev/51832740207/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp35"><img src="https://live.staticflickr.com/65535/51832740207_0c12417802_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp35"></a></p>
+<li><p>Fcitx5，咱們有緣再見。(下圖) <a href="https://www.flickr.com/photos/jutedev/51832740207/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp35"><img src="https://live.staticflickr.com/65535/51832740207_0c12417802_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp35"></a></p>
 </li>
-<li><p>最後，確認一下，fcitx(4) 還在。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834416775/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp36"><img src="https://live.staticflickr.com/65535/51834416775_851e72736d_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp36"></a></p>
+<li><p>最後，確認一下，fcitx(4) 還在。(下圖) <a href="https://www.flickr.com/photos/jutedev/51834416775/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp36"><img src="https://live.staticflickr.com/65535/51834416775_851e72736d_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp36"></a></p>
 </li>
 </ol>
 <h3 id="使用心得速記"><a href="#使用心得速記" class="headerlink" title="使用心得速記"></a>使用心得速記</h3><ol>
 <li><p>介面跟 macOS 相近：對正在使用 macOS 的人而言，想要轉換到 Linux，會是一個 Zorin OS 與 Feren OS 之外的選擇。</p>
 </li>
-<li><p>ubuntu 加持：一樣是以 ubuntu LTS 做為「基底」來發展的衍生版本，保有良好體質，至少也不會像 Nitrux 上面，找不到 Terminal。</p>
+<li><p>Ubuntu 加持：一樣是以 Ubuntu LTS 做為「基底」來發展的衍生版本，保有良好體質，至少也不會像 Nitrux 上面，找不到 Terminal。</p>
 </li>
-<li><p>瀏覽器大全套：Budgie Welcome 裡有一項名為「Browser Ballot」，點下去可以看到下面的畫面，可以說目前大家常用的瀏覽器，都被囊括在裡面了。 <a href="https://www.flickr.com/photos/jutedev/51833795208/in/photostream/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp19"><img src="https://live.staticflickr.com/65535/51833795208_6d0685fd77_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp19"></a></p>
+<li><p>瀏覽器大全套：Budgie Welcome 裡有一項名為「Browser Ballot」，點下去可以看到下面的畫面，可以說目前大家常用的瀏覽器，都被囊括在裡面了。 <a href="https://www.flickr.com/photos/jutedev/51833795208/in/photostream/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp19"><img src="https://live.staticflickr.com/65535/51833795208_6d0685fd77_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp19"></a></p>
 </li>
-<li><p>中文顯示怪怪的：而且，這一點很快地就會被發現。下圖就可見，Budgie Welcome 左邊那裡有好多怪字，解決方式，我初步推論，應該是要去把不足的字體補上。 <a href="https://www.flickr.com/photos/jutedev/51834035264/in/album-72177720296110947/" title="installingubuntuBudgie21.10DesktoponVirtualBoxEp17"><img src="https://live.staticflickr.com/65535/51834035264_eb89c56d74_b.jpg" alt="installingubuntuBudgie21.10DesktoponVirtualBoxEp17"></a></p>
+<li><p>中文顯示怪怪的：而且，這一點很快地就會被發現。下圖就可見，Budgie Welcome 左邊那裡有好多怪字，解決方式，我初步推論，應該是要去把不足的字體補上。 <a href="https://www.flickr.com/photos/jutedev/51834035264/in/album-72177720296110947/" title="installingUbuntuBudgie21.10DesktoponVirtualBoxEp17"><img src="https://live.staticflickr.com/65535/51834035264_eb89c56d74_b.jpg" alt="installingUbuntuBudgie21.10DesktoponVirtualBoxEp17"></a></p>
 </li>
-<li><p>卡卡：說真的，這一點跟簡潔的桌面，有點反差。我會覺得同樣在 VirtualBox 運行 ubuntu (含衍生版本)，ubuntu Budgie 的卡頓感有相對明顯一些，前面我雖然提到介面跟 macOS 有點像，但，還是跟 macOS 絲滑順暢的體驗感有差距，換一個說法，使用的感受，倒是有那麼點像老 Mac 主機快要扛不動較新版本的 macOS 那樣。</p>
+<li><p>卡卡：說真的，這一點跟簡潔的桌面，有點反差。我會覺得同樣在 VirtualBox 運行 Ubuntu (含衍生版本)，Ubuntu Budgie 的卡頓感有相對明顯一些，前面我雖然提到介面跟 macOS 有點像，但，還是跟 macOS 絲滑順暢的體驗感有差距，換一個說法，使用的感受，倒是有那麼點像老 Mac 主機快要扛不動較新版本的 macOS 那樣。</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
@@ -5761,9 +5761,9 @@
         <tag>boshiamy</tag>
         <tag>fcitx5-table-extra</tag>
         <tag>fcitx5</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
-        <tag>ubuntubudgie</tag>
+        <tag>Ubuntu</tag>
+        <tag>Ubuntubudgie</tag>
       </tags>
   </entry>
   <entry>
@@ -5794,11 +5794,11 @@
       </tags>
   </entry>
   <entry>
-    <title>在 Acer Aspire 5583 WXMi 上面安裝 ubuntu</title>
+    <title>在 Acer Aspire 5583 WXMi 上面安裝 Ubuntu</title>
     <url>/linux/installing-ubuntu-on-acer-aspire-5583-wxmi/</url>
     <content><![CDATA[<p>W-BLUE 就是太太在使用的王建民 19 勝紀念機… (( 即 Acer Aspire 5583 WXMi，更詳細的規格可再參考 <a href="http://www.acer.com.tw/">Acer宏碁台灣官網</a>。 ))  </p>
-<p>ubuntu 會安裝到 W-BLUE 也算是個偶然，在 Windows Vista SP1 表現不如預期的情況下，忍痛請它先行下場休息，並請歷年來最穩定的老大哥 Windows XP Home 上場，熱身時間較長，還得將最新的加持包 Service Pack 3 掛上去，費時費力，因此待整個安裝完成後，我立刻想到之前跟 ubuntu 這位小老弟愉快的合作經驗，而今次它仍舊讓人滿意。  </p>
-<p>有別於前次的 Install inside Windows 合作方式，今次我想要自行分割硬碟，好讓 ubuntu 順勢上場，也在此時下定決心將 acer 原本所設定的 8 GB 系統備份還原區砍下來。對於硬碟的規畫，我的設想是用於桌面的 Linux ，分割區不用特別要求，又逢 x86 機器的限制，因此只切出 root 與 Swap，就讓 ubuntu 上去。  </p>
+<p>Ubuntu 會安裝到 W-BLUE 也算是個偶然，在 Windows Vista SP1 表現不如預期的情況下，忍痛請它先行下場休息，並請歷年來最穩定的老大哥 Windows XP Home 上場，熱身時間較長，還得將最新的加持包 Service Pack 3 掛上去，費時費力，因此待整個安裝完成後，我立刻想到之前跟 Ubuntu 這位小老弟愉快的合作經驗，而今次它仍舊讓人滿意。  </p>
+<p>有別於前次的 Install inside Windows 合作方式，今次我想要自行分割硬碟，好讓 Ubuntu 順勢上場，也在此時下定決心將 acer 原本所設定的 8 GB 系統備份還原區砍下來。對於硬碟的規畫，我的設想是用於桌面的 Linux ，分割區不用特別要求，又逢 x86 機器的限制，因此只切出 root 與 Swap，就讓 Ubuntu 上去。  </p>
 <p>應用程式的部分，我還沒有完全搞定，倒是先玩一下 Cheese，對 Logitech 的視訊表現感到相當滿意，附帶一提的是驅動程式的表現都正常，只剩 HPLIP Toolbox 還無法搜尋到 HP Photosmart C4385 (( PCMCIA 不在測試之列，因為我沒有相關的硬體可以玩看看！ ))。</p>
 ]]></content>
       <categories>
@@ -5807,7 +5807,7 @@
       <tags>
         <tag>linux</tag>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5888,11 +5888,11 @@
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 20.04.3 LTS 上安裝 Visual Studio Code</title>
+    <title>在 Ubuntu 20.04.3 LTS 上安裝 Visual Studio Code</title>
     <url>/linux/installing-visual-studio-code-on-ubuntu-20-04-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Visual Studio Code (又稱 VSCode)，在三大平台都能夠使用，今天這一則貼文是紀錄在 ubuntu 上安裝 VSCode 主程式的過程。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Visual Studio Code (又稱 VSCode)，在三大平台都能夠使用，今天這一則貼文是紀錄在 Ubuntu 上安裝 VSCode 主程式的過程。</p>
 <p>其實，整個步驟、程序，官網說明非常清楚，詳可見 <a href="https://code.visualstudio.com/docs/setup/linux">Running Visual Studio Code on Linux</a>，基本上我也是按表操課。</p>
-<p>基本上有 2 種方式，今天的紀錄是用 ubuntu 20.04 LTS，透過 APT 處理，但如果是較舊版的 ubuntu，今天的紀錄上的指令，或許就要改成是 dpkg。</p>
+<p>基本上有 2 種方式，今天的紀錄是用 Ubuntu 20.04 LTS，透過 APT 處理，但如果是較舊版的 Ubuntu，今天的紀錄上的指令，或許就要改成是 dpkg。</p>
 <h3 id="安裝流程紀錄"><a href="#安裝流程紀錄" class="headerlink" title="安裝流程紀錄"></a>安裝流程紀錄</h3><ol>
 <li>先下載 .deb 檔，我是用 Firefox。是說，也可以在 Terminal 用 wget 等指令來搞定，我個人是認為隨意就好，重點是要把對的檔載回來。<br> <img src="https://live.staticflickr.com/65535/51795661593_8feab95edb_o.png"></li>
 <li>安裝 VSCode 主程式。<br> <img src="https://live.staticflickr.com/65535/51796270255_5d9613c1df_o.png"></li>
@@ -5902,7 +5902,7 @@
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>官方網站：<a href="https://code.visualstudio.com/docs/setup/linux">Running Visual Studio Code on Linux</a></li>
 <li>另外一種安裝方式是透過 <a href="https://snapcraft.io/store">Snap Store | Snapcraft</a>，只要在 Terminal 下指令：<code>sudo snap install --classic code</code> 就可以搞定。</li>
-<li>延伸閱讀：<a href="/linux/installing-visual-studio-code-on-lubuntu-18-04-lts/">在 Lubuntu 18.04 LTS 上安裝 Visual Studio Code</a></li>
+<li>延伸閱讀：<a href="/linux/installing-visual-studio-code-on-lUbuntu-18-04-lts/">在 LUbuntu 18.04 LTS 上安裝 Visual Studio Code</a></li>
 </ol>
 ]]></content>
       <categories>
@@ -5910,7 +5910,7 @@
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -6287,114 +6287,7 @@ gdb -v
     <title>iOS 與嘸蝦米</title>
     <url>/boshiamy/ios-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這幾天在使用「蝦米鍵盤3」時，發現自己使用過不少跟嘸蝦米有關的鍵盤，索性將這些鍵盤的介面截圖下來，做個簡單的比較。<br><img src="https://live.staticflickr.com/65535/55537137054_6af0c3e459_b.jpg" alt="iosAndBoshiamy"/>※2026 年 9 月 5 日，加入「OnMyBias 米」的使用心得。</p>
-<h3 id="比拼一覽表（2026-年-9-月-28-日加入）"><a href="#比拼一覽表（2026-年-9-月-28-日加入）" class="headerlink" title="比拼一覽表（2026 年 9 月 28 日加入）"></a>比拼一覽表（2026 年 9 月 28 日加入）</h3><table>
-<thead>
-<tr>
-<th>鍵盤</th>
-<th>價格</th>
-<th>碼表</th>
-<th>Android 版</th>
-<th>狀態</th>
-<th>特色</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>蝦米鍵盤3</td>
-<td>試用 30 天，買斷 US$9.99（約 320 元）；AI 功能每週 30 元</td>
-<td>內建</td>
-<td>△</td>
-<td>持續更新</td>
-<td>官方版本、AI 功能</td>
-</tr>
-<tr>
-<td>蝦米鍵盤2</td>
-<td>基本打字免費</td>
-<td>內建</td>
-<td>△</td>
-<td>未來可能下架，建議先下載</td>
-<td>不花錢就能使用基本功能的官蝦</td>
-</tr>
-<tr>
-<td>蝦米鍵盤（1 代）</td>
-<td>付費</td>
-<td>內建</td>
-<td>△</td>
-<td>已下架</td>
-<td>上古時期的官蝦、曾經付費購買的伙伴可從購買紀錄下載</td>
-</tr>
-<tr>
-<td>南極蝦鍵盤</td>
-<td>Lite 版免費；一般版 150 元，另有 3 項加購各 50 元</td>
-<td>需匯入</td>
-<td>✕</td>
-<td>更新快</td>
-<td>Lite 版能滿足基本打字需求</td>
-</tr>
-<tr>
-<td>iAcces Keyboard</td>
-<td>嘸蝦米 190 元；新機型需另購授權</td>
-<td>內購</td>
-<td>✕</td>
-<td>持續更新</td>
-<td>2 種不同的鍵盤配置、最早取得授權</td>
-</tr>
-<tr>
-<td>UrKeyboard</td>
-<td>120 元，訂閱 Pro 版：年繳 250 元、月繳 30 元</td>
-<td>選「蝦米.cin」，精靈協助設定</td>
-<td>✓ 130 元</td>
-<td>持續更新</td>
-<td>候選工具列、觸控校正</td>
-</tr>
-<tr>
-<td>Kaiboard</td>
-<td>免費</td>
-<td>需額外設定</td>
-<td>✕</td>
-<td>持續更新</td>
-<td>穩定、中英混打順手</td>
-</tr>
-<tr>
-<td>爪爪鍵盤</td>
-<td>免費</td>
-<td>需匯入</td>
-<td>✕</td>
-<td>持續更新</td>
-<td>速打字根提示、AI 智慧詞頻預測</td>
-</tr>
-<tr>
-<td>元書輸入法</td>
-<td>免費；Pro 版（一次性購買 320 元、年繳 150 元、月繳 30 元）解鎖剪貼簿、腳本</td>
-<td>需設定輸入方案（難度較高）</td>
-<td>✕</td>
-<td>更新快</td>
-<td>高度客製化</td>
-</tr>
-<tr>
-<td>OkidoKey</td>
-<td>免費</td>
-<td>需匯入（檔名用小寫英文）</td>
-<td>✕</td>
-<td>持續更新</td>
-<td>候選字列可調、可字根反查</td>
-</tr>
-<tr>
-<td>萊姆輸入法</td>
-<td>免費</td>
-<td>需匯入</td>
-<td>✓</td>
-<td>更新快</td>
-<td>開源</td>
-</tr>
-<tr>
-<td>OnMyBias 米</td>
-<td>免費</td>
-<td>需匯入</td>
-<td>✓</td>
-<td>更新快</td>
-<td>最輕盈（2.1 MB）、可換膚</td>
-</tr>
-</tbody></table>
+<h3 id="比拼一覽表（2026-年-9-月-28-日加入）"><a href="#比拼一覽表（2026-年-9-月-28-日加入）" class="headerlink" title="比拼一覽表（2026 年 9 月 28 日加入）"></a>比拼一覽表（2026 年 9 月 28 日加入）</h3><p>| 鍵盤 | 價格 | 碼表 | Android 版 | 特色 |<br>|—|—|—|—|—|—|<br>| 蝦米鍵盤3 | 試用 30 天，買斷 US$9.99（約 320 元）；AI 功能每週 30 元 | 內建 | △ | 官方版本、AI 功能 |<br>| 蝦米鍵盤2 | 基本打字免費 | 內建 | △ | 不花錢就能使用基本功能的官蝦、未來可能下架，建議先下載 |<br>| 蝦米鍵盤（1 代） | 付費 | 內建 | △ | 已下架的上古時期官蝦、曾經付費購買的伙伴可從購買紀錄下載 |<br>| 南極蝦鍵盤 | Lite 版免費；一般版 150 元，另有 3 項加購各 50 元 | 需匯入 | ✕ | Lite 版能滿足基本打字需求 |<br>| iAcces Keyboard | 嘸蝦米 190 元；新機型需另購授權 | 內購 | ✕ | 2 種不同的鍵盤配置、最早取得授權 |<br>| UrKeyboard | 120 元，訂閱 Pro 版：年繳 250 元、月繳 30 元 | 選「蝦米.cin」，精靈協助設定 | ✓ 130 元 | 候選工具列、觸控校正 |<br>| Kaiboard | 免費 | 需額外設定 | ✕ | 穩定、中英混打順手 |<br>| 爪爪鍵盤 | 免費 | 需匯入 | ✕ | 速打字根提示、AI 智慧詞頻預測 |<br>| 元書輸入法 | 免費；Pro 版（一次性購買 320 元、年繳 150 元、月繳 30 元）解鎖剪貼簿、腳本 | 需設定輸入方案（難度較高） | ✕ | 高度客製化 |<br>| OkidoKey | 免費 | 需匯入（檔名用小寫英文） | ✕ | 候選字列可調、可字根反查 |<br>| 萊姆輸入法 | 免費 | 需匯入 | ✓ | 開源 |<br>| OnMyBias 米 | 免費 | 需匯入 | ✓ | 最輕盈（2.1 MB）、可換膚 |</p>
 <p><strong>選用建議懶人包</strong>：</p>
 <ul>
 <li>不想匯入碼表 → 蝦米鍵盤3（付費）、蝦米鍵盤2（免費）</li>
@@ -9114,7 +9007,7 @@ gdb -v
 <td><a href="#fcitx5-table-boshiamy">獨立套件：fcitx5-table-boshiamy</a></td>
 </tr>
 <tr>
-<td>ubuntu 24.04 LTS 以後、Linux Mint 22</td>
+<td>Ubuntu 24.04 LTS 以後、Linux Mint 22</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-extra（軟體庫內建）</td>
 <td>apt 指令＋圖形介面加入</td>
@@ -9122,7 +9015,7 @@ gdb -v
 <td><a href="#fcitx5-table-extra-%E8%BB%9F%E9%AB%94%E5%BA%AB%E7%89%88">軟體庫版：fcitx5-table-extra</a></td>
 </tr>
 <tr>
-<td>Debian 12、ubuntu 23.10 以前、Linux Mint 21.1、LMDE 6</td>
+<td>Debian 12、Ubuntu 23.10 以前、Linux Mint 21.1、LMDE 6</td>
 <td>Fcitx5</td>
 <td>fcitx5-table-extra（自 pkgs.org 下載）</td>
 <td>apt 指令＋手動放置檔案</td>
@@ -9130,7 +9023,7 @@ gdb -v
 <td><a href="#fcitx5-table-extra-%E8%87%AA%E8%A1%8C%E8%99%95%E7%90%86%E8%88%87%E6%9C%8D%E7%94%A8%E7%89%88">自行處理版：fcitx5-table-extra</a></td>
 </tr>
 <tr>
-<td>ubuntu 22.04／23.04、MX Linux、elementary OS、Zorin OS 17.3、LMDE 5</td>
+<td>Ubuntu 22.04／23.04、MX Linux、elementary OS、Zorin OS 17.3、LMDE 5</td>
 <td>fcitx(4)</td>
 <td>fcitx-table-boshiamy</td>
 <td>apt 指令＋圖形介面加入</td>
@@ -9166,7 +9059,7 @@ gdb -v
 <ul>
 <li>不想碰指令 → Linux Mint 22.1 Cinnamon、openSUSE</li>
 <li>用的是新版發行版 → 優先選 Fcitx5，對 Wayland 支援也較好</li>
-<li>用的是較舊的 Debian／ubuntu 系 → fcitx(4) 通常最省事</li>
+<li>用的是較舊的 Debian／Ubuntu 系 → fcitx(4) 通常最省事</li>
 </ul>
 <h2 id="各發行版之安裝建議-依英文字母排序"><a href="#各發行版之安裝建議-依英文字母排序" class="headerlink" title="各發行版之安裝建議(依英文字母排序)"></a>各發行版之安裝建議(依英文字母排序)</h2><h3 id="Arch-Linux-及其衍生發行版"><a href="#Arch-Linux-及其衍生發行版" class="headerlink" title="Arch Linux 及其衍生發行版"></a>Arch Linux 及其衍生發行版</h3><blockquote>
 <p>優先考慮 Fcitx5。</p>
@@ -9179,14 +9072,14 @@ gdb -v
 <li><a href="/boshiamy/arcolinuxl-and-boshiamy/">ArcoLinuxL 與嘸蝦米</a></li>
 <li><a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a></li>
 </ol>
-<h3 id="Debian-與-ubuntu-及其衍生發行版"><a href="#Debian-與-ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 ubuntu 及其衍生發行版"></a>Debian 與 ubuntu 及其衍生發行版</h3><blockquote>
-<p>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。<br>新版本尚未實測：2025 年 8 月推出的 Debian 13，2026 年 4 月推出的 ubuntu 26.04 LTS。</p>
+<h3 id="Debian-與-Ubuntu-及其衍生發行版"><a href="#Debian-與-Ubuntu-及其衍生發行版" class="headerlink" title="Debian 與 Ubuntu 及其衍生發行版"></a>Debian 與 Ubuntu 及其衍生發行版</h3><blockquote>
+<p>使用的版本越新，基本上就可以優先考慮服用 Fcitx5。<br>新版本尚未實測：2025 年 8 月推出的 Debian 13，2026 年 4 月推出的 Ubuntu 26.04 LTS。</p>
 </blockquote>
 <h4 id="Fcitx5"><a href="#Fcitx5" class="headerlink" title="Fcitx5"></a>Fcitx5</h4><blockquote>
-<p>Debian 與 ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
+<p>Debian 與 Ubuntu 及其衍生發行版可以說開枝散葉，體系相當龐大，也因此，談到安裝及使用 Fcitx 時，除了得將 Fcitx5 與 fcitx(4) 分別說明外，Fcitx5 的部分，還會因為版本不同，安裝服用的方式也不太一樣。</p>
 </blockquote>
 <h5 id="fcitx5-table-boshiamy"><a href="#fcitx5-table-boshiamy" class="headerlink" title="fcitx5-table-boshiamy"></a>fcitx5-table-boshiamy</h5><ol>
-<li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
+<li>嘸蝦米的獨立套件：原本，「嘸蝦米」是打包在 <code>fcitx5-table-extra</code> 這支套件裡，然而，現在已經有單獨打包「嘸蝦米」成一支套件問世：<code>fcitx5-table-boshiamy</code>。截至目前，我觀察到部分 Debian 與 Ubuntu 及其衍生發行版開始將 <code>fcitx5-table-boshiamy</code> 收錄至軟體庫，讓選用 Fcitx5，並且只想單純地服用「嘸蝦米」的伙伴，可以選擇安裝 <code>fcitx5-table-boshiamy</code> 這支套件即可。</li>
 <li>視窗介面安裝：在 Linux Mint 22.1 上，可以使用「軟體管理員」介面完成輸入法框架及輸入法表格相關套件的安裝，並且後續的設定上，也都是在視窗介面完成。在 Linux Mint 22.1 之前，能夠在視窗介面就完成安裝的發行版，我目前只想得到 openSUSE。</li>
 </ol>
 <p>基於上述 2 點，我先把 <code>fcitx5-table-boshiamy</code> 的安裝方式獨立出來。</p>
@@ -9194,15 +9087,15 @@ gdb -v
 <li><a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a></li>
 <li><a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a></li>
 </ol>
-<h5 id="fcitx5-table-extra-軟體庫版"><a href="#fcitx5-table-extra-軟體庫版" class="headerlink" title="fcitx5-table-extra 軟體庫版"></a>fcitx5-table-extra 軟體庫版</h5><p>「ubuntu 24.04 LTS」及其衍生發行版開始，已經將 <code>fcitx5-table-extra</code> 收納至軟體庫，所以，先是一道指令將套件安裝進來，接著可以從圖形介面新增「嘸蝦米」就能搞定。</p>
+<h5 id="fcitx5-table-extra-軟體庫版"><a href="#fcitx5-table-extra-軟體庫版" class="headerlink" title="fcitx5-table-extra 軟體庫版"></a>fcitx5-table-extra 軟體庫版</h5><p>「Ubuntu 24.04 LTS」及其衍生發行版開始，已經將 <code>fcitx5-table-extra</code> 收納至軟體庫，所以，先是一道指令將套件安裝進來，接著可以從圖形介面新增「嘸蝦米」就能搞定。</p>
 <ol>
-<li><a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></li>
+<li><a href="/boshiamy/Ubuntu-24-04-lts-and-boshiamy/">Ubuntu 24.04 LTS 與嘸蝦米</a></li>
 <li><a href="/boshiamy/linux-mint-22-and-boshiamy-feat-fcitx5-table-extra/">Linux Mint 22 與嘸蝦米 (feat. fcitx5-table-extra)</a></li>
 </ol>
-<h5 id="fcitx5-table-extra-自行處理與服用版"><a href="#fcitx5-table-extra-自行處理與服用版" class="headerlink" title="fcitx5-table-extra 自行處理與服用版"></a>fcitx5-table-extra 自行處理與服用版</h5><p>Debian 12 與 ubuntu 23.10 之前(說真的，我沒有一個版本接著一個版本去試，這裡，在版本上的分水嶺是我自己大致推估出來的，僅供參考)，應該是需要自行處理與服用 <code>fcitx5-table-extra</code> 的，本篇貼文運用的方法是跑一趟 pkgs.org，下載相關檔案後再做一些處理，同樣可以服用，只是過程比較麻煩一些。</p>
+<h5 id="fcitx5-table-extra-自行處理與服用版"><a href="#fcitx5-table-extra-自行處理與服用版" class="headerlink" title="fcitx5-table-extra 自行處理與服用版"></a>fcitx5-table-extra 自行處理與服用版</h5><p>Debian 12 與 Ubuntu 23.10 之前(說真的，我沒有一個版本接著一個版本去試，這裡，在版本上的分水嶺是我自己大致推估出來的，僅供參考)，應該是需要自行處理與服用 <code>fcitx5-table-extra</code> 的，本篇貼文運用的方法是跑一趟 pkgs.org，下載相關檔案後再做一些處理，同樣可以服用，只是過程比較麻煩一些。</p>
 <ol>
 <li><a href="/boshiamy/debian-12-and-boshiamy">Debian 12 與嘸蝦米</a></li>
-<li><a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/">在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a></li>
+<li><a href="/boshiamy/fcitx5-with-fcitx5-table-extra-on-Ubuntu-22-04-1-lts/">在 Ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a></li>
 <li><a href="/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/">Linux Mint 21.1 與嘸蝦米 (feat. fcitx5-table-extra)</a></li>
 <li><a href="/linux/lmde-6/">來玩 LMDE 6</a></li>
 </ol>
@@ -9210,8 +9103,8 @@ gdb -v
 <p>以下的發行版，選用 fcitx(4) 是比較方便的決定，因為，只要下完 <code>sudo apt install fcitx-table-boshiamy</code> 這道指令就幾乎搞定一半。</p>
 </blockquote>
 <ol>
-<li><a href="/boshiamy/ubuntu-23-04-and-boshiamy/">ubuntu 23.04 與嘸蝦米</a></li>
-<li><a href="/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/">在 ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米</a></li>
+<li><a href="/boshiamy/Ubuntu-23-04-and-boshiamy/">Ubuntu 23.04 與嘸蝦米</a></li>
+<li><a href="/boshiamy/installing-fcitx-4-with-boshiamy-table-on-Ubuntu-22-04-lts/">在 Ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米</a></li>
 <li><a href="/linux/mx-linux-mx-23/">來玩 MX Linux MX-23</a></li>
 <li><a href="/linux/elementary-os-7-1/">來玩 elementory OS 7.1</a></li>
 <li><a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a></li>
@@ -9241,11 +9134,11 @@ gdb -v
 <li><a href="/linux/slackware-15-0/">來玩 Slackware 15.0</a></li>
 </ul>
 <h2 id="內容更新列表"><a href="#內容更新列表" class="headerlink" title="內容更新列表"></a>內容更新列表</h2><ul>
-<li>2025 年 1 月 30 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a>。</li>
-<li>2025 年 4 月 4 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a>。</li>
+<li>2025 年 1 月 30 日更新內容：在「Debian 與 Ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/installing-boshiamy-on-linux-mint-22-1-cinnamon-without-any-command/">[無需指令] 在 Linux Mint 22.1 Cinnamon 上安裝嘸蝦米輸入法</a>。</li>
+<li>2025 年 4 月 4 日更新內容：在「Debian 與 Ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-17-3-core-and-boshiamy/">Zorin OS 17.3 Core 與嘸蝦米</a>。</li>
 <li>2025 年 5 月 17 日更新內容：在「Arch Linux 及其衍生發行版」裡，收錄 <a href="/linux/cachyos-desktop-linux-250422/">CachyOS</a>。</li>
 <li>2025 年 5 月 20 日更新內容：在「openSUSE」裡，收錄 <a href="/linux/opensuse-leap-16-0-beta/">openSUSE Leap 16.0 Beta</a>。</li>
-<li>2025 年 12 月 21 日更新內容：在「Debian 與 ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a>。</li>
+<li>2025 年 12 月 21 日更新內容：在「Debian 與 Ubuntu 及其衍生發行版」裡，收錄 <a href="/boshiamy/zorin-os-18-and-boshiamy/">Zorin OS 18 與嘸蝦米</a>。</li>
 </ul>
 <h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><ol>
 <li><p>Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。選用 iBus 的話，拿行易有限公司官網的表格檔服用，肯定是最佳的選擇。</p>
@@ -10887,13 +10780,13 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>從 BIOS / Boot Menu 把「ubuntu 選項」移除</title>
+    <title>從 BIOS / Boot Menu 把「Ubuntu 選項」移除</title>
     <url>/windows/remove-ubuntu-from-bios-boot-menu/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>走過不少支 Distro 後，我發現 ubuntu 似乎是一個對系統「寫入」比較深入且全面的作業系統，也觀察到即使把 GRUB 砍掉(可參考：<a href="/linux/unistall-grub-by-clearlinux-live-usb/">使用 ClearLinux Live USB 刪除 GRUB</a>)，在 BIOS 上的 Boot Menu 裡面(或是進入 BIOS)，仍然會看到 ubuntu 的選單。</p>
-<p>今天這一篇，就是筆記一下，我把 ubuntu 從 Boot Menu 刪除的過程。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>走過不少支 Distro 後，我發現 Ubuntu 似乎是一個對系統「寫入」比較深入且全面的作業系統，也觀察到即使把 GRUB 砍掉(可參考：<a href="/linux/unistall-grub-by-clearlinux-live-usb/">使用 ClearLinux Live USB 刪除 GRUB</a>)，在 BIOS 上的 Boot Menu 裡面(或是進入 BIOS)，仍然會看到 Ubuntu 的選單。</p>
+<p>今天這一篇，就是筆記一下，我把 Ubuntu 從 Boot Menu 刪除的過程。</p>
 <h3 id="流程紀錄"><a href="#流程紀錄" class="headerlink" title="流程紀錄"></a>流程紀錄</h3><ol>
 <li>「以系統管理員身份執行」 CMD。</li>
-<li>接著在 CMD 下幾道指令。 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bcdedit /enum firmware</span><br><span class="line">//這道指令下完後，應該會看到 Windows Boot Manager、Firmware Application 等「標頭」，</span><br><span class="line">//沒有意外的話，在 Firmware Application 裡面，可以讀到一列「description ubuntu」的訊息，</span><br><span class="line">//而裡面還有一段 identifier，這一段很重要，等一下會用到。</span><br><span class="line"></span><br><span class="line">bcdedit /export newBcd</span><br><span class="line">//「newBcd」 是可以任意被命名的，若擔心會搞錯的話，按表操課即可。</span><br><span class="line"></span><br><span class="line">copy newBcd bcdBackup</span><br><span class="line"></span><br><span class="line">bcdedit /store newBcd /delete &#123;xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx&#125;</span><br><span class="line">//大括號裡的字碼(含大括號)，就是 identifier 後面的那一段，</span><br><span class="line">//這一段的處理，只要在 CMD 裡面將該串字碼反白複製貼過來就可以。</span><br><span class="line"></span><br><span class="line">bcdedit /import newBcd /clean</span><br></pre></td></tr></table></figure></li>
+<li>接著在 CMD 下幾道指令。 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bcdedit /enum firmware</span><br><span class="line">//這道指令下完後，應該會看到 Windows Boot Manager、Firmware Application 等「標頭」，</span><br><span class="line">//沒有意外的話，在 Firmware Application 裡面，可以讀到一列「description Ubuntu」的訊息，</span><br><span class="line">//而裡面還有一段 identifier，這一段很重要，等一下會用到。</span><br><span class="line"></span><br><span class="line">bcdedit /export newBcd</span><br><span class="line">//「newBcd」 是可以任意被命名的，若擔心會搞錯的話，按表操課即可。</span><br><span class="line"></span><br><span class="line">copy newBcd bcdBackup</span><br><span class="line"></span><br><span class="line">bcdedit /store newBcd /delete &#123;xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx&#125;</span><br><span class="line">//大括號裡的字碼(含大括號)，就是 identifier 後面的那一段，</span><br><span class="line">//這一段的處理，只要在 CMD 裡面將該串字碼反白複製貼過來就可以。</span><br><span class="line"></span><br><span class="line">bcdedit /import newBcd /clean</span><br></pre></td></tr></table></figure></li>
 <li>原則上，走到這裡就搞定，可以試著重新開機，進入 Boot Menu 或是 BIOS 看看。</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>※<a href="https://zh.wikipedia.org/zh-tw/Windows%E9%96%8B%E6%A9%9F%E7%AE%A1%E7%90%86%E7%A8%8B%E5%BC%8F">Windows開機管理程式 - 維基百科，自由的百科全書</a></p>
@@ -10904,7 +10797,7 @@ gdb -v
       <tags>
         <tag>linux</tag>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -11642,10 +11535,10 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>安裝 ubuntu 24.04 LTS 後，我做了一些系統設定</title>
+    <title>安裝 Ubuntu 24.04 LTS 後，我做了一些系統設定</title>
     <url>/linux/things-to-do-after-installing-ubuntu-24-04-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu 24.04 LTS 喚醒 2005 年，我接觸到 ubuntu 8.04 時的感動。<br><img src="https://live.staticflickr.com/65535/53709227561_305f12e57d_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp10"/></p>
-<h3 id="系統設定與-App-安裝"><a href="#系統設定與-App-安裝" class="headerlink" title="系統設定與 App 安裝"></a>系統設定與 App 安裝</h3><p>很快地，我就把 ubuntu 24.04 LTS 安裝到 HP ProDesk 600 上面，同時，我在系統上做了一些設定(大致如下)。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu 24.04 LTS 喚醒 2005 年，我接觸到 Ubuntu 8.04 時的感動。<br><img src="https://live.staticflickr.com/65535/53709227561_305f12e57d_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp10"/></p>
+<h3 id="系統設定與-App-安裝"><a href="#系統設定與-App-安裝" class="headerlink" title="系統設定與 App 安裝"></a>系統設定與 App 安裝</h3><p>很快地，我就把 Ubuntu 24.04 LTS 安裝到 HP ProDesk 600 上面，同時，我在系統上做了一些設定(大致如下)。</p>
 <ol>
 <li>更新系統</li>
 <li>安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)</li>
@@ -11655,16 +11548,16 @@ gdb -v
 <li>安裝 Bottles</li>
 <li>安裝 auto-cpufreq</li>
 <li>安裝 Caprine</li>
-<li>啟用 ubuntu Pro</li>
+<li>啟用 Ubuntu Pro</li>
 <li>安裝 gufw</li>
 </ol>
 <h4 id="更新系統"><a href="#更新系統" class="headerlink" title="更新系統"></a>更新系統</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
 
-<h4 id="安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法"><a href="#安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法" class="headerlink" title="安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)"></a>安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)</h4><p>參考：<a href="/boshiamy/ubuntu-24-04-lts-and-boshiamy/">ubuntu 24.04 LTS 與嘸蝦米</a></p>
+<h4 id="安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法"><a href="#安裝中文輸入法框架-Fcitx5-含新酷音與嘸蝦米輸入法" class="headerlink" title="安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)"></a>安裝中文輸入法框架 Fcitx5(含新酷音與嘸蝦米輸入法)</h4><p>參考：<a href="/boshiamy/Ubuntu-24-04-lts-and-boshiamy/">Ubuntu 24.04 LTS 與嘸蝦米</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install fcitx5-table-extra</span><br></pre></td></tr></table></figure>
-<img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg" width="1024" height="640" alt="ubuntu24.04LtsAndBoshiamyEp09">
+<img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg" width="1024" height="640" alt="Ubuntu24.04LtsAndBoshiamyEp09">
 
-<h4 id="安裝-Google-Chrome"><a href="#安裝-Google-Chrome" class="headerlink" title="安裝 Google Chrome"></a>安裝 Google Chrome</h4><p>參考：<a href="/linux/install-chrome-to-ubuntu-24-04-lts/">將 Google Chrome 安裝到 ubuntu 24.04 LTS</a></p>
+<h4 id="安裝-Google-Chrome"><a href="#安裝-Google-Chrome" class="headerlink" title="安裝 Google Chrome"></a>安裝 Google Chrome</h4><p>參考：<a href="/linux/install-chrome-to-Ubuntu-24-04-lts/">將 Google Chrome 安裝到 Ubuntu 24.04 LTS</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub &gt; linux_signing_key.pub</span><br><span class="line">sudo install -D -o root -g root -m 644 linux_signing_key.pub /etc/apt/keyrings/linux_signing_key.pub</span><br><span class="line">sudo sh -c &#x27;echo &quot;deb [arch=amd64 signed-by=/etc/apt/keyrings/linux_signing_key.pub] http://dl.google.com/linux/chrome/deb/ stable main&quot; &gt; /etc/apt/sources.list.d/google-chrome.list&#x27;</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install google-chrome-stable</span><br></pre></td></tr></table></figure>
 
 <h4 id="安裝-zsh-與-zplug"><a href="#安裝-zsh-與-zplug" class="headerlink" title="安裝 zsh 與 zplug"></a>安裝 zsh 與 zplug</h4><p>參考：<a href="/apple/zplug/">zplug</a></p>
@@ -11689,8 +11582,8 @@ gdb -v
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -q -O- https://raw.githubusercontent.com/sindresorhus/caprine/main/packages/deb/addRepo.sh | sudo bash</span><br></pre></td></tr></table></figure>
 <img src="https://live.staticflickr.com/65535/53710937598_9dee024661_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp05">
 
-<h4 id="啟用-ubuntu-Pro"><a href="#啟用-ubuntu-Pro" class="headerlink" title="啟用 ubuntu Pro"></a>啟用 ubuntu Pro</h4><ol>
-<li>我沒有在安裝完新系統的首次登入時啟用 ubuntu Pro，所以，只得跑一趟 <a href="https://ubuntu.com/pro/dashboard">Ubuntu Pro Dashboard | Ubuntu</a>，登入帳號後取得 <code>Free Personal Token</code>。</li>
+<h4 id="啟用-Ubuntu-Pro"><a href="#啟用-Ubuntu-Pro" class="headerlink" title="啟用 Ubuntu Pro"></a>啟用 Ubuntu Pro</h4><ol>
+<li>我沒有在安裝完新系統的首次登入時啟用 Ubuntu Pro，所以，只得跑一趟 <a href="https://ubuntu.com/pro/dashboard">Ubuntu Pro Dashboard | Ubuntu</a>，登入帳號後取得 <code>Free Personal Token</code>。</li>
 </ol>
 <img src="https://live.staticflickr.com/65535/53709554084_4cdfae5b34_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp06">
 
@@ -11704,7 +11597,7 @@ gdb -v
 <img src="https://live.staticflickr.com/65535/53708310712_aa4a875bd3_b.jpg" alt="thingsToDoAfterinstallingUbuntu24.04LTSEp08">
 
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>…坦白說，要不是當年留下一篇貼文：<a href="/boshiamy/ubuntu-8-04-and-boshiamy/">ubuntu 8.04 與嘸蝦米</a>，我還真的說不出自己是被「何年何月以及那一個版本」的 ubuntu 給驚豔到。</p>
+<li><p>…坦白說，要不是當年留下一篇貼文：<a href="/boshiamy/Ubuntu-8-04-and-boshiamy/">Ubuntu 8.04 與嘸蝦米</a>，我還真的說不出自己是被「何年何月以及那一個版本」的 Ubuntu 給驚豔到。</p>
 </li>
 <li><p>原則上，沒有什麼問題的話，我會接著安裝 VSCode。</p>
 </li>
@@ -11715,7 +11608,7 @@ gdb -v
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -11826,9 +11719,9 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>ubuntu 20.04.3 LTS 與嘸蝦米 (feat. iBus)</title>
+    <title>Ubuntu 20.04.3 LTS 與嘸蝦米 (feat. iBus)</title>
     <url>/boshiamy/ubuntu-20-04-3-lts-and-boshiamy-feat-ibus/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>儘管，有消息指出，ubuntu 預計在今(2022)年的 4 月 21 日，將釋出 22.04 LTS 版，ubuntu 20.04 LTS 版還是很多人會持續使用的版本。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>儘管，有消息指出，Ubuntu 預計在今(2022)年的 4 月 21 日，將釋出 22.04 LTS 版，Ubuntu 20.04 LTS 版還是很多人會持續使用的版本。</p>
 <p>這部影片我前不久就先錄下來，今天釋出，有一種留舊待新的心情。</p>
 <h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><ol>
 <li><p>到行易有限公司官網登入會員，並下載嘸蝦米官方 iBus 表格檔：「IBus (適用於ibus-table 版本 &gt; 1.8.0)」</p>
@@ -11854,23 +11747,23 @@ gdb -v
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>ibus</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>來玩 ubuntu 20.04.3 LTS</title>
+    <title>來玩 Ubuntu 20.04.3 LTS</title>
     <url>/linux/ubuntu-20-04-3-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>就在幾天前，ubuntu 20.04.3 LTS 正式釋出，主要的更新是 Linux Kernel 5.11 與 Mesa 21.0，也就是提升硬體上的支持度。</p>
-<h3 id="全新安裝-ubuntu-20-04-3-LTS"><a href="#全新安裝-ubuntu-20-04-3-LTS" class="headerlink" title="全新安裝 ubuntu 20.04.3 LTS"></a>全新安裝 ubuntu 20.04.3 LTS</h3><ol>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>就在幾天前，Ubuntu 20.04.3 LTS 正式釋出，主要的更新是 Linux Kernel 5.11 與 Mesa 21.0，也就是提升硬體上的支持度。</p>
+<h3 id="全新安裝-Ubuntu-20-04-3-LTS"><a href="#全新安裝-Ubuntu-20-04-3-LTS" class="headerlink" title="全新安裝 Ubuntu 20.04.3 LTS"></a>全新安裝 Ubuntu 20.04.3 LTS</h3><ol>
 <li>本次安裝使用的 ISO 檔版本是 ubuntu-20.04.3-desktop-amd64.iso。</li>
 <li>硬體的設定：1 CPU、ICH9 晶片組、啟用 EFI、4GB Ram、128MB VRAM、20GB Vdi HDD。</li>
 <li>安裝過程一如往常，簡單易用，目前系統帶出的更新軟體，只有跟 Firefox 與 Samba 這二個服務有關。 <img src="https://live.staticflickr.com/65535/51409788524_2e2e3ed863_o.png"></li>
 </ol>
 <h3 id="嘸蝦米安裝與使用上的建議"><a href="#嘸蝦米安裝與使用上的建議" class="headerlink" title="嘸蝦米安裝與使用上的建議"></a>嘸蝦米安裝與使用上的建議</h3><ol>
 <li>選用的順序上，我比較建議是 iBus→fcitx(4)→fcitx5。</li>
-<li>iBus：如果是全新安裝，並且有嘸蝦米輸入法之使用需求的人，我會建議服用官方的 iBus 表格檔，只要選對版本，安裝的過程是輕鬆且愉快的，詳可參考之前的貼文：<a href="/linux/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/">在 ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</a>。</li>
-<li>fcitx：fcitx 是另外一個服用上的選擇，我在一個全新安裝好的 ubuntu 20.04.3 上，用 Terminal 下了 2 道指令後，比較建議急需的人安裝 fcitx 4，而不是先安裝 fcitx 5。 <img src="https://live.staticflickr.com/65535/51408282007_448b4d239b_o.png"></li>
+<li>iBus：如果是全新安裝，並且有嘸蝦米輸入法之使用需求的人，我會建議服用官方的 iBus 表格檔，只要選對版本，安裝的過程是輕鬆且愉快的，詳可參考之前的貼文：<a href="/linux/installing-ibus-table-for-boshiamy-on-Ubuntu-20-04-lts/">在 Ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</a>。</li>
+<li>fcitx：fcitx 是另外一個服用上的選擇，我在一個全新安裝好的 Ubuntu 20.04.3 上，用 Terminal 下了 2 道指令後，比較建議急需的人安裝 fcitx 4，而不是先安裝 fcitx 5。 <img src="https://live.staticflickr.com/65535/51408282007_448b4d239b_o.png"></li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>由於我目前多半是在 VirtualBox 上執行，比較沒有什麼硬體上的要求，所以不急著更新，…而是直接安裝一個全新的 (&gt;_&lt;)。</p>
 ]]></content>
@@ -11880,16 +11773,16 @@ gdb -v
       <tags>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>ubuntu 22.04 LTS 與行易有限公司釋出的官方 iBus 版本嘸蝦米表格檔</title>
+    <title>Ubuntu 22.04 LTS 與行易有限公司釋出的官方 iBus 版本嘸蝦米表格檔</title>
     <url>/boshiamy/ubuntu-22-04-lts-and-official-boshiamy-ibus-table/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/52107678510_2f63a62bfb_b.jpg" alt="ubuntu22.04LTSEp06"/>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/52107678510_2f63a62bfb_b.jpg" alt="Ubuntu22.04LTSEp06"/>
 
-<p>ubuntu 22.04 LTS 釋出之前，我分別寫下 <a href="/boshiamy/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts/">在 ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</a>、<a href="/boshiamy/ubuntu-20-04-3-lts-and-boshiamy-feat-ibus/">ubuntu 20.04.3 LTS 與嘸蝦米 (feat. iBus)</a> 這 2 篇紀錄。</p>
-<p>時間走到 ubuntu 22.04 LTS 釋出這一天之後，我在 VirtualBox 安裝好這個新版的 ubuntu 並觀察了一下，發現這一個版本要安裝行易有限公司釋出的官方 iBus 版本嘸蝦米表格檔，在設定上有一點點不一樣(我猜，應該是 GNOME 後續版本做出改動的關係)。</p>
+<p>Ubuntu 22.04 LTS 釋出之前，我分別寫下 <a href="/boshiamy/installing-ibus-table-for-boshiamy-on-Ubuntu-20-04-lts/">在 Ubuntu 20.04 安裝官方釋出的嘸蝦米表格檔 (iBus)</a>、<a href="/boshiamy/Ubuntu-20-04-3-lts-and-boshiamy-feat-ibus/">Ubuntu 20.04.3 LTS 與嘸蝦米 (feat. iBus)</a> 這 2 篇紀錄。</p>
+<p>時間走到 Ubuntu 22.04 LTS 釋出這一天之後，我在 VirtualBox 安裝好這個新版的 Ubuntu 並觀察了一下，發現這一個版本要安裝行易有限公司釋出的官方 iBus 版本嘸蝦米表格檔，在設定上有一點點不一樣(我猜，應該是 GNOME 後續版本做出改動的關係)。</p>
 <p>索性，就再寫一篇紀錄。</p>
 <h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><ol>
 <li><p>登入行易有限公司官網的會員，並下載嘸蝦米官方 iBus 表格檔：「IBus (適用於ibus-table 版本 &gt; 1.8.0)」。</p>
@@ -11899,11 +11792,11 @@ gdb -v
 <li><p>將 boshiamy-ibus-1-8-x.tar.gz 解壓縮，並且將解壓縮之後的表格檔與 ICON 圖像檔放到正確的路徑裡，再執行 ibus-daemon -drx(如果出現跳[Enter]舞的現像，可以用 Ctrl+C 讓舞步停下來)。這個步驟所使用的指令如下。</p>
  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp ./*.db /usr/share/ibus-table/tables &amp;&amp; sudo cp ./*.png /usr/share/ibus-table/icons</span><br><span class="line">ibus-daemon -drx</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>進入「設定值」→「鍵盤」→再點一下「輸入來源」底下的「+」號→「中文(臺灣)」→「中文(嘸蝦米-繁)」→「加入」。(這一段路，跟 ubuntu 20.04 LTS 不同)</p>
+<li><p>進入「設定值」→「鍵盤」→再點一下「輸入來源」底下的「+」號→「中文(臺灣)」→「中文(嘸蝦米-繁)」→「加入」。(這一段路，跟 Ubuntu 20.04 LTS 不同)</p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>以上的程序，主要是針對全新安裝的 ubuntu 22.04 LTS，並且未使用過其他輸入法框架為前提。如果曾經換過框架，則必須走一趟「設定值」→「地區和語言」→「管理安裝的語言」→跳出「語言支援」視窗後→將「鍵盤輸入法系統」改成【IBus】。若 iBus 仍然沒有正常運作，請再搭配「重新登入」或「重開機」服用之，原則上都可以搞定。</p>
+<li><p>以上的程序，主要是針對全新安裝的 Ubuntu 22.04 LTS，並且未使用過其他輸入法框架為前提。如果曾經換過框架，則必須走一趟「設定值」→「地區和語言」→「管理安裝的語言」→跳出「語言支援」視窗後→將「鍵盤輸入法系統」改成【IBus】。若 iBus 仍然沒有正常運作，請再搭配「重新登入」或「重開機」服用之，原則上都可以搞定。</p>
 </li>
 <li><p><a href="https://www.ubuntu-tw.org/modules/tinyd0/">下載 Ubuntu | Ubuntu 正體中文站</a></p>
 </li>
@@ -11919,35 +11812,35 @@ gdb -v
       <tags>
         <tag>linux</tag>
         <tag>boshiamy</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>來玩 ubuntu 22.04 LTS</title>
+    <title>來玩 Ubuntu 22.04 LTS</title>
     <url>/linux/ubuntu-22-04-lts/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu，目前在 DistroWatch 上的「網頁參觀排名」是第 7 名。</p>
-<p>這一支 Distro 是我比較有系統地學習 Fedora 之後，所接觸到的。老早之前，我就曾經想要拿這一支 Distro 來當 Desktop 系統(詳可見：<a href="/boshiamy/ubuntu-8-04-and-boshiamy/">ubuntu 8.04 與嘸蝦米</a>)。</p>
-<p>那段時間，我對 Linux 非常狂熱，也非常盼望能夠使用 ubuntu 來取代 Windows，直到今日，我還是無法讓辦公室機器上的 Windows 為 Linux 所取代。坦白說，12 年前我就放棄這個念頭，而 ubuntu 仍然在時間裡面流動，LTS 更是持續更新到版本號：22.04。</p>
-<p>去年，我重回 Linux 懷抱，分別從 Fedora、ubuntu 與 Clear Linux 開始，然而，我並沒有在 ubuntu 20.04 LTS 上面停太久，說真的，我自己也滿意外的，但，也沒有太去深究原由，後續幾個版本，我也都是蜻蜓點水帶過。</p>
-<p>今天，我的目的就是想要試看看，這一次的 ubuntu 22.04 LTS 能否讓我 Long-stay。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu，目前在 DistroWatch 上的「網頁參觀排名」是第 7 名。</p>
+<p>這一支 Distro 是我比較有系統地學習 Fedora 之後，所接觸到的。老早之前，我就曾經想要拿這一支 Distro 來當 Desktop 系統(詳可見：<a href="/boshiamy/Ubuntu-8-04-and-boshiamy/">Ubuntu 8.04 與嘸蝦米</a>)。</p>
+<p>那段時間，我對 Linux 非常狂熱，也非常盼望能夠使用 Ubuntu 來取代 Windows，直到今日，我還是無法讓辦公室機器上的 Windows 為 Linux 所取代。坦白說，12 年前我就放棄這個念頭，而 Ubuntu 仍然在時間裡面流動，LTS 更是持續更新到版本號：22.04。</p>
+<p>去年，我重回 Linux 懷抱，分別從 Fedora、Ubuntu 與 Clear Linux 開始，然而，我並沒有在 Ubuntu 20.04 LTS 上面停太久，說真的，我自己也滿意外的，但，也沒有太去深究原由，後續幾個版本，我也都是蜻蜓點水帶過。</p>
+<p>今天，我的目的就是想要試看看，這一次的 Ubuntu 22.04 LTS 能否讓我 Long-stay。</p>
 <h3 id="安裝與使用過程"><a href="#安裝與使用過程" class="headerlink" title="安裝與使用過程"></a>安裝與使用過程</h3><ol>
-<li>由於我已經非常習慣，也非常喜歡 Garunda Linux，所以，我並沒有立馬將 ubuntu 安裝到本機上，而是先把它放在沙盒裡面。 <img src="https://live.staticflickr.com/65535/52117408257_d207b89394_b.jpg" alt="ubuntu22.04LTSEp1"></li>
-<li>使用一段時間，並且在網路上爬文，閱讀網友的分享(詳可見：<a href="https://ubunlog.com/zh-CN/%E6%9C%89%E4%BA%BA%E6%89%B9%E8%AF%84-ubuntu-22-04-%E5%92%8C-linux-%E7%9A%84%E5%B0%8F%E5%88%9B%E6%96%B0/">Ubuntu 22.04 LTS 并没有摆脱仇恨者，他们批评它的小创新| ubunlog</a>)後，才進一步安裝到本機上。 <img src="https://live.staticflickr.com/65535/52118435586_89081bb31e.jpg" alt="ubuntu22.04LTSEp11"></li>
+<li>由於我已經非常習慣，也非常喜歡 Garunda Linux，所以，我並沒有立馬將 Ubuntu 安裝到本機上，而是先把它放在沙盒裡面。 <img src="https://live.staticflickr.com/65535/52117408257_d207b89394_b.jpg" alt="Ubuntu22.04LTSEp1"></li>
+<li>使用一段時間，並且在網路上爬文，閱讀網友的分享(詳可見：<a href="https://ubunlog.com/zh-CN/%E6%9C%89%E4%BA%BA%E6%89%B9%E8%AF%84-Ubuntu-22-04-%E5%92%8C-linux-%E7%9A%84%E5%B0%8F%E5%88%9B%E6%96%B0/">Ubuntu 22.04 LTS 并没有摆脱仇恨者，他们批评它的小创新| ubunlog</a>)後，才進一步安裝到本機上。 <img src="https://live.staticflickr.com/65535/52118435586_89081bb31e.jpg" alt="Ubuntu22.04LTSEp11"></li>
 </ol>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><p>我試著從 [Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub](<a href="http://jammy/">http://Jammy</a> Jellyfish Release Notes - Release - Ubuntu Community Hub) 這一篇去看，這個版本在 Desktop 部分的更新，再逐一去對照我自己的使用心得或想法(如下)。</p>
 <ol>
-<li>Ubuntu now offers 10 color choices each in dark and light styles：我不敢說，這個更新完全不重要，因為，我認為 20.04 LTS 的系統預設顏色，暗到有那麼點陰沉，看久了心情會有點悶悶的。 <img src="https://live.staticflickr.com/65535/52117408002_1a0eb2bc41.jpg" alt="ubuntu22.04LTSEp9"></li>
-<li>Firefox is now only provided in Ubuntu as a snap：關於這一點，我個人立馬想到在 Youtube 上看到網友對 ubuntu 21.10 的評價：<a href="https://www.youtube.com/watch?v=QsuI-nLqwhg">The Worst Ubuntu Release In Years (21.10) - YouTube</a>。 <img src="https://live.staticflickr.com/65535/52118939995_61c5099fb2_b.jpg" alt="ubuntu22.04LTSEp4"></li>
+<li>Ubuntu now offers 10 color choices each in dark and light styles：我不敢說，這個更新完全不重要，因為，我認為 20.04 LTS 的系統預設顏色，暗到有那麼點陰沉，看久了心情會有點悶悶的。 <img src="https://live.staticflickr.com/65535/52117408002_1a0eb2bc41.jpg" alt="Ubuntu22.04LTSEp9"></li>
+<li>Firefox is now only provided in Ubuntu as a snap：關於這一點，我個人立馬想到在 Youtube 上看到網友對 Ubuntu 21.10 的評價：<a href="https://www.youtube.com/watch?v=QsuI-nLqwhg">The Worst Ubuntu Release In Years (21.10) - YouTube</a>。 <img src="https://live.staticflickr.com/65535/52118939995_61c5099fb2_b.jpg" alt="Ubuntu22.04LTSEp4"></li>
 <li>接著讀下去的話，下列這幾點更新，我認為都是比較細微的。 Desktop icons are shown in the bottom right by default but this can be changed through new settings added to the Appearance panel of the Settings app. Also there are new settings to control the Dock look and behavior Dock devices and filemanager integration has been improved</li>
 </ol>
 <h3 id="中文輸入法框架的使用心得與選擇上的建議"><a href="#中文輸入法框架的使用心得與選擇上的建議" class="headerlink" title="中文輸入法框架的使用心得與選擇上的建議"></a>中文輸入法框架的使用心得與選擇上的建議</h3><ol>
 <li>推薦的順序：我比較建議的是 iBus → fcitx(4) → Fcitx5。尤其是蝦米族，我更會推薦以行易有限公司釋出的官方 iBus 表格檔為優先選擇。</li>
-<li>必須說，我建議以 iBus 為優先選擇，大致上有 3 個理由。 (1)行易有限公司釋出的嘸蝦米輸入法的 iBus 表格檔是合法使用。 (2)fcitx5-table-extra：Debian、ubuntu 及其衍生版本的 Fcitx5，要安裝 fcitx5-table-extra 都不是那麼方便，雖然，已有網友參考 <a href="/boshiamy/using-fcitx-5-with-boshiamy-on-debian-11/">在 Debian 11 上直接用 Fcitx5 與嘸蝦米</a> 之後，把解法推送到 GitHub 上(詳可見：<a href="https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra/build_deb_from_arch_package">demo-forum-case&#x2F;demo&#x2F;fcitx5-table-extra&#x2F;build_deb_from_arch_package at main · samwhelp&#x2F;demo-forum-case · GitHub</a>)。 (3)穩定性：我使用 Fcitx5 大半年下來，我發現它不是很穩定，還滿容易當掉的，雖然，我後來摸清它的脾氣，也知道可以怎麼處理，但，我個人不是很推薦使用。反倒是舊一點的 fcitx(4)，表現得相對比較穩定一些。而且，我自己在 GNOME 上面，使用 iBus 的經驗，除了 Clear Linux 以外，普遍而言是美好的。</li>
+<li>必須說，我建議以 iBus 為優先選擇，大致上有 3 個理由。 (1)行易有限公司釋出的嘸蝦米輸入法的 iBus 表格檔是合法使用。 (2)fcitx5-table-extra：Debian、Ubuntu 及其衍生版本的 Fcitx5，要安裝 fcitx5-table-extra 都不是那麼方便，雖然，已有網友參考 <a href="/boshiamy/using-fcitx-5-with-boshiamy-on-debian-11/">在 Debian 11 上直接用 Fcitx5 與嘸蝦米</a> 之後，把解法推送到 GitHub 上(詳可見：<a href="https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra/build_deb_from_arch_package">demo-forum-case&#x2F;demo&#x2F;fcitx5-table-extra&#x2F;build_deb_from_arch_package at main · samwhelp&#x2F;demo-forum-case · GitHub</a>)。 (3)穩定性：我使用 Fcitx5 大半年下來，我發現它不是很穩定，還滿容易當掉的，雖然，我後來摸清它的脾氣，也知道可以怎麼處理，但，我個人不是很推薦使用。反倒是舊一點的 fcitx(4)，表現得相對比較穩定一些。而且，我自己在 GNOME 上面，使用 iBus 的經驗，除了 Clear Linux 以外，普遍而言是美好的。</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>本次安裝使用的 ISO 檔版本是 ubuntu-22.04-desktop-amd64.iso。</li>
 <li>如果，要問我對於這個版本的系統有什麼更新上的期待，我目前想到的，就是把一些遊戲的功能整合進來。然而，就目前來看，好像還沒有一支 Distro 把可以拿來玩 Android 遊戲的模擬器，例如：Anbox，完美地整合到系統裡面。這一點，我反倒是對 Garuda Linux 比較有期待。</li>
-<li>最後，我想說的是…，本來我以為我會跟 Garuda Linux 告別一段時間，但，使用 ubuntu 不到一天的時間，我就決定再回到 Garuda。最主要的原因，在於 Garuda 的功能、介面…等，都比較符合我的需求，我比較意外的是我能夠接受炫炮的 Eye Candy。 <img src="https://live.staticflickr.com/65535/52118466798_d7d18fb360_c.jpg" alt="lastScreenshotOfGarudaLinux"></li>
+<li>最後，我想說的是…，本來我以為我會跟 Garuda Linux 告別一段時間，但，使用 Ubuntu 不到一天的時間，我就決定再回到 Garuda。最主要的原因，在於 Garuda 的功能、介面…等，都比較符合我的需求，我比較意外的是我能夠接受炫炮的 Eye Candy。 <img src="https://live.staticflickr.com/65535/52118466798_d7d18fb360_c.jpg" alt="lastScreenshotOfGarudaLinux"></li>
 </ol>
 ]]></content>
       <categories>
@@ -11958,21 +11851,21 @@ gdb -v
         <tag>windows</tag>
         <tag>嘸蝦米</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
         <tag>ibus</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>來玩 ubuntu 22.10</title>
+    <title>來玩 Ubuntu 22.10</title>
     <url>/linux/ubuntu-22-10/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>ubuntu，目前在 DistroWatch 上的「網頁參觀排名」是第 7 名，這個排名跟我前次貼出 <a href="/linux/quickrecap-of-ubuntu-22-04-lts/">[版本更新] 快速回顧 ubuntu 22.04 LTS</a> 的文章時，排名一致而沒有變動。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Ubuntu，目前在 DistroWatch 上的「網頁參觀排名」是第 7 名，這個排名跟我前次貼出 <a href="/linux/quickrecap-of-Ubuntu-22-04-lts/">[版本更新] 快速回顧 Ubuntu 22.04 LTS</a> 的文章時，排名一致而沒有變動。</p>
 <hr>
-<h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><p>我試著從 <a href="https://ubuntu.com/blog/canonical-releases-ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a> 這一篇去看，這個版本在 Desktop 部分的更新，再逐一去對照我自己的使用心得或想法(如下)。</p>
+<h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><p>我試著從 <a href="https://ubuntu.com/blog/canonical-releases-Ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a> 這一篇去看，這個版本在 Desktop 部分的更新，再逐一去對照我自己的使用心得或想法(如下)。</p>
 <ol>
 <li>New tools to optimise developer workflows：這裡提到 sshd 並不會開著等，而是要有連線要求時，才會啟動，另外，這個版本所使用的是 debuginfod 這個服務，至於有什麼差別，就文字上來看，一旦開發者有需求，應該會有比較多的「自動化」，試圖優化開發者的工作流程。</li>
-<li>Support for microcontrollers and embedded displays on the Raspberry Pi：Raspberry Pi 一直是我滿想入手玩玩的裝置，現在看來，ubuntu 22.10 能夠提供較多的支援，我相信是一大福音，如果能夠持續下去，相信總是好事一波。</li>
+<li>Support for microcontrollers and embedded displays on the Raspberry Pi：Raspberry Pi 一直是我滿想入手玩玩的裝置，現在看來，Ubuntu 22.10 能夠提供較多的支援，我相信是一大福音，如果能夠持續下去，相信總是好事一波。</li>
 <li>Upgraded enterprise management tooling：對於企業部署來說，這一版本也滿有誠意的。</li>
-<li>Improved desktop usability and performance：在看到 <a href="https://ubuntu.com/blog/canonical-releases-ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a> 這篇貼文之前，我的感受是似乎變得比較順又穩。我猜，會有這樣的感受，可能也是我在同一部機器，以實體的方式運行 Windows 10 好長一段時間，這部機器，扛 Windows 10 在開程式(尤其是載入遊戲)的時候比較喘，相較之下，ubuntu 22.10 就好上不少。</li>
+<li>Improved desktop usability and performance：在看到 <a href="https://ubuntu.com/blog/canonical-releases-Ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a> 這篇貼文之前，我的感受是似乎變得比較順又穩。我猜，會有這樣的感受，可能也是我在同一部機器，以實體的方式運行 Windows 10 好長一段時間，這部機器，扛 Windows 10 在開程式(尤其是載入遊戲)的時候比較喘，相較之下，Ubuntu 22.10 就好上不少。</li>
 </ol>
 <hr>
 <h3 id="中文輸入法框架的使用心得與選擇上的建議"><a href="#中文輸入法框架的使用心得與選擇上的建議" class="headerlink" title="中文輸入法框架的使用心得與選擇上的建議"></a>中文輸入法框架的使用心得與選擇上的建議</h3><ol>
@@ -11982,8 +11875,8 @@ gdb -v
 <hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>本次安裝使用的 ISO 檔版本是 ubuntu-22.10-desktop-amd64.iso。</li>
-<li>儘管 ubuntu 22.04 LTS 並沒有讓我 Long-stay，今次稍稍把玩一下 ubuntu 22.10，我個人還滿喜歡的。</li>
-<li><a href="https://ubuntu.com/blog/canonical-releases-ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a></li>
+<li>儘管 Ubuntu 22.04 LTS 並沒有讓我 Long-stay，今次稍稍把玩一下 Ubuntu 22.10，我個人還滿喜歡的。</li>
+<li><a href="https://ubuntu.com/blog/canonical-releases-Ubuntu-22-10-kinetic-kudu">Canonical releases Ubuntu 22.10 Kinetic Kudu</a></li>
 <li><a href="https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976?_ga=2.72410259.144319014.1667090878-1376597101.1667003680">Kinetic Kudu Release Notes - Release - Ubuntu Community Hub</a></li>
 </ol>
 ]]></content>
@@ -11994,15 +11887,15 @@ gdb -v
         <tag>linux</tag>
         <tag>windows</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>新酷音</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>讓 ubuntu 23.04「講」中文</title>
+    <title>讓 Ubuntu 23.04「講」中文</title>
     <url>/linux/ubuntu-23-04-tradition-chinese-locale/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>從 <a href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">Ubuntu Desktop 23.04 release roundup | Ubuntu</a> 可以得知，ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。<img src="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (01)"></p>
-<p>應該是剛起步的關係，ubuntu 23.04 的 New Installer 並沒有支援「中文（繁體）」，只能看到「中文（简体）」(如下圖)。<img src="https://live.staticflickr.com/65535/53176200069_a0e81e88bc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (02)"></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>從 <a href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">Ubuntu Desktop 23.04 release roundup | Ubuntu</a> 可以得知，Ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。<img src="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (01)"></p>
+<p>應該是剛起步的關係，Ubuntu 23.04 的 New Installer 並沒有支援「中文（繁體）」，只能看到「中文（简体）」(如下圖)。<img src="https://live.staticflickr.com/65535/53176200069_a0e81e88bc_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (02)"></p>
 <p>我相信，對於習慣「中文（繁體）」介面的人而言，這樣並不是很方便，而這一篇紀錄，就是我使用「English」介面安裝後，後續轉換「中文（繁體）」所走過的設定歷程。</p>
 <h3 id="急就章圖形介面設定法"><a href="#急就章圖形介面設定法" class="headerlink" title="急就章圖形介面設定法"></a>急就章圖形介面設定法</h3><p>這個方法，基本上全程可用「圖形介面」來服用，設定之後會發現，系統所顯示的中文其實是「中文（香港）」，儘管如此，依然可以接著安裝 fcitx(4) 與 fcitx-table-boshiamy 來完成嘸蝦米輸入法的設定。 <img src="https://live.staticflickr.com/65535/53175996131_74916e9cfa_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (03)"> <img src="https://live.staticflickr.com/65535/53176200044_7e5d71218f_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (04)"> <img src="https://live.staticflickr.com/65535/53176434850_ed23592c61_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (05)"> <img src="https://live.staticflickr.com/65535/53175996076_3c4e9df14b_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (06)"> <img src="https://live.staticflickr.com/65535/53175408212_1c2413cf81_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (07)"> <img src="https://live.staticflickr.com/65535/53176492083_8c651d49c2_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (08)"> <img src="https://live.staticflickr.com/65535/53176492078_fa48f24de0_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (09)"> <img src="https://live.staticflickr.com/65535/53175408182_9aa12e646c_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (10)"> <img src="https://live.staticflickr.com/65535/53176434820_e29142fa4e_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (11)"> <img src="https://live.staticflickr.com/65535/53176492053_7e0ba25909_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (12)"> <img src="https://live.staticflickr.com/65535/53175996001_1eb55e2c6a_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (13)"> <img src="https://live.staticflickr.com/65535/53175996021_53919eac27_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (14)"> <img src="https://live.staticflickr.com/65535/53176434770_febfcfddaf_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (15)"> <img src="https://live.staticflickr.com/65535/53176199944_3686476584_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (16)"> <img src="https://live.staticflickr.com/65535/53176199959_8600b6aafb_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (17)"> <img src="https://live.staticflickr.com/65535/53175996011_dac056b7eb_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (18)"> <img src="https://live.staticflickr.com/65535/53175408117_c70d96601b_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (19)"> <img src="https://live.staticflickr.com/65535/53176492278_9c92210278_c.jpg" alt="makeUbuntu23.04SpeakTraditionalChineseEp (20)"></p>
 <h3 id="完整全面設定法"><a href="#完整全面設定法" class="headerlink" title="完整全面設定法"></a>完整全面設定法</h3><p>以下的這些截圖，所呈現的就是完整的設定流程，一開始需要用到 Terminal 去下指令，後續就從圖形介面去處理就可以。</p>
@@ -12028,15 +11921,15 @@ gdb -v
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>ubuntu 24.04 LTS 與嘸蝦米</title>
+    <title>Ubuntu 24.04 LTS 與嘸蝦米</title>
     <url>/boshiamy/ubuntu-24-04-lts-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇，主要是紀錄 ubuntu 24.04 LTS 安裝嘸蝦米輸入法的過程。<br><img src="https://live.staticflickr.com/65535/53691892810_c303b2af6b_b.jpg"></p>
-<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>Fcitx5 在 ubuntu 24.04 LTS 已經是預設安裝好的的中文輸入法框架，一直以來，沒有被收錄的套件：<code>fcitx5-table-extra</code>，終於，在這個版本的 ubuntu 被納入軟體庫。<br><img src="https://live.staticflickr.com/65535/53690555372_4d98060b9f_b.jpg"></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇，主要是紀錄 Ubuntu 24.04 LTS 安裝嘸蝦米輸入法的過程。<br><img src="https://live.staticflickr.com/65535/53691892810_c303b2af6b_b.jpg"></p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>Fcitx5 在 Ubuntu 24.04 LTS 已經是預設安裝好的的中文輸入法框架，一直以來，沒有被收錄的套件：<code>fcitx5-table-extra</code>，終於，在這個版本的 Ubuntu 被納入軟體庫。<br><img src="https://live.staticflickr.com/65535/53690555372_4d98060b9f_b.jpg"></p>
 <p>也因此，整個安裝的過程(如下)，變得容易許多。</p>
 <ol>
 <li>先下一道指令，安裝<code>fcitx5-table-extra</code>。</li>
@@ -12067,16 +11960,16 @@ gdb -v
         <tag>linux</tag>
         <tag>boshiamy</tag>
         <tag>fcitx5-table-extra</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>ubuntu 23.04 與嘸蝦米</title>
+    <title>Ubuntu 23.04 與嘸蝦米</title>
     <url>/boshiamy/ubuntu-23-04-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來試試在 ubuntu 23.04 快速安裝 fcitx(4) 並啟用嘸蝦米。<br><img src="https://live.staticflickr.com/65535/53162814422_9478259b91_c.jpg" alt="boshiamyAndUbuntu23.04Ep (15)"/></p>
-<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>Fcitx 在 ubuntu 23.04 並不是預設的中文輸入平台，不過，仍然可以在幾個步驟內就搞定。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>來試試在 Ubuntu 23.04 快速安裝 fcitx(4) 並啟用嘸蝦米。<br><img src="https://live.staticflickr.com/65535/53162814422_9478259b91_c.jpg" alt="boshiamyAndUbuntu23.04Ep (15)"/></p>
+<h3 id="安裝過程"><a href="#安裝過程" class="headerlink" title="安裝過程"></a>安裝過程</h3><p>Fcitx 在 Ubuntu 23.04 並不是預設的中文輸入平台，不過，仍然可以在幾個步驟內就搞定。</p>
 <ol>
 <li>一個指令，就讓相依的套件都安裝進來。</li>
 </ol>
@@ -12113,9 +12006,9 @@ gdb -v
       <tags>
         <tag>linux</tag>
         <tag>boshiamy</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -12207,18 +12100,18 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>ubuntu 8.04 與嘸蝦米</title>
+    <title>Ubuntu 8.04 與嘸蝦米</title>
     <url>/boshiamy/ubuntu-8-04-and-boshiamy/</url>
-    <content><![CDATA[<p>或許，有伙伴們跟我一樣，都在等待 Fedora 9 正式釋出的那一刻…至少，我是如此，而且還整個把 ubuntu 拋諸腦後，昨兒個魔獸世界闖盪一番 (( 也就是說，自己當初承諾 I Can 的 Shutdown Day on 03 May 2008 失敗，唉！愧慚…， 2008 年起且讓每年的母親節成為我個人的 Shutdown Day 吧！ )) 後，突然給我想到，呵！實在不得笑自己最近對很多資訊的玩意兒都慢半拍。  </p>
-<p>坦白說， ubuntu 不算是敝人最喜愛的 Linux distribution，然而自 8.04 版起我很可能會變心，我的心得與想法可能跟大伙都一樣，儘管如此，仍舊是想表達出來。</p>
+    <content><![CDATA[<p>或許，有伙伴們跟我一樣，都在等待 Fedora 9 正式釋出的那一刻…至少，我是如此，而且還整個把 Ubuntu 拋諸腦後，昨兒個魔獸世界闖盪一番 (( 也就是說，自己當初承諾 I Can 的 Shutdown Day on 03 May 2008 失敗，唉！愧慚…， 2008 年起且讓每年的母親節成為我個人的 Shutdown Day 吧！ )) 後，突然給我想到，呵！實在不得笑自己最近對很多資訊的玩意兒都慢半拍。  </p>
+<p>坦白說， Ubuntu 不算是敝人最喜愛的 Linux distribution，然而自 8.04 版起我很可能會變心，我的心得與想法可能跟大伙都一樣，儘管如此，仍舊是想表達出來。</p>
 <ol>
-<li>Desktop 與 Server 界線分明：自從我認識 ubuntu 以來，它的大分類就是桌面與伺服器，或許也因此在有限的頻寬下，只要下好離手，一張 CD-ROM 大小的 ISO 檔很快地就可以下載回家、燒錄使用，安裝上也幾乎不需要太費心力，效率極高。</li>
+<li>Desktop 與 Server 界線分明：自從我認識 Ubuntu 以來，它的大分類就是桌面與伺服器，或許也因此在有限的頻寬下，只要下好離手，一張 CD-ROM 大小的 ISO 檔很快地就可以下載回家、燒錄使用，安裝上也幾乎不需要太費心力，效率極高。</li>
 <li>效能良好：最早我是在 iMac G4 LCD (PowerPC 700MHz) 上頭玩，陸續在 COMPAQ Presario 5170 (Intel P2-350 MHz) 、 iBook G4 12 (PowerPC 1.2 GHz) 、堪用的 x86 機器與 VMWare 上使用，給 512 MB 的記憶體就會讓整個系統運作感覺相當順暢。</li>
-<li>細節的改進：我想要試著表達的就是桌面系統的使用，若要達到人性化，說實在的就目前的發展而言，美美的 GUI 是不夠的，以上網、聽音樂、文書處理為需求，外接的硬體以隨身碟、 iPod 等而言， ubuntu 肯定是足夠的，然而前幾個版本在安裝後，總得自己再去做細部調整，比方說開機畫面出不來，反倒是顯示器跟使用者說已經超出頻率等訊息，這個細節沒有顧及到，實在不應該，中文化不夠完整，也是不及格的表現。 8.04 版在細節的部分也明顯的改善，另外，我也在思索著，對於細節的要求會不會是跟蘋果經驗有關？</li>
+<li>細節的改進：我想要試著表達的就是桌面系統的使用，若要達到人性化，說實在的就目前的發展而言，美美的 GUI 是不夠的，以上網、聽音樂、文書處理為需求，外接的硬體以隨身碟、 iPod 等而言， Ubuntu 肯定是足夠的，然而前幾個版本在安裝後，總得自己再去做細部調整，比方說開機畫面出不來，反倒是顯示器跟使用者說已經超出頻率等訊息，這個細節沒有顧及到，實在不應該，中文化不夠完整，也是不及格的表現。 8.04 版在細節的部分也明顯的改善，另外，我也在思索著，對於細節的要求會不會是跟蘋果經驗有關？</li>
 </ol>
-<p>在 ubuntu 8.04 玩嘸蝦米，使用 SCIM 的順手度相當高，就我個人習慣而言，目前只有在需要搭配 v 來選字的時候會有問題。  </p>
-<p>那麼， ubuntu 8.04 會不會就此安裝在 X-BLUE 上頭呢？  </p>
-<p>前提是只要對無線網卡的支援足夠 (( 很抱歉， <a href="http://www.ubuntu.com/getubuntu/releasenotes/804">Release Note</a> 與其他相關訊息我都還沒有深入閱讀，不過，玩 ubuntu 8.04 幾個小時下來，深感其穩定性甚高，這一次真的讓人愛不釋手。 )) ，且安裝與使用便利，不需要再給我這個懶人做調整，可能性就非常、非常高。</p>
+<p>在 Ubuntu 8.04 玩嘸蝦米，使用 SCIM 的順手度相當高，就我個人習慣而言，目前只有在需要搭配 v 來選字的時候會有問題。  </p>
+<p>那麼， Ubuntu 8.04 會不會就此安裝在 X-BLUE 上頭呢？  </p>
+<p>前提是只要對無線網卡的支援足夠 (( 很抱歉， <a href="http://www.ubuntu.com/getUbuntu/releasenotes/804">Release Note</a> 與其他相關訊息我都還沒有深入閱讀，不過，玩 Ubuntu 8.04 幾個小時下來，深感其穩定性甚高，這一次真的讓人愛不釋手。 )) ，且安裝與使用便利，不需要再給我這個懶人做調整，可能性就非常、非常高。</p>
 ]]></content>
       <categories>
         <category>boshiamy</category>
@@ -12227,7 +12120,7 @@ gdb -v
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -12277,12 +12170,12 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>ubuntu Linux-Live CD on iMac G4</title>
+    <title>Ubuntu Linux-Live CD on iMac G4</title>
     <url>/apple/ubuntu-linux-live-cd-on-imac-g4/</url>
     <content><![CDATA[<p><img src="https://live.staticflickr.com/65535/54286279583_055bb25eee_b.jpg" alt="PICT0014"> iMac G4(檯燈)現在應該算是老機器了，尤其我手頭上這一部的USB尚且還是Rev 1.1呢！</p>
 <p>老機器拿來玩Linux，我記得在PC上常聽到，卻不見得能夠在Apple得到皆大歡喜的結果。</p>
-<p>我嘗試了Fedora、YDL以及ubuntu，仍以ubuntu的表現最優秀，但是都達不到我所要求的，還差點把LCD搞壞，嗚嗚，多了幾個壞點，Applecare已經過期，救不了嚕！</p>
-<p>收穫也有，使用過ubuntu Desktop CD，想推薦給大家，在不影響原本安裝好的系統下玩Linux，也可以安裝，隨心所欲。</p>
+<p>我嘗試了Fedora、YDL以及Ubuntu，仍以Ubuntu的表現最優秀，但是都達不到我所要求的，還差點把LCD搞壞，嗚嗚，多了幾個壞點，Applecare已經過期，救不了嚕！</p>
+<p>收穫也有，使用過Ubuntu Desktop CD，想推薦給大家，在不影響原本安裝好的系統下玩Linux，也可以安裝，隨心所欲。</p>
 ]]></content>
       <categories>
         <category>apple</category>
@@ -12292,7 +12185,7 @@ gdb -v
         <tag>apple</tag>
         <tag>mac</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -12667,27 +12560,27 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>從 ubuntu 22.04.1 LTS 升級到 ubuntu 22.04.2 LTS</title>
+    <title>從 Ubuntu 22.04.1 LTS 升級到 Ubuntu 22.04.2 LTS</title>
     <url>/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/52725987002_2762a10b4b_o.png" alt="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep3"/>
 
-<p>ubuntu 22.04.2 LTS 這支更新是在 2023 年 2 月 24 日釋出，詳可見 <a href="https://lists.ubuntu.com/archives/ubuntu-announce/2023-February/000286.html">Ubuntu 22.04.2 LTS released</a>。</p>
-<p>Linux 上的系統升級方法，我自己是用 CLI(Terminal) 與 GUI(Graphic User Interface) 兩種方式做為區分，而這一篇貼文，主要是在 CLI 裡面，透過指令把虛擬機器裡面的 ubuntu 22.04.1 LTS 升級到 ubuntu 22.04.2 LTS。</p>
+<p>Ubuntu 22.04.2 LTS 這支更新是在 2023 年 2 月 24 日釋出，詳可見 <a href="https://lists.ubuntu.com/archives/Ubuntu-announce/2023-February/000286.html">Ubuntu 22.04.2 LTS released</a>。</p>
+<p>Linux 上的系統升級方法，我自己是用 CLI(Terminal) 與 GUI(Graphic User Interface) 兩種方式做為區分，而這一篇貼文，主要是在 CLI 裡面，透過指令把虛擬機器裡面的 Ubuntu 22.04.1 LTS 升級到 Ubuntu 22.04.2 LTS。</p>
 <h3 id="升級流程"><a href="#升級流程" class="headerlink" title="升級流程"></a>升級流程</h3><ol>
 <li><p>我想，先把幾個指令直接寫下來(如下)。</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//先下一個指令，確認目前使用的 ubuntu 版本</span><br><span class="line">cat /etc/issue</span><br><span class="line"></span><br><span class="line">//接著就是有關升級的指令</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//先下一個指令，確認目前使用的 Ubuntu 版本</span><br><span class="line">cat /etc/issue</span><br><span class="line"></span><br><span class="line">//接著就是有關升級的指令</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>從下圖，可以看到我是下 <code>sudo apt update &amp;&amp; sudo apt upgrade</code> 來做處理。 <a href="https://www.flickr.com/photos/joyopen/albums/72177720306479958" title="Upgrade to Ubuntu 22.04.2 LTS"><img src="https://live.staticflickr.com/65535/52726921580_6e1654d88c_c.jpg" alt="Upgrade to Ubuntu 22.04.2 LTS"></a></p>
 </li>
-<li><p>我是從全新且最小安裝的 ubuntu 22.04.1 LTS 去做升級的，指令下完之後，跑出「升級 268 個，新安裝 2 個，移除 0 個，有 1 個未被升級。」這樣的訊息(如下圖)，這個部分，依每個人使用系統的情形可能有所不同，一般而言，通常差異也不會太大。如果差異很大的話，也可以從 CLI 裡面去檢視有哪些套件被升級。 <a href="https://www.flickr.com/photos/joyopen/52725987027/in/album-72177720306479958/" title="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep2"><img src="https://live.staticflickr.com/65535/52725987027_cd8212f376_c.jpg" alt="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep2"></a></p>
+<li><p>我是從全新且最小安裝的 Ubuntu 22.04.1 LTS 去做升級的，指令下完之後，跑出「升級 268 個，新安裝 2 個，移除 0 個，有 1 個未被升級。」這樣的訊息(如下圖)，這個部分，依每個人使用系統的情形可能有所不同，一般而言，通常差異也不會太大。如果差異很大的話，也可以從 CLI 裡面去檢視有哪些套件被升級。 <a href="https://www.flickr.com/photos/joyopen/52725987027/in/album-72177720306479958/" title="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep2"><img src="https://live.staticflickr.com/65535/52725987027_cd8212f376_c.jpg" alt="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep2"></a></p>
 </li>
 <li><p>等待指令順順跑完後，再下一次 <code>cat /etc/issue</code> 這一道指令確認一下，沒有問題後，就可以下 <code>reboot</code> 重新開機。 <a href="https://www.flickr.com/photos/joyopen/52725987002/in/album-72177720306479958/" title="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep3"><img src="https://live.staticflickr.com/65535/52725987002_a4bd6e37fd_c.jpg" alt="upgradetoUbuntu22.04.2fromUbuntu22.04.1Ep3"></a></p>
 </li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li><p>我在撰寫本篇貼文的時候，ubuntu 在 Distrowatch 上「近 6 個月」(Last 6 months)的「網頁參觀排名」是第 7 名。</p>
+<li><p>我在撰寫本篇貼文的時候，Ubuntu 在 Distrowatch 上「近 6 個月」(Last 6 months)的「網頁參觀排名」是第 7 名。</p>
 </li>
-<li><p>至於 ubuntu 22.04.2 LTS 有什麼樣的更新，有興趣的人可以參考官網資料：<a href="https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668">Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub</a>。</p>
+<li><p>至於 Ubuntu 22.04.2 LTS 有什麼樣的更新，有興趣的人可以參考官網資料：<a href="https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668">Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub</a>。</p>
 </li>
 </ol>
 ]]></content>
@@ -12696,8 +12589,8 @@ gdb -v
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
         <tag>upgrade</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -12902,22 +12795,22 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>在 ubuntu 8.04 上使用 HP Photosmart C4385</title>
+    <title>在 Ubuntu 8.04 上使用 HP Photosmart C4385</title>
     <url>/linux/using-hp-photosmart-c4385-on-ubuntu-8-04/</url>
-    <content><![CDATA[<p>HPLIP Toolbox 2.8.2 版已經可以順利抓到 HP Photosmart C4385 向空中所發出的訊號，再透過幾個簡單的步驟就可以讓 ubuntu 8.04 順利地與其串連在一塊兒。我試著列印，完全沒有問題。  </p>
+    <content><![CDATA[<p>HPLIP Toolbox 2.8.2 版已經可以順利抓到 HP Photosmart C4385 向空中所發出的訊號，再透過幾個簡單的步驟就可以讓 Ubuntu 8.04 順利地與其串連在一塊兒。我試著列印，完全沒有問題。  </p>
 <p>只有列印功能是不是讓人感到滿意呢？對我而言，已經解決很多問題，可是不死心地將 XSane Image Scanner 挖出來，程式啟動後，除了順利抓取 Webcam，連 HP Photosmart C4385 也身在其中，緊接著把方才列印出來的放到平台上嘗試，哇！真的、真的可以掃描耶！萬歲！怪哉！HPLIP 的官方網站的相關頁面：<a href="http://hplip.sourceforge.net/models/photosmart/photosmart_c4380_series.html">Photosmart c4380 Series</a>，實在讓人讀不出其支援 Wireless 串接的相關說明。  </p>
-<p>日前所述，那 5% 需要請 Windows Vista 出面方能解決的問題，現在已不復存在，也就是說可以乾脆把 Windows Vista 殺掉，建構完全的烏托邦嚕！ (( 實際上我沒有那麼衝動，將現成的 Windows Vista 擱著也不會讓我坐立難安，既然如此又何必苦苦相逼呢！？況且，我還把幾個自己喜歡在 Windows 上面使用的字型拿到 ubuntu 來用。 ))</p>
+<p>日前所述，那 5% 需要請 Windows Vista 出面方能解決的問題，現在已不復存在，也就是說可以乾脆把 Windows Vista 殺掉，建構完全的烏托邦嚕！ (( 實際上我沒有那麼衝動，將現成的 Windows Vista 擱著也不會讓我坐立難安，既然如此又何必苦苦相逼呢！？況且，我還把幾個自己喜歡在 Windows 上面使用的字型拿到 Ubuntu 來用。 ))</p>
 ]]></content>
       <categories>
         <category>linux</category>
       </categories>
       <tags>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
-    <title>嘗試將 ubuntu 8.10 帶入辦公環境</title>
+    <title>嘗試將 Ubuntu 8.10 帶入辦公環境</title>
     <url>/linux/using-ubuntu-8-10-in-my-office/</url>
     <content><![CDATA[<p>在我的辦公室裡面，全部都是 Windows，然而要讓勇敢的山羊在這個環境裡面勇往直前並不困難，我分析出以下幾個需要面對的問題：  </p>
 <ol>
@@ -12943,7 +12836,7 @@ gdb -v
       <tags>
         <tag>linux</tag>
         <tag>windows</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
