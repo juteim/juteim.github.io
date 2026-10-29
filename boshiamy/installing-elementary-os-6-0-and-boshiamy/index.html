@@ -38,12 +38,12 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51383322286_2647f1ff97_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51384335145_fdf888ec0b_o.png">
 <meta property="article:published_time" content="2021-08-17T00:00:00.000Z">
-<meta property="article:modified_time" content="2025-02-01T06:41:20.000Z">
+<meta property="article:modified_time" content="2026-10-29T23:34:36.690Z">
 <meta property="article:author" content="jsio">
+<meta property="article:tag" content="Ubuntu">
 <meta property="article:tag" content="fedora">
 <meta property="article:tag" content="ibus">
 <meta property="article:tag" content="linux">
-<meta property="article:tag" content="ubuntu">
 <meta property="article:tag" content="windows">
 <meta property="article:tag" content="嘸蝦米">
 <meta name="twitter:card" content="summary">
@@ -317,13 +317,13 @@
 <h3 id="Mac-mini-的部分"><a href="#Mac-mini-的部分" class="headerlink" title="Mac mini 的部分"></a>Mac mini 的部分</h3><ol>
 <li><p>預設似乎是要使用者砍掉一整顆硬碟，並且只安裝 Odin，…這一點對我來說，不是那麼合用。</p>
 </li>
-<li><p>硬碟分割的支援薄弱： (1)我是用外接硬碟安裝的，同樣把外接硬碟的壓縮分割，進到安裝介面後，想不到 Odin 無法自動偵測到，我只能手動去選擇，這還不打緊，重點是不但安裝不上去，還會把原本的分割表弄亂，我回到 Windows 之後，只能刪掉一大部分的分割，也因此把當時該壓縮分割臨近的 Linux 砍掉重練，所幸，離得比較遠的 Clear Linux 沒有被波及到。 (2)另外，跟 ubuntu 20.04 一樣，都會很主動去寫內建硬碟的分割表：在硬碟一開始的地方，自動劃出 100 MB Fat32 空間，寫入 EFI&#x2F;boot，這一個分割區是我接著想要安裝 Oracle Linux 時，發現其已然存在，在 macOS 內建的硬碟工具上不會顯示出來，由於目前對開機沒有太大的影響，我暫時就不去改動它。其實，這一點在 Mac Pro 或 WinPC 上應該是相對比較好處理的：開機箱，把硬碟排線直接拔掉，應該就能搞定。</p>
+<li><p>硬碟分割的支援薄弱： (1)我是用外接硬碟安裝的，同樣把外接硬碟的壓縮分割，進到安裝介面後，想不到 Odin 無法自動偵測到，我只能手動去選擇，這還不打緊，重點是不但安裝不上去，還會把原本的分割表弄亂，我回到 Windows 之後，只能刪掉一大部分的分割，也因此把當時該壓縮分割臨近的 Linux 砍掉重練，所幸，離得比較遠的 Clear Linux 沒有被波及到。 (2)另外，跟 Ubuntu 20.04 一樣，都會很主動去寫內建硬碟的分割表：在硬碟一開始的地方，自動劃出 100 MB Fat32 空間，寫入 EFI&#x2F;boot，這一個分割區是我接著想要安裝 Oracle Linux 時，發現其已然存在，在 macOS 內建的硬碟工具上不會顯示出來，由於目前對開機沒有太大的影響，我暫時就不去改動它。其實，這一點在 Mac Pro 或 WinPC 上應該是相對比較好處理的：開機箱，把硬碟排線直接拔掉，應該就能搞定。</p>
 </li>
 </ol>
 <h3 id="安裝嘸蝦米的部分"><a href="#安裝嘸蝦米的部分" class="headerlink" title="安裝嘸蝦米的部分"></a>安裝嘸蝦米的部分</h3><ol>
 <li><p>iBus：系統內建的輸入引擎，安裝的方式，可以直接參考行易有限公司官網說明。 <img src="https://live.staticflickr.com/65535/51387252481_6477b902c5_o.png"></p>
 </li>
-<li><p>fcitx：立基於 ubuntu 20.04 的關係，可以直接在 Terminal 下一道指令：sudo apt-get install boshiamy-table-boshiamy，接著重新登入系統，就搞定。 <img src="https://live.staticflickr.com/65535/51383322286_2647f1ff97_o.png"> <img src="https://live.staticflickr.com/65535/51384335145_fdf888ec0b_o.png"></p>
+<li><p>fcitx：立基於 Ubuntu 20.04 的關係，可以直接在 Terminal 下一道指令：sudo apt-get install boshiamy-table-boshiamy，接著重新登入系統，就搞定。 <img src="https://live.staticflickr.com/65535/51383322286_2647f1ff97_o.png"> <img src="https://live.staticflickr.com/65535/51384335145_fdf888ec0b_o.png"></p>
 </li>
 <li><p>附帶一提的是 fcitx 安裝啟用後，iBus 就會自動關閉，原本系統設計好的快捷鍵，仍會延用過來，例如：其他 Linux 要切換輸入法是 Win + Space 的組合鍵，Odin 預設用 Ctrl + Space 組合鍵切換。</p>
 </li>
@@ -349,8 +349,8 @@
               <a href="/tags/linux/" rel="tag"># linux</a>
               <a href="/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/" rel="tag"># 嘸蝦米</a>
               <a href="/tags/fedora/" rel="tag"># fedora</a>
-              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
               <a href="/tags/ibus/" rel="tag"># ibus</a>
+              <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
           </div>
 
         
