@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/20-days-after-shifting-to-garuda-linux/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-kde-neon-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/opensuse-11-1/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/fedora-10-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -848,15 +884,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/opensuse-11-1/</loc>
-    
-    <lastmod>2025-05-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/cachyos-desktop-linux-250422/</loc>
     
     <lastmod>2025-05-19</lastmod>
@@ -905,15 +932,6 @@
     <loc>https://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
     
     <lastmod>2025-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/20-days-after-shifting-to-garuda-linux/</loc>
-    
-    <lastmod>2025-05-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1361,15 +1379,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/boshiamy/installing-kde-neon-and-boshiamy/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/boshiamy/installing-lubuntu-21-10-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -1488,15 +1497,6 @@
   
   <url>
     <loc>https://jute.im/boshiamy/converting-the-table-of-boshiamy-for-scim/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/fedora-10-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
