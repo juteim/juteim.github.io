@@ -5058,14 +5058,14 @@
     <url>/boshiamy/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3/</url>
     <content><![CDATA[<p>Linux 的 Distro 很多，今天筆記一下在 openSUSE 上啟用嘸蝦米的紀錄。</p>
 <p>從系統設定去看，會以為 gcin 是內建的輸入法，但，我實際執行嘸蝦米官方的安裝檔時，系統會回應 gcin 不是預設的輸入法，而且無法從圖形介面跑出 gcin 的設定，登入登出也沒有什麼作用。</p>
-<p>但，就像在 ubuntu 會用 apt-get，在 Fedora 會用 yum，在 openSUSE 就知道要找 YaST，而我自己的習慣，比較喜歡用 YaST 圖形介面模式去安裝套件。</p>
+<p>但，就像在 Ubuntu 會用 apt-get，在 Fedora 會用 yum，在 openSUSE 就知道要找 YaST，而我自己的習慣，比較喜歡用 YaST 圖形介面模式去安裝套件。</p>
 <ol>
 <li>來個關鍵字 boshiamy 直球對決，果然「中」。 <img src="https://live.staticflickr.com/65535/51301132260_f4fe746a64_o.png" title="boshiamyonopenSUSELeap15.3Ep1"></li>
 <li>有 Table 檔，就可以選擇安裝，讓 YaST 把相關套件自己抓進來。 <img src="https://live.staticflickr.com/65535/51300824319_d0cddf57f1_o.png" title="boshiamyonopenSUSELeap15.3Ep2"></li>
 <li>登出登入後，右下角工作列就會出現一個小小的鍵盤圖示，點右鍵做設定。 <img src="https://live.staticflickr.com/65535/51300116616_1dc8db4409_o.png" title="boshiamyonopenSUSELeap15.3Ep3"></li>
 <li>按 Ctrl+空白鍵(Space), 就可以切換中英文輸入，讓嘸蝦米現身。 <img src="https://live.staticflickr.com/65535/51300301113_e25b97376d_o.png" title="boshiamyonopenSUSELeap15.3Ep4"></li>
 </ol>
-<p>一路從 ubuntu、Lubuntu、Fedora 到 openSUSE，我的心得是 Linux 上面要安裝與設定嘸蝦米真的變容易不少，我如果手邊有比較舊或是比較弱的筆電，應該會拿一部安裝來專職做文書機。</p>
+<p>一路從 Ubuntu、Lubuntu、Fedora 到 openSUSE，我的心得是 Linux 上面要安裝與設定嘸蝦米真的變容易不少，我如果手邊有比較舊或是比較弱的筆電，應該會拿一部安裝來專職做文書機。</p>
 ]]></content>
       <categories>
         <category>boshiamy</category>
@@ -5074,7 +5074,7 @@
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
         <tag>fedora</tag>
-        <tag>ubuntu</tag>
+        <tag>Ubuntu</tag>
         <tag>opensuse</tag>
       </tags>
   </entry>

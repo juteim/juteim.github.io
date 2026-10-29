@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3/</loc>
+    
+    <lastmod>2026-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/linux/remove-grub-by-clearlinux-live-usb/</loc>
     
     <lastmod>2026-10-29</lastmod>
@@ -1515,15 +1524,6 @@
   
   <url>
     <loc>https://jute.im/windows/google-toolbar-6-for-ie/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
