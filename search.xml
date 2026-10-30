@@ -2329,7 +2329,7 @@
     <url>/linux/fcitx5-with-chewing-on-arch-linux/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/52074580761_d572a3c1f2_o.png" lt="Screenshot_輸入法 _2"/>
 
-<p>本次分享的是 Arch Linux 的衍生發行版：Garuda Linux 的安裝方式，ubuntu 的部分，我另外寫一篇安裝過程紀錄：<a href="/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/">在 ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音</a>。</p>
+<p>本次分享的是 Arch Linux 的衍生發行版：Garuda Linux 的安裝方式，ubuntu 的部分，我另外寫一篇安裝過程紀錄：<a href="/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/">在 Ubuntu 22.04 LTS 上用 Fcitx5 搭配新酷音</a>。</p>
 <p>在 Garuda Linux 上，透過 Setup Assistant 安裝與使用 Fcitx5 搭配嘸蝦米是非常方便的事，也是我個人目前接觸到的 Arch Linux 衍生發行版當中，最便利的。</p>
 <p>但是，不是每個人都用嘸蝦米，對於不少微軟新注音的使用者而言，也會想要在 Linux 上面使用相對比較熟悉的輸入法。</p>
 <p>我忘記，自己是怎麼得知「新酷音輸入法」的，不過，總覺得或許是一個可行的方案。</p>
@@ -4173,7 +4173,7 @@
       </tags>
   </entry>
   <entry>
-    <title>安裝與運作 Contest Management System (ubuntu Desktop 版)</title>
+    <title>安裝與運作 Contest Management System (Ubuntu Desktop 版)</title>
     <url>/linux/installing-and-running-contest-management-system/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51851849455_bdb86f431c_b.jpg" alt="installingandRunningCMSonUbuntu18.04.6LTSEp42"/>
 
@@ -4220,14 +4220,14 @@
 <p>選擇加入 Contest 的 User。</p>
 <p>回到 Terminal，執行 cmsResourceService -a。</p>
 <p>開啟 Web Browser，在網址列打 <a href="http://localhost:8888/"></a><a href="http://localhost:8888/">http://localhost:8888</a> 進入 Contest 的首頁。</p>
-<h3 id="第三階段"><a href="#第三階段" class="headerlink" title="第三階段"></a>第三階段</h3><p>sudo apt install net-tools &#x2F;&#x2F;我習慣下 ifconfig 這道指令，而 ubuntu 的 Desktop 通常要另外安裝。</p>
+<h3 id="第三階段"><a href="#第三階段" class="headerlink" title="第三階段"></a>第三階段</h3><p>sudo apt install net-tools &#x2F;&#x2F;我習慣下 ifconfig 這道指令，而 Ubuntu 的 Desktop 通常要另外安裝。</p>
 <p>ifconfig -a &#x2F;&#x2F;看一下自己設定的 IP 是什麼，本次的例子所顯示的是 192.168.56.101。</p>
 <p>從另外一部電腦，去 ping 一下 CMS Server 的 IP 看看。</p>
 <p>從另外一部電腦，用 Web Browser 登入設定好的 CMS Server 試試看，本例為 <a href="http://192.168.56.101:8888/"></a><a href="http://192.168.56.101:8888/">http://192.168.56.101:8888</a>。</p>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><a href="https://cms-dev.github.io/">Contest Management System</a></li>
 <li><a href="https://cms.readthedocs.io/en/v1.4/">Welcome to CMS’s documentation! — CMS 1.4.rc1 documentation</a></li>
-<li>本次紀錄所使用的是在 VirtualBox 上安裝的 ubuntu 18.04.6 LTS Desktop，如果不是很有把握，我也滿建議先在 VirtualBox 嘗試看看。</li>
+<li>本次紀錄所使用的是在 VirtualBox 上安裝的 Ubuntu 18.04.6 LTS Desktop，如果不是很有把握，我也滿建議先在 VirtualBox 嘗試看看。</li>
 <li>滿建議使用 ubuntu Server 版本，並且在上頭安裝 SSH，以遠端登入的方式，完成 CMS Server 的安裝與相關設定，這一次，我是安裝完 Desktop 版本之後，才再安裝 SSH 充當 Server 使用。 <a href="https://www.flickr.com/photos/jutedev/51852633780/in/dateposted/" title="connecttoMyCMSServerwithSSH"><img src="https://live.staticflickr.com/65535/51852633780_7edceb60cf_o.png" alt="connecttoMyCMSServerwithSSH"></a></li>
 </ol>
 ]]></content>
@@ -4236,8 +4236,8 @@
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>ubuntu</tag>
         <tag>web</tag>
+        <tag>Ubuntu</tag>
         <tag>contest</tag>
       </tags>
   </entry>
@@ -5095,7 +5095,7 @@
     <title>安裝 Feren OS 與嘸蝦米</title>
     <url>/boshiamy/installing-feren-os-and-boshiamy/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://live.staticflickr.com/65535/51828934757_390dddce19_b.jpg" alt="installingfcitx4andBoshiamyonFerenOSEp5"></p>
-<p>Feren OS 也是 ubuntu 的衍生發行版，雖然文發在 Nitrux 後面，實際上，我是先安裝與測試這支發行版的。</p>
+<p>Feren OS 也是 Ubuntu 的衍生發行版，雖然文發在 Nitrux 後面，實際上，我是先安裝與測試這支發行版的。</p>
 <p>必須說，可能也是因為先安裝使用 Feren OS，相較之下，Nitrux 就…</p>
 <p>不管怎樣，先進入主題吧！</p>
 <h3 id="安裝-Feren-OS"><a href="#安裝-Feren-OS" class="headerlink" title="安裝 Feren OS"></a>安裝 Feren OS</h3><p>以下是安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296062147" title="ferenOS"><img src="https://live.staticflickr.com/65535/51830230119_bd75964e26_c.jpg" alt="ferenOS"></a></p>
@@ -5113,7 +5113,7 @@
 </ol>
 <h3 id="使用心得速記"><a href="#使用心得速記" class="headerlink" title="使用心得速記"></a>使用心得速記</h3><ol>
 <li>流暢：介面跟 Windows 11 有那麼點像，不難上手。</li>
-<li>ubuntu 加持：以 ubuntu LTS 做為「基底」來發展的衍生版本，而且沒有大動作地進行基因改造，如：砍掉 Terminal 等，仍保有良好體質。</li>
+<li>Ubuntu 加持：以 Ubuntu LTS 做為「基底」來發展的衍生版本，而且沒有大動作地進行基因改造，如：砍掉 Terminal 等，仍保有良好體質。</li>
 <li>桌面環境容易上手：尤其對正在使用 Windows 11 與 macOS 的人而言，想要轉換到 Linux，又想要順順用的話，我認為除了 Zorin OS，也可以考慮使用 Feren OS。</li>
 <li>可以考慮要不要喝 Latte：之前沒有注意到的一支 App，啟動後，感覺有像點是 macOS 的 Dock，不過，直接啟動的話，並不會取代原有類 Windows 11 的工作列，我沒有花太多時間去做調整，最後是讓兩者併行使用。(下圖，Latte 在桌面截圖的左邊) <a href="https://www.flickr.com/photos/jutedev/51828932912/in/album-72177720296062147/" title="installingFerenOS2021.10Ep48"><img src="https://live.staticflickr.com/65535/51828932912_43a55566f2_b.jpg" alt="installingFerenOS2021.10Ep48"></a></li>
 </ol>
@@ -5129,8 +5129,8 @@
         <tag>windows</tag>
         <tag>linux</tag>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5233,7 +5233,7 @@
   <entry>
     <title>安裝 Lubuntu 21.10 與嘸蝦米</title>
     <url>/boshiamy/installing-lubuntu-21-10-and-boshiamy/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Lubuntu 一直是我個人非常喜歡的一支 ubuntu 衍生發行版，桌面環境為 LXQt, 系統裡該有的基本重點都有，運行起來輕巧快速。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Lubuntu 一直是我個人非常喜歡的一支 Ubuntu 衍生發行版，桌面環境為 LXQt, 系統裡該有的基本重點都有，運行起來輕巧快速。</p>
 <h3 id="安裝-Lubuntu-21-10"><a href="#安裝-Lubuntu-21-10" class="headerlink" title="安裝 Lubuntu 21.10"></a>安裝 Lubuntu 21.10</h3><p>以下是安裝過程截圖(點圖至 Flickr 瀏覽相簿) <a href="https://www.flickr.com/photos/jutedev/albums/72177720296172879" title="lubuntu21.10"><img src="https://live.staticflickr.com/65535/51839886160_a5e1904984_b.jpg" alt="lubuntu21.10"></a></p>
 <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -5278,8 +5278,8 @@
       </categories>
       <tags>
         <tag>嘸蝦米</tag>
-        <tag>ubuntu</tag>
         <tag>fcitx-table-boshiamy</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>

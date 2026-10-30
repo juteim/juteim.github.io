@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jute.im/linux/fcitx5-with-chewing-on-arch-linux/</loc>
+    
+    <lastmod>2026-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-feren-os-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/linux/installing-and-running-contest-management-system/</loc>
+    
+    <lastmod>2026-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jute.im/boshiamy/installing-lubuntu-21-10-and-boshiamy/</loc>
+    
+    <lastmod>2026-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jute.im/boshiamy/boshiamy-and-mac/</loc>
     
     <lastmod>2026-10-30</lastmod>
@@ -1091,15 +1127,6 @@
   </url>
   
   <url>
-    <loc>https://jute.im/linux/fcitx5-with-chewing-on-arch-linux/</loc>
-    
-    <lastmod>2025-06-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jute.im/linux/cachyos-desktop-linux-250422/</loc>
     
     <lastmod>2025-05-19</lastmod>
@@ -1515,24 +1542,6 @@
   
   <url>
     <loc>https://jute.im/linux/fedora-35-workstation/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-feren-os-and-boshiamy/</loc>
-    
-    <lastmod>2025-02-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/boshiamy/installing-lubuntu-21-10-and-boshiamy/</loc>
     
     <lastmod>2025-02-01</lastmod>
     
@@ -2145,15 +2154,6 @@
   
   <url>
     <loc>https://jute.im/linux/things-to-do-after-installing-mx-linux-mx-21/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jute.im/linux/installing-and-running-contest-management-system/</loc>
     
     <lastmod>2024-12-28</lastmod>
     

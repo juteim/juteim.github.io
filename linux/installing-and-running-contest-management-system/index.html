@@ -22,7 +22,7 @@
 
     <meta name="description" content="前言">
 <meta property="og:type" content="article">
-<meta property="og:title" content="安裝與運作 Contest Management System (ubuntu Desktop 版)">
+<meta property="og:title" content="安裝與運作 Contest Management System (Ubuntu Desktop 版)">
 <meta property="og:url" content="https://jute.im/linux/installing-and-running-contest-management-system/index.html">
 <meta property="og:site_name" content="jute.im">
 <meta property="og:description" content="前言">
@@ -31,11 +31,11 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51851523439_587d65dc3e_z.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51852633780_7edceb60cf_o.png">
 <meta property="article:published_time" content="2022-01-30T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-28T06:48:26.000Z">
+<meta property="article:modified_time" content="2026-10-30T23:15:35.524Z">
 <meta property="article:author" content="jsio">
+<meta property="article:tag" content="Ubuntu">
 <meta property="article:tag" content="contest">
 <meta property="article:tag" content="linux">
-<meta property="article:tag" content="ubuntu">
 <meta property="article:tag" content="web">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://live.staticflickr.com/65535/51851849455_bdb86f431c_b.jpg">
@@ -44,10 +44,10 @@
 <link rel="canonical" href="https://jute.im/linux/installing-and-running-contest-management-system/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/linux/installing-and-running-contest-management-system/","path":"linux/installing-and-running-contest-management-system/","title":"安裝與運作 Contest Management System (ubuntu Desktop 版)"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/linux/installing-and-running-contest-management-system/","path":"linux/installing-and-running-contest-management-system/","title":"安裝與運作 Contest Management System (Ubuntu Desktop 版)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>安裝與運作 Contest Management System (ubuntu Desktop 版) | jute.im</title>
+<title>安裝與運作 Contest Management System (Ubuntu Desktop 版) | jute.im</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-EFZSE1ET2D","only_pageview":false,"measure_protocol_api_secret":null}</script>
@@ -240,12 +240,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="安裝與運作 Contest Management System (ubuntu Desktop 版) | jute.im">
+      <meta itemprop="name" content="安裝與運作 Contest Management System (Ubuntu Desktop 版) | jute.im">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          安裝與運作 Contest Management System (ubuntu Desktop 版)
+          安裝與運作 Contest Management System (Ubuntu Desktop 版)
         </h1>
 
         <div class="post-meta-container">
@@ -337,14 +337,14 @@
 <p>選擇加入 Contest 的 User。</p>
 <p>回到 Terminal，執行 cmsResourceService -a。</p>
 <p>開啟 Web Browser，在網址列打 <a target="_blank" rel="noopener" href="http://localhost:8888/"></a><a target="_blank" rel="noopener" href="http://localhost:8888/">http://localhost:8888</a> 進入 Contest 的首頁。</p>
-<h3 id="第三階段"><a href="#第三階段" class="headerlink" title="第三階段"></a>第三階段</h3><p>sudo apt install net-tools &#x2F;&#x2F;我習慣下 ifconfig 這道指令，而 ubuntu 的 Desktop 通常要另外安裝。</p>
+<h3 id="第三階段"><a href="#第三階段" class="headerlink" title="第三階段"></a>第三階段</h3><p>sudo apt install net-tools &#x2F;&#x2F;我習慣下 ifconfig 這道指令，而 Ubuntu 的 Desktop 通常要另外安裝。</p>
 <p>ifconfig -a &#x2F;&#x2F;看一下自己設定的 IP 是什麼，本次的例子所顯示的是 192.168.56.101。</p>
 <p>從另外一部電腦，去 ping 一下 CMS Server 的 IP 看看。</p>
 <p>從另外一部電腦，用 Web Browser 登入設定好的 CMS Server 試試看，本例為 <a target="_blank" rel="noopener" href="http://192.168.56.101:8888/"></a><a target="_blank" rel="noopener" href="http://192.168.56.101:8888/">http://192.168.56.101:8888</a>。</p>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><a target="_blank" rel="noopener" href="https://cms-dev.github.io/">Contest Management System</a></li>
 <li><a target="_blank" rel="noopener" href="https://cms.readthedocs.io/en/v1.4/">Welcome to CMS’s documentation! — CMS 1.4.rc1 documentation</a></li>
-<li>本次紀錄所使用的是在 VirtualBox 上安裝的 ubuntu 18.04.6 LTS Desktop，如果不是很有把握，我也滿建議先在 VirtualBox 嘗試看看。</li>
+<li>本次紀錄所使用的是在 VirtualBox 上安裝的 Ubuntu 18.04.6 LTS Desktop，如果不是很有把握，我也滿建議先在 VirtualBox 嘗試看看。</li>
 <li>滿建議使用 ubuntu Server 版本，並且在上頭安裝 SSH，以遠端登入的方式，完成 CMS Server 的安裝與相關設定，這一次，我是安裝完 Desktop 版本之後，才再安裝 SSH 充當 Server 使用。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51852633780/in/dateposted/" title="connecttoMyCMSServerwithSSH"><img src="https://live.staticflickr.com/65535/51852633780_7edceb60cf_o.png" alt="connecttoMyCMSServerwithSSH"></a></li>
 </ol>
 
@@ -357,8 +357,8 @@
     <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/linux/" rel="tag"># linux</a>
-              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
               <a href="/tags/web/" rel="tag"># web</a>
+              <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
               <a href="/tags/contest/" rel="tag"># contest</a>
           </div>
 
