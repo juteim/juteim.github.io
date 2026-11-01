@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next-jute.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next-jute.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next-jute.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"jute.im","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.29.0","exturl":false,"sidebar":{"position":"right","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"找到 ${hits} 個搜索結果（用時 ${time} 毫秒）","hits":"找到 ${hits} 個搜索結果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="前言本篇是紀錄我在 11 吋 iPad Air (M2) 升級 Kaiboard 到 2.0.1 版後，服用嘸蝦米輸入法的設定流程與心得。※如果您所使用的「Kaiboard」版本號是 2.0.1 之前的，可以走傳送門參考之前版本的文章：Kaiboard 與嘸蝦米輸入法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kaiboard 2.0.1 版與嘸蝦米輸入法 feat. 11 吋 iPad Air (M2)">
+<meta property="og:url" content="https://jute.im/boshiamy/kaiboard-2-0-1-and-boshiamy-feat-ipad-air-11-inch-m2/index.html">
+<meta property="og:site_name" content="jute.im">
+<meta property="og:description" content="前言本篇是紀錄我在 11 吋 iPad Air (M2) 升級 Kaiboard 到 2.0.1 版後，服用嘸蝦米輸入法的設定流程與心得。※如果您所使用的「Kaiboard」版本號是 2.0.1 之前的，可以走傳送門參考之前版本的文章：Kaiboard 與嘸蝦米輸入法。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623535005_9fa2579282_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623320719_0ce282b067_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623534885_788de4e73b_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55622112517_db67740a53_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623534805_f1e3a99ff2_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55622112437_8f40a49b13_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623109066_1eafe98020_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623108901_945ec3a927_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/55623249393_3533b752d8_b.jpg">
+<meta property="article:published_time" content="2026-11-01T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-01T03:22:50.977Z">
+<meta property="article:author" content="jsio">
+<meta property="article:tag" content="apple">
+<meta property="article:tag" content="boshiamy">
+<meta property="article:tag" content="ipados">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/55623535005_9fa2579282_b.jpg">
+
+
+<link rel="canonical" href="https://jute.im/boshiamy/kaiboard-2-0-1-and-boshiamy-feat-ipad-air-11-inch-m2/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://jute.im/boshiamy/kaiboard-2-0-1-and-boshiamy-feat-ipad-air-11-inch-m2/","path":"boshiamy/kaiboard-2-0-1-and-boshiamy-feat-ipad-air-11-inch-m2/","title":"Kaiboard 2.0.1 版與嘸蝦米輸入法 feat. 11 吋 iPad Air (M2)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Kaiboard 2.0.1 版與嘸蝦米輸入法 feat. 11 吋 iPad Air (M2) | jute.im</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZSE1ET2D"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-EFZSE1ET2D","only_pageview":false,"measure_protocol_api_secret":null}</script>
+  <script src="/js/third-party/analytics/google-analytics.js" defer></script>
+
+
+
+
+
+
+
+
+  
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4821894216366631" crossorigin="anonymous"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">jute.im</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">走過的痕跡</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜尋" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">187</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">299</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜尋..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97"><span class="nav-number">2.</span> <span class="nav-text">使用心得</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95%E7%9A%84%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">使用嘸蝦米輸入法的相關設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">jsio</p>
+  <div class="site-description" itemprop="description">動漫．追劇．蝦米大叔</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">299</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">187</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+<div class="sidebar-inner" style="margin-top: 12px;">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-4821894216366631"
+       data-ad-slot="5237393196"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script data-pjax>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://jute.im/boshiamy/kaiboard-2-0-1-and-boshiamy-feat-ipad-air-11-inch-m2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jsio">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="jute.im">
+      <meta itemprop="description" content="動漫．追劇．蝦米大叔">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Kaiboard 2.0.1 版與嘸蝦米輸入法 feat. 11 吋 iPad Air (M2) | jute.im">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Kaiboard 2.0.1 版與嘸蝦米輸入法 feat. 11 吋 iPad Air (M2)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+
+      <time title="創建時間：2026-11-01 08:00:00" itemprop="dateCreated datePublished" datetime="2026-11-01T08:00:00+08:00">2026-11-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/boshiamy/" itemprop="url" rel="index"><span itemprop="name">boshiamy</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="文章字數">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">文章字數：</span>
+      <span>975</span>
+    </span>
+    <span class="post-meta-item" title="所需閱讀時間">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+      <span>2 分鐘</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>本篇是紀錄我在 11 吋 iPad Air (M2) 升級 Kaiboard 到 2.0.1 版後，服用嘸蝦米輸入法的設定流程與心得。<img src="https://live.staticflickr.com/65535/55623535005_9fa2579282_b.jpg" alt="IMG_0009"/><br>※如果您所使用的「Kaiboard」版本號是 2.0.1 之前的，可以走傳送門參考之前版本的文章：<a href="/boshiamy/kaiboard-and-boshiamy/">Kaiboard 與嘸蝦米輸入法</a>。</p>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li><p>免費。</p>
+</li>
+<li><p>鍵盤介面、按鍵配置我滿喜歡的。<br>(1)點按左上角的「Emoji」按鍵（就是那顆[Emoji 笑臉鍵]）可以快速選用 Emoji。<br>(2)升級到 2.0.1 版之前，我幾乎沒再用「空白輔助鍵」，今次試著開啟「選字」，發現有些時候挺好用的，而且它配置在空白鍵的右手邊，我大部分的時間裡，並不會有誤觸的情況發生。<br>(3)升級到 2.0.1 版之後，我依然需要花一點時間去適應 Kaiboard 的全形標點符號入字上的設計，因為我習慣會使用「符號鍵」搭配「空白鍵」的方式進行全形標點符號入字，而 Kaiboard 的常用全形標點符號：逗號（，）與句號（。）的入字方式是點按鍵盤上的「,」與「.」按鍵再行選按，或是可以透過「智能全形標點符號」進行；其他全形標點符號的入字方式是點按「123」鍵後再行選按。<br>(4)升級到 2.0.1 版之後，「滑動控制游標 Swipe Selection」這個功能似乎已經不見。</p>
+</li>
+<li><p>鍵盤反應與入字速度穩定，中英混打也能夠保持一樣的使用感受。</p>
+</li>
+<li><p>以前，使用嘸蝦米輸入法前，需要再多做一點設定，詳情請點傳送門：<a href="/boshiamy/kaiboard-and-boshiamy/">Kaiboard 與嘸蝦米輸入法</a>；而今，則是跟多數鍵盤一樣，要「匯入自訂輸入法」（支援 CIN 格式）。</p>
+</li>
+<li><p>在 iPadOS 27.2 上，Kaiboard 2.0.1 版的設定介面已經不一樣，我沒有在 iOS 上運行這支 App，但，我猜測，介面應該是整個改動，在 iOS 上應該是一樣的介面，差別應該只是畫面變小。</p>
+</li>
+</ol>
+<h3 id="使用嘸蝦米輸入法的相關設定"><a href="#使用嘸蝦米輸入法的相關設定" class="headerlink" title="使用嘸蝦米輸入法的相關設定"></a>使用嘸蝦米輸入法的相關設定</h3><p>Kaiboard 升級到 2.0.1 版後，「∞ 蝦米」已經不見，要使用嘸蝦米輸入法的話，要自行匯入碼表。</p>
+<p>無論如何，使用嘸蝦米輸入法前，都需要再多做一點設定。簡單說，要設定的部分，大致有三：「匯入自訂輸入法」、「按鍵」與「鍵盤外觀」。</p>
+<ol>
+<li><p>點一下「Kaiboard」圖示後，就會進入「Kaiboard」的主畫面。<img src="https://live.staticflickr.com/65535/55623320719_0ce282b067_b.jpg" alt="IMG_0001"/></p>
+</li>
+<li><p>點按「輸入法設定」後，進入以下畫面。<img src="https://live.staticflickr.com/65535/55623534885_788de4e73b_b.jpg" alt="IMG_0002"/></p>
+</li>
+<li><p>再點按「匯入自訂輸入法」，在自己的機器上，找到存放的「.CIN 檔」後，會跳出以下畫面。<img src="https://live.staticflickr.com/65535/55622112517_db67740a53_b.jpg" alt="IMG_0003"/></p>
+</li>
+<li><p>點按右上角的【匯入】後，會回到以下畫面，我在這個時間點，順便整理一下「包含」項下的輸入法，把不會用到的，以拖拉三條線的方式，移到「不包含」項下。<img src="https://live.staticflickr.com/65535/55623534805_f1e3a99ff2_b.jpg" alt="IMG_0005"/></p>
+</li>
+<li><p>接著，在「按鍵」項下，「空白鍵功能」切換到「選首字」；「空白輔助鍵」可以選「關閉」、「選字」或「空白」，我以前都會選「關閉」，這次我想試試「選字」。<img src="https://live.staticflickr.com/65535/55622112437_8f40a49b13_b.jpg" alt="IMG_0004"/></p>
+</li>
+<li><p>我喜歡觸覺回饋，而 Kaiboard 可以讓使用者選擇「震動強度」。<img src="https://live.staticflickr.com/65535/55623109066_1eafe98020_b.jpg" alt="IMG_0006"/></p>
+</li>
+<li><p>再來，就是設定「鍵盤外觀」，點按「鍵盤外觀」後，會進入下列畫面。<img src="https://live.staticflickr.com/65535/55623108901_945ec3a927_b.jpg" alt="IMG_0007"/></p>
+</li>
+<li><p>我會把外觀的設定，調整如下圖，然後，就可以開始吃蝦。<img src="https://live.staticflickr.com/65535/55623249393_3533b752d8_b.jpg" alt="IMG_0008"/></p>
+</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><p>本次使用的機器是 11 吋 iPad Air (M2)，iPadOS 版本是 27.2，我所使用的「Kaiboard」版本號是 2.0.1。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://kaiboard.app/">Kaiboard</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://apps.apple.com/tw/app/kaiboard-%E4%B8%AD%E8%8B%B1%E6%B7%B7%E5%90%88%E9%8D%B5%E7%9B%A4/id946910980">App Store 上的《Kaiboard 中英混合鍵盤》</a></p>
+</li>
+<li><p><a href="/boshiamy/ios-and-boshiamy/">iOS 與嘸蝦米</a></p>
+</li>
+<li><p><a href="/boshiamy/android-and-boshiamy/">Android 與嘸蝦米</a></p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/apple/" rel="tag"># apple</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
+              <a href="/tags/ipados/" rel="tag"># ipados</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/github/upgrade-next-version-to-8-29-0-feat-claude/" rel="prev" title="將 NexT 升級至 8.29.0 版 feat. Claude">
+                  <i class="fa fa-angle-left"></i> 將 NexT 升級至 8.29.0 版 feat. Claude
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2005 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">jsio</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>總字數：</span>
+    <span title="總字數">222k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>所需總閱讀時間 &asymp;</span>
+    <span title="所需總閱讀時間">9:16</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
