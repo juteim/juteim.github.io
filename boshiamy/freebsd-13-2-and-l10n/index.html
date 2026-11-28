@@ -40,7 +40,7 @@
 <meta property="og:image" content="https://jute.im/pics/bsd/2023-10-21-freebsd-13-2-and-l10n/freebsd-13-2-and-l10n-11.webp">
 <meta property="og:image" content="https://jute.im/pics/bsd/2023-10-21-freebsd-13-2-and-l10n/freebsd-13-2-and-l10n-12.webp">
 <meta property="article:published_time" content="2023-10-21T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-11-27T22:26:11.948Z">
+<meta property="article:modified_time" content="2026-11-28T15:16:02.001Z">
 <meta property="article:author" content="cunjidr＠gmail.com">
 <meta property="article:tag" content="fcitx5">
 <meta property="article:tag" content="freebsd">
@@ -319,7 +319,7 @@
 <li><p>在處理 X Window System 之前，我事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件，doas 在安裝完之後，記得把設定檔的部分搞定，最快的方式，就是拷貝 doas.conf.sample 來服用。</p>
 </li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure>
 
 <h3 id="設定-X-Window-System-feat-XFCE"><a href="#設定-X-Window-System-feat-XFCE" class="headerlink" title="設定 X Window System(feat. XFCE)"></a>設定 X Window System(feat. XFCE)</h3><ol>
 <li><p>切換到 root 權限。</p>
@@ -342,7 +342,7 @@
 <li><p>接著將以下內容寫入 <code>/boot/loader.conf</code>。</p>
 </li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">snd_driver_load=&quot;YES&quot;</span><br></pre></td></tr></table></figure>
 
 <ol start="4">
 <li><p>我另外安裝 <code>mixer</code> 這支套件。</p>
@@ -353,27 +353,23 @@
 <h3 id="中文化-含中文輸入法-的安裝與處理過程"><a href="#中文化-含中文輸入法-的安裝與處理過程" class="headerlink" title="中文化(含中文輸入法)的安裝與處理過程"></a>中文化(含中文輸入法)的安裝與處理過程</h3><ol>
 <li>安裝中文字體。</li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install zh-CJKUnifonts zh-kcfonts zh-taipeisanstc-b</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install zh-CJKUnifonts zh-kcfonts zh-taipeisanstc-b</span><br></pre></td></tr></table></figure>
 
 <ol start="2">
 <li>安裝中文輸入法框架。</li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pkg install fcitx5 fcitx5-configtool zh-fcitx5-chewing zh-fcitx5-chinese-addons zh-fcitx5-table-extra zh-fcitx5-table-other</span><br><span class="line">mkdir ~/.config/autostart</span><br><span class="line">cp /usr/local/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pkg install fcitx5 fcitx5-configtool zh-fcitx5-chewing zh-fcitx5-chinese-addons zh-fcitx5-table-extra zh-fcitx5-table-other</span><br><span class="line">mkdir ~/.config/autostart</span><br><span class="line">cp /usr/local/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/</span><br></pre></td></tr></table></figure>
 
 <ol start="3">
 <li>設定語系與中文輸入法框架：先處理 <code>~/.cshrc</code>。</li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ee ~/.cshrc </span><br></pre></td></tr></table></figure>
-<p>寫入以下內容。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv LANGUAGE zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8 </span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
-
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ee ~/.cshrc </span><br></pre></td></tr></table></figure>
+<p>寫入以下內容。<br>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv LANGUAGE zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8 </span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br></pre></td></tr></table></figure></p>
 <ol start="4">
 <li>再處理 <code>/etc/csh.cshrc</code>。</li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">doas ee /etc/csh.cshrc</span><br></pre></td></tr></table></figure>
-<p>寫入以下內容。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">setenv QT4_IM_MODULE fcitx</span><br><span class="line">setenv GTK_IM_MODULE fcitx</span><br><span class="line">setenv QT_IM_MODULE fcitx</span><br><span class="line">setenv GTK2_IM_MODULE fcitx</span><br><span class="line">setenv GTK3_IM_MODULE fcitx</span><br><span class="line">setenv XMODIFIERS @im=fcitx</span><br><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8</span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
-
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">doas ee /etc/csh.cshrc</span><br></pre></td></tr></table></figure>
+<p>寫入以下內容。<br>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">setenv QT4_IM_MODULE fcitx</span><br><span class="line">setenv GTK_IM_MODULE fcitx</span><br><span class="line">setenv QT_IM_MODULE fcitx</span><br><span class="line">setenv GTK2_IM_MODULE fcitx</span><br><span class="line">setenv GTK3_IM_MODULE fcitx</span><br><span class="line">setenv XMODIFIERS @im=fcitx</span><br><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8</span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br></pre></td></tr></table></figure></p>
 <ol start="5">
 <li><p>重新啟動系統，讓中文語系與中文輸入法框架(即 Fcitx5)生效。</p>
 </li>
